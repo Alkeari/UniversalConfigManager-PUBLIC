@@ -1,0 +1,38 @@
+# Build output (UE4SS Lua mod: no compile step, only publish packaging output)
+out/
+
+# IDE and local machine state
+.idea/
+.vs/
+.vscode/
+*.user
+
+# xmake cache left behind by the RE-UE4SS toolchain when invoked from this folder.
+/.xmake/
+
+# Support folders (never built or committed)
+/.REFERENCE/
+/.Assets/
+
+# UE4SS runtime output, if a test install is symlinked in
+UE4SS.log
+*.dmp
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Uploader metadata never lives in the repo; it stays in the Workshop item folder
+.workshop.json
+
+# Python bytecode from publish/listing.py
+__pycache__/
+
+/values.tsv
+/baselines.tsv
+/options.tsv
+/request.tsv
+/presets/
+/requests/
+/Intermediates/

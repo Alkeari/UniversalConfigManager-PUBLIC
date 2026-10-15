@@ -1,0 +1,144 @@
+key	en
+relaunch_notice	Changes apply after you restart the game.
+advanced_mode	Advanced Mode
+advanced_mode_tip	Also show a mod's code-side options that its config file does not expose.
+search	Search
+search_tip	Type part of a mod's name to filter the list.
+presets	Presets
+presets_tip	Save or load a named set of every mod's settings.
+no_mods_match	No mods match
+no_configs	No mod configs found.
+settings_one	{count} setting
+settings_many	{count} settings
+back_all_mods	All Mods
+back_tip	Return to the mod list.
+advanced_section	Advanced
+presets_folder	Presets Folder
+presets_folder_tip	Drop a preset .tsv here to share it in; copy one out to share it.
+new_preset_name	New Preset Name
+preset_name_tip	Letters, digits, spaces, - and _ only, up to 40 characters.
+save_preset	Save Current Settings as This Name
+save_preset_tip	Writes every setting's current file value under the name above.
+no_presets_yet	No presets yet
+load_preset	Load {name}
+load_preset_tip	Stages this preset's values; Apply writes them.
+delete_preset	Delete {name}
+delete_preset_tip	Removes this preset file.
+preset_invalid_name	Preset names: letters, digits, spaces, - and _ only, up to 40 characters
+preset_saved	Saved {name}
+preset_save_failed	Could not save {name}: {error}
+preset_read_failed	Could not read {name}: {error}
+preset_deleted	Deleted {name}
+preset_delete_failed	Could not delete {name}: {error}
+preset_loaded	Loaded {name}: {staged} settings staged, {skipped} skipped
+preset_saving_unavailable	Preset saving unavailable on this build
+empty_value	(empty)
+category_label	Mod Configs
+esc_tip	Open the Mod Configs settings tab.
+no_description	No description yet. Notify Alkeari!
+request_failed	Could not write the request file: {error}
+hint_toggle_tip	Shows or hides what can be entered here.
+preset_load_label	Load
+preset_overwrite_label	Overwrite
+preset_overwrite_tip	Replaces this preset file with every setting's current value.
+preset_delete_label	Delete
+hint_keys_letters	Letters {first} to {last}, digits {firstDigit} to {lastDigit}, function keys {firstF} to {lastF}.
+hint_keys_navigation	{list}.
+hint_keys_numpad	Numpad: {first} to {last}, {operators}.
+hint_keys_gamepad	Gamepad: {list}, and the other Gamepad_ names.
+hint_keys_combo	Modifiers {list}: write a combination as {example}; a bare key like {bare} needs none.
+hint_keys_source	UE4SS key names; this mod may accept only some. (?)
+hint_entries_files	Seen in this mod's files: {list} (?)
+hint_entries_code	Compared in this mod's code: {list} (?)
+hint_format_color	A hex color code like #RRGGBB, e.g. #FFDA00. (?)
+hint_format_url	A web address, e.g. https://example.com. (?)
+hint_format_path	A file path, e.g. C:/Games/file.txt. (?)
+hint_format_list	Comma-separated values, e.g. a, b, c. (?)
+hint_format_number	A number written as text, e.g. 100. (?)
+hint_floor	Any text; no accepted values were found in this mod's files. (?)
+hint_filter	Type to filter these entries
+hint_filter_tip	Shows only the entries that contain what you type.
+saved_presets	Saved Presets
+preset_delete_confirm_label	Confirm Delete
+search_placeholder	Part of a mod name
+preset_name_placeholder	Up to 40 characters
+copy_label	Copy
+show_label	Show
+hide_label	Hide
+copied_label	Copied
+copy_path_tip	Copies this path to the clipboard.
+hint_toggle	Possible Entries
+inferred_tip	Suspected behavior, not clearly stated by the mod author.
+file_header_tip	Show or hide this file's settings.
+copy_file_tip	Copies this file's full path to the clipboard.
+live_notice	Changes apply within seconds. No relaunch needed.
+mixed_notice	Changes apply when each mod next loads, unless that mod re-reads its own config.
+world_load_notice	Changes apply the next time you load into a world or server. No game restart needed.
+upload_failed	Upload failed: {error}
+request_support	Request Support
+request_support_tip	Opens the ways to send this list to Alkeari, so the next version can describe these settings.
+request_note_one	1 setting still lacks a description or possible entries.
+request_note_many	{count} settings still lack a description or possible entries.
+request_compile	Compile the List
+request_compile_tip	Writes the list to a text file in this mod's requests folder.
+request_path_label	Path to the List
+request_path_tip	Where the compiled list is on your machine.
+request_link_label	Catbox.moe Link
+request_link_tip	The published list. Copy it again here if you need to.
+forum_nexus	Open the Nexus Request Thread
+forum_steam	Open the Steam Workshop Request Thread
+forum_tip	Opens the thread in your browser so you can paste the link there.
+forum_label	Thread address
+request_none	Nothing is missing a description or possible entries.
+request_compiled	List compiled.
+request_link_copied	Link copied to your clipboard.
+request_copy_unavailable	Could not reach the clipboard. Copy it from the row below.
+forum_open_failed	Could not open a browser. The address is copied and shown below.
+back_mod	Back to This Mod
+request_include_all	Include Every Mod
+request_include_all_tip	On, the list covers every mod with something missing. Turn it off to choose.
+request_include_mod_tip	Off leaves this mod out of the list the next time you compile it.
+request_mod_note_one	1 setting
+request_mod_note_many	{count} settings
+request_manual	Manual Uploading
+request_manual_tip	Shows you how to upload the list yourself and where to post the link.
+request_automatic	Automated Uploading
+request_automatic_tip	Uploads the list and copies the link to your clipboard.
+manual_step_1	1. Open the folder holding the list, or copy the path below.
+manual_step_2	2. Open catbox.moe and drag the file onto the page to upload it.
+manual_step_3	3. Copy the link catbox gives you back.
+manual_step_4	4. Open a request thread below and paste that link there.
+manual_open_host	Open catbox.moe
+manual_open_host_tip	Opens the upload page in your browser.
+request_none_selected	No mods are selected, so there is nothing to compile.
+request_note_selected	{count} of {total} settings will be included.
+request_uploading	Uploading... the game pauses until the host answers.
+request_automatic_unavailable	Automatic upload needs curl.exe, which this Windows lacks.
+back_request	Back to Request Support
+request_upload_warning_where	Publishes the list at a public catbox.moe link that does not expire.
+request_upload_warning_what	It names your mods and their setting names, never their values.
+manual_open_folder	Open the Folder
+manual_open_folder_tip	Opens the folder holding the list in your file manager.
+manual_folder_failed	Could not open a folder. The path is copied and shown above.
+request_link_same	The list has not changed, so the host returned the same link.
+pending_all	Unsaved changes
+pending_save	Save
+pending_revert	Revert
+pending_save_all_tip	Writes every pending change into each mod's own config file.
+pending_revert_all_tip	Drops every pending change and shows what the files hold now.
+pending_save_one_tip	Writes this mod's pending changes into its own config file.
+pending_revert_one_tip	Drops this mod's pending changes and shows what its file holds now.
+kb_shift	Shift
+kb_space	Space
+kb_delete	Delete
+kb_clear	Clear
+kb_save	Save
+kb_cancel	Back without saving
+kb_empty	(empty)
+kb_key_tip	Adds this character to the value.
+kb_shift_tip	Switches the keys between capitals and small letters.
+kb_space_tip	Adds a space.
+kb_delete_tip	Removes the last character.
+kb_clear_tip	Empties the value.
+kb_save_tip	Keeps what you typed and returns to the settings.
+kb_cancel_tip	Returns without changing the setting.

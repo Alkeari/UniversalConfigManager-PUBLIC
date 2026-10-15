@@ -1,0 +1,1768 @@
+key	ja
+relaunch_notice	変更はゲームを再起動した後に反映されます。
+advanced_mode	詳細モード
+advanced_mode_tip	設定ファイルに現れないMODのコード側のオプションもあわせて表示します。
+search	検索
+search_tip	MOD名の一部を入力してリストを絞り込みます。
+presets	プリセット
+presets_tip	すべてのMODの設定をひとまとめにし、名前を付けて保存または読み込みます。
+no_mods_match	一致するMODなし
+no_configs	MODの設定ファイルが見つかりません。
+settings_one	{count}件の設定
+settings_many	{count}件の設定
+back_all_mods	すべてのMOD
+back_tip	MODの一覧に戻ります。
+advanced_section	詳細
+presets_folder	プリセットフォルダー
+presets_folder_tip	プリセットの.tsvをここに入れると取り込めます。取り出してコピーすれば共有できます。
+new_preset_name	新しいプリセット名
+preset_name_tip	英字、数字、スペース、-、_のみ、最大40文字です。
+save_preset	現在の設定をこの名前で保存
+save_preset_tip	すべての設定の現在のファイル上の値を、上の名前で書き出します。
+no_presets_yet	プリセットはまだありません
+load_preset	{name}を読み込む
+load_preset_tip	このプリセットの値を反映待ちにします。適用で書き込まれます。
+delete_preset	{name}を削除
+delete_preset_tip	このプリセットファイルを削除します。
+preset_invalid_name	プリセット名は英字、数字、スペース、-、_のみ、最大40文字です
+preset_saved	{name}を保存しました
+preset_save_failed	{name}を保存できませんでした: {error}
+preset_read_failed	{name}を読み込めませんでした: {error}
+preset_deleted	{name}を削除しました
+preset_delete_failed	{name}を削除できませんでした: {error}
+preset_loaded	{name}を読み込みました: {staged}件を反映待ちにし、{skipped}件をスキップしました
+preset_saving_unavailable	このビルドではプリセットの保存を利用できません
+empty_value	（空）
+category_label	MOD設定
+esc_tip	MOD設定タブを開きます。
+no_description	説明はまだありません。Alkeariに知らせてください！
+request_failed	リクエストファイルを書き出せませんでした: {error}
+d:AetherionMercyToggle.EFFECT_NON_KILLING	Mercy Hitタレント用の内部番号で、ゲーム本体が使う番号と一致します。
+d:AetherionMercyToggle.PREFIX	このMODの通信を他のAetherion系MODと区別しておくためのメッセージ接頭辞です。
+d:AetherionMercyToggle.TAG	クライアントがサーバーにMercy Hitの切り替えを要求するときに送る内部ラベルです。 (?)
+d:AetherionMercyToggle.TAG_MERCY_TOGGLE	プレイヤーがMercy Hitの切り替えを求めたときにサーバーが待ち受ける内部ラベルです。 (?)
+d:AetherionSharedLib.PAL_HUD_CLASS	共有ライブラリが描き込むゲーム内HUDの内部アドレスです。 (?)
+d:AlkeariLogging.companion.crashHandler	初回起動時のみ、ゲームのクラッシュを捕らえて直前のエンジン呼び出しを並べたダンプを書き出します。
+d:AlkeariLogging.log.liveReloadSeconds	この Mod が自分の設定ファイルを読み直す間隔（秒）。プレイ中でも変更が反映されます。0 にすると次回起動まで読み直しません。
+d:AlkeariLogging.companion.ringCapacity	初回起動時のみ、クラッシュダンプで報告するためにメモリへ保持しておく直近のエンジン呼び出しの数です。
+d:AlkeariLogging.companion.streamEnabled	初回起動時のみ、ゲームの実行中に条件に合うすべてのエンジン呼び出しをストリームログへ書き出します。
+d:AlkeariLogging.DEPTHS.off	何も記録しない収集レベルの内部番号です。
+d:AlkeariLogging.DEPTHS.summary	節目と最終状態だけを記録する収集レベルの内部番号です。
+d:AlkeariLogging.DEPTHS.trace	すべてのイベントを絞り込まずに記録する収集レベルの内部番号です。
+d:AlkeariLogging.DEPTHS.verbose	重複を除いて間引いたイベント列を記録する収集レベルの内部番号です。
+d:AlphaLuckyPalSurgery.base_gold_cost	個体変更手術1回あたりの金貨の費用で、初期値は10000、0にすると手術が無料になります。
+d:AlphaLuckyPalSurgery.BOSS_PREFIX	ゲームがアルファ個体に付ける内部名の接頭辞で、MODはこれを手がかりに判別します。 (?)
+d:AlphaLuckyPalSurgery.charge_gold	パル手術台で個体変更手術が終わったときに金貨を請求します。
+d:AlphaLuckyPalSurgery.hooks_installed	ネットワークフックが設定済みかどうかの内部記録で、編集しても効果はありません。 (?)
+d:AlphaLuckyPalSurgery.keep_lucky_aura	ラッキーパルのきらめくオーラとその効果音をそのまま残します。
+d:AlphaLuckyPalSurgery.LUCKY_AUDIO_OFF_ASSET_PATH	オーラを切ったときにラッキーのオーラ音を止めるために使う、ゲーム内のサウンドです。 (?)
+d:AlphaLuckyPalSurgery.lucky_operation_gives_passive	ラッキー手術でバニラのラッキーパッシブを付与し、通常やアルファの手術では取り除きます。
+d:AlphaLuckyPalSurgery.LUCKY_PASSIVE_ID	MODが付与または除去するバニラのラッキーパッシブの内部名です。 (?)
+d:AlphaLuckyPalSurgery.PARAMETER_CLASS	MODがパルの保存された個体情報を読み取るゲーム内データ型です。 (?)
+d:AlphaLuckyPalSurgery.RARE_PAL_STATUS_ID	パルをラッキーとして示す内部番号で、変えると手術が壊れます。 (?)
+d:AlphaLuckyPalSurgery.RARE_PAL_VISUAL_EFFECT_ID	MODが追加または除去する、きらめくラッキーエフェクトの内部番号です。 (?)
+d:AlphaLuckyPalSurgery.registered	オプションページが登録済みかどうかの内部記録で、編集しても効果はありません。 (?)
+d:AlphaLuckyPalSurgery.request_nonce	ホストへの要求に番号を振る内部カウンターで、編集しても効果はありません。 (?)
+d:AlphaLuckyPalSurgery.RESULT_PREFIX	手術要求へのホストの返答に付く内部タグで、双方で照合されます。 (?)
+d:AlphaLuckyPalSurgery.RPC_PREFIX	ホストへ送る手術要求に付く内部タグで、双方で照合されます。 (?)
+d:AlphaLuckyPalSurgery.SETTINGS_RESULT_PREFIX	設定を返すホストの返信に付く内部タグで、双方で照合されます。 (?)
+d:AlphaLuckyPalSurgery.SETTINGS_RPC_PREFIX	ホストに設定を問い合わせる要求に付く内部タグで、双方で照合されます。 (?)
+d:AlphaLuckyPalSurgery.VERSION	MODが自身のログに記録するバージョンで、編集しても効果はありません。 (?)
+d:AntiPhatPalResizing.Base.BossScale	ボスとラッキーを個別に倍率設定しているとき、拠点のボスパルに使う倍率です。
+d:AntiPhatPalResizing.Base.CustomScales.G1	拠点でカスタムグループ1に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Base.CustomScales.G10	拠点でカスタムグループ10に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Base.CustomScales.G2	拠点でカスタムグループ2に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Base.CustomScales.G3	拠点でカスタムグループ3に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Base.CustomScales.G4	拠点でカスタムグループ4に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Base.CustomScales.G5	拠点でカスタムグループ5に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Base.CustomScales.G6	拠点でカスタムグループ6に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Base.CustomScales.G7	拠点でカスタムグループ7に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Base.CustomScales.G8	拠点でカスタムグループ8に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Base.CustomScales.G9	拠点でカスタムグループ9に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Base.Enabled	拠点で働くパルのリサイズを有効にし、このグループに設定した倍率を使います。
+d:AntiPhatPalResizing.Base.LuckyScale	ボスとラッキーを個別に倍率設定しているとき、拠点のラッキーパルに使う倍率です。
+d:AntiPhatPalResizing.Base.NPCScale	人間を個別に倍率設定しているとき、拠点の捕獲したNPCに使う倍率です。
+d:AntiPhatPalResizing.Base.Scales.L	拠点の大型パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Base.Scales.M	拠点の中型パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Base.Scales.S	拠点の小型パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Base.Scales.XL	拠点の特大パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Base.Scales.XS	拠点の極小パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Base.SizeThreshold	拠点でリサイズする最小のサイズ区分で、XSからXLまでのうちMにするとXSとSのパルはそのままです。
+d:AntiPhatPalResizing.BossShinyForceNormalSize	ボスとラッキーに元から付いている巨大化を取り除き、まず通常サイズの同種に合わせます。
+d:AntiPhatPalResizing.BossShinyIndependentScaling	ボスとラッキーのパルに、通常のサイズ区分の倍率ではなく専用のボス倍率とラッキー倍率を使います。
+d:AntiPhatPalResizing.DebugLog	このMODの追加のトラブルシューティング行をUE4SSのログコンソールに出力します。
+d:AntiPhatPalResizing.HumanIndependentScaling	捕獲したNPCに、通常のサイズ区分の倍率ではなく専用のNPC倍率を使います。
+d:AntiPhatPalResizing.Party.BossScale	ボスとラッキーを個別に倍率設定しているとき、手持ちのボスパルに使う倍率です。
+d:AntiPhatPalResizing.Party.CustomScales.G1	手持ちでカスタムグループ1に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Party.CustomScales.G10	手持ちでカスタムグループ10に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Party.CustomScales.G2	手持ちでカスタムグループ2に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Party.CustomScales.G3	手持ちでカスタムグループ3に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Party.CustomScales.G4	手持ちでカスタムグループ4に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Party.CustomScales.G5	手持ちでカスタムグループ5に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Party.CustomScales.G6	手持ちでカスタムグループ6に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Party.CustomScales.G7	手持ちでカスタムグループ7に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Party.CustomScales.G8	手持ちでカスタムグループ8に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Party.CustomScales.G9	手持ちでカスタムグループ9に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Party.Enabled	連れ歩いている手持ちのパルのリサイズを有効にし、このグループに設定した倍率を使います。
+d:AntiPhatPalResizing.Party.LuckyScale	ボスとラッキーを個別に倍率設定しているとき、手持ちのラッキーパルに使う倍率です。
+d:AntiPhatPalResizing.Party.NPCScale	人間を個別に倍率設定しているとき、手持ちの捕獲したNPCに使う倍率です。
+d:AntiPhatPalResizing.Party.Scales.L	手持ちの大型パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Party.Scales.M	手持ちの中型パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Party.Scales.S	手持ちの小型パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Party.Scales.XL	手持ちの特大パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Party.Scales.XS	手持ちの極小パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Party.SizeThreshold	手持ちでリサイズする最小のサイズ区分で、XSからXLまでのうちMにするとXSとSのパルはそのままです。
+d:AntiPhatPalResizing.PersistentScale	なでる、餌をやる、エモートでサイズが戻ったときに再適用します。主にアクターモードで効いてきます。
+d:AntiPhatPalResizing.ReloadHotkey	ゲーム中に設定を読み込み直し、すべてのパルのサイズを確認し直すキーを有効にします。
+d:AntiPhatPalResizing.ResizeBossAndShiny	ボスとラッキーのパルを元のサイズのままにせず、下の倍率でリサイズできるようにします。
+d:AntiPhatPalResizing.ResizeHumanPals	シンジケート団員や商人などの捕獲した人間NPCも、パルと一緒に縮めます。
+d:AntiPhatPalResizing.ResizePals	リサイズの主スイッチで、オフのときはボスとラッキーのサイズ正規化だけが動きます。
+d:AntiPhatPalResizing.SizeMode	見た目のモデルだけを縮めるメッシュ縮小か、当たり判定も縮めるアクター縮小かを選びます。
+d:AntiPhatPalResizing.Wild.BossScale	ボスとラッキーを個別に倍率設定しているとき、野生のボスパルに使う倍率です。
+d:AntiPhatPalResizing.Wild.CustomScales.G1	野生でカスタムグループ1に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Wild.CustomScales.G10	野生でカスタムグループ10に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Wild.CustomScales.G2	野生でカスタムグループ2に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Wild.CustomScales.G3	野生でカスタムグループ3に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Wild.CustomScales.G4	野生でカスタムグループ4に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Wild.CustomScales.G5	野生でカスタムグループ5に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Wild.CustomScales.G6	野生でカスタムグループ6に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Wild.CustomScales.G7	野生でカスタムグループ7に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Wild.CustomScales.G8	野生でカスタムグループ8に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Wild.CustomScales.G9	野生でカスタムグループ9に入れたパルの種族に使う倍率で、サイズしきい値を無視します。
+d:AntiPhatPalResizing.Wild.Enabled	世界を歩き回る野生のパルのリサイズを有効にし、このグループに設定した倍率を使います。
+d:AntiPhatPalResizing.Wild.LuckyScale	ボスとラッキーを個別に倍率設定しているとき、野生のラッキーパルに使う倍率です。
+d:AntiPhatPalResizing.Wild.NPCScale	人間を個別に倍率設定しているとき、野生の捕獲したNPCに使う倍率です。
+d:AntiPhatPalResizing.Wild.Scales.L	野生の大型パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Wild.Scales.M	野生の中型パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Wild.Scales.S	野生の小型パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Wild.Scales.XL	野生の特大パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Wild.Scales.XS	野生の極小パルに適用する倍率で、1.0が原寸、0.5で半分の大きさになります。
+d:AntiPhatPalResizing.Wild.SizeThreshold	野生でリサイズする最小のサイズ区分で、XSからXLまでのうちMにするとXSとSのパルはそのままです。
+d:AntiWasteDisassembleItems.COLLAPSED	部品が隠れていて場所も取らないことを表すためにインターフェースが使う番号で、ゲーム側で固定です。 (?)
+d:AntiWasteDisassembleItems.HIDDEN	部品は見えないが場所は取ることを表すためにインターフェースが使う番号です。 (?)
+d:AntiWasteDisassembleItems.HIT_TEST_INVISIBLE	部品は表示されるがクリックを受け付けないことを表す番号で、ゲーム側で固定です。 (?)
+d:AntiWasteDisassembleItems.Language	MODのボタンとメッセージの言語で、autoならゲーム自身の言語設定に従います。
+d:AntiWasteDisassembleItems.MaterialRecoveryRate	分解時に戻ってくる素材の割合で、0にすると残りの耐久度に応じた量になります。
+d:AntiWasteDisassembleItems.UseSubTypes	大まかなカテゴリ一覧ではなく、細かいサブタイプ一覧で分解の可否を判定します。
+d:AntiWasteDisassembleItems.VERB_ITEM	後からクリックを見分けられるよう、単品の分解ボタンにMODが付ける短いタグです。 (?)
+d:AntiWasteDisassembleItems.VERB_STACK	後からクリックを見分けられるよう、スタック全体の分解ボタンにMODが付ける短いタグです。 (?)
+d:AntiWasteDisassembleItems.VISIBLE	部品が表示されていることを表すためにインターフェースが使う番号で、ゲーム側で固定であり設定項目ではありません。 (?)
+d:BasePalSpawnImprovements.Batching.BatchDelayMs	拠点の読み込み時に、拠点のパルを出すバッチとバッチの間で待つミリ秒です。
+d:BasePalSpawnImprovements.Batching.BatchSize	拠点の読み込み時に、1つのバッチで出す拠点のパルの数です。
+d:BasePalSpawnImprovements.General.Enabled	拠点のパルの出現をバッチに分けて分散させます。オフにすると通常の一斉出現に戻ります。
+d:BaseRenamingUtility.BASE_ATTACH_PROBE	拠点がマップアイコンに結び付く様子を追う開発者向け診断で、通常のプレイではなく不具合調査のためのものです。 (?)
+d:BaseRenamingUtility.BASE_COLOR_AUDIT	保存した拠点の色を点検する開発者向け診断で、通常のプレイではなく不具合調査のためのものです。 (?)
+d:BaseRenamingUtility.BASE_LOAD_PROBE	拠点がマップに読み込まれる様子を追う開発者向け診断で、通常のプレイではなく不具合調査のためのものです。 (?)
+d:BaseRenamingUtility.COLOR_PALETTE_PROBE	マップのカラーパレットを書き出す開発者向け診断で、通常のプレイではなく不具合調査のためのものです。 (?)
+d:BaseRenamingUtility.g_bound_from_live_map	名前変更キーの割り当てに関する内部記録で、編集しても効果はありません。 (?)
+d:BaseRenamingUtility.GUILD_MARKER_PROBE	ギルドマーカーを追う開発者向け診断で、通常のプレイではなく不具合調査のためのものです。 (?)
+d:BaseRenamingUtility.h_bound_from_live_map	色キーの割り当てに関する内部記録で、編集しても効果はありません。 (?)
+d:BaseRenamingUtility.hover_context_ready	カーソルを合わせた地点が操作できる状態かどうかの内部記録で、編集しても効果はありません。 (?)
+d:BaseRenamingUtility.key_registered	名前変更キーと色キーが割り当て済みかどうかの内部記録で、編集しても効果はありません。 (?)
+d:BaseRenamingUtility.MAP_PANEL	マップに「保存した地点」パネルを表示し、名前を付けた拠点とマーカーを一覧します。
+d:BaseRenamingUtility.MAP_PANEL_LIVE_SYNC	次にマップを開いたときではなく、名前を変えたり地点を追加したりするたびに「保存した地点」パネルを更新します。 (?)
+d:BaseRenamingUtility.MAP_PARENT_PROBE	マップ画面のレイアウトを追う開発者向け診断で、通常のプレイではなく不具合調査のためのものです。 (?)
+d:BaseRenamingUtility.marker_hover_token	いまカーソルを合わせているマーカーの内部カウンターで、編集しても効果はありません。 (?)
+d:BaseRenamingUtility.MARKER_LAYOUT_DIAGNOSTICS	マーカーのラベルの配置をログに残す開発者向け診断で、通常のプレイではなく不具合調査のためのものです。 (?)
+d:BaseRenamingUtility.MARKER_PROBE	マップマーカーを追う開発者向け診断で、通常のプレイではなく不具合調査のためのものです。 (?)
+d:BaseRenamingUtility.MARKER_VISUALS	マップマーカーを無名のままにせず、保存した名前を描き込みます。 (?)
+d:BaseRenamingUtility.MOD_NAME	MODが自身のログ行に刻む名前で、動作そのものには影響しません。 (?)
+d:BaseRenamingUtility.MODULES.MarkerImportExport	セーブ間で名前、色、マーカーを移すためのエクスポートとインポートのボタンを追加します。
+d:BaseRenamingUtility.NAME_WIDGET_PROPERTY	MODが書き込むマップラベルの内部名で、値が違うと名前が表示されなくなります。 (?)
+d:BaseRenamingUtility.registered	マップフックが設定済みかどうかの内部記録で、編集しても効果はありません。 (?)
+d:BaseRenamingUtility.sequence	MODが処理を進めるたびに増やす内部カウンターで、編集しても効果はありません。 (?)
+d:BaseRenamingUtility.SET_CAMP_INFO	マップが拠点を描くときにMODが待ち受けるゲーム内の関数で、そのままにしておくのが無難です。 (?)
+d:BaseRenamingUtility.VERSION	MODが自身のログ行に刻むバージョンで、動作そのものには影響しません。 (?)
+d:BaseRenamingUtility.world_generation	ワールドが何回読み込み直されたかを数える内部カウンターで、編集しても効果はありません。 (?)
+d:BaseTrimmer.BATCH_SIZE	1回の処理で刈る建築物の数で、小さくすると作業が分散して処理落ちが和らぎます。
+d:BaseTrimmer.BUILD_COMPLETE_FN	建築が終わった瞬間に草木を消せるよう、MODが待ち受けるゲーム内の動作です。 (?)
+d:BaseTrimmer.BUILD_PATH_MATCH	プレイヤーが建てた構造物とそれ以外の地形を見分けるためにMODが照合する内部名の断片です。 (?)
+d:BaseTrimmer.DEBUG	不具合報告のために、主要な刈り取りの出来事とエラーをログへ書き出します。
+d:BaseTrimmer.DEBUG_SCAN_LANDSCAPE_RADIUS	F7のデバッグスキャンが周囲の地形メッシュを列挙する範囲で、単位はゲーム内単位です。
+d:BaseTrimmer.DISMANTLE_MODEL_FN	解体したときに隠れていた草が戻るよう、MODが待ち受けるゲーム内の動作です。 (?)
+d:BaseTrimmer.NOTIFY_CLASS	近くに建つ建築物に気付けるようMODが監視する内部の型です。 (?)
+d:BaseTrimmer.PERIODIC_SWEEP_MOVE_DIST	背景での刈り直しが走るまでに移動が必要な距離で、ゲーム内単位の12800は128メートルです。 (?)
+d:BaseTrimmer.PERIODIC_SWEEP_MS	拠点を歩き回る間に草木を刈り直す背景チェックの間隔のミリ秒です。 (?)
+d:BaseTrimmer.RT_BRUSH_PATH	各建築物の下の草マスクに押し当てるブラシ形状の内部アドレスです。 (?)
+d:BaseTrimmer.RT_PATH	建築物の下の草木を隠すためにMODが塗る草マスクの内部アドレスです。 (?)
+d:BaseTrimmer.RT_STAMP_ROT_SIGN	マスクのスタンプを回す向きで、隠れた草の区画が建築物の下で斜めにずれるなら反転してください。 (?)
+d:BaseTrimmer.TELEPORT_DELAY_MS	ファストトラベルの後、移動先で草木を刈るまで待つミリ秒です。 (?)
+d:BaseTrimmer.USE_OVERLAP_QUERY	各建築物の刈り取り半径の内側に立つ草木を取り除く、このMODの中心となる処理です。 (?)
+d:BondalotLoadingScreen.createDesktopShortcut	初回起動時に、ロード画面を選ぶツールへのデスクトップショートカットを作ります。
+d:BondalotLoadingScreen.customImage	自分のロード画面画像へのフルパスです。空にすると内蔵のアートワークを使います。
+d:BondalotLoadingScreen.showOnAnyServer	BondAlot Islandだけでなく、参加するすべてのサーバーでカスタムロード画面を表示します。
+d:CarryWeightIncrease.vuxCheckAcknowledge	このセッションで重量の変更を適用済みかどうかを示す、MODが切り替える内部フラグです。 (?)
+d:CarryWeightIncrease.vuxGameVersion	MODがビルド時に対象としたゲームバージョンで、起動時に出力され、プレイには影響しません。 (?)
+d:CarryWeightIncrease.vuxModVersion	MODのバージョン表記で、起動時に出力され、編集しても効果はありません。 (?)
+d:CarryWeightIncrease.vuxWeightPerSP	所持重量にステータスポイントを1振るごとに増える積載量です。
+d:DeadBodiesDisappearFasterInstant.palGameVersion	MODがビルド時に対象としたゲームバージョンで、起動時のログ行に出力されます。 (?)
+d:DeadBodiesDisappearFasterInstant.palModVersion	MODのバージョン番号で、起動時のログ行に出力され、プレイには影響しません。 (?)
+d:DeadBodiesDisappearFasterInstant.palRedColorWrapperBack	ログに出るMODの起動メッセージの赤い着色を終わらせます。
+d:DeadBodiesDisappearFasterInstant.palRedColorWrapperFront	ログに出るMODの起動メッセージの赤い着色を始めます。
+d:GhostWildCaptureHp.debug	トラブルシューティングのために、捕獲率の追加の診断情報をログへ書き出します。 (?)
+d:GhostWildCaptureHp.exempt_min_capture_item_level	スフィアが古代製とみなされ、どのパルでも体力ペナルティを受けなくなる捕獲力です。
+d:GhostWildCaptureHp.level_advantage_exempt	捕獲時の体力ペナルティを免れるためのパルに対するレベル差で、-1にすると無効になります。
+d:GhostWildCaptureHp.player_level_cache_sec	自分のレベルを読み直すまでMODが覚えておく秒数です。
+d:GhostWildCaptureHp.sphere_unlock_exempt	スフィアの解放レベルが対象のパルのレベル以上のとき、体力ペナルティを飛ばします。
+d:GhostWildCaptureHp.wild_only	捕獲時の体力ペナルティを野生のパルだけに限ります。オフにするとボスやタワーボスも対象になります。
+d:HUDLocator.ConfigLoadedOnce	このセッションで設定を一度読み込んだことを示す印で、編集しても効果はありません。 (?)
+d:HUDLocator.currentRegionName	トラッカーが最後に判定した現在地の地域で、スキャンのたびに書き直され、編集しても効果はありません。 (?)
+d:HUDLocator.globalSaveProgress.clearedBounties	達成した賞金首の数で、スキャンのたびに数え直され、編集しても効果はありません。 (?)
+d:HUDLocator.globalSaveProgress.collectedEffigies	集めたLifmunk像の数で、スキャンのたびに数え直され、編集しても効果はありません。 (?)
+d:HUDLocator.globalSaveProgress.defeatedAlphas	倒したアルファパルの数で、スキャンのたびに数え直され、編集しても効果はありません。 (?)
+d:HUDLocator.globalSaveProgress.defeatedTowers	倒したタワーボスの数で、スキャンのたびに数え直され、編集しても効果はありません。 (?)
+d:HUDLocator.globalSaveProgress.overallPercent	トラッカーが算出する全体の達成率で、スキャンのたびに計算し直されます。 (?)
+d:HUDLocator.globalSaveProgress.totalAlphas	トラッカーが分母として数えるアルファパルの総数で、達成率の基準になります。 (?)
+d:HUDLocator.globalSaveProgress.totalBounties	トラッカーが分母として数える賞金首の総数で、達成率の基準になります。 (?)
+d:HUDLocator.globalSaveProgress.totalEffigies	トラッカーが分母として数えるLifmunk像の総数で、達成率の基準になります。 (?)
+d:HUDLocator.globalSaveProgress.totalFastTravels	トラッカーが分母として数えるファストトラベル地点の総数で、達成率の基準になります。 (?)
+d:HUDLocator.globalSaveProgress.totalTowers	トラッカーが分母として数えるタワーボスの総数で、達成率の基準になります。 (?)
+d:HUDLocator.globalSaveProgress.unlockedFastTravels	見つけたファストトラベル地点の数で、スキャンのたびに数え直され、編集しても効果はありません。 (?)
+d:HUDLocator.isOpen	MOD自身のメニューがいま開いているかどうかを示す印で、編集しても効果はありません。 (?)
+d:InstantHaul.CatPriority.Accessory	アクセサリーを優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムかカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Ammo	弾薬を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Armor	防具を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムかカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Blueprint	設計図を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.ComsumeUpgrade	ステータス上昇アイテムを優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.ConsumeOther	その他の消耗品を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Essential	秘宝を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Glider	グライダーを優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Ingot	インゴットを優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.MaterialOther	その他の素材を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Monster	パル素材を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Ore	鉱石を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Palegg	パルの卵を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.PalSphere	パルスフィアを優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Proccessing	加工した素材を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Stone	石を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.WazaMachine	スキルフルーツを優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Weapon	武器を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムかカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.CatPriority.Wood	木材を優先的に入れる先です。「その他すべて」の規則、ギルドの保管庫、同じアイテムか同じカテゴリの保管庫、いちばん近い保管庫のいずれかです。
+d:InstantHaul.DebugLogging	アイテムごとに送り先を1行ずつ書き出します。問題を報告するときにオンにする価値があります。
+d:InstantHaul.DetailPriority	アイテムの保管先について、カテゴリごとの選択が「その他すべて」の規則より優先されるようにします。
+d:InstantHaul.Enabled	自動回収の主スイッチで、オフにするとすべての拾い上げが止まります。
+d:InstantHaul.FacilityConvertPulls	パーセントモードで、製作の指示を何回の引き出しに分けるかです。3なら3分の1ごとに引き出します。
+d:InstantHaul.FacilityFillPercent	パーセントモードで、採石場のような尽きない生産設備がどこまで溜まったら空にするかです。
+d:InstantHaul.FacilityIntervalSec	離れた場所にある生産設備から完成品を回収する間隔の秒数です。
+d:InstantHaul.FacilityMinCount	個数モードで、生産設備に何個溜まったら引き出すかです。
+d:InstantHaul.FacilityNearSec	自分の近くにある生産設備から完成品を回収する間隔の秒数です。
+d:InstantHaul.FacilityTriggerMode	完成品を引き出すきっかけです。一定時間ごと、アイテム数、充填率のいずれかです。
+d:InstantHaul.FarIntervalSec	近距離の半径より外にある拠点で、落ちたアイテムを回収する間隔の秒数です。
+d:InstantHaul.FoodRouting	食料を保管先の優先設定に従って振り分けます。オフにすると食料も他のアイテムと同じ扱いになります。
+d:InstantHaul.GuildChest	保管にギルドの保管庫も使います。何が入るかはゲーム自身の保管庫フィルターが決めます。
+d:InstantHaul.IntervalSec	自分の近くに落ちたアイテムを回収する間隔の秒数で、次の回収から反映されます。
+d:InstantHaul.Language	MOD自身の設定メニューの言語で、メニューの文字は次に開いたときに切り替わります。
+d:InstantHaul.MaxMovesPerTick	1回の回収で動かすアイテムの上限で、超えた分は次の回収に持ち越されます。
+d:InstantHaul.NearRadius	近いとみなす自分からの距離で、ゲーム内単位の15000がおよそ150メートルです。
+d:InstantHaul.NetIntervalSec	即時通知が取りこぼした落下物を拾う全体回収の間隔の秒数で、短いほど負荷が増えます。
+d:InstantHaul.PriorityDish	料理を優先的に入れる先です。餌箱、冷蔵庫、通常の保管庫、ギルドの保管庫のいずれかです。
+d:InstantHaul.PriorityIngredient	生の食材や材料を優先的に入れる先です。餌箱、冷蔵庫、通常の保管庫、ギルドの保管庫のいずれかです。
+d:InstantHaul.PriorityOther	その他すべてを優先的に入れる先です。ギルドの保管庫、同じアイテムかカテゴリを収めた保管庫、いちばん近い保管庫のいずれかです。
+d:LabWorkPriority.debug_logging	トラブルシューティングのために、追加の診断メッセージをログへ書き出します。 (?)
+d:LabWorkPriority.enabled	拠点のパルが、他の通常の仕事より先にパル労働研究を選ぶようにします。
+d:MapCollectablesNative.CompassDistance.Chests	画面内のコンパス帯に宝箱のマーカーを出す範囲で、単位はメートルです。
+d:MapCollectablesNative.CompassDistance.Dungeons	画面内のコンパス帯にダンジョンのマーカーを出す範囲で、単位はメートルです。
+d:MapCollectablesNative.CompassDistance.Effigy3DTrackerRange	3DのLifmunk像トラッカーが指し示す対象を選ぶ範囲で、単位はメートルです。
+d:MapCollectablesNative.CompassDistance.Eggs	画面内のコンパス帯にパルの卵のマーカーを出す範囲で、単位はメートルです。
+d:MapCollectablesNative.CompassDistance.FruitTrees	画面内のコンパス帯にスキルフルーツの木のマーカーを出す範囲で、単位はメートルです。
+d:MapCollectablesNative.CompassDistance.Junk	画面内のコンパス帯にガラクタのマーカーを出す範囲で、単位はメートルです。
+d:MapCollectablesNative.CompassDistance.Notes	画面内のコンパス帯にメモのマーカーを出す範囲で、単位はメートルです。
+d:MapCollectablesNative.CompassDistance.Relics	画面内のコンパス帯にLifmunk像のマーカーを出す範囲で、単位はメートルです。
+d:MapCollectablesNative.CompassDistance.Ruins	画面内のコンパス帯に古代遺跡のマーカーを出す範囲で、単位はメートルです。
+d:MapCollectablesNative.IconScale.Chests	マップ上の宝箱アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Chromite	マップ上のクロマイト鉱脈アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Coal	マップ上の石炭鉱脈アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Copper	マップ上の銅鉱脈アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Dungeons	マップ上のダンジョンアイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Eggs	マップ上のパルの卵アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.FruitTrees	マップ上のスキルフルーツの木アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Hexolite	マップ上のヘキソライト鉱脈アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Junk	マップ上のガラクタアイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Notes	マップ上のメモアイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.NPCCampfires	マップ上のNPCの焚き火アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Oil	マップ上の石油鉱脈アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Outposts	マップ上の前哨基地アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Paloxite	マップ上のパロキサイト鉱脈アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Quartz	マップ上の石英鉱脈アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Relics	マップ上のLifmunk像アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Ruins	マップ上の古代遺跡アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Soralite	マップ上のソラライト鉱脈アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.IconScale.Sulfur	マップ上の硫黄鉱脈アイコンの大きさの倍率で、1が通常のアイコンサイズです。
+d:MapCollectablesNative.Language	MODのパネルとアイコン名に使う言語で、0ならゲームの言語に従います。 (?)
+d:MapCollectablesNative.Toggle.BossRespawnTimers	倒した各ボスが復活するまでの残り時間を、そのマップアイコンに表示します。
+d:MapCollectablesNative.Toggle.Chests	宝箱のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.ChestsEnabled	宝箱の主スイッチで、マップとコンパスのマーカーをまとめて表示します。
+d:MapCollectablesNative.Toggle.ChestsOnCompass	画面内のコンパス帯に、距離表示付きで宝箱を表示します。
+d:MapCollectablesNative.Toggle.ChestsOnMap	すべての宝箱の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Chromite	クロマイト鉱脈のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.ChromiteOnMap	すべてのクロマイト鉱脈の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Coal	石炭鉱脈のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.CoalOnMap	すべての石炭鉱脈の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Copper	銅鉱脈のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.CopperOnMap	すべての銅鉱脈の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Dungeons	ダンジョンのオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.DungeonsEnabled	ダンジョンの主スイッチで、マップとコンパスのマーカーをまとめて表示します。
+d:MapCollectablesNative.Toggle.DungeonsOnCompass	画面内のコンパス帯に、距離表示付きでダンジョンを表示します。
+d:MapCollectablesNative.Toggle.DungeonsOnMap	すべてのダンジョンの場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.DungeonTimers	各ダンジョンの残り時間をマップアイコンに表示し、あとどれだけ保つかが分かるようにします。
+d:MapCollectablesNative.Toggle.Effigy3DTracker	いちばん近い未回収のLifmunk像を指すピンをワールドに固定して表示し、距離をリアルタイムで示します。
+d:MapCollectablesNative.Toggle.Eggs	パルの卵のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.EggsEnabled	パルの卵の主スイッチで、マップとコンパスのマーカーをまとめて表示します。
+d:MapCollectablesNative.Toggle.EggsOnCompass	画面内のコンパス帯に、距離表示付きでパルの卵を表示します。
+d:MapCollectablesNative.Toggle.EggsOnMap	すべてのパルの卵の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.FruitTrees	スキルフルーツの木のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.FruitTreesEnabled	スキルフルーツの木の主スイッチで、マップとコンパスのマーカーをまとめて表示します。
+d:MapCollectablesNative.Toggle.FruitTreesOnCompass	画面内のコンパス帯に、距離表示付きでスキルフルーツの木を表示します。
+d:MapCollectablesNative.Toggle.FruitTreesOnMap	すべてのスキルフルーツの木の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Hexolite	ヘキソライト鉱脈のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.HexoliteOnMap	すべてのヘキソライト鉱脈の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.IncludeObtainedNotes	既に集めたメモを隠さず、そのままマップに残します。
+d:MapCollectablesNative.Toggle.IncludeObtainedRelics	既に集めたLifmunk像を隠さず、そのままマップに残します。
+d:MapCollectablesNative.Toggle.IncludeObtainedRuins	既に解いた古代遺跡を隠さず、そのままマップに残します。
+d:MapCollectablesNative.Toggle.Junk	ガラクタのオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.JunkEnabled	ガラクタの主スイッチで、マップとコンパスのマーカーをまとめて表示します。
+d:MapCollectablesNative.Toggle.JunkOnCompass	画面内のコンパス帯に、距離表示付きでガラクタを表示します。
+d:MapCollectablesNative.Toggle.JunkOnMap	すべてのガラクタの場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Notes	メモのオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.NotesEnabled	メモの主スイッチで、マップとコンパスのマーカーをまとめて表示します。
+d:MapCollectablesNative.Toggle.NotesOnCompass	画面内のコンパス帯に、距離表示付きでメモを表示します。
+d:MapCollectablesNative.Toggle.NotesOnMap	すべてのメモの場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.NPCCampfires	NPCの焚き火のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.NPCCampfiresEnabled	NPCの焚き火の主スイッチで、マップマーカーをまとめてオンオフします。
+d:MapCollectablesNative.Toggle.NPCCampfiresOnMap	すべてのNPCの焚き火の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Oil	石油鉱脈のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.OilOnMap	すべての石油鉱脈の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Outposts	前哨基地のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.OutpostsEnabled	前哨基地の主スイッチで、マップマーカーをまとめてオンオフします。
+d:MapCollectablesNative.Toggle.OutpostsOnMap	すべての前哨基地の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Paloxite	パロキサイト鉱脈のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.PaloxiteOnMap	すべてのパロキサイト鉱脈の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.PanelExpanded	次にワールドマップを開いたとき、MODの設定パネルを最初から開いた状態にします。 (?)
+d:MapCollectablesNative.Toggle.Quartz	石英鉱脈のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.QuartzOnMap	すべての石英鉱脈の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Relics	Lifmunk像のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.RelicsEnabled	Lifmunk像の主スイッチで、マップとコンパスのマーカーをまとめて表示します。
+d:MapCollectablesNative.Toggle.RelicsOnCompass	画面内のコンパス帯に、距離表示付きでLifmunk像を表示します。
+d:MapCollectablesNative.Toggle.RelicsOnMap	すべてのLifmunk像の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.RelicTooltip	Lifmunk像のアイコンにカーソルを合わせたとき、ゲーム自身のマップ情報パネルを表示します。
+d:MapCollectablesNative.Toggle.ResourcesEnabled	すべての鉱石アイコンの主スイッチで、資源のグループ全体をまとめてオンオフします。
+d:MapCollectablesNative.Toggle.RespectFogOfWar	ゲーム自身のマップアイコンと同じように、未探索の霧の下ではMODのアイコンを隠します。
+d:MapCollectablesNative.Toggle.Ruins	古代遺跡のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.RuinsEnabled	古代遺跡の主スイッチで、マップとコンパスのマーカーをまとめて表示します。
+d:MapCollectablesNative.Toggle.RuinsOnCompass	画面内のコンパス帯に、距離表示付きで古代遺跡を表示します。
+d:MapCollectablesNative.Toggle.RuinsOnMap	すべての古代遺跡の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.RuinTooltip	マップ上の古代遺跡のアイコンにカーソルを合わせたとき、情報のツールチップを表示します。
+d:MapCollectablesNative.Toggle.ShouldHideClusteredIconsSetting	密集したアイコンを件数バッジ付きの1つにまとめ、ズームインすると分かれるようにします。
+d:MapCollectablesNative.Toggle.ShowFogOfWar	未探索の地面にマップの霧を重ねて描きます。保存された探索データには手を触れません。
+d:MapCollectablesNative.Toggle.Soralite	ソラライト鉱脈のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.SoraliteOnMap	すべてのソラライト鉱脈の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.Sulfur	硫黄鉱脈のオンオフをまとめた古い状態で、MODが自分で書き換えるため編集しても残りません。 (?)
+d:MapCollectablesNative.Toggle.SulfurOnMap	すべての硫黄鉱脈の場所をワールドマップにアイコンで表示します。
+d:MapCollectablesNative.Toggle.ViewportCullSetting	いま見えている範囲のアイコンだけを描画し、マップの動きを滑らかに保ちます。 (?)
+d:MapCollectablesNative.Tuning.ClusterRadius	マップアイコン同士がどれだけ近づくと1つのまとまったアイコンに統合されるかです。
+d:NativeModOptions.enabled	MODオプションのフレームワークの開発者向けメッセージをログに追加します。
+d:NativeModOptions.PREFIX	別々のMODの間で設定を受け渡すときにフレームワークが使う内部名の接頭辞です。
+d:NoBuildingLimits100.baseLimits	拠点の範囲制限を緩め、拠点の境界の外や他の拠点の近くにも建てられるようにします。
+d:NoBuildingLimits100.buildControls	建築プレビューを手前、奥、上、下へ動かす追加のホットキーを有効にします。
+d:NoBuildingLimits100.buildingLimits	どこまで高く建てられるか、拠点にいくつ構造物を置けるかの制限を取り除きます。
+d:NoBuildingLimits100.collapseProtection	張り出した構造物が設置直後に崩れて返却されるのを防ぎます。
+d:NoBuildingLimits100.debugLogging	不具合報告のために、建築の詳しい情報をMODのログへ書き出します。 (?)
+d:NoBuildingLimits100.dismantleRange	構造物を解体対象にできる距離で、単位はゲーム内単位です。
+d:NoBuildingLimits100.distanceCoarseStep	Shiftを押しているとき、1回の入力で建築プレビューが動くゲーム内単位です。
+d:NoBuildingLimits100.distanceFineStep	Shiftを押していないとき、1回の入力で建築プレビューが動くゲーム内単位です。
+d:NoBuildingLimits100.distanceIncreaseHotkey	建築プレビューを遠ざけるキーで、Shiftを併用すると大きく動きます。
+d:NoBuildingLimits100.distanceMax	建築プレビューを自分から遠ざけられる限界で、単位はゲーム内単位です。 (?)
+d:NoBuildingLimits100.distanceMin	建築プレビューを引き寄せられる限界で、単位はゲーム内単位、100がバニラと同じです。
+d:NoBuildingLimits100.distanceOffsetMax	自動配置やスナップ配置でプレビューを前に押し出せる限界で、単位はゲーム内単位です。
+d:NoBuildingLimits100.errorRelaxation	建築を止める設置制限を無視します。素材、ロック、権限の規則はそのまま働きます。
+d:NoBuildingLimits100.foundation	土台の規則を緩め、重ねる、傾ける、浮かせる、水面より低く置くことができるようにします。
+d:NoBuildingLimits100.heightHotkey	建築プレビューを上げるキーで、Shiftを押しながらだと下げます。
+d:NoBuildingLimits100.heightMax	建築プレビューを上げられる限界で、開始した高さからのゲーム内単位です。 (?)
+d:NoBuildingLimits100.heightMin	建築プレビューを下げられる限界で、開始した高さからのゲーム内単位です。 (?)
+d:NoBuildingLimits100.heightStep	1回の入力で建築プレビューが上下に動くゲーム内単位です。 (?)
+d:NoBuildingLimits100.perItemRules	オブジェクトごとの設置規則を外し、パーツ同士が接したり重なったりできるようにします。
+d:NoBuildingLimits100.previewControlsEnabledByDefault	毎回のセッションを、バニラの建築ではなく建築プレビュー操作が有効な状態で始めます。
+d:NoBuildingLimits100.previewControlsToggleHotkey	建築プレビューの距離と高さの操作をオンオフするキーです。
+d:NoBuildingLimits100.resourceRespawnTestHotkey	鉱石リスポーンテストを実行するキーで、Resource Respawn Test Enabled がオンのときだけ働きます。 (?)
+d:NoBuildingLimits100.resourceRespawnTestRadius	鉱石リスポーンテストが確認する自分の周囲の範囲で、Resource Respawn Test Enabled がオンのときだけ働きます。 (?)
+d:NoBuildingLimits100.statusDuration	画面に出る建築操作のメッセージが表示され続ける秒数で、最低0.5です。 (?)
+d:NoBuildingLimits100.support	構造的な支えの必要をなくし、パーツをどこにでも連結したり吊り下げたりできるようにします。
+d:NoDecayFeedBag.debugLog	静かな通常の出力の代わりに、MODの詳細な動作をログへ書き出します。
+d:NoDecayFeedBag.debugLogIntervalSeconds	デバッグログが有効な間、ログに書く詳細な状態行の間隔の秒数です。 (?)
+d:NoDecayFeedBag.enabled	MOD全体のオンオフで、オフのときは食料の劣化に手を加えません。 (?)
+d:NoDecayFeedBag.freezeFeedBag	餌袋スロットの食料が劣化しないようにする、このMODの主な効果です。
+d:NoDecayFeedBag.freezeIntervalSeconds	餌袋を更新する処理の間隔の秒数で、短いほど反応が早く負荷も増えます。 (?)
+d:NoDecayFeedBag.freezeVerboseSeconds	デバッグログが有効な間、餌袋の詳細なログ行を書く間隔の秒数です。 (?)
+d:NoDecayFeedBag.inventoryRetrySeconds	インベントリが使える状態になるのを待つ間、MODが再試行する間隔の秒数です。 (?)
+d:NoDecayFeedBag.InventoryType.Common	メインのインベントリにゲームが使う番号で、ゲーム側で固定であり変更する設定ではありません。 (?)
+d:NoDecayFeedBag.InventoryType.DropSlot	ドロップスロットにゲームが使う番号で、ゲーム側で固定であり変更する設定ではありません。 (?)
+d:NoDecayFeedBag.InventoryType.Essential	大事なものポーチにゲームが使う番号で、ゲーム側で固定であり変更する設定ではありません。 (?)
+d:NoDecayFeedBag.InventoryType.FoodEquip	餌袋スロットにゲームが使う番号で、このMODが新鮮に保つ入れ物です。 (?)
+d:NoDecayFeedBag.InventoryType.PlayerEquipArmor	防具スロットにゲームが使う番号で、ゲーム側で固定であり変更する設定ではありません。 (?)
+d:NoDecayFeedBag.InventoryType.WeaponLoadout	武器スロットにゲームが使う番号で、ゲーム側で固定であり変更する設定ではありません。 (?)
+d:NoDecayFeedBag.logPrefix	MODがログに書くすべての行の先頭に置くテキストタグです。 (?)
+d:NoGrapplingGunCooldownTimer.CoolDownTime	グラップリングガンを撃った後のクールダウンの秒数で、ゲームの初期値は8です。
+d:NoGrapplingGunCooldownTimer.palGameVersion	MODがビルド時に対象としたゲームバージョンで、起動時のログ行に出力されます。 (?)
+d:NoGrapplingGunCooldownTimer.palModName	ログに出るMODの起動メッセージの前に置かれる名前です。 (?)
+d:NoGrapplingGunCooldownTimer.palModVersion	MODのバージョン番号で、起動時のログ行に出力され、プレイには影響しません。 (?)
+d:NoGrapplingGunCooldownTimer.palRedColorWrapperBack	ログに出るMODの起動メッセージの赤い着色を終わらせます。 (?)
+d:NoGrapplingGunCooldownTimer.palRedColorWrapperFront	ログに出るMODの起動メッセージの赤い着色を始めます。 (?)
+d:PalArmy.Collision.DebugLogging	不具合報告のために、騎乗中の当たり判定の詳細をMODのログへ書き出します。 (?)
+d:PalArmy.Collision.MountedPartyNoCollision	騎乗中に、自分と乗っているパルが他の手持ちのパルに引っかからないようにします。
+d:PalArmy.Controller.Enabled	手持ちの追加のパルを出したり戻したりするゲームパッドのボタンを有効にします。 (?)
+d:PalArmy.Controller.ModifierKey	召喚と送還のボタンと一緒に押すコントローラーのボタンです。 (?)
+d:PalArmy.Controller.RecallAllKey	手持ち全員を戻すコントローラーのボタンです。 (?)
+d:PalArmy.Controller.SummonAllKey	手持ち全員を出すコントローラーのボタンです。 (?)
+d:PalArmy.Controller.SummonSelectedKey	選んだ追加のパルを出し、もう一度押すと戻すコントローラーのボタンです。 (?)
+d:PalArmy.destruct_path	手持ちのウィンドウが閉じたことに気付くために使うゲーム内のパスで、編集を想定していません。 (?)
+d:PalArmy.General.DebugLogging	トラブルシューティング専用に、Pal Armyの詳細な動作をMODのログへ書き出します。
+d:PalArmy.General.Enabled	Pal Armyのすべての機能をオフにし、バニラの手持ちの挙動をそのまま残します。 (?)
+d:PalArmy.MassOperations.BatchDelayMilliseconds	召喚や送還のバッチごとに挟む遅延のミリ秒で、0から10000までです。
+d:PalArmy.MassOperations.BatchSize	一度に召喚または送還するパルの数で、1から100まで。大人数の手持ちには1がいちばん安全です。
+d:PalArmy.Notifications.Enabled	召喚上限に達したときなど、Pal Armyのメッセージを画面に表示します。 (?)
+d:PalArmy.Notifications.Priority	Pal Armyの画面メッセージに与える重要度で、0から2までです。 (?)
+d:PalArmy.Party.PartySlots	手持ちのスロット数で、5から100まで。10あたりが手頃な出発点です。
+d:PalArmy.Party.SafeShrink	減らそうとしているスロットにまだパルがいる間は、手持ちの縮小を止めます。
+d:PalArmy.PartyWindow.NextPageKey	スクロール一覧が入りきらない手持ちパネルで、次のページへ送るキーです。
+d:PalArmy.PartyWindow.NextPageModifier	次のページのキーと一緒に押す修飾キーで、NONEなら修飾キーなしです。 (?)
+d:PalArmy.PartyWindow.PreviousPageKey	スクロール一覧が入りきらない手持ちパネルで、前のページへ戻すキーです。
+d:PalArmy.PartyWindow.PreviousPageModifier	前のページのキーと一緒に押す修飾キーで、NONEなら修飾キーなしです。 (?)
+d:PalArmy.Summoning.Enabled	メインの1体を超える手持ちのパルの召喚と送還を有効にします。 (?)
+d:PalArmy.Summoning.RecallAllKey	手持ち全員をバッチごとに順に戻すキーです。
+d:PalArmy.Summoning.RecallAllModifier	全員送還のキーと一緒に押す修飾キーで、NONEなら修飾キーなしです。
+d:PalArmy.Summoning.SummonAllKey	手持ち全員をバッチごとに順に出すキーです。
+d:PalArmy.Summoning.SummonAllModifier	全員召喚のキーと一緒に押す修飾キーで、NONEなら修飾キーなしです。
+d:PalArmy.Summoning.SummonLimit	同時に出しておける手持ちのパルの上限で、1から100、0なら無制限です。 (?)
+d:PalArmy.Summoning.SummonSelectedKey	選んだ追加のパルを出し、もう一度押すと戻すキーです。
+d:PalArmy.Summoning.SummonSelectedModifier	選んだパルの召喚キーと一緒に押す修飾キーで、NONEなら修飾キーなしです。
+d:PalArmy.Updates.CheckForUpdates	Pal Armyの新しいバージョンが出たときに画面で知らせます。 (?)
+d:PalBoxQoL.alphaIndex	ツールバーがいま位置しているプレートの陰影一覧の場所で、プレイのたびにリセットされます。 (?)
+d:PalBoxQoL.DEV_DEBUG_MODE_ENABLED	作者の開発用キー割り当てと調査ツールを有効にします。通常のプレイではオフです。
+d:PalBoxQoL.glyphIndex	クリアボタンのアイコンがいま位置している記号一覧の場所で、プレイのたびにリセットされます。 (?)
+d:PalBoxQoL.LOCAL_MARKER	グローバルではなくローカルのパルボックス一覧を見つけるためにMODが照合する内部名です。
+d:PalBoxQoL.pacing.batchSize	一括処理中に1バッチで送るお気に入り切り替えの数で、少ないほどゲームへの負担が軽くなります。
+d:PalBoxQoL.pacing.delayMs	お気に入り切り替えのバッチ同士の間隔のミリ秒で、一括処理がもたつくなら上げてください。
+d:PalBoxQoL.pacing.importBatch	1ステップで取り込むパルの数で、1のままにする必要があります。上げたことが取り込みを壊した原因です。
+d:PalBoxQoL.pacing.importDelayMs	取り込むパル同士の間隔のミリ秒で、実行結果に取り込みの拒否が出るなら上げてください。
+d:PalBoxQoL.pairIndex	置き換えた検索と並べ替えの見出しがいま位置しているアイコン一覧の場所です。 (?)
+d:PalboxSearchPlus.autocomplete_limit	入力中にオートコンプリートが出すパッシブスキル名の候補の数です。 (?)
+d:PalboxSearchPlus.condenser_click_searches	凝縮器で手持ちのパルをクリックすると、同じ種族の残りを目の前に集めます。
+d:PalboxSearchPlus.container_swaps_per_tick	検索がボックスを並べ替える間に1ティックで送るパルの移動数で、サーバーから切断されるなら下げる価値があります。
+d:PalboxSearchPlus.count	同梱の交配表が対象とする種族の数で、設定ではなく生成されたデータです。 (?)
+d:PalboxSearchPlus.diagnostic_logging	不具合報告のために詳細なログを書き出します。問題を再現する前にオンにする価値があります。
+d:PalboxSearchPlus.enable_client_view_sort	パルを動かさずにパルボックスの表示を並べ替え、並べ替えメニューにステータスと個体値のボタンを追加します。 (?)
+d:PalboxSearchPlus.filter_debounce_ms	打鍵のたびに組み直さないよう、絞り込みを更新するまでに入力を止めておく必要のあるミリ秒です。 (?)
+d:PalboxSearchPlus.focus_search_on_open	画面を開いた瞬間に検索バーへキーボードを渡します。確定するまでQとEのページ送りは止まります。
+d:PalboxSearchPlus.poll_interval_ms	検索ボックスを確認する間隔のミリ秒で、初期値は50。大きいほど負荷は軽く反応は遅くなります。 (?)
+d:PalboxSearchPlus.restore_order_after_search	検索を消したり画面を離れたりしたとき、凝縮器と商人のボックスを元の並びに戻します。
+d:PalboxSearchPlus.save_parameter_reads	保存されたパルのデータを読み、ラッキー、お気に入り、凝縮、個体値の検索を可能にします。一部の環境で落ちたためオフです。
+d:PalboxSearchPlus.search_host_asset	このMOD自身の検索欄の枠で、Backspaceを受け止めてボックスを閉じずに編集できるようにします。
+d:PalboxSearchPlus.search_host_class	このMODの検索欄の枠の内部クラス名で、値が違うとバーが表示されません。 (?)
+d:PalboxSearchPlus.search_host_inner	このMODの検索枠の中にあるテキストボックスの内部名で、そのままにしておくのが最善です。 (?)
+d:PalboxSearchPlus.show_focus_toggle	検索バーの上に自動フォーカスのボタンを表示します。
+d:PalboxSearchPlus.show_status_line	交配と凝縮のプランナーが報告に使う、検索バーの上のステータス行を表示します。
+d:PalboxSearchPlus.sorted_slots_per_search	凝縮器と商人で並べ替えが実際に入れ替えるスロットの数で、120が4ページ分です。
+d:PalboxSearchPlus.source	同梱の交配の組み合わせがPalCalc由来であることを示します。PalCalcはゲームのファイルから抽出しています。
+d:PalboxSearchPlus.store_bar_nudge_x	保管庫側の検索バーをMODが置いた位置から横にずらします。正の値で右へ動きます。
+d:PalboxSearchPlus.store_bar_nudge_y	保管庫側の検索バーをMODが置いた位置から縦にずらします。正の値で下へ動きます。
+d:PalboxSearchPlus.store_bar_x_offset	保管庫側の検索バーがボックス1の検索バーからどれだけ右に置かれるかで、単位はキャンバス単位です。
+d:PalboxSearchPlus.store_bar_y_offset	保管庫側の検索バーがボックス1の検索バーからどれだけ下に置かれるかで、単位はキャンバス単位です。
+d:PalboxSearchPlus.version	同梱の交配表がどのPalCalcのリリースから生成されたかで、設定ではなくデータです。
+d:PalboxStatCompare.DebugLogging	トラブルシューティングのために、追加の診断メッセージをログへ書き出します。
+d:PalInsight.activationMode	ショートカットで解析パネルを開くか、いまの照準に追従させるかを選びます。
+d:PalInsight.activeAbilitiesThreshold	アクティブスキル用の古い捕獲条件で、段階的な公開の値で決まるよう0のままにしてあります。 (?)
+d:PalInsight.aimTriggerMode	パネルを出す照準の種類を選びます。武器、パルスフィアの投擲、その両方です。
+d:PalInsight.analyzeHumans	人間もパルと同じように解析できるようにします。 (?)
+d:PalInsight.badIVColor.a	低い潜在能力の値に使う色の不透明度で、0が透明、1が不透明です。 (?)
+d:PalInsight.badIVColor.b	低い潜在能力の値に使う色の青の量で、0から1までです。 (?)
+d:PalInsight.badIVColor.g	低い潜在能力の値に使う色の緑の量で、0から1までです。 (?)
+d:PalInsight.badIVColor.r	低い潜在能力の値に使う色の赤の量で、0から1までです。 (?)
+d:PalInsight.badIVThreshold	この数値以下の潜在能力には低い値の色を使います。0から100までです。
+d:PalInsight.colorCodeIVs	潜在能力の値を、その高さに応じて色分けします。
+d:PalInsight.countAlphasSeparate	同じ種族のパルボックス集計で、アルファパルを別の種族として数えます。 (?)
+d:PalInsight.displayStyle	ショートカットを押している間だけ表示するか、押すたびに切り替えるか、常に表示するかを選びます。
+d:PalInsight.distance	解析できる最大距離で、単位はセンチメートル、1000から500000まで。30000は300メートルです。
+d:PalInsight.followOffsetX	追従先のパルからのパネルの横方向のピクセル差で、正の値で右へ動きます。 (?)
+d:PalInsight.followOffsetY	追従先のパルからのパネルの縦方向のピクセル差で、負の値で上へ動きます。 (?)
+d:PalInsight.followPal	パネルの位置の選択に上書きされる古い追従フラグなので、編集しても何も変わりません。
+d:PalInsight.goodIVColor.a	高い潜在能力の値に使う色の不透明度で、0が透明、1が不透明です。 (?)
+d:PalInsight.goodIVColor.b	高い潜在能力の値に使う色の青の量で、0から1までです。 (?)
+d:PalInsight.goodIVColor.g	高い潜在能力の値に使う色の緑の量で、0から1までです。 (?)
+d:PalInsight.goodIVColor.r	高い潜在能力の値に使う色の赤の量で、0から1までです。 (?)
+d:PalInsight.goodIVThreshold	この数値以上の潜在能力には高い値の色を使います。0から100までです。
+d:PalInsight.highPotentialAttackThreshold	緑色の高潜在能力の光の柱が立つためにパルへ必要な攻撃の潜在能力で、0から100までです。
+d:PalInsight.highPotentialDefenseThreshold	緑色の高潜在能力の光の柱が立つためにパルへ必要な防御の潜在能力で、0から100までです。
+d:PalInsight.highPotentialHpThreshold	緑色の高潜在能力の光の柱が立つためにパルへ必要なHPの潜在能力で、0から100までです。
+d:PalInsight.inspectAlt	照準先のパルを解析するキーに、Altの併用を必要とします。 (?)
+d:PalInsight.inspectCtrl	照準先のパルを解析するキーに、Ctrlの併用を必要とします。 (?)
+d:PalInsight.inspectGamepadKey	照準先のパルを解析するコントローラーのボタンで、Noneなら割り当てなしです。
+d:PalInsight.inspectKey	照準先のパルを解析するキーボードまたはマウスのキーです。
+d:PalInsight.inspectShift	照準先のパルを解析するキーに、Shiftの併用を必要とします。 (?)
+d:PalInsight.iVFontSizeDelta	潜在能力の値の文字サイズを、初期値から上下に調整します。 (?)
+d:PalInsight.iVSeparator	解析パネルで潜在能力の値を区切るのに使う文字です。 (?)
+d:PalInsight.iVsThreshold	潜在能力用の古い捕獲条件で、段階的な公開の値で決まるよう0のままにしてあります。 (?)
+d:PalInsight.iVTypeFace	解析パネルで潜在能力の値に使う文字の太さです。 (?)
+d:PalInsight.nativePotentialPalbox	パルテイマーゴーグルを着けていなくても、パルボックスで潜在能力を表示します。
+d:PalInsight.nativePotentialVision	パルテイマーゴーグルを着けていなくても、下で有効にした画面で潜在能力を表示します。
+d:PalInsight.nativePotentialWorld	パルテイマーゴーグルを着けていなくても、ワールド上の体力ゲージに潜在能力を表示します。
+d:PalInsight.neutralIVColor.a	中くらいの潜在能力の値に使う色の不透明度で、0が透明、1が不透明です。 (?)
+d:PalInsight.neutralIVColor.b	中くらいの潜在能力の値に使う色の青の量で、0から1までです。 (?)
+d:PalInsight.neutralIVColor.g	中くらいの潜在能力の値に使う色の緑の量で、0から1までです。 (?)
+d:PalInsight.neutralIVColor.r	中くらいの潜在能力の値に使う色の赤の量で、0から1までです。 (?)
+d:PalInsight.opacity	解析パネルの不透明度で、薄い0.4から不透明な1.0までです。
+d:PalInsight.palboxSearchAlt	検索入力とパルの閲覧を切り替えるキーに、Altの併用を必要とします。 (?)
+d:PalInsight.palboxSearchCondenserEnabled	パルエッセンス凝縮器の画面に検索行を追加します。
+d:PalInsight.palboxSearchCtrl	検索入力とパルの閲覧を切り替えるキーに、Ctrlの併用を必要とします。 (?)
+d:PalInsight.palboxSearchDisassemblyEnabled	パル解体コンベアの画面に検索行を追加します。
+d:PalInsight.palboxSearchExpeditionEnabled	パル遠征隊出発地点の画面に検索行を追加します。
+d:PalInsight.palboxSearchShift	検索入力とパルの閲覧を切り替えるキーに、Shiftの併用を必要とします。 (?)
+d:PalInsight.panelScale	解析パネルの大きさをパーセントで指定します。40から100までです。
+d:PalInsight.passiveAbilitiesThreshold	パッシブスキル用の古い捕獲条件で、段階的な公開の値で決まるよう0のままにしてあります。 (?)
+d:PalInsight.potentialDisplayRule	MODのスイッチで潜在能力を表示するか、パルテイマーゴーグルを着けている間だけ表示するかを選びます。
+d:PalInsight.potentialVisionAlt	ゴーグルなしで潜在能力を表示するキーに、Altの併用を必要とします。 (?)
+d:PalInsight.potentialVisionCtrl	ゴーグルなしで潜在能力を表示するキーに、Ctrlの併用を必要とします。 (?)
+d:PalInsight.potentialVisionShift	ゴーグルなしで潜在能力を表示するキーに、Shiftの併用を必要とします。 (?)
+d:PalInsight.progressiveActiveThreshold	その種族のアクティブスキルが公開されるまでに必要な捕獲数で、0から999までです。
+d:PalInsight.progressiveDropsThreshold	その種族のドロップ品が公開されるまでに必要な捕獲数で、0から999までです。
+d:PalInsight.progressiveMovementThreshold	その種族の移動速度が公開されるまでに必要な捕獲数で、0から999までです。
+d:PalInsight.progressivePartnerThreshold	その種族のパートナースキルが公開されるまでに必要な捕獲数で、0から999までです。
+d:PalInsight.progressivePassiveThreshold	その種族のパッシブスキルが公開されるまでに必要な捕獲数で、0から999までです。
+d:PalInsight.progressivePotentialThreshold	その種族の潜在能力が公開されるまでに必要な捕獲数で、0から999までです。
+d:PalInsight.progressiveWorkThreshold	その種族の仕事適性が公開されるまでに必要な捕獲数で、0から999までです。
+d:PalInsight.rampagingPalBeaconEnabled	近くの暴走したパルを赤い光の柱で示します。
+d:PalInsight.rarePalBeaconEnabled	近くのラッキーパルを金色の光の柱で示します。
+d:PalInsight.realtimeSpeedOffsetY	正の値でリアルタイムの速度表示を下へ動かします。安全な範囲は-300から20までです。
+d:PalInsight.settingsAlt	Pal Insightのウィンドウを開く設定キーに、Altの併用を必要とします。 (?)
+d:PalInsight.settingsCtrl	Pal Insightのウィンドウを開く設定キーに、Ctrlの併用を必要とします。 (?)
+d:PalInsight.settingsGamepadKey1	Pal Insightの設定ウィンドウを開く組み合わせのうち、1つ目のコントローラーのボタンです。
+d:PalInsight.settingsGamepadKey2	Pal Insightの設定ウィンドウを開く組み合わせのうち、2つ目のコントローラーのボタンです。
+d:PalInsight.settingsSchemaVersion	保存された設定の並びのバージョン印で、古いファイルの更新に使われ、編集しても効果はありません。 (?)
+d:PalInsight.settingsShift	Pal Insightのウィンドウを開く設定キーに、Shiftの併用を必要とします。 (?)
+d:PalInsight.showActive	解析パネルにアクティブスキルを表示します。
+d:PalInsight.showCaptureCount	ゲーム自身の解析機能がオンのままであることを必要とする内部スイッチなので、変更するためのものではありません。
+d:PalInsight.showDrops	解析パネルに、そのパルが落とすアイテムを表示します。
+d:PalInsight.showIVBonus	解析パネルに、潜在能力が各基本ステータスに加えるボーナスを表示します。 (?)
+d:PalInsight.showMovementSpeed	解析パネルに騎乗時の移動速度を表示します。
+d:PalInsight.showPalsInBox	パルボックスを見ている間、同じ種族を既に何体持っているかを表示します。
+d:PalInsight.showPartnerSkill	解析パネルにパートナースキルを表示します。
+d:PalInsight.showPassive	解析パネルにパッシブスキルを表示します。
+d:PalInsight.showPotential	解析パネルに3つの潜在能力の値を表示します。
+d:PalInsight.showRealtimeSpeed	HUDの左下に、プレイヤーや騎乗中の速度をリアルタイムで表示します。
+d:PalInsight.showWork	解析パネルに仕事適性を表示します。
+d:PalInsight.staticOffsetX	パネルを画面の固定位置に置いたときの、横方向のピクセル差です。 (?)
+d:PalInsight.staticOffsetY	パネルを画面の固定位置に置いたときの、縦方向のピクセル差です。 (?)
+d:PalInsight.statsThreshold	ゲーム自身の解析機能でのステータス用の古い捕獲条件で、0のままにしてあります。 (?)
+d:PalInsight.timeToHold	解析のショートカットを押し続けてからパネルが出るまでの秒数です。 (?)
+d:PalLevelScaling.configAutoReloadEnabled	ゲームの実行中に設定を確認し直し、再起動なしで以降の出現に反映させます。
+d:PalLevelScaling.configAutoReloadIntervalSeconds	設定の変更を確認し直す間隔の秒数で、初期値は300です。
+d:PalLevelScaling.decisionLogRetentionCount	古いものを削除するときに残しておく、出現判定のログファイルの数です。
+d:PalLevelScaling.decisionLogRetentionEnabled	古い出現判定のログファイルを削除し、新しいものだけを残します。
+d:PalLevelScaling.despawnDistanceLarge	大型スポナーのパルを消してよくなるまでに、すべてのプレイヤーが離れている必要のあるワールド単位の距離です。
+d:PalLevelScaling.despawnDistanceMedium	中型スポナーのパルを消してよくなるまでに、すべてのプレイヤーが離れている必要のあるワールド単位の距離です。
+d:PalLevelScaling.despawnDistanceNPC	人間NPCのスポナーのキャラクターを消してよくなるまでに、すべてのプレイヤーが離れている必要のあるワールド単位の距離です。
+d:PalLevelScaling.despawnDistanceSmall	小型スポナーのパルを消してよくなるまでに、すべてのプレイヤーが離れている必要のあるワールド単位の距離です。
+d:PalLevelScaling.levelsAboveSelectedPlayer	選ばれた近くのプレイヤーより何レベル上まで、新しい野生のパルが抽選されるかです。
+d:PalLevelScaling.levelsBelowSelectedPlayer	選ばれた近くのプレイヤーより何レベル下まで、新しい野生のパルが抽選されるかです。
+d:PalLevelScaling.playerDetectionRangeBuffer	基準にする近くのプレイヤーを探すとき、スポナーの半径に上乗せするワールド単位の距離です。
+d:PalLevelScaling.playerLevelSelectionMode	出現がどの近くのプレイヤーに合わせるかです。最も近い、最も高い、最も低い、平均、中央値、ランダムから選びます。
+d:PalLevelScaling.scalingDirection	出現が動ける向きです。上のみは弱い出現を引き上げ、下のみは強い出現を引き下げ、両方も選べます。
+d:PalLevelScaling.spawnRadiusLarge	大型の野生パルのスポナーが動き出せる距離で、単位はワールド単位、1メートルがおよそ100です。
+d:PalLevelScaling.spawnRadiusMedium	中型の野生パルのスポナーが動き出せる距離で、単位はワールド単位、1メートルがおよそ100です。
+d:PalLevelScaling.spawnRadiusNPC	人間NPCのスポナーが動き出せる距離で、単位はワールド単位、1メートルがおよそ100です。
+d:PalLevelScaling.spawnRadiusSmall	小型の野生パルのスポナーが動き出せる距離で、単位はワールド単位、1メートルがおよそ100です。
+d:PalpediaEnhancer.ClearAllKey	すべての絞り込み、並べ替え、検索対象を下で設定した既定値に戻すホットキーで、Noneにすると割り当てを外します。
+d:PalpediaEnhancer.DefaultSearchTargets	Palpediaを開いたとき検索ボックスがどこを対象に探すかです。複数指定するときはコンマで区切ります。
+d:PalpediaEnhancer.DefaultSort	Palpediaの一覧を開いたときの並び順で、すべて消すホットキーが戻す並び順でもあります。
+d:PalpediaEnhancer.DefaultSortDescending	その並び順を逆にしてPalpediaを開き、最後の項目や最大の項目が先頭に来ます。
+d:PalpediaEnhancer.DefaultUnreadOnly	まだ開いていない項目だけを表示した状態でPalpediaを開きます。
+d:PalpediaEnhancer.MarkAllSeenKey	未読のPalpedia項目をすべて既読にするホットキーで、すべて既読にするボタンと同じ働きをします。
+d:PalpediaEnhancer.RememberState	同じセッション中にPalpediaを閉じて開き直しても、絞り込み、並べ替え、検索対象、直前の検索語を保ちます。
+d:PalpediaEnhancer.ShowMarkAllSeenButton	Statsタブの横にすべて既読にするボタンを表示します。ボタンを隠していてもホットキーは効きます。
+d:PalpediaEnhancer.ToggleUnreadKey	まだ開いていないPalpediaの項目だけを表示し、スクロールせずに新着の点を消すホットキーです。
+d:PalpediaEnhancer.VerboseLogging	Palpediaの追加の診断情報をログへ書き出します。不具合を報告するときに役立ちます。
+d:PalSchema.enableAutoReload	PalSchemaのコンテンツMODのファイルが変わるたびに、ゲームの実行中に再適用します。 (?)
+d:PalSchema.enableDebugLogging	ログに詳細を追加で書き出します。コンテンツMODの問題を報告するときに役立ちます。 (?)
+d:PalSchema.languageOverride	PalSchemaのコンテンツMODがテキストに使う言語を、ゲームに従わせず強制的に指定します。 (?)
+d:PalsLearnOverTime.__version	MODが保存する進捗台帳の形式の刻印で、手で編集するものではありません。 (?)
+d:PalsLearnOverTime.applyEnabled	積み重ねた労働で実際にパルの適性が上がるようにします。オフなら進捗を記録するだけでセーブには触れません。
+d:PalsLearnOverTime.count	ゲームに仕事適性がいくつあるかの内部記録で、編集しても効果はありません。 (?)
+d:PalsLearnOverTime.enabled	MODが自身の診断のために設定する内部スイッチで、編集しても効果はありません。 (?)
+d:PalsLearnOverTime.first	最初の仕事適性の番号の内部記録で、編集しても効果はありません。 (?)
+d:PalsLearnOverTime.firstId	MODが順に見ていく最初の仕事適性で、そのままにしておくべき詳細ブロックの一部です。 (?)
+d:PalsLearnOverTime.last	最後の仕事適性の番号の内部記録で、編集しても効果はありません。 (?)
+d:PalsLearnOverTime.lastId	MODが順に見ていく最後の仕事適性で、そのままにしておくべき詳細ブロックの一部です。 (?)
+d:PalsLearnOverTime.logging	進捗とレベルアップの記録を、MOD自身のログファイルに書き出します。
+d:PalsLearnOverTime.numWorkTypes	MODが追跡する仕事適性の種類の数で、そのままにしておくべき詳細ブロックの一部です。 (?)
+d:PalsLearnOverTime.probeSpawnQueues	ワールドの読み込み中、ゲーム自身の出現キューの深さを数秒おきに記録します。トラブルシューティング用です。
+d:PalsLearnOverTime.seq	MODの診断行に番号を振る内部カウンターで、編集しても効果はありません。 (?)
+d:PalsLearnOverTime.snapshotEvery	進捗の状態ファイルを書き直す間隔のミリ秒で、初期値は30000です。
+d:PalsLearnOverTime.unlockTotalCost	パルが持たない仕事の種類を解放する費用で、参考として残されており、解放が無効な間は使われません。
+d:PalsLearnOverTime.worldQuietSec	読み込みの後、パルが経験を積み始めるまでワールドが静かでいる必要のある秒数で、読み込みで落ちるなら上げてください。
+d:PassivePals.aggressivePalProfile	見つけしだい襲ってくるパルが使う反応プロファイルです。defaultなら上の設定に従います。
+d:PassivePals.alphaAndBossProfile	ゲームのアルファやボスとして出てくる個体が使う反応プロファイルです。defaultならすべてのパルの設定に従います。
+d:PassivePals.behaviorProfiles.custom.AttackedByEqual	同じくらいの強さのNPCに殴られたときにcustomプロファイルが返す反応です。
+d:PassivePals.behaviorProfiles.custom.AttackedByPlayer	自分がその相手を実際に殴ったときにcustomプロファイルが返す反応です。
+d:PassivePals.behaviorProfiles.custom.AttackedByStronger	より強いNPCに殴られたときにcustomプロファイルが返す反応です。
+d:PassivePals.behaviorProfiles.custom.AttackedByWeaker	より弱いNPCに殴られたときにcustomプロファイルが返す反応です。
+d:PassivePals.behaviorProfiles.custom.SeeEqual	同じくらいの強さのNPCに気づいたときにcustomプロファイルが返す反応です。
+d:PassivePals.behaviorProfiles.custom.SeePlayer	まだ何も起きていない状態で自分に気づいたときにcustomプロファイルが返す反応です。
+d:PassivePals.behaviorProfiles.custom.SeeStronger	より強いNPCに気づいたときにcustomプロファイルが返す反応です。
+d:PassivePals.behaviorProfiles.custom.SeeWeaker	より弱いNPCに気づいたときにcustomプロファイルが返す反応です。
+d:PassivePals.defaultHumanProfile	すべての人間NPCが使う反応プロファイルです。敵対する人間は危険なまま、村人は普通にふるまうよう、vanillaのままにしてあります。
+d:PassivePals.defaultPalProfile	下のAIプリセットや種族ごとの設定が上書きしないかぎり、自分の手持ち以外のすべてのパルが使う反応プロファイルです。
+d:PassivePals.friendlyPalProfile	Lamball、Chikipi、Daedreamなど、友好的な6種が使う反応プロファイルです。
+d:PassivePals.hostileHumanProfile	狩人のキャンプにいる襲撃者など、見つけしだい襲ってくる人間が使う反応プロファイルです。
+d:PassivePals.logging	このMODがUE4SSのログにどれだけ書き出すかです。quietなら読み込み行と警告と問題だけになります。
+d:PassivePals.nativePresetClassPath	設定した種族ごとにMODが1つずつ作る、反応プリセットの型の内部アドレスです。
+d:PassivePals.neutralPalProfile	実際に殴られるまでは基本的に無視してくるパルが使う反応プロファイルです。
+d:PassivePals.pollLimit	このセッションであきらめて、すべてのパルの反応をそのままにするまでの試行回数です。
+d:PassivePals.pollSeconds	書き換える対象のAIプリセットをゲームが読み込むのを待つあいだ、試行と試行のあいだに置く秒数です。
+d:PassivePals.preservePettingBehavior	おとなしい種がなでられに近づいてくる動きを残し、選んだプロファイルに上書きさせません。
+d:PassivePals.response.Battle	強さの判定で勝てると出たときだけ反撃する、ゲーム自身の番号です。
+d:PassivePals.response.Battle_Anyway	強さの判定をまったくせず常に反撃する、ゲーム自身の番号です。
+d:PassivePals.response.Escape	パルを逃げ出させる反応の、ゲーム自身の番号です。
+d:PassivePals.response.Ignore	戦いも逃走もせず何もしない反応の、ゲーム自身の番号です。
+d:PassivePals.response.Special	おとなしいパルが近づいてなでられに来るような、台本のある反応のゲーム自身の番号です。
+d:PassivePals.sensorSensePath	種族ごとの設定を結び付ける、ゲーム自身の感知判定の内部アドレスです。
+d:PassivePals.skittishPalProfile	CattivaやLifmunkのように、近づくと逃げ出すパルが使う反応プロファイルです。
+d:PassivePals.speciesRules.rule1Profile	1つ目のルールで指定した種が使う反応プロファイルで、上のすべての設定より優先されます。
+d:PassivePals.speciesRules.rule1Species	この1つ目のルールを適用する種で、英語名、内部ID、Blueprint名のいずれかで書きます。
+d:PassivePals.speciesRules.rule2Profile	2つ目のルールで指定した種が使う反応プロファイルで、上のすべての設定より優先されます。
+d:PassivePals.speciesRules.rule2Species	この2つ目のルールを適用する種で、英語名、内部ID、Blueprint名のいずれかで書きます。
+d:PassivePals.speciesRules.rule3Profile	3つ目のルールで指定した種が使う反応プロファイルで、上のすべての設定より優先されます。
+d:PassivePals.speciesRules.rule3Species	この3つ目のルールを適用する種で、英語名、内部ID、Blueprint名のいずれかで書きます。
+d:PassivePals.villagerProfile	村人、商人、警官が使う反応プロファイルです。defaultならすべての人間の設定に従います。
+d:PerfectPlacement.bindings.move_back	固定したプレビューを、いまの移動幅だけ後ろへ動かすキーです。
+d:PerfectPlacement.bindings.move_down	固定したプレビューを、いまの移動幅だけ下げるキーです。
+d:PerfectPlacement.bindings.move_forward	固定したプレビューを、いまの移動幅だけ前へ動かすキーです。
+d:PerfectPlacement.bindings.move_left	固定したプレビューを、いまの移動幅だけ左へ動かすキーです。
+d:PerfectPlacement.bindings.move_right	固定したプレビューを、いまの移動幅だけ右へ動かすキーです。
+d:PerfectPlacement.bindings.move_up	固定したプレビューを、いまの移動幅だけ上げるキーです。
+d:PerfectPlacement.bindings.reset	プレビューを、固定したときの位置と向きに戻すキーです。
+d:PerfectPlacement.bindings.rotate_left	固定したプレビューを、いまの回転幅だけ左に回すキーです。
+d:PerfectPlacement.bindings.rotate_right	固定したプレビューを、いまの回転幅だけ右に回すキーです。
+d:PerfectPlacement.bindings.rotation_step_down	1段階小さい回転幅へ下げるキーです。
+d:PerfectPlacement.bindings.rotation_step_up	1段階大きい回転幅へ上げるキーです。
+d:PerfectPlacement.bindings.step_down	移動幅を小さくし、1回の入力でプレビューが動く量を減らすキーです。
+d:PerfectPlacement.bindings.step_up	移動幅を大きくし、1回の入力でプレビューが動く量を増やすキーです。
+d:PerfectPlacement.bindings.toggle_freeze	建築プレビューをその場に固定し、もう一度押すと解除するキーです。
+d:PerfectPlacement.diagnostics.ui_lifecycle_log_interval_ms	建築インターフェースのカウンター行を書く間隔のミリ秒で、その診断カウンターが有効なときに使われます。 (?)
+d:PerfectPlacement.diagnostics.verbose	UE4SSのログに追加のトラブルシューティング行を書き出します。行数が非常に多くなることがあります。
+d:PerfectPlacement.gamepad.enabled	連携用の入力ブリッジを通じてコントローラー対応を有効にします。ゲームの再起動が必要です。
+d:PerfectPlacement.gamepad.invert_forward_back	固定したプレビューを前後に動かすコントローラーのボタンを入れ替えます。
+d:PerfectPlacement.gamepad.invert_height	固定したプレビューを上下に動かすコントローラーのボタンを入れ替えます。
+d:PerfectPlacement.gamepad.swap_rotate_buttons	固定したプレビューを左右に回すコントローラーのボタンを入れ替えます。
+d:PerfectPlacement.hold_locked_transform	固定した位置を再適用し続け、プレビューが照準に戻らないようにします。その分フレームの負荷はかかります。
+d:PerfectPlacement.movement.coarse	MODがもう読み込まない、100センチメートルの古い粗い移動幅です。 (?)
+d:PerfectPlacement.movement.fine	MODがどこでももう読み込まない、1センチメートルの古い細かい移動幅です。 (?)
+d:PerfectPlacement.movement.maximum	移動幅を上げるキーで到達できる最大のセンチメートルで、0.1から1000までです。
+d:PerfectPlacement.movement.maximum_above_initial_cm	固定した高さより上へプレビューを上げられるセンチメートルで、初期値は650です。
+d:PerfectPlacement.movement.maximum_below_initial_cm	固定した高さより下へプレビューを下げられるセンチメートルで、初期値は25です。
+d:PerfectPlacement.movement.minimum	移動幅を下げるキーで到達できる最小のセンチメートルで、0.1から1000までです。
+d:PerfectPlacement.movement.normal	固定したプレビューが最初に使う移動幅のセンチメートルで、0.1から1000までです。
+d:PerfectPlacement.movement.step_scale	移動幅を上げ下げするたびに掛ける倍率で、2、5、10のいずれかです。
+d:PerfectPlacement.rotation.coarse	回転幅の段階のうち粗い回転の度数で、初期値は15度です。
+d:PerfectPlacement.rotation.fine	回転幅の段階のうち細かい回転の度数で、初期値は1度です。
+d:PerfectPlacement.rotation.normal	回転幅の段階のうち中間の回転の度数で、初期値は5度です。
+d:PerfectPlacement.rotation.precision	回転幅の段階のうち最小の回転の度数で、初期値は0.1度です。 (?)
+d:PerfectPlacement.rotation.snap	回転幅の段階のうち最大の回転の度数で、初期値は45度です。
+d:PerfectPlacement.transform_refresh_ms	固定を保つ設定が有効な間、固定した位置を再適用する間隔のミリ秒です。 (?)
+d:PerfectPlacement.ui.gamepad_enabled_property	コントローラー入力が有効かどうかを持つ、ガイドの項目の内部名です。 (?)
+d:PerfectPlacement.ui.hide_function	設置ガイドを隠す連携用の呼び出しの内部名で、編集しても効果はありません。 (?)
+d:PerfectPlacement.ui.hide_toast_function	固定と解除のメッセージを消す連携用の呼び出しの内部名です。 (?)
+d:PerfectPlacement.ui.host_class_name	設置ガイドが取り付く連携用ウィジェットの名前で、編集しても効果はありません。 (?)
+d:PerfectPlacement.ui.move_step_property	いまの移動幅をセンチメートルで持つ、ガイドの項目の内部名です。 (?)
+d:PerfectPlacement.ui.refresh_function	変更の後に設置ガイドを描き直す連携用の呼び出しの内部名です。 (?)
+d:PerfectPlacement.ui.show_frozen_guide_function	プレビューを固定している間にガイドを表示する連携用の呼び出しの内部名です。 (?)
+d:PerfectPlacement.ui.show_frozen_toast_function	プレビューを固定したときにメッセージを表示する連携用の呼び出しの内部名です。 (?)
+d:PerfectPlacement.ui.show_unfrozen_guide_function	プレビューを固定していない間にガイドを表示する連携用の呼び出しの内部名です。 (?)
+d:PerfectPlacement.ui.show_unfrozen_toast_function	プレビューを解除したときにメッセージを表示する連携用の呼び出しの内部名です。 (?)
+d:PerfectPlacement.ui.use_palworld_keycaps	建築ガイドの設置操作を、Palworld風のキーアイコンで描きます。 (?)
+d:PingMod.bypass_guild_marker_limit	ギルドのマーカーが上限でも、別のマーカーを一時的に外してピンを置きます。
+d:RecoverPalSpheres.debug	不具合報告のために、スフィア回収の詳細な動作をログへ書き出します。
+d:RecoverPalSpheres.enabled	実行中にMODが持っている、メインの設定から取ったデバッグログのスイッチの写しです。 (?)
+d:RecoverPalSpheres.max_pickup_lifetime	回収した落し物がワールドに残る秒数で、-1なら永久に残り、0なら落し物を作りません。
+d:RecoverPalSpheres.notify_inventory_return	インベントリへ直接戻ったスフィアについて、通常のアイテム取得メッセージを表示します。
+d:RecoverPalSpheres.return_sphere_min_distance_x	外したスフィアが落し物として残される、水平方向の最大距離のメートルです。
+d:RecoverPalSpheres.return_sphere_min_distance_y	外したスフィアが落し物として残される、垂直方向の最大距離のメートルです。
+d:RecoverPalSpheres.sphere_launcher_pickups	ソロプレイヤーと協力プレイのホストで、ランチャーの外れをワールドの落し物にできるようにします。
+d:RecoverPalSpheres.sphere_recovery_percentage	外したパルスフィアが失われず回収される確率のパーセントで、0から100までです。
+d:SharedXP.technology_points_per_level	共有経験で追いつく際に、プレイヤーが飛ばしたレベル1つごとに与えるテクノロジーポイントです。
+d:SharedXP.verbose_logging	共有経験の詳細なメッセージをログへ書き出します。マルチプレイの検証に役立ちます。
+d:SmartPalFeeding.author	MODを作った人の名前で、参考として残されており、編集しても効果はありません。 (?)
+d:SmartPalFeeding.Feeding.AbsoluteStartEatingThreshold	絶対しきい値を使うとき、拠点のパルが食べに行く満腹度の固定パーセントです。 (?)
+d:SmartPalFeeding.Feeding.EnableDebugLogging	餌やりの判断を1つずつログへ書き出します。問題を報告するときにだけ役立ちます。 (?)
+d:SmartPalFeeding.Feeding.EnableMod	賢い餌やりの挙動を有効にします。オフのときはゲーム自身の空腹しきい値がそのまま使われます。 (?)
+d:SmartPalFeeding.Feeding.FallbackHungerDebuffThreshold	ゲーム自身の値を読み取れないときに、デバフの基準として使う空腹度のパーセントです。 (?)
+d:SmartPalFeeding.Feeding.LogDecisionCooldownSeconds	ログを読みやすく保つための、繰り返す餌やりログ行の間隔の秒数で、0.1から3600までです。 (?)
+d:SmartPalFeeding.Feeding.StartEatingThresholdOffsetAboveHungerDebuff	拠点のパルが食べに行く時点を決めるために、ゲーム自身の空腹デバフの基準へ上乗せするパーセントです。
+d:SmartPalFeeding.Feeding.StopEatingThreshold	拠点のパルが仕事に戻るまでに食べる満腹度のパーセントで、初期値は95です。
+d:SmartPalFeeding.Feeding.UseAbsoluteStartEatingThreshold	ゲームの空腹デバフの基準への上乗せではなく、固定の空腹度パーセントを使います。 (?)
+d:SmartPalFeeding.name	MODが自分に記録している表示名で、参考として残されており、編集しても効果はありません。 (?)
+d:SmartPalFeeding.package_name	MODがインストールされるフォルダー名で、参考として残されており、編集しても効果はありません。 (?)
+d:SmartPalFeeding.tested_game_build_id	作者が最後に検証したゲームのビルドで、参考として残されており、編集しても効果はありません。 (?)
+d:SmartPalFeeding.tested_game_release	作者が最後に検証したゲームのリリースで、参考として残されており、編集しても効果はありません。 (?)
+d:SmartPalFeeding.version	MODが自分に記録しているバージョンで、参考として残されており、編集しても効果はありません。 (?)
+d:SmoothBossBattles.AutoConfirm_BossTower	タワーボス戦に入るとき、戦闘開始の確認を代わりに済ませます。
+d:SmoothBossBattles.AutoConfirm_RaidBoss	召喚の祭壇でレイドボスを始めるとき、戦闘開始の確認を代わりに済ませます。
+d:SmoothBossBattles.AutoConfirm_WorldTree	世界樹のボス戦に入るとき、戦闘開始の確認を代わりに済ませます。
+d:SmoothBossBattles.enabled	作者の開発用ログを有効にします。出荷時はオフで、通常のプレイでもオフのままにすべきです。
+d:SmoothBossBattles.SkipIntroCutscene_BossTower	タワーボス戦へ向かう途中に流れるカットシーンを飛ばします。
+d:SmoothBossBattles.SkipVictoryWait_BossTower	勝利の後に待たされず、すぐタワーボスの場を離れられるようにします。ソロ専用です。
+d:SmoothBossBattles.SkipVictoryWait_WorldTree	世界樹の中間の3体のボスを倒した直後に、すぐ離れられるようにします。ソロ専用です。
+d:SmoothBossBattles.SkipVictoryWait_WorldTreeFinal	世界樹の最後のボスの直後にすぐ離れられるようにします。ゲームのエンディングは途中で終わります。
+d:TidyBaseInfo.cursorGraceTicks	パネルから外れたあと自由カーソルが何回の保守処理まで持ちこたえるかで、メニューへ移るあいだに切れないようにします。
+d:TidyBaseInfo.emptyPortraitScale	空の作業スロットに描かれる仮の円の大きさの倍率です。
+d:TidyBaseInfo.fallback.menu_assign	割り当ての操作に使う英語の文言で、MODの言語ファイルが読めないときだけ使われます。
+d:TidyBaseInfo.fallback.menu_palbox	パルボックスに送る操作に使う英語の文言で、MODの言語ファイルが読めないときだけ使われます。
+d:TidyBaseInfo.fallback.menu_resummon	呼び直しの操作に使う英語の文言で、MODの言語ファイルが読めないときだけ使われます。
+d:TidyBaseInfo.gridOffsetX	拠点の作業者情報パネル内でのパルのグリッドの横位置で、単位は画面単位です。
+d:TidyBaseInfo.gridOffsetY	パルのグリッドを下へ、負の値なら上へ、ピクセル単位で動かします。
+d:TidyBaseInfo.gridWidth	パルのグリッドの幅で、単位は画面単位。初期のアイコンの大きさなら1行に4体分が並びます。
+d:TidyBaseInfo.hoverPanelOffsetX	パルのグリッドの下にある詳細パネルの横方向のずらし量で、単位は画面単位です。
+d:TidyBaseInfo.hoverPanelOffsetY	パルのグリッドの下端と、その下にカーソルを合わせたときに出る状態の行との間隔で、単位はピクセルです。
+d:TidyBaseInfo.iconPadding	グリッド内のパルのマスどうしの間隔で、単位は画面単位。縦横の両方に効きます。
+d:TidyBaseInfo.iconSize	グリッドのパルのマス1つの一辺の長さで、単位は画面単位。初期のグリッド幅なら4つ分が収まります。
+d:TidyBaseInfo.inspectHoldKey	さっと確認するあいだ押しておくキーで、離すまでグリッド上でマウスカーソルを自由にします。
+d:TidyBaseInfo.inspectKey	パネル上で自由なマウスカーソルを入にし、もう一度押すと切にするキーで、空欄にすると無効になります。
+d:TidyBaseInfo.keybindModifier	スクロールキーや確認キーと一緒に押す修飾キーです。NONEにすると修飾キーなしで使えます。
+d:TidyBaseInfo.language	このMODが自分のラベルを表示する言語です。autoならゲームの言語設定に従います。
+d:TidyBaseInfo.maintenanceMs	ゲーム自身の作業者の行をたたみ直し、カーソルが何の上にあるかを追う保守処理の間隔のミリ秒です。
+d:TidyBaseInfo.maxGridHeight	パルのグリッドが伸びられる高さの上限をピクセルで指定し、これを超えるとホットバーを覆わずにグリッド内でスクロールします。
+d:TidyBaseInfo.menuItemGap	右クリックの操作メニューの項目どうしの間隔で、単位はピクセルです。
+d:TidyBaseInfo.menuItemPaddingX	右クリックの操作メニューで各ラベルの左右に取る余白で、単位はピクセルです。
+d:TidyBaseInfo.menuItemPadding	右クリックの操作メニューで各ラベルの上下に取る余白で、単位はピクセルです。
+d:TidyBaseInfo.menuItemPaddingY	右クリックの操作メニューで各ラベルの上下に取る余白で、単位はピクセルです。
+d:TidyBaseInfo.menuOffsetX	パルのグリッドと、その横に開く右クリックの操作メニューとの間隔で、単位はピクセルです。
+d:TidyBaseInfo.menuOffsetY	パルのグリッドの上端に対する右クリックの操作メニューの縦方向のずらし量で、単位は画面単位です。
+d:TidyBaseInfo.menuWidth	右クリックの操作メニューの幅をピクセルで指定し、翻訳されたラベルが切れるときは大きくします。
+d:TidyBaseInfo.openDetailsOnClick	パルをクリックしたときゲーム本来のパル詳細画面を開きます。オフなら代わりにそのパルの名前と状態をグリッドの下に留めます。
+d:TidyBaseInfo.portraitOffsetX	各パルの立ち絵をマス内で右へ、負の値なら左へずらします。
+d:TidyBaseInfo.portraitOffsetY	各パルの立ち絵をマス内で下へ、負の値なら上へずらします。
+d:TidyBaseInfo.portraitScale	グリッドのマス内でのパルの立ち絵の大きさの倍率で、1.0がゲームの描く大きさです。
+d:TidyBaseInfo.resummonTimeoutMs	Resummonがパルのパルボックス到着を待つ時間で、これを過ぎるとあきらめ、そのまま安全に残します。
+d:TidyBaseInfo.scrollDownKey	パルのグリッドを1段下へスクロールする、Altと一緒に押すキーです。
+d:TidyBaseInfo.scrollStepPx	キーボードで1回スクロールしたときにパルのグリッドが動く距離で、単位は画面単位です。
+d:TidyBaseInfo.scrollUpKey	上の修飾キーと一緒に押してパルのグリッドを1段上へスクロールするキーで、空欄にすると無効になります。
+d:TidyBaseInfo.showEmptySlots	空の作業スロットを仮の円として表示します。オフなら自分のパルだけのグリッドになります。
+d:TidyBaseInfo.suspendInputOverPanel	カーソルがパネルの上にあるあいだ、武器の切り替え、エイム、射撃、パルへの指示を止めます。
+d:TidyBaseInfo.tokens.deepGraphite	右クリックの操作メニューの背面にある板の色を16進数で指定します。
+d:TidyBaseInfo.tokens.forgedGold	マウスが乗っている操作メニュー項目の縁の色を16進数で指定します。
+d:TidyBaseInfo.tokens.hairline	メニューの板と各項目のまわりの細い線の色を16進数で指定します。
+d:TidyBaseInfo.tokens.raised	右クリックの操作メニューの項目1つを塗る色を16進数で指定します。
+d:TidyBaseInfo.tokens.raisedHover	マウスが乗っている操作メニュー項目を塗る色を16進数で指定します。
+d:UltraGraphics.State.ChangelogShownFor	MODが最後に更新履歴を表示したバージョンで、あなたではなくMODが書き込みます。 (?)
+d:UltraGraphics.State.PerformanceMode	パフォーマンスモードがいま有効かどうかで、あなたではなくMODが書き込みます。 (?)
+d:vuxRemoveFlyingStamina.vuxCheckAcknowledge	このセッションで飛行の変更を適用済みかどうかを示す、MODが切り替える内部フラグです。 (?)
+d:vuxRemoveFlyingStamina.vuxFlyHorizon_Dash_SP	飛行するパルに乗って前へ加速している間に毎秒減るスタミナで、0なら消費しません。 (?)
+d:vuxRemoveFlyingStamina.vuxFlyHover_SP	飛行するパルに乗ってその場でホバリングしている間に毎秒減るスタミナで、0なら消費しません。 (?)
+d:vuxRemoveFlyingStamina.vuxFlyMaxHeight	飛行するパルに乗って到達できる最大の高度で、単位はワールド単位です。 (?)
+d:vuxRemoveFlyingStamina.vuxFlyVertical_SP	真上や真下へ飛んでいる間に毎秒減るスタミナで、0なら消費しません。 (?)
+d:vuxRemoveFlyingStamina.vuxGameVersion	MODがビルド時に対象としたゲームバージョンで、起動時に出力され、プレイには影響しません。 (?)
+d:vuxRemoveFlyingStamina.vuxModVersion	MODのバージョン表記で、起動時に出力され、編集しても効果はありません。 (?)
+hint_toggle_tip	ここに入力できる内容の表示・非表示を切り替えます。
+preset_load_label	読み込む
+preset_overwrite_label	上書き
+preset_overwrite_tip	このプリセットファイルを、現在の各設定値で置き換えます。
+preset_delete_label	削除
+hint_keys_letters	文字 {first}~{last}、数字 {firstDigit}~{lastDigit}、ファンクションキー {firstF}~{lastF}。
+hint_keys_navigation	{list}。
+hint_keys_numpad	テンキー: {first}~{last}、{operators}。
+hint_keys_gamepad	ゲームパッド: {list}、その他の Gamepad_ 名。
+hint_keys_combo	修飾キー {list}: 組み合わせは {example} のように書きます。{bare} のような単独キーには不要です。
+hint_keys_source	UE4SS のキー名。このMODが受け付けるのは一部だけかもしれません。 (?)
+hint_entries_files	このMODのファイル内で確認: {list} (?)
+hint_entries_code	このMODのコード内で比較: {list} (?)
+hint_format_color	#RRGGBB 形式の16進カラーコード、例: #FFDA00。 (?)
+hint_format_url	ウェブアドレス、例: https://example.com。 (?)
+hint_format_path	ファイルパス、例: C:\Games\file.txt。 (?)
+hint_format_list	カンマ区切りの値、例: a, b, c。 (?)
+hint_format_number	テキストとして書かれた数値、例: 100。 (?)
+hint_floor	任意のテキスト。このMODのファイルに受け付ける値は見つかりませんでした。 (?)
+hint_filter	入力してこの一覧を絞り込む
+hint_filter_tip	入力した文字を含む項目だけを表示します。
+saved_presets	保存済みプリセット
+preset_delete_confirm_label	削除を確認
+search_placeholder	MOD名の一部
+preset_name_placeholder	40文字まで
+copy_label	コピー
+show_label	表示
+hide_label	非表示
+copied_label	コピーしました
+copy_path_tip	このパスをクリップボードにコピーします。
+hint_toggle	入力できる値
+inferred_tip	推測された動作で、MOD作者が明示していません。
+file_header_tip	このファイルの設定を表示または非表示にします。
+copy_file_tip	このファイルの完全なパスをクリップボードにコピーします。
+d:BaseRadiusImproved.maxRadius	どのレベルでも拠点の範囲がこれを超えることのない上限で、ゲーム内単位の20000が200メートルにあたります。
+d:BaseRadiusImproved.radiusByLevel.1	拠点レベル1での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.10	拠点レベル10での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.11	拠点レベル11での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.12	拠点レベル12での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.13	拠点レベル13での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.14	拠点レベル14での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.15	拠点レベル15での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.16	拠点レベル16での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.17	拠点レベル17での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.18	拠点レベル18での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.19	拠点レベル19での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.2	拠点レベル2での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.20	拠点レベル20での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.21	拠点レベル21での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.22	拠点レベル22での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.23	拠点レベル23での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.24	拠点レベル24での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.25	拠点レベル25での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.26	拠点レベル26での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.27	拠点レベル27での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.28	拠点レベル28での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.29	拠点レベル29での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.3	拠点レベル3での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.30	拠点レベル30での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.31	拠点レベル31での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.32	拠点レベル32での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.33	拠点レベル33での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.34	拠点レベル34での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.35	拠点レベル35での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.4	拠点レベル4での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.5	拠点レベル5での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.6	拠点レベル6での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.7	拠点レベル7での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.8	拠点レベル8での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:BaseRadiusImproved.radiusByLevel.9	拠点レベル9での拠点の範囲で、ゲーム内単位の3500が35メートル、MODを入れないときにゲームが使う範囲にあたります。
+d:GoToBedTeleportEdition.Debug	不具合調査のための詳しい記録をUE4SS.logに書き出すもので、通常のプレイではオフのままにしておくのが無難です。
+d:PalBoxQoL.button.label.A	このMODが追加するボタンの文字の不透明度で、0が透明、1が不透明です。 (?)
+d:PalBoxQoL.button.label.B	このMODが追加するボタンの文字色の青の量で、0から1までです。 (?)
+d:PalBoxQoL.button.label.G	このMODが追加するボタンの文字色の緑の量で、0から1までです。 (?)
+d:PalBoxQoL.button.label.R	このMODが追加するボタンの文字色の赤の量で、0から1までです。 (?)
+d:PalBoxQoL.button.layout.hAlign	追加したボタンの横方向の置き方で、埋めるとボタンが行いっぱいに広がってゲーム本体の文字を飲み込むため、作者は1（左）を指定しています。
+d:PalBoxQoL.button.layout.padX	追加した各ボタンの左右の余白をピクセルで指定するもので、ボタンが行を埋められるよう上下の余白は0のままにしてあります。
+d:PalBoxQoL.button.layout.sizeRule	追加したボタンが行の中でどう大きさを決めるかで、0にすると空きを埋めてゲーム本体のボタンと高さがそろいます。
+d:PalBoxQoL.button.layout.vAlign	追加したボタンの縦方向の置き方で、0は埋めてゲーム本体のボタンと高さがそろ、2は中央に寄せて背の低いままになります。
+d:PalBoxQoL.button.layout.weight	サイズの決め方を埋めるにしているとき、追加した各ボタンが行の余った幅をどれだけ取るかです。 (?)
+d:PalBoxQoL.transfer.export.bForceExport	ふだんならゲームが断るような場合でもパルを書き出します。
+d:PalBoxQoL.transfer.export.bRemoveOldData	書き出しのとき、保存済みの記録の横に新しく足すのではなく置き換えるという意味で、MODの作者自身も確定ではなく推測として記しています。 (?)
+d:PalBoxQoL.transfer.import.bOverwriteData	ゲーム内にすでにある記録をそのままにせず、上書きして取り込みます。
+d:PerfectPlacement.bindings.copy_piece.key	狙っている建築パーツをいまのプレビューに写し取る、スポイトのキーです。
+d:PerfectPlacement.bindings.freeze_at_piece.key	選んでいるパーツを、狙っている取り付け位置で固定するキーです。
+d:PerfectPlacement.bindings.freeze_to_piece.key	狙ったパーツの位置と向きを差し替えのプレビューに写し取り、その場で固定するキーです。
+e:AlkeariLogging.dumps.cdoClassFilter	空欄 (収集レベル自身のフィルタが有効), /Game/Pal/ (Palworld のすべての Blueprint), /Game/Pal/Blueprint/Controller/ (コントローラーのみ), /Game/Pal/Blueprint/UI/ (インターフェース), またはクラスの完全名に含まれる任意の文字列
+e:AntiPhatPalResizing.Base.SizeThreshold	XS, S, M, L, XL
+e:AntiPhatPalResizing.DefaultSize	XS, S, M, L, XL (?)
+e:AntiPhatPalResizing.Party.SizeThreshold	XS, S, M, L, XL
+e:AntiPhatPalResizing.SizeMode	mesh, actor
+e:AntiPhatPalResizing.Wild.SizeThreshold	XS, S, M, L, XL
+e:AntiWasteDisassembleItems.Language	auto, de, en, es, es-MX, fr, id, it, ko, pl, pt, pt-BR, ru, th, tr, vi, zh, zh-Hans, zh-Hant, zh-CN, zh-SG, zh-TW, zh-HK, zh-MO
+e:BaseRenamingUtility.LOG_LEVEL	DEBUG, INFO, WARN, ERROR (?)
+e:BondalotLoadingScreen.customImage	空欄 (MODに内蔵された画像), C:\Users\Me\Pictures\myscreen.png, C:\Users\Me\Pictures\myscreen.jpg
+e:InstantHaul.CatPriority.Accessory	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Ammo	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Armor	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Blueprint	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.ComsumeUpgrade	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.ConsumeOther	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Essential	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Glider	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Ingot	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.MaterialOther	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Monster	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Ore	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.PalSphere	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Palegg	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Proccessing	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Stone	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.WazaMachine	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Weapon	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Wood	default, guild, stack, cat, near
+e:InstantHaul.FacilityTriggerMode	time, count, percent
+e:InstantHaul.Language	en, ko, zh
+e:InstantHaul.PriorityDish	foodbox, fridge, normal, guild
+e:InstantHaul.PriorityIngredient	foodbox, fridge, normal, guild
+e:InstantHaul.PriorityOther	guild, stack, cat, near
+e:PalBoxQoL.glyph.clear	⊘, ■, □, ▣, ●, ○, ◉, ◎, ★, ▲, ▼, ◀, ▶ (?)
+e:PalBoxQoL.glyph.favAll	★, ⊘, ▲, ▼, ◀, ▶, ■, □, ▣, ●, ○, ◉, ◎ (?)
+e:PalBoxQoL.glyph.selectAll	▣, ■, □, ●, ○, ◉, ◎, ★, ▲, ▼, ◀, ▶, ⊘ (?)
+e:PalBoxQoL.glyph.toGame	▼, ▲, ◀, ▶, ■, □, ▣, ●, ○, ◉, ◎, ★, ⊘ (?)
+e:PalBoxQoL.glyph.toGlobal	▲, ▼, ◀, ▶, ■, □, ▣, ●, ○, ◉, ◎, ★, ⊘ (?)
+e:PalInsight.activationMode	Shortcut, Aim
+e:PalInsight.aimTriggerMode	Weapon, PalSphere, Both
+e:PalInsight.displayStyle	Hold, Toggle, Always On
+e:PalInsight.iVSeparator	-, /, |, :, ~, ·, • (?)
+e:PalInsight.iVTypeFace	Medium (?)
+e:PalInsight.inspectGamepadKey	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.inspectGamepadKey2	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.inspectKey	None, A から Z, F1 から F12, Zero から Nine, NumPadZero から NumPadNine, Tab, Enter, SpaceBar, BackSpace, Escape, CapsLock, Insert, Delete, PageUp, PageDown, Up, Down, Left, Right, LeftShift, LeftControl, LeftAlt
+e:PalInsight.palboxSearchKey	None, A から Z, F1 から F12, Zero から Nine, NumPadZero から NumPadNine, Tab, Enter, SpaceBar, BackSpace, Escape, CapsLock, Insert, Delete, PageUp, PageDown, Up, Down, Left, Right, LeftShift, LeftControl, LeftAlt
+e:PalInsight.potentialColorMode	Game, FourTier
+e:PalInsight.potentialDisplayRule	Mod, Glasses
+e:PalInsight.potentialVisionGamepadKey	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.potentialVisionGamepadKey2	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.potentialVisionKey	None, A から Z, F1 から F12, Zero から Nine, NumPadZero から NumPadNine, Tab, Enter, SpaceBar, BackSpace, Escape, CapsLock, Insert, Delete, PageUp, PageDown, Up, Down, Left, Right, LeftShift, LeftControl, LeftAlt
+e:PalInsight.rarePalBeaconFollowPreset	Smooth, Balanced, LowOverhead
+e:PalInsight.realtimeSpeedUnit	Game, Mps, Kph, Mph
+e:PalInsight.settingsGamepadKey1	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.settingsGamepadKey2	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.settingsKey	None, A から Z, F1 から F12, Zero から Nine, NumPadZero から NumPadNine, Tab, Enter, SpaceBar, BackSpace, Escape, CapsLock, Insert, Delete, PageUp, PageDown, Up, Down, Left, Right, LeftShift, LeftControl, LeftAlt
+e:PalSchema.languageOverride	空欄 (ゲームに合わせる), de, en, es, es-MX, fr, id, it, ja, ko, pl, pt-BR, ru, th, tr, vi, zh-Hans, zh-Hant (?)
+e:PalpediaEnhancer.ClearAllKey	None, Off, A から Z, 0 から 9, F1 から F12, Ctrl+N, Shift+N, Alt+N, Ctrl+Shift+F7
+e:PalpediaEnhancer.DefaultSearchTargets	Name、Drops、Ranch（牧場の産物）、Desc（項目の説明文）、またはコンマでつないだ複数指定
+e:PalpediaEnhancer.DefaultSort	Default（ゲーム本来の並び）、Name、Element、WorkType（仕事適性）、Discovery、Ownership（捕まえた数）、UnreadFirst（未読を先頭に）
+e:PalpediaEnhancer.MarkAllSeenKey	None、Off、AからZ、0から9、F1からF12、Ctrl+N、Shift+N、Alt+N、Ctrl+Shift+F7
+e:PalpediaEnhancer.ToggleUnreadKey	None, Off, A から Z, 0 から 9, F1 から F12, Ctrl+N, Shift+N, Alt+N, Ctrl+Shift+F7
+e:PassivePals.aggressivePalProfile	default（上と同じ）、vanilla、pacifist_avenger（必ず反撃）、realist（勝てるなら反撃）、true_pacifist（殴られたら逃げる）、punching_bag（何も反応しない）、skittish_avenger（逃げてから反撃）、coward（必ず逃げる）、bloodthirsty（誰にでも攻撃）、smart_defender（勝てるときだけ）、custom
+e:PassivePals.alphaAndBossProfile	default（上と同じ）、vanilla、pacifist_avenger（必ず反撃）、realist（勝てるなら反撃）、true_pacifist（殴られたら逃げる）、punching_bag（何も反応しない）、skittish_avenger（逃げてから反撃）、coward（必ず逃げる）、bloodthirsty（誰にでも攻撃）、smart_defender（勝てるときだけ）、custom
+e:PassivePals.behaviorProfiles.custom.AttackedByEqual	vanilla（ゲーム本来の反応のまま）、ignore（何もしない）、flee（逃げる）、fight_if_winnable（力負けするときだけ逃げ、あとは戦う）、fight_always（強さを見ずに戦う）、special（台本つき。なでられに近づくなど）
+e:PassivePals.behaviorProfiles.custom.AttackedByPlayer	vanilla（ゲーム本来の反応のまま）、ignore（何もしない）、flee（逃げる）、fight_if_winnable（力負けするときだけ逃げ、あとは戦う）、fight_always（強さを見ずに戦う）、special（台本つき。なでられに近づくなど）
+e:PassivePals.behaviorProfiles.custom.AttackedByStronger	vanilla（ゲーム本来の反応のまま）、ignore（何もしない）、flee（逃げる）、fight_if_winnable（力負けするときだけ逃げ、あとは戦う）、fight_always（強さを見ずに戦う）、special（台本つき。なでられに近づくなど）
+e:PassivePals.behaviorProfiles.custom.AttackedByWeaker	vanilla（ゲーム本来の反応のまま）、ignore（何もしない）、flee（逃げる）、fight_if_winnable（力負けするときだけ逃げ、あとは戦う）、fight_always（強さを見ずに戦う）、special（台本つき。なでられに近づくなど）
+e:PassivePals.behaviorProfiles.custom.SeeEqual	vanilla（ゲーム本来の反応のまま）、ignore（何もしない）、flee（逃げる）、fight_if_winnable（力負けするときだけ逃げ、あとは戦う）、fight_always（強さを見ずに戦う）、special（台本つき。なでられに近づくなど）
+e:PassivePals.behaviorProfiles.custom.SeePlayer	vanilla（ゲーム本来の反応のまま）、ignore（何もしない）、flee（逃げる）、fight_if_winnable（力負けするときだけ逃げ、あとは戦う）、fight_always（強さを見ずに戦う）、special（台本つき。なでられに近づくなど）
+e:PassivePals.behaviorProfiles.custom.SeeStronger	vanilla（ゲーム本来の反応のまま）、ignore（何もしない）、flee（逃げる）、fight_if_winnable（力負けするときだけ逃げ、あとは戦う）、fight_always（強さを見ずに戦う）、special（台本つき。なでられに近づくなど）
+e:PassivePals.behaviorProfiles.custom.SeeWeaker	vanilla（ゲーム本来の反応のまま）、ignore（何もしない）、flee（逃げる）、fight_if_winnable（力負けするときだけ逃げ、あとは戦う）、fight_always（強さを見ずに戦う）、special（台本つき。なでられに近づくなど）
+e:PassivePals.defaultHumanProfile	vanilla, pacifist_avenger (常に反撃), realist (勝てるなら反撃), true_pacifist (攻撃されると逃げる), punching_bag (反応しない), skittish_avenger (逃げてから反撃), coward (常に逃げる), bloodthirsty (すべてに攻撃), smart_defender (勝てる相手のみ), custom
+e:PassivePals.defaultPalProfile	vanilla, pacifist_avenger (常に反撃), realist (勝てるなら反撃), true_pacifist (攻撃されると逃げる), punching_bag (反応しない), skittish_avenger (逃げてから反撃), coward (常に逃げる), bloodthirsty (すべてに攻撃), smart_defender (勝てる相手のみ), custom
+e:PassivePals.friendlyPalProfile	default（上と同じ）、vanilla、pacifist_avenger（必ず反撃）、realist（勝てるなら反撃）、true_pacifist（殴られたら逃げる）、punching_bag（何も反応しない）、skittish_avenger（逃げてから反撃）、coward（必ず逃げる）、bloodthirsty（誰にでも攻撃）、smart_defender（勝てるときだけ）、custom
+e:PassivePals.hostileHumanProfile	default（上と同じ）、vanilla、pacifist_avenger（必ず反撃）、realist（勝てるなら反撃）、true_pacifist（殴られたら逃げる）、punching_bag（何も反応しない）、skittish_avenger（逃げてから反撃）、coward（必ず逃げる）、bloodthirsty（誰にでも攻撃）、smart_defender（勝てるときだけ）、custom
+e:PassivePals.logging	quiet（読み込み行と警告と問題だけ）、normal（組み立てた計画も）、verbose（種とプリセットの判断をすべて）
+e:PassivePals.neutralPalProfile	default（上と同じ）、vanilla、pacifist_avenger（必ず反撃）、realist（勝てるなら反撃）、true_pacifist（殴られたら逃げる）、punching_bag（何も反応しない）、skittish_avenger（逃げてから反撃）、coward（必ず逃げる）、bloodthirsty（誰にでも攻撃）、smart_defender（勝てるときだけ）、custom
+e:PassivePals.skittishPalProfile	default（上と同じ）、vanilla、pacifist_avenger（必ず反撃）、realist（勝てるなら反撃）、true_pacifist（殴られたら逃げる）、punching_bag（何も反応しない）、skittish_avenger（逃げてから反撃）、coward（必ず逃げる）、bloodthirsty（誰にでも攻撃）、smart_defender（勝てるときだけ）、custom
+e:PassivePals.speciesRules.rule1Profile	vanilla、pacifist_avenger（必ず反撃）、realist（勝てるなら反撃）、true_pacifist（殴られたら逃げる）、punching_bag（何も反応しない）、skittish_avenger（逃げてから反撃）、coward（必ず逃げる）、bloodthirsty（誰にでも攻撃）、smart_defender（勝てるときだけ）、custom
+e:PassivePals.speciesRules.rule1Species	Lamball（英語名）、SheepBall（同じパルの内部ID）、BOSS_SheepBall（その変種）、空欄（このルールを無効にする）
+e:PassivePals.speciesRules.rule2Profile	vanilla、pacifist_avenger（必ず反撃）、realist（勝てるなら反撃）、true_pacifist（殴られたら逃げる）、punching_bag（何も反応しない）、skittish_avenger（逃げてから反撃）、coward（必ず逃げる）、bloodthirsty（誰にでも攻撃）、smart_defender（勝てるときだけ）、custom
+e:PassivePals.speciesRules.rule2Species	Lamball（英語名）、SheepBall（同じパルの内部ID）、BOSS_SheepBall（その変種）、空欄（このルールを無効にする）
+e:PassivePals.speciesRules.rule3Profile	vanilla、pacifist_avenger（必ず反撃）、realist（勝てるなら反撃）、true_pacifist（殴られたら逃げる）、punching_bag（何も反応しない）、skittish_avenger（逃げてから反撃）、coward（必ず逃げる）、bloodthirsty（誰にでも攻撃）、smart_defender（勝てるときだけ）、custom
+e:PassivePals.speciesRules.rule3Species	Lamball（英語名）、SheepBall（同じパルの内部ID）、BOSS_SheepBall（その変種）、空欄（このルールを無効にする）
+e:PassivePals.villagerProfile	default（上と同じ）、vanilla、pacifist_avenger（必ず反撃）、realist（勝てるなら反撃）、true_pacifist（殴られたら逃げる）、punching_bag（何も反応しない）、skittish_avenger（逃げてから反撃）、coward（必ず逃げる）、bloodthirsty（誰にでも攻撃）、smart_defender（勝てるときだけ）、custom
+e:PerfectPlacement.bindings.copy_piece.key	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.freeze_at_piece.key	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.freeze_to_piece.key	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_back	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_down	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_forward	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_left	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_right	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_up	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.reset	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.rotate_left	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.rotate_right	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.rotation_step_down	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.rotation_step_up	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.step_down	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.step_up	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.toggle_freeze	A から Z, 0 から 9, F1 から F12, NUMPAD_0 から NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:TidyBaseInfo.fallback.menu_assign	Assign（同梱の文言）、または好きな文言
+e:TidyBaseInfo.fallback.menu_palbox	Send to Palbox（同梱の文言）、または好きな文言
+e:TidyBaseInfo.fallback.menu_resummon	Resummon（同梱の文言）、または好きな文言
+e:TidyBaseInfo.inspectHoldKey	LeftAlt、RightAlt、LeftShift、RightShift、LeftControl、RightControl、SpaceBar、Tab、CapsLock、AからZ、F1からF12
+e:TidyBaseInfo.inspectKey	A から Z, ZERO から NINE, F1 から F12, NUM_ZERO から NUM_NINE, SPACE, TAB, RETURN, BACKSPACE, INS, DEL, HOME, END, PAGE_UP, PAGE_DOWN, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW, OEM_COMMA, OEM_PERIOD, OEM_TWO, OEM_MINUS, OEM_PLUS
+e:TidyBaseInfo.keybindModifier	NONE（修飾キーなし）、CTRL、SHIFT、ALT
+e:TidyBaseInfo.language	auto（ゲームに従う）、en、de、es（スペイン）、es-MX（ラテンアメリカ）、fr、id、it、ja、ko、pl、pt-BR（ブラジル）、ru、th、tr、vi、zh-Hans（簡体字）、zh-Hant（繁体字）
+e:TidyBaseInfo.scrollDownKey	A から Z, ZERO から NINE, F1 から F12, NUM_ZERO から NUM_NINE, SPACE, TAB, RETURN, BACKSPACE, INS, DEL, HOME, END, PAGE_UP, PAGE_DOWN, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW, OEM_COMMA, OEM_PERIOD, OEM_TWO, OEM_MINUS, OEM_PLUS
+e:TidyBaseInfo.scrollUpKey	A から Z, ZERO から NINE, F1 から F12, NUM_ZERO から NUM_NINE, SPACE, TAB, RETURN, BACKSPACE, INS, DEL, HOME, END, PAGE_UP, PAGE_DOWN, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW, OEM_COMMA, OEM_PERIOD, OEM_TWO, OEM_MINUS, OEM_PLUS
+e:TidyBaseInfo.tokens.deepGraphite	1A1A1A（メニューの板）、333333（その縁）、2E2E2E（項目1つ）、3D3D3D（マウスが乗った項目）、FFDA00（金色の縁）、16進数6桁、先頭のシャープ記号なし
+e:TidyBaseInfo.tokens.forgedGold	FFDA00（同梱の金色）、3D3D3D（マウスが乗った項目）、2E2E2E（通常時の項目）、333333（板の縁）、1A1A1A（板）、16進数6桁、先頭のシャープ記号なし
+e:TidyBaseInfo.tokens.hairline	333333（同梱の縁）、1A1A1A（メニューの板）、2E2E2E（項目1つ）、3D3D3D（マウスが乗った項目）、FFDA00（金色の縁）、16進数6桁、先頭のシャープ記号なし
+e:TidyBaseInfo.tokens.raised	2E2E2E（同梱の塗り）、1A1A1A（メニューの板）、333333（その縁）、3D3D3D（マウスが乗った項目）、FFDA00（金色の縁）、16進数6桁、先頭のシャープ記号なし
+e:TidyBaseInfo.tokens.raisedHover	3D3D3D（同梱の塗り）、2E2E2E（通常時の項目）、1A1A1A（メニューの板）、333333（その縁）、FFDA00（金色の縁）、16進数6桁、先頭のシャープ記号なし
+live_notice	変更は数秒で適用されます。再起動は不要です。
+mixed_notice	変更は各MODが次に読み込まれたときに反映されます。設定を自分で読み直すMODは除きます。
+d:AccessoryToggler.CONFIG.BorderColor.A	HUDの境界線の不透明度を設定します。
+d:AccessoryToggler.CONFIG.BorderColor.B	HUDの境界線の色の青成分を設定します。
+d:AccessoryToggler.CONFIG.BorderColor.G	HUDの境界線の色の緑成分を設定します。
+d:AccessoryToggler.CONFIG.BorderColor.R	HUDの境界線の色の赤成分を設定します。
+d:AccessoryToggler.CONFIG.Debug	MODのデバッグ診断情報をUE4SSログコンソールに出力します。
+d:AccessoryToggler.CONFIG.Enabled	Accessory Togglerのオンオフを切り替えます。
+d:AccessoryToggler.CONFIG.HUDScale	アクセサリーHUDのサイズを0.5から3の範囲で設定します。
+d:AccessoryToggler.CONFIG.KeyBinds.Modifier	編集モード、リセット、HUD表示切り替えのショートカットで押しっぱなしにする修飾キーを設定します。
+d:AccessoryToggler.CONFIG.KeyBinds.ResetCoords	エディターを開いている間にHUDを既定の位置に戻すキーです。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleEditMode	修飾キーと併用してHUDを移動するドラッグエディターを開くキーです。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleSlot1	スロット1のアクセサリーのオンオフを切り替えるキーです。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleSlot2	スロット2のアクセサリーのオンオフを切り替えるキーです。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleSlot3	スロット3のアクセサリーのオンオフを切り替えるキーです。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleSlot4	スロット4のアクセサリーのオンオフを切り替えるキーです。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleUI	修飾キーと併用してアクセサリーHUDの表示を切り替えるキーです。
+d:AccessoryToggler.CONFIG.Language	MODのラベルの言語を設定します。systemにするとゲームの言語設定に従います。
+d:AccessoryToggler.CONFIG.ScanIntervalMs	装備中のアクセサリーをミリ秒単位でどのくらいの頻度で確認するかを設定します。
+d:AccessoryToggler.CONFIG.ShadowColor.A	HUDのドロップシャドウの不透明度を設定します。
+d:AccessoryToggler.CONFIG.ShadowColor.B	HUDのドロップシャドウの色の青成分を設定します。
+d:AccessoryToggler.CONFIG.ShadowColor.G	HUDのドロップシャドウの色の緑成分を設定します。
+d:AccessoryToggler.CONFIG.ShadowColor.R	HUDのドロップシャドウの色の赤成分を設定します。
+d:AccessoryToggler.CONFIG.SlotsToShow	HUDに表示するアクセサリースロット数を1から4の範囲で設定します。
+d:AccessoryToggler.ConfigLoadedOnce	MODが保存済み設定を一度読み込んだ後に立てる内部マーカーで、手動で変更する設定ではありません。 (?)
+d:AutoHealWorkers.DiagnosticKey	MODが現在行っていることをUE4SSログに出力するキーです。 (?)
+d:AutoHealWorkers.Enabled	拠点の作業員パルの自動治療をオンにした状態でゲームを開始します。 (?)
+d:AutoHealWorkers.MaxPalsPerScan	MODが一度に確認するパルの数で、大規模な拠点でのカクつきを防ぎます。 (?)
+d:AutoHealWorkers.ScanIntervalMs	拠点の作業員の負傷をミリ秒単位でどのくらいの頻度で確認するかです。 (?)
+d:AutoHealWorkers.ToggleKey	プレイ中に拠点の作業員の自動治療のオンオフを切り替えるキーです。 (?)
+d:AutoSanityCare.DiagnosticKey	MODが現在行っていることをUE4SSログに出力するキーです。 (?)
+d:AutoSanityCare.Enabled	拠点の作業員の自動サニティケアをオンにした状態でゲームを開始します。 (?)
+d:AutoSanityCare.MaxPalsPerScan	MODが一度に確認するパルの数で、大規模な拠点でのカクつきを防ぎます。 (?)
+d:AutoSanityCare.SanityFloor	MODが介入する前に作業員のサニティが下回っていなければならない値です。 (?)
+d:AutoSanityCare.ScanIntervalMs	拠点の作業員のサニティ低下をミリ秒単位でどのくらいの頻度で確認するかです。 (?)
+d:AutoSanityCare.ToggleKey	プレイ中に拠点の作業員の自動サニティケアのオンオフを切り替えるキーです。 (?)
+d:BaseCampEggBonus.AlphaEnabled	拠点キャンプに配属したブロンチェリーが、そこで拾った卵をアルファ卵に変えられるようにします。
+d:BaseCampEggBonus.Enabled	MOD全体のオンオフを切り替えます。 (?)
+d:BaseCampEggBonus.ExtraEggEnabled	拠点キャンプに配属したグリンテイルが、そこでパルの卵を拾ったときに卵をもう1つ追加で渡すようにします。
+d:BaseCampEggBonus.Language	MOD自身のメッセージに使う言語を設定します。
+d:BaseCampEggBonus.ToggleAlphaKey	アルファ卵変換のオンオフを切り替えるキーで、既定ではCtrl+Lです。
+d:BaseCampEggBonus.ToggleBothKey	追加卵とアルファ変換の両方の効果を同時に切り替えるキーです。 (?)
+d:BaseCampEggBonus.ToggleExtraKey	追加卵の効果のオンオフを切り替えるキーで、既定ではCtrl+Kです。
+d:BaseCampEggBonus.Verbose	トラブルシューティング用にMODの追加のログ行をUE4SSログに出力します。 (?)
+d:ChickNomadBiggerRecycler.DumpKey	リサイクラーの現在のスロット数をバグ報告用にログへ出力する任意のキーで、既定ではオフです。
+d:ChickNomadNoPostCrashModWarning.MessageKeywords	MODがダイアログメッセージを閉じる前に、そのメッセージが含んでいなければならない追加のテキストです。 (?)
+d:ChickNomadPauseOnMenu.DiagnosticIntervalMs	MODが診断行をUE4SSログに出力する頻度をミリ秒単位で設定します。 (?)
+d:CrossBaseInventoryCpp.build_mat_trace	トラブルシューティング用に建築資材関連の追加ログ行をUE4SSログに出力します。 (?)
+d:CrossBaseInventoryCpp.craft_trace	トラブルシューティング用にクラフト関連の追加ログ行をUE4SSログに出力します。 (?)
+d:CrossBaseInventoryCpp.display_mint	他のギルド拠点の資材を、クラフトメニューと建築メニューに在庫重量を追加しない表示専用のスタックとして表示します。 (?)
+d:CrossBaseInventoryCpp.mat_audit	トラブルシューティング用に、共有されたギルド資材の監査をログに記録します。 (?)
+d:DynamicPassives8.debug_logging	DynamicPassives8の追加の診断行をUE4SSログに出力します。 (?)
+d:DynamicPassives8.final_weight_5	4つのパッシブに達したパルが、他の最終重みと比較して5つで確定する相対確率です。
+d:DynamicPassives8.final_weight_6	4つのパッシブに達したパルが、他の最終重みと比較して6つで確定する相対確率です。
+d:DynamicPassives8.final_weight_7	4つのパッシブに達したパルが、他の最終重みと比較して7つで確定する相対確率です。
+d:DynamicPassives8.final_weight_8	4つのパッシブに達したパルが、他の最終重みと比較して8つで確定する相対確率です。
+d:DynamicPassives8.include_rare_only	ゲームがレア扱いとするパッシブのみを追加スロットの抽選対象にします。 (?)
+d:DynamicPassives8.include_special_assignable	特殊付与可能パッシブを追加スロットの抽選対象にします。 (?)
+d:DynamicPassives8.include_unknown_metadata	MODが情報を読み取れないパッシブも追加スロットの抽選対象にします。 (?)
+d:DynamicPassives8.modify_native_weights	Palworld本来のパッシブ数の確率をそのままにせず、以下のカスタムした0から4の出現重みを使用します。
+d:DynamicPassives8.native_weight_0	パルが他の出現重みと比較して、パッシブなしで自然出現する相対確率です。
+d:DynamicPassives8.native_weight_1	パルが他の出現重みと比較して、パッシブ1つで自然出現する相対確率です。
+d:DynamicPassives8.native_weight_2	パルが他の出現重みと比較して、パッシブ2つで自然出現する相対確率です。
+d:DynamicPassives8.native_weight_3	パルが他の出現重みと比較して、パッシブ3つで自然出現する相対確率です。
+d:DynamicPassives8.native_weight_4	パルが他の出現重みと比較して、パッシブ4つで自然出現する相対確率で、これはパッシブ5から8への到達条件でもあります。
+d:DynamicPassives8.natural_lottery_only	追加パッシブを、ゲーム本来のパッシブ抽選に出現しうるものだけに制限します。 (?)
+d:DynamicPassives8.special_assignable_weight	スロット5から8を埋める際に特殊パッシブが選ばれる相対確率です。 (?)
+d:DynamicPassives8.unknown_metadata_weight	スロット5から8を埋める際に、情報を読み取れないパッシブが選ばれる相対確率です。 (?)
+d:Elevator.ControllerFloorSelectionModifierKey	エレベーターが移動する階数を選ぶために、操作中に押しっぱなしにするコントローラーのボタンで、既定では方向パッドの下です。
+d:Elevator.ControllerInteractKey	エレベーターを呼び出し、上または下へ送るコントローラーのボタンです。
+d:Elevator.DefaultFloorCount	新しく設置したエレベーターに設定される移動階数です。 (?)
+d:Elevator.FloorHeightMeters	1フロアの高さをメートル単位で表し、エレベーターがどれだけ移動するかの計算に使われます。 (?)
+d:Elevator.InteractionHalfWidthMeters	エレベーターの左右どちらの方向に、メートル単位でどこまで離れても操作できるかです。 (?)
+d:Elevator.InteractionVerticalMarginMeters	エレベーターの上下どちらの方向に、メートル単位でどこまで離れても操作できるかです。 (?)
+d:Elevator.KeyboardInteractKey	エレベーターを呼び出し、上または下へ送るキーボードキーで、既定ではFです。
+d:Elevator.MaximumFloorCount	エレベーターに設定できる最大の移動階数で、これより大きいと不具合が出たため既定では16です。
+d:Elevator.MaximumFloorSearchMeters	呼び出されたときにエレベーターが停止階を探す範囲をメートル単位で示します。 (?)
+d:Elevator.MaximumSpeedMetersPerSecond	エレベーターの床が移動できる最高速度を秒速メートルで示します。 (?)
+d:Elevator.MinimumFloorCount	エレベーターに設定できる最小の移動階数です。 (?)
+d:Elevator.MinimumTravelHeightMeters	エレベーターが上下に送られる際に移動する最短距離をメートル単位で示します。 (?)
+d:Elevator.PlatformHorizontalScale	エレベーターの床の横方向のサイズです。 (?)
+d:Elevator.PlatformScale	エレベーターの床全体のサイズです。 (?)
+d:Elevator.TravelSeconds	エレベーターが移動を完了するまでの時間を秒単位で示します。 (?)
+d:ExpandedWorldOptions.global_max	個別の上書き設定がない限り、拡張ワールド設定のすべての項目を引き上げられる最大値です。
+d:ExpandedWorldOptions.mod.game_version	このMODのビルドが対象としたPalworldのバージョンです。 (?)
+d:ExpandedWorldOptions.mod.mod_version	MOD自身のバージョン番号です。 (?)
+d:ExpandedWorldOptions.mod.name	このMODがログ行で自己申告する名前です。 (?)
+d:ExpandedWorldOptions.overrides.PalEggDefaultHatchingTime.max	パルの卵の孵化時間のワールド設定に設定できる最大値です。
+d:ExpandedWorldOptions.overrides.PalEggDefaultHatchingTime.min	パルの卵の孵化時間のワールド設定に設定できる最小値です。
+d:ExpandedWorldOptions.overrides.SupplyDropSpan.max	補給物資の間隔のワールド設定に設定できる最大値です。
+d:ExpandedWorldOptions.overrides.SupplyDropSpan.min	補給物資の間隔のワールド設定に設定できる最小値です。
+d:FToDrop.DropAll.Enabled	カーソル下のスタック全体を落とすショートカットをオンにします。
+d:FToDrop.DropAll.Key	カーソル下のスタック全体を落とすキーで、既定ではFです。
+d:FToDrop.DropHalf.Enabled	カーソル下のスタックの半分を落とすショートカットをオンにします。
+d:FToDrop.DropHalf.Key	スタックの半分(端数切り捨て)を落とすショートカットで、既定ではShift+Fです。
+d:FToDrop.DropOne.Enabled	カーソル下のスタックから1個だけ落とすショートカットをオンにします。
+d:FToDrop.DropOne.Key	カーソル下のスタックから1個だけ落とすショートカットで、既定ではCtrl+Fです。
+d:NoDeleteConfirm.Diagnostic	ゲームが開くすべてのダイアログをログに記録します。これは作者がバグ報告時に求めている情報です。
+d:NoDeleteConfirm.VerboseLogging	トラブルシューティング用にNoDeleteConfirmの追加ログ行をUE4SSログに出力します。
+d:NoPalDeposit.CMD_QUERY	チェストの状態をホストに問い合わせるために使われる内部ネットワークメッセージ名で、変更しないでください。 (?)
+d:NoPalDeposit.CMD_STATE	ホストがチェストの状態を返答する際に使う内部ネットワークメッセージ名で、変更しないでください。 (?)
+d:NoPalDeposit.FlagsDir	MODがチェストごとのブロックフラグを保存するフォルダーで、ゲーム自身のセーブフォルダー内にあります。
+d:NoPalDeposit.RowLabel	パルの収納を止めるチェストセキュリティの行に表示されるテキストで、自分の好きな文言に変更できます。
+d:PalboxPageLock.InfoKeybind	ロックされたページの一覧と現在のキー割り当てをポップアップで表示するキーです。
+d:PalboxPageLock.Lang.AllUnlocked	ロックされたすべてのページが解除されたときに表示されるテキストです。 (?)
+d:PalboxPageLock.Lang.ButtonAlreadyLocked	すでにロックされているページをロックしようとしたときに表示されるテキストです。 (?)
+d:PalboxPageLock.Lang.ButtonAlreadyUnlocked	ロックされていないページのロックを解除しようとしたときに表示されるテキストです。 (?)
+d:PalboxPageLock.Lang.ButtonList	ロックされたページを一覧表示するボタンのテキストです。
+d:PalboxPageLock.Lang.ButtonLock	表示中のパルボックスのページをロックするボタンのテキストです。
+d:PalboxPageLock.Lang.ButtonLockedFlash	ページがロックされた直後にボタンが点滅表示するテキストです。 (?)
+d:PalboxPageLock.Lang.ButtonUnlock	表示中のパルボックスのページのロックを解除するボタンのテキストです。
+d:PalboxPageLock.Lang.ButtonUnlockedFlash	ページのロックが解除された直後にボタンが点滅表示するテキストです。 (?)
+d:PalboxPageLock.Lang.LockedListPrefix	ロックされたページの一覧の前に付けるテキストです。 (?)
+d:PalboxPageLock.Lang.NoPagesLocked	パルボックスのどのページもロックされていないときに表示されるテキストです。 (?)
+d:PalboxPageLock.Lang.Unlocked	MODがロックされていないページに対して使う単語です。 (?)
+d:PalboxPageLock.ListKeybind	パルボックスのどのページがロックされているかを表示・更新するキーです。
+d:PalboxPageLock.Message	MODが表示する更新通知の内部テキストです。 (?)
+d:PalboxPageLock.NoticeVersion	更新通知がどのMODバージョンのものかを示す内部記録です。 (?)
+d:PalboxPageLock.PruneAfterDays	ホストがプレイヤーの保存済みロックページ情報を破棄するまでに、そのプレイヤーが見られなくなってよい日数を設定します。
+d:PalboxPageLock.UnlockAllKeybind	ロックされているすべてのパルボックスページを一度に解除するキーです。
+d:PalInsightQuickStack.Alt	Quick Stackのショートカットと併用してAltを押しっぱなしにする必要があります。 (?)
+d:PalInsightQuickStack.Ctrl	Quick Stackのショートカットと併用してCtrlを押しっぱなしにする必要があります。 (?)
+d:PalInsightQuickStack.Shift	Quick Stackのショートカットと併用してShiftを押しっぱなしにする必要があります。 (?)
+d:PalInsightQuickStack.statuses.down	MODを低評価したときに使われる状態コードです。 (?)
+d:PalInsightQuickStack.statuses.noVote	MODを評価していないときに使われる状態コードです。 (?)
+d:PalInsightQuickStack.statuses.querying	Workshopの評価状態を問い合わせている間に使われる状態コードです。 (?)
+d:PalInsightQuickStack.statuses.settingUp	高評価を送信している間に使われる状態コードです。 (?)
+d:PalInsightQuickStack.statuses.unavailable	Workshopの評価状態を読み取れないときに使われる状態コードです。 (?)
+d:PalInsightQuickStack.statuses.up	MODを高評価したときに使われる状態コードです。 (?)
+d:PalMiniMap.autohideInBase	拠点キャンプの中にいる間、ミニマップを非表示にします。
+d:PalMiniMap.autozoom	移動速度が上がるほどミニマップの表示範囲を自動的に広げます。
+d:PalMiniMap.autozoomFly	オートズームがオンのとき、飛行中に適用されるズーム倍率です。 (?)
+d:PalMiniMap.autozoomRun	オートズームがオンのとき、走行中に適用されるズーム倍率です。 (?)
+d:PalMiniMap.autozoomWalk	オートズームがオンのとき、歩行中に適用されるズーム倍率です。 (?)
+d:PalMiniMap.baseCampRadius	ゲーム本来の判定を読み取れないときに、拠点キャンプの中にいるかどうかを判断するための代替半径です。 (?)
+d:PalMiniMap.captureHeight	ライブレンダーカメラが自分の頭上どのくらいの高さにあるかを、200から20000ワールド単位の範囲で示します。
+d:PalMiniMap.captureIntervalMs	ライブ地形を再描画する頻度をミリ秒単位で、100から2000の範囲で設定します。
+d:PalMiniMap.captureStyle	最初に試すライブレンダーのソースを選びます。0は照明ありのワールド、1はフラットな照明なしのカラーで、これは照明ありへフォールバックする場合があります。
+d:PalMiniMap.circular	ミニマップを四角形ではなく円形で描画します。
+d:PalMiniMap.elevationIndicatorSize	マーカーに表示される高低差の矢印のサイズを5から18ピクセルの範囲で設定します。
+d:PalMiniMap.elevationThreshold	マーカーに高低差の矢印が付くために、自分よりセンチメートル単位でどれだけ上下に離れている必要があるかです。
+d:PalMiniMap.enabled	ミニマップの表示・非表示を切り替えます。
+d:PalMiniMap.hideBehindGameUi	ゲーム本来のメニューが開いている間、ミニマップを非表示にします。
+d:PalMiniMap.hideCollected	すでに回収したチェスト、卵、メモ、石像を非表示にします。
+d:PalMiniMap.iconSize	ミニマップ上のマーカーアイコンのサイズを10から40ピクセルの範囲で設定します。
+d:PalMiniMap.keys.corner	ミニマップを画面の次の角へ移動するキーです。
+d:PalMiniMap.keys.down	編集モード中のみ、ミニマップを下へ移動するキーです。
+d:PalMiniMap.keys.edit	編集モードに入るキーで、矢印キーでミニマップを移動し、ズームキーでサイズを変更できます。
+d:PalMiniMap.keys.left	編集モード中のみ、ミニマップを左へ移動するキーです。
+d:PalMiniMap.keys.megazoom	地域全体を表示するメガズーム表示を切り替えるキーです。
+d:PalMiniMap.keys.menu	PalMiniMapの設定メニューを開閉するキーです。
+d:PalMiniMap.keys.right	編集モード中のみ、ミニマップを右へ移動するキーです。
+d:PalMiniMap.keys.up	編集モード中のみ、ミニマップを上へ移動するキーです。
+d:PalMiniMap.keys.visible	ミニマップの表示・非表示を切り替えるキーです。
+d:PalMiniMap.keys.zoomIn	ミニマップをズームインするキーで、編集モード中はミニマップを拡大します。
+d:PalMiniMap.keys.zoomOut	ミニマップをズームアウトするキーで、編集モード中はミニマップを縮小します。
+d:PalMiniMap.liveTerrain	ゲーム本来の描画済みワールドマップテクスチャの代わりに、上空からの地形をライブで描画します。
+d:PalMiniMap.liveZoomMax	これを超えるズームでミニマップがライブレンダーから描画済みマップテクスチャへ切り替わる境界値です。
+d:PalMiniMap.lockIconsNorth	ミニマップが回転してもアイコンを直立させたままにします。
+d:PalMiniMap.mapQuality	ミニマップの地形の鮮明さを0(最も低い)から3(最も鮮明)の範囲で設定します。
+d:PalMiniMap.maxNpcIcons	ミニマップが同時に表示できるNPCアイコンの数を0から64の範囲で設定します。
+d:PalMiniMap.maxPalIcons	ミニマップが同時に表示できるパルアイコンの数を8から128の範囲で設定します。
+d:PalMiniMap.maxPlayerIcons	ミニマップが同時に表示できる他プレイヤーアイコンの数を0から64の範囲で設定します。
+d:PalMiniMap.maxPoiIcons	ミニマップが同時に表示できる注目地点アイコンの数を8から128の範囲で設定します。
+d:PalMiniMap.megazoom	メガズーム表示が示すワールドの範囲を、60000から500000ワールド単位の幅で設定します。
+d:PalMiniMap.megazoomActive	メガズームの地域表示が現在オンになっているかどうかです。 (?)
+d:PalMiniMap.menuLanguage	設定メニューの言語で、空欄にするとゲームの言語設定に従います。 (?)
+d:PalMiniMap.moveIntervalMs	アイコンを再配置する頻度をミリ秒単位で示し、値が低いほど滑らかになりますが負荷が上がります。
+d:PalMiniMap.onlyShinyPals	ミニマップに光り輝くパルだけを表示し、通常のパルを非表示にします。
+d:PalMiniMap.opacity	ミニマップの不透明度を0から1の割合で示します。
+d:PalMiniMap.palsWhileMegazoom	メガズームの地域表示中もパルアイコンを表示し続けます。
+d:PalMiniMap.playerIconSize	自分自身のプレイヤーマーカーのサイズを10から48ピクセルの範囲で設定します。
+d:PalMiniMap.rotateWithCamera	北を上に固定する代わりに、ミニマップをカメラと一緒に回転させます。
+d:PalMiniMap.scanIntervalMs	新しいオブジェクトをミリ秒単位でどのくらいの頻度で再スキャンするかを、1000から20000の範囲で設定します。
+d:PalMiniMap.showBaseCamps	ミニマップにプレイヤーの拠点キャンプを表示します。
+d:PalMiniMap.showChests	ミニマップに宝箱を表示します。
+d:PalMiniMap.showDeaths	ミニマップに自分が死亡した場所を表示します。
+d:PalMiniMap.showDungeons	ミニマップにダンジョンを表示します。
+d:PalMiniMap.showEffigies	ミニマップにリーフムンクの石像を表示します。
+d:PalMiniMap.showEggs	ミニマップにパルの卵を表示します。
+d:PalMiniMap.showElevationIndicators	自分より大きく上下にあるマーカーに矢印を描画します。
+d:PalMiniMap.showEnemyCamps	ミニマップに敵キャンプを表示します。
+d:PalMiniMap.showFastTravel	ミニマップに高速移動ポイントを表示します。
+d:PalMiniMap.showFishing	ミニマップに釣りスポットを表示します。
+d:PalMiniMap.showNotes	ミニマップにメモを表示します。
+d:PalMiniMap.showNPCs	ミニマップに人型NPCを表示します。
+d:PalMiniMap.showPals	ミニマップにパルを表示します。
+d:PalMiniMap.showPlayers	ミニマップに他のプレイヤーを表示します。
+d:PalMiniMap.showResources	ミニマップに鉱石、ロータス、ガラクタなどの採集スポットを表示します。
+d:PalMiniMap.showSkillFruit	ミニマップにスキルフルーツの木を表示します。
+d:PalMiniMap.showTowers	ミニマップに塔を表示します。
+d:PalMiniMap.showTreasureMaps	ミニマップに宝の地図で示される埋蔵財宝を表示します。
+d:PalMiniMap.showViewCone	カメラが向いている方向を示す扇形をミニマップに描画します。
+d:PalMiniMap.size	ミニマップのサイズをピクセル単位で、120から480の範囲で設定します。
+d:PalMiniMap.terrainTexture	ミニマップが描画するマップテクスチャで、空欄にするとゲーム本来のワールドマップを使用します。 (?)
+d:PalMiniMap.viewConeOpacity	カメラの視野円錐の不透明度を0から1の割合で示します。
+d:PalMiniMap.viewConeSize	カメラの視野円錐がミニマップの半径に対してどれだけの割合届くかです。
+d:PalMiniMap.x	画面ピクセル単位でのミニマップの水平位置で、負の値は右端からの余白になります。 (?)
+d:PalMiniMap.y	画面ピクセル単位でのミニマップの垂直位置で、負の値は下端からの余白になります。 (?)
+d:PalMiniMap.zoom	ミニマップが表示するワールドの範囲を、4000から120000ワールド単位の幅で設定します。
+d:PalMiniMap.zoomFactor	ズームキーを1回押すたびにビューを何倍にするかで、どのズーム段階でも同じ感覚になるようにします。 (?)
+d:PalMiniMap.zoomMax	ミニマップが表示できる最大のワールド範囲(ワールド単位の幅)で、ズームアウトの限界です。 (?)
+d:PalMiniMap.zoomMin	ミニマップが表示できる最小のワールド範囲(ワールド単位の幅)で、ズームインの限界です。 (?)
+d:PalSizeSurgery.charge_gold	パルオペレーティングテーブルでパルのサイズを変更するたびにゴールドを請求します。
+d:PalSizeSurgery.default_size_permille	Change Sizeタブが開始するサイズを、通常サイズの千分率で示します。 (?)
+d:PalSizeSurgery.diagnostic_logging	トラブルシューティング用にPal Size Surgeryの追加ログ行をUE4SSログに出力します。
+d:PalSizeSurgery.gold_cost	パルオペレーティングテーブルでのサイズ変更にかかるゴールドの額です。 (?)
+d:PalSizeSurgery.max_size_permille	選択できる最大サイズを通常サイズの千分率で示し、2000は2.00倍を意味します。 (?)
+d:PalSizeSurgery.maximum_size	Change Sizeタブでパルに与えられる最大サイズで、既定では2.00倍です。
+d:PalSizeSurgery.min_size_permille	選択できる最小サイズを通常サイズの千分率で示し、200は0.20倍を意味します。 (?)
+d:PalSizeSurgery.minimum_gold_cost	1回のサイズ変更にかかる最小のゴールドです。 (?)
+d:PalSizeSurgery.minimum_size	Change Sizeタブでパルに与えられる最小サイズで、既定では0.20倍です。
+d:PalSizeSurgery.mounted_camera_distance	騎乗しているサイズ変更後のパルからカメラまでの距離を調整します。 (?)
+d:PalSizeSurgery.mounted_minimum_size	騎乗可能なパルにまだ騎乗できる最小サイズで、既定では0.80倍です。
+d:PalSizeSurgery.step_size_permille	サイズ選択の1ステップが動く量を、通常サイズの千分率で示します。 (?)
+d:PalWorkPriority._suitability_warned	作業適性の警告がすでに表示されたかどうかを示す内部管理値で、変更しても効果はありません。 (?)
+d:PalWorkPriority.assignment_mode	パルが複数の仕事に分散するか、1つの仕事を埋めてから次に進むかを選びます。
+d:PalWorkPriority.CONTAINER_BASE_CLASS	MODが拠点の収納コンテナを読み取るための内部ゲームクラスです。 (?)
+d:PalWorkPriority.enum_offset	MODが自身の作業タイプ一覧をゲーム本来のものと揃えるために使う内部オフセットです。 (?)
+d:PalWorkPriority.find_ms	MODのアイコン検索にかかった時間をミリ秒単位で示す内部計測値で、変更しても効果はありません。 (?)
+d:PalWorkPriority.finds	MODがこれまでに行ったアイコン検索の回数を示す内部カウントで、変更しても効果はありません。 (?)
+d:PalWorkPriority.FRESH_SECONDS	保存された測定値が再取得されるまで最新として扱われる秒数を設定します。 (?)
+d:PalWorkPriority.game_ui_active	ゲーム本来のメニューが開いているかどうかを示す内部管理値で、変更しても効果はありません。 (?)
+d:PalWorkPriority.hooked	MODの需要フックが仕掛けられているかどうかを示す内部管理値で、変更しても効果はありません。 (?)
+d:PalWorkPriority.interval_seconds	MODの割り当て処理の間隔を秒数で設定します。
+d:PalWorkPriority.learned_warned	アイコンの警告がすでに表示されたかどうかを示す内部管理値で、変更しても効果はありません。 (?)
+d:PalWorkPriority.load_ms	MODのアイコン読み込みにかかった時間をミリ秒単位で示す内部計測値で、変更しても効果はありません。 (?)
+d:PalWorkPriority.loads	MODがこれまでにアイコンを読み込んだ回数を示す内部カウントで、変更しても効果はありません。 (?)
+d:PalWorkPriority.MAX_CEILING	生産ルールが保持できる最大の在庫上限を設定します。 (?)
+d:PalWorkPriority.MAX_ID_LEN	MODが生産ルールで受け付けるアイテムIDの最大長を設定します。 (?)
+d:PalWorkPriority.MAX_RULES	MODが同時に保持する生産上限ルールの数を設定します。 (?)
+d:PalWorkPriority.pc_fallbacks	プレイヤーコントローラーへ別の経路でアクセスせざるを得なかった回数を示す内部カウントで、変更しても効果はありません。 (?)
+d:PalWorkPriority.perf	MODのパフォーマンスログをオンにします。 (?)
+d:PalWorkPriority.STATION_SUIT.BlastFurnace_0	MODが溶鉱炉ステーションに対応させる内部作業適性です。 (?)
+d:PalWorkPriority.STATION_SUIT.CampFire_0	MODがキャンプファイヤーステーションに対応させる内部作業適性です。 (?)
+d:PalWorkPriority.storage_scope	生産上限を拠点ごとに個別で数えるか、全拠点合算で数えるかを選びます。
+d:PalWorkPriority.WORK_IGNORE.Idle	MODが割り当てる対象からIdle作業タイプを除外します。 (?)
+d:PalWorkPriority.worst_find	MODがこれまでに行った中で最も遅かったアイコン検索の記録で、変更しても効果はありません。 (?)
+d:PalworldEasyCheats.building.buildingMaxZ	地面からどれだけの高さまで建築できるかを設定します。
+d:PalworldEasyCheats.building.buildingObjectMaxNum	拠点が保持できる建築物の数を設定します。
+d:PalworldEasyCheats.building.foundationFloatingAllowance	土台が地面からどれだけ浮いていても設置できるかを設定します。
+d:PalworldEasyCheats.building.leanAngleMax	建築物が設置可能な最大の傾斜角度を設定します。
+d:PalworldEasyCheats.building.spawnableIfOverlapped	他のオブジェクトと重なった建築物を設置できるようにします。
+d:PalworldEasyCheats.capture.perfectCaptureRate	すべてのパル捕獲の試みを成功させます。
+d:PalworldEasyCheats.capture.perfectFishCapture	すべての釣りの試みを成功させます。
+d:PalworldEasyCheats.combat.godModeEnabled	キャラクターがダメージを受けなくなります。
+d:PalworldEasyCheats.combat.includePalsGodMode	無敵モードを自分のキャラクターだけでなくパルにも適用します。
+d:PalworldEasyCheats.extras.infiniteAmmo	発砲時に弾薬が消費されなくなります。
+d:PalworldEasyCheats.extras.instantPalRevive	倒れたパルを即座に復活させます。
+d:PalworldEasyCheats.extras.instantPalSkillCooldown	パルのスキルのクールダウンをなくします。
+d:PalworldEasyCheats.extras.noFallDamage	落下時のダメージを受けなくなります。
+d:PalworldEasyCheats.fuel.infiniteFuel	燃料が消費されなくなり、動力を使うものが燃料切れにならなくなります。
+d:PalworldEasyCheats.GodModeFlagName	MODが無敵モードの状態を追跡するために使う内部フラグ名です。 (?)
+d:PalworldEasyCheats.hotkeys.fuel	無限燃料のオンオフを切り替えるキーです(既定Alt+F)。
+d:PalworldEasyCheats.hotkeys.god	無敵モードのオンオフを切り替えるキーです(既定Alt+G)。
+d:PalworldEasyCheats.hotkeys.hunger	満腹度低下ブロックのオンオフを切り替えるキーです(既定Alt+H)。
+d:PalworldEasyCheats.hotkeys.jump	ハイジャンプのオンオフを切り替えるキーです(既定Alt+J)。
+d:PalworldEasyCheats.hotkeys.speedDown	キャラクター速度倍率を下げるキーです(既定-)。
+d:PalworldEasyCheats.hotkeys.speedReset	キャラクター速度倍率をリセットするキーです(既定Alt+0)。
+d:PalworldEasyCheats.hotkeys.speedUp	キャラクター速度倍率を上げるキーです(既定=)。
+d:PalworldEasyCheats.hotkeys.stamina	無限スタミナのオンオフを切り替えるキーです(既定Alt+S)。
+d:PalworldEasyCheats.hunger.disableHunger	キャラクターの満腹度が下がらなくなります。
+d:PalworldEasyCheats.hunger.includePalsHunger	満腹度低下ブロックを自分のキャラクターだけでなくパルにも適用します。
+d:PalworldEasyCheats.HungerFlagName	MODが満腹度低下ブロックの状態を追跡するために使う内部フラグ名です。 (?)
+d:PalworldEasyCheats.jump.highJumpEnabled	ハイジャンプをオンにし、キャラクターが通常より高くジャンプするようにします。
+d:PalworldEasyCheats.jump.jumpHeightMultiplier	ハイジャンプがオンの間、キャラクターがどれだけ高くジャンプするかを設定します。
+d:PalworldEasyCheats.JumpFlagName	MODがハイジャンプチートの状態を追跡するために使う内部フラグ名です。 (?)
+d:PalworldEasyCheats.map.levelOnLoadEnabled	セーブデータが読み込まれた時点でキャラクターを指定したレベルにします。
+d:PalworldEasyCheats.map.levelOnLoadTarget	セーブデータが読み込まれたときに適用するキャラクターレベルを設定します。
+d:PalworldEasyCheats.map.revealMap	ワールドマップ全体を明らかにします。
+d:PalworldEasyCheats.map.revealMapClearSize	マップを明らかにしたときにマップの霧を晴らす範囲のサイズを設定します。 (?)
+d:PalworldEasyCheats.map.unlockAllFastTravelPoints	マップ上のすべての高速移動ポイントを解放します。
+d:PalworldEasyCheats.map.unlockAllNotes	マップ上のすべてのワールドメモを解放します。
+d:PalworldEasyCheats.map.unlockAllNotesNoXp	通常得られる経験値を与えずに、すべてのワールドメモを解放します。
+d:PalworldEasyCheats.map.unlockAllPalEffigies	マップ上のすべてのパル石像を解放します。
+d:PalworldEasyCheats.map.unlockAllPalEffigiesNoXp	通常得られる経験値を与えずに、すべてのパル石像を解放します。
+d:PalworldEasyCheats.movement.defaultSpeedMultiplier	速度リセットキーが戻す速度倍率を設定します。 (?)
+d:PalworldEasyCheats.movement.matchSwimSpeed	陸上移動だけでなく水泳にも速度倍率を適用します。 (?)
+d:PalworldEasyCheats.movement.maxSpeedMultiplier	速度キーで到達できる最大の速度倍率を設定します。 (?)
+d:PalworldEasyCheats.movement.minSpeedMultiplier	速度キーで到達できる最小の速度倍率を設定します。 (?)
+d:PalworldEasyCheats.movement.speedMultiplier	キャラクターが通常よりどれだけ速く移動するかを設定します。
+d:PalworldEasyCheats.movement.speedStep	速度キーを1回押すごとに速度倍率がどれだけ変化するかを設定します。 (?)
+d:PalworldEasyCheats.multipliers.characterMaxLevel	キャラクターが到達できる最大レベルを設定します。
+d:PalworldEasyCheats.multipliers.techPointMultiplier	獲得するテクノロジーポイントを倍増させます。
+d:PalworldEasyCheats.SavedSpeedMultiplier	最後に設定した速度倍率を保存し、次回起動時に復元します。 (?)
+d:PalworldEasyCheats.SpeedFlagName	MODがキャラクター速度チートの状態を追跡するために使う内部フラグ名です。 (?)
+d:PalworldEasyCheats.stamina.infiniteStamina	スタミナが減らなくなります。
+d:PalworldEasyCheats.system.applyOnLoadDelayMs	セーブデータの読み込み後、設定を適用するまでMODが待機する時間をミリ秒単位で設定します。
+d:PalworldEasyCheats.system.disablePermanentConfirmAlerts	永続的なオプションを適用する前に表示される確認アラートを停止します。 (?)
+d:PalworldEasyCheats.system.maintainIntervalMs	MODが有効なチートを再適用する頻度をミリ秒単位で設定します。 (?)
+d:PalworldEasyCheats.system.persistModifications	プレイのたびにリセットせず、選択したチートを適用し続けます。 (?)
+d:PalworldEasyCheats.system.skipModDisclaimer	ゲームが起動時に表示するMOD検出の免責事項をスキップします。
+d:PalworldEasyCheats.travel.fastTravelAnyMapIcon	マップ上のどのアイコンからでも高速移動できるようにします。
+d:PalworldEasyCheats.work.fasterWorkSpeed	パルの作業を速くします。
+d:PalworldEasyCheats.work.noBuildingCosts	資材を消費せずに建築物を設置できるようにします。
+d:PalworldEasyCheats.work.noCraftingCosts	資材を消費せずにアイテムをクラフトできるようにします。
+d:PalworldEasyCheats.work.workSpeedMultiplier	作業速度アップがオンの間、パルの作業をどれだけ速くするかを設定します。
+d:PartySlotExtender.PartySlotCount	パーティーに同行させるパルの数を6から10の範囲で設定し、既定は8です。
+d:PerfProbe.A	ロードアウトセットAの4つのアクセサリー枠を、カンマ区切りのアイテムIDとして示し、空の枠は空欄になります。 (?)
+d:PerfProbe.Accessory_AirDash1	ロードアウトの装備枠選択画面でPerfProbeが「Air Dash Boots」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_AirDash2	ロードアウトの装備枠選択画面でPerfProbeが「Double Air Dash Boots」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_AirDash3	ロードアウトの装備枠選択画面でPerfProbeが「Triple Air Dash Boots」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_AirDash4	ロードアウトの装備枠選択画面でPerfProbeが「Quadruple Air Dash Boots」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_AquaResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Water Resistance」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_AquaResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Water Resistance +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_AquaResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Water Resistance +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_AT_1	ロードアウトの装備枠選択画面でPerfProbeが「Attack Pendant」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_AT_2	ロードアウトの装備枠選択画面でPerfProbeが「Attack Pendant +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_AT_3	ロードアウトの装備枠選択画面でPerfProbeが「Attack Pendant +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Avoid_1	ロードアウトの装備枠選択画面でPerfProbeが「Phantom Ring」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_ColdIce_1	ロードアウトの装備枠選択画面でPerfProbeが「Wumpo Charm」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_CoolResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Thermal Undershirt」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_CoolResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Thermal Undershirt +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_CoolResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Thermal Undershirt +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_DarkResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Dark Resistance」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_DarkResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Dark Resistance +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_DarkResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Dark Resistance +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_defense_1	ロードアウトの装備枠選択画面でPerfProbeが「Defense Pendant」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_defense_2	ロードアウトの装備枠選択画面でPerfProbeが「Defense Pendant +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_defense_3	ロードアウトの装備枠選択画面でPerfProbeが「Defense Pendant +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_DFHP_1	ロードアウトの装備枠選択画面でPerfProbeが「Warsect Terra's Belt」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_DragonResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Dragon Resistance」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_DragonResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Dragon Resistance +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_DragonResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Dragon Resistance +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_EarthResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Ground Resistance」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_EarthResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Ground Resistance +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_EarthResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Ground Resistance +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_ExplosionResist	ロードアウトの装備枠選択画面でPerfProbeが「Explosion-Resistant Undershirt」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_FireResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Fire Resistance」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_FireResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Fire Resistance +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_FireResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Fire Resistance +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HCHP_1	ロードアウトの装備枠選択画面でPerfProbeが「Vanguard Charm」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HCMW_1	ロードアウトの装備枠選択画面でPerfProbeが「Wandering Merchant Charm」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HeatColdResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Multiclimate Undershirt」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HeatColdResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Multiclimate Undershirt +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HeatColdResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Multiclimate Undershirt +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HeatFire_1	ロードアウトの装備枠選択画面でPerfProbeが「Reptyro Charm」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HeatResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Heat Resistant Undershirt」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HeatResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Heat Resistant Undershirt +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HeatResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Heat Resistant Undershirt +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HP_1	ロードアウトの装備枠選択画面でPerfProbeが「Life Pendant」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HP_2	ロードアウトの装備枠選択画面でPerfProbeが「Life Pendant +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_HP_3	ロードアウトの装備枠選択画面でPerfProbeが「Life Pendant +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_IceResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Ice Resistance」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_IceResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Ice Resistance +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_IceResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Ice Resistance +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_JumpAir_1	ロードアウトの装備枠選択画面でPerfProbeが「Air Walker Mk I」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_JumpAir_2	ロードアウトの装備枠選択画面でPerfProbeが「Air Walker Mk II」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_JumpCount_Increase1	ロードアウトの装備枠選択画面でPerfProbeが「Double Jump Boots」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_JumpCount_Increase2	ロードアウトの装備枠選択画面でPerfProbeが「Triple Jump Boots」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_JumpCount_Increase3	ロードアウトの装備枠選択画面でPerfProbeが「Quadruple Jump Boots」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_JumpPower_Increase	ロードアウトの装備枠選択画面でPerfProbeが「Anti-Gravity Belt」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_LeafResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Grass Resistance」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_LeafResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Grass Resistance +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_LeafResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Grass Resistance +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_MaxWeightUp_01	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Freight」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_MaxWeightUp_02	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Freight +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_MaxWeightUp_03	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Freight +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_NonkChecker_1	ロードアウトの装備枠選択画面でPerfProbeが「Pal Tamer's Glasses」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Nonkilling	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Mercy」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_NormalResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Neutral Resistance」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_NormalResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Neutral Resistance +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_NormalResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Neutral Resistance +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Otomo_Dargon_1	ロードアウトの装備枠選択画面でPerfProbeが「Elphidran Ring」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Otomo_Dark_1	ロードアウトの装備枠選択画面でPerfProbeが「Katress Ring」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Otomo_Earth_1	ロードアウトの装備枠選択画面でPerfProbeが「Menasting Terra Ring」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Otomo_Electricity_1	ロードアウトの装備枠選択画面でPerfProbeが「Fenglope Lux Ring」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Otomo_Fire_1	ロードアウトの装備枠選択画面でPerfProbeが「Blazehowl Ring」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Otomo_Fire_2	ロードアウトの装備枠選択画面でPerfProbeが「Faleris Ring」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Otomo_Ice_1	ロードアウトの装備枠選択画面でPerfProbeが「Cryolinx Ring」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Otomo_Leaf_1	ロードアウトの装備枠選択画面でPerfProbeが「Vaelet Ring」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_Otomo_Water_1	ロードアウトの装備枠選択画面でPerfProbeが「Faleris Aqua Ring」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_PPAT_1	ロードアウトの装備枠選択画面でPerfProbeが「Dogen Emblem」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_PPDF_1	ロードアウトの装備枠選択画面でPerfProbeが「Silvegis Emblem」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_SuperJumpAir_1	ロードアウトの装備枠選択画面でPerfProbeが「Air Walker Mk III」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_SuperJumpAir_2	ロードアウトの装備枠選択画面でPerfProbeが「Air Walker EX」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_TalentChecker	ロードアウトの装備枠選択画面でPerfProbeが「Ability Glasses」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_ThunderResist_1	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Electric Resistance」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_ThunderResist_2	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Electric Resistance +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_ThunderResist_3	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Electric Resistance +2」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_WKMC_1	ロードアウトの装備枠選択画面でPerfProbeが「Islander's Tool Belt」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_WorkSpeed_1	ロードアウトの装備枠選択画面でPerfProbeが「Pendant of Diligence」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_WorkSpeed_2	ロードアウトの装備枠選択画面でPerfProbeが「Pendant of Diligence +1」に対して表示する名前です。 (?)
+d:PerfProbe.Accessory_WorkSpeed_3	ロードアウトの装備枠選択画面でPerfProbeが「Pendant of Diligence +2」に対して表示する名前です。 (?)
+d:PerfProbe.active	2つのアクセサリーロードアウトセットのうち現在アクティブとされているものです。 (?)
+d:PerfProbe.anchor	保存された位置の基準となる画面の角で、tlは左上、trは右上です。 (?)
+d:PerfProbe.aniso	PerfProbeが適用する異方性テクスチャフィルタリングのレベルで、0から16の範囲、-1でゲーム本来の値のままにします。 (?)
+d:PerfProbe.atmo	空の大気表現で、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.B	ロードアウトセットBの4つのアクセサリー枠を、カンマ区切りのアイテムIDとして示し、空の枠は空欄になります。 (?)
+d:PerfProbe.babies	出撃させたパルを通常サイズの約3分の1に縮小し、最小・最大種族でも扱えるよう範囲が制限されています。 (?)
+d:PerfProbe.badgePos.enabled	HUDに慈悲インジケーターバッジ(緑または赤)を表示し、PerfProbeタブから非表示にすることもできます。
+d:PerfProbe.bloom	ブルームで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.browserlayout.txt:anchor	パルボックスインデックスの位置の基準となる画面の角で、tlは左上、trは右上です。 (?)
+d:PerfProbe.browserlayout.txt:collapsed	パルボックスインデックスパネルの保存された折りたたみ状態で、0は全体表示、1はヘッダーのみです。 (?)
+d:PerfProbe.browserlayout.txt:h	パルボックスインデックスパネルの保存された高さで、そのパネルが許容する範囲に収められます。 (?)
+d:PerfProbe.browserlayout.txt:w	パルボックスインデックスパネルの保存された幅で、そのパネルが許容する範囲に収められます。 (?)
+d:PerfProbe.browserlayout.txt:x	パルボックスインデックスパネルの保存された左端で、画面左上を基準とした画面単位です。 (?)
+d:PerfProbe.browserlayout.txt:y	パルボックスインデックスパネルの保存された上端で、画面左上を基準とした画面単位です。 (?)
+d:PerfProbe.capsule	カプセルシャドウで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.cascades	PerfProbeが適用する最大シャドウカスケード数で、0から4の範囲、-1でゲーム本来の値のままにします。 (?)
+d:PerfProbe.collapsed	フローティングパネルの保存された折りたたみ状態で、0は全体表示、1はヘッダーのみ、2はダメージメーターの簡易レイアウトです。 (?)
+d:PerfProbe.damagemeter	出撃中のパルと自分自身が与えたダメージを追跡するフローティングダメージメーターを表示します。
+d:PerfProbe.damagemeterlayout.txt:anchor	ダメージメーターの位置の基準となる画面の角で、tlは左上、trは右上です。 (?)
+d:PerfProbe.damagemeterlayout.txt:collapsed	ダメージメーターの保存された折りたたみ状態で、0は全体表示、2は簡易レイアウトです。 (?)
+d:PerfProbe.damagemeterlayout.txt:h	ダメージメーターの保存された高さで、そのパネルが許容する範囲に収められます。 (?)
+d:PerfProbe.damagemeterlayout.txt:w	ダメージメーターの保存された幅で、そのパネルが許容する範囲に収められます。 (?)
+d:PerfProbe.damagemeterlayout.txt:x	ダメージメーターの保存された左端で、画面左上を基準とした画面単位です。 (?)
+d:PerfProbe.damagemeterlayout.txt:y	ダメージメーターの保存された上端で、画面左上を基準とした画面単位です。 (?)
+d:PerfProbe.dfao	ディスタンスフィールドアンビエントオクルージョンで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.dlssq	PerfProbeが要求するDLSS品質モードで、1はAuto、2はDLAA、3はUltra Quality、4はQuality、5はBalanced、6はPerformance、7はUltra Performanceです。 (?)
+d:PerfProbe.dof	被写界深度で、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.flare	レンズフレアで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.fog	高さフォグで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.foliaged	PerfProbeが適用する植生密度スケールをパーセントで示し、0から100の範囲、-1でゲーム本来の値のままにします。 (?)
+d:PerfProbe.fringe	色収差で、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.gfxopen	PerfProbeタブの折りたたみ可能なグラフィック設定グループが展開されたままだったかどうかを記憶します。 (?)
+d:PerfProbe.grassd	PerfProbeが適用する草密度スケールをパーセントで示し、0から100の範囲、-1でゲーム本来の値のままにします。 (?)
+d:PerfProbe.h	このファイルが属するフローティングパネルの保存された高さで、そのパネルが許容する範囲に収められます。 (?)
+d:PerfProbe.hudDumpRequested	次のフレームでHUDウィジェットツリーを1回だけダンプするようPerfProbeに求める開発者用フラグです。 (?)
+d:PerfProbe.key_cmd.txt:mode	ロードアウトキー監視が待機中か、新しいキーを取得中か、アイドル状態かを示します。 (?)
+d:PerfProbe.loadouts.txt:schema	ロードアウトファイルの形式バージョンで、後のPerfProbeがファイルを消去せずに移行できるようにします。 (?)
+d:PerfProbe.lumengi	Lumenグローバルイルミネーションで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.lumenrefl	Lumenリフレクションで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.mblur	モーションブラーで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.mode	settings.txtではPerfProbeが適用するアップスケーリング方式を、key_cmd.txtではロードアウトキー監視が待機中か取得中かアイドル状態かを示します。 (?)
+d:PerfProbe.occl	スカイオクルージョンキャプチャで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.Otomo_ATDark_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Lord of the Underworld's Baton」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ATDragon_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Divine Dragon's Baton」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ATEarth_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Earth Emperor's Baton」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ATElectricity_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Lord of Lightning's Baton」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ATFire_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Flame Emperor's Baton」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ATIce_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Ice Emperor's Baton」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ATLeaf_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Spirit Emperor's Baton」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ATNormal_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Celestial Emperor's Baton」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_Attack_up1	ロードアウトの装備枠選択画面でPerfProbeが「Attack Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_Attack_up2	ロードアウトの装備枠選択画面でPerfProbeが「Attack Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_Attack_up3	ロードアウトの装備枠選択画面でPerfProbeが「Attack Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ATWater_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Lord of the Sea's Baton」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_Defense_up1	ロードアウトの装備枠選択画面でPerfProbeが「Defense Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_Defense_up2	ロードアウトの装備枠選択画面でPerfProbeが「Defense Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_Defense_up3	ロードアウトの装備枠選択画面でPerfProbeが「Defense Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_DFDark_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Lyleen Noct's Talisman」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_DFDragon_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Jetragon's Talisman」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_DFEarth_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Anubis's Talisman」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_DFElectricity_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Orserk's Talisman」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_DFFire_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Blazamut's Talisman」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_DFIce_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Frostallion's Talisman」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_DFLeaf_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Lyleen's Talisman」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_DFNormal_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Hartalis's Talisman」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_DFWater_ElementBoost_1	ロードアウトの装備枠選択画面でPerfProbeが「Neptilius's Talisman」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dark_1	ロードアウトの装備枠選択画面でPerfProbeが「Dark Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dark_2	ロードアウトの装備枠選択画面でPerfProbeが「Dark Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dark_3	ロードアウトの装備枠選択画面でPerfProbeが「Dark Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dragon_1	ロードアウトの装備枠選択画面でPerfProbeが「Dragon Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dragon_2	ロードアウトの装備枠選択画面でPerfProbeが「Dragon Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dragon_3	ロードアウトの装備枠選択画面でPerfProbeが「Dragon Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Earth_1	ロードアウトの装備枠選択画面でPerfProbeが「Ground Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Earth_2	ロードアウトの装備枠選択画面でPerfProbeが「Ground Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Earth_3	ロードアウトの装備枠選択画面でPerfProbeが「Ground Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Electricity_1	ロードアウトの装備枠選択画面でPerfProbeが「Electric Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Electricity_2	ロードアウトの装備枠選択画面でPerfProbeが「Electric Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Electricity_3	ロードアウトの装備枠選択画面でPerfProbeが「Electric Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Fire_1	ロードアウトの装備枠選択画面でPerfProbeが「Fire Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Fire_2	ロードアウトの装備枠選択画面でPerfProbeが「Fire Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Fire_3	ロードアウトの装備枠選択画面でPerfProbeが「Fire Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Ice_1	ロードアウトの装備枠選択画面でPerfProbeが「Ice Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Ice_2	ロードアウトの装備枠選択画面でPerfProbeが「Ice Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Ice_3	ロードアウトの装備枠選択画面でPerfProbeが「Ice Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Leaf_1	ロードアウトの装備枠選択画面でPerfProbeが「Grass Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Leaf_2	ロードアウトの装備枠選択画面でPerfProbeが「Grass Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Leaf_3	ロードアウトの装備枠選択画面でPerfProbeが「Grass Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Normal_1	ロードアウトの装備枠選択画面でPerfProbeが「Neutral Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Normal_2	ロードアウトの装備枠選択画面でPerfProbeが「Neutral Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Normal_3	ロードアウトの装備枠選択画面でPerfProbeが「Neutral Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Water_1	ロードアウトの装備枠選択画面でPerfProbeが「Water Support Whistle」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Water_2	ロードアウトの装備枠選択画面でPerfProbeが「Water Support Whistle +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_ElementBoost_Water_3	ロードアウトの装備枠選択画面でPerfProbeが「Water Support Whistle +2」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_MoveSpeed_up_1	PerfProbeが装備枠選択画面でアクセサリーOtomo_MoveSpeed_up_1に対して表示する名前で、配布されているテーブルでは空欄のままです。 (?)
+d:PerfProbe.Otomo_PalConfidence_Increase_1	ロードアウトの装備枠選択画面でPerfProbeが「Ring of Trust」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_PalExp_Increase_1	ロードアウトの装備枠選択画面でPerfProbeが「Growth Acceleration Bell」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_PalExp_Increase_2	ロードアウトの装備枠選択画面でPerfProbeが「Growth Acceleration Bell +1」に対して表示する名前です。 (?)
+d:PerfProbe.Otomo_PalExp_Increase_3	ロードアウトの装備枠選択画面でPerfProbeが「Growth Acceleration Bell +2」に対して表示する名前です。 (?)
+d:PerfProbe.overlay	ゲームのキー割り当てウィンドウ用にPerfProbeが記憶するアセットパスで、次回起動時に探し直さずに済みます。 (?)
+d:PerfProbe.palboxbrowser	パルボックスを開くたびに、通常のパルボックスの横にフローティングパルボックスインデックスを表示します。
+d:PerfProbe.param	キー割り当てウィンドウが使うゲームのキー設定パラメータオブジェクト用に、PerfProbeが記憶するアセットパスです。 (?)
+d:PerfProbe.primary	アクセサリーロードアウトを切り替えるキーまたはボタンで、PerfProbe自身のキーIDとして記述されます。 (?)
+d:PerfProbe.recon.BABY_HALF	ベビーモードがパルを縮小する際に目標とするサイズ倍率で、下限・上限の制約が適用される前の値です。 (?)
+d:PerfProbe.recon.BABY_MAX_CM	ベビーモードで縮小されたパルが到達できる最大の身長(センチメートル)で、巨大種はさらに引き下げられます。 (?)
+d:PerfProbe.recon.BABY_MIN_CM	ベビーモードで縮小されたパルが到達できる最小の身長(センチメートル)です。 (?)
+d:PerfProbe.recon.dlssDumpRequested	DLSSライブラリに1回問い合わせてハードウェアの対応状況を出力するようPerfProbeに求める開発者用フラグです。 (?)
+d:PerfProbe.recon.MESH_PROBE_CAP	開発者用メッシュプローブがスキャンを止めるまでに調べるメッシュの数で、スキャンがゲームを停止させないようにします。 (?)
+d:PerfProbe.recon.SMC_MAT_CAP	開発者用スタティックメッシュスキャンが読み取りを止めるまでのマテリアル数で、スキャンがゲームを停止させないようにします。 (?)
+d:PerfProbe.recon.SMC_SCAN_CAP	開発者用スキャンが走査を止めるまでのスタティックメッシュコンポーネント数で、スキャンがゲームを停止させないようにします。 (?)
+d:PerfProbe.recon.statReadRequested	ゲームのスタットユニット結果を1回読み取ってログに出力するようPerfProbeに求める開発者用フラグです。 (?)
+d:PerfProbe.rendercontrols	PerfProbeのグラフィック処理全体のマスタースイッチで、0にするとMODの他機能を無効にせずすべてのレンダー設定をゲーム任せにします。
+d:PerfProbe.schema	このファイルの形式バージョンで、PerfProbeが書き込み、後のバージョンが古いファイルを消去せずに移行できるようにします。 (?)
+d:PerfProbe.settings.txt:mode	PerfProbeが適用するアップスケーリング方式で、使用中のハードウェアが対応するものから選ばれます。 (?)
+d:PerfProbe.settings.txt:schema	設定ファイルの形式バージョンで、後のPerfProbeがファイルを消去せずに移行できるようにします。 (?)
+d:PerfProbe.shadowdist	PerfProbeが適用するシャドウ距離スケールをパーセントで示し、10から200の範囲、-1でゲーム本来の値のままにします。 (?)
+d:PerfProbe.shafts	光芒で、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.sharp	PerfProbeが適用するFSR2シャープニング強度で、アップスケーリングモードがFSR2のときのみ使われます。 (?)
+d:PerfProbe.skellod	PerfProbeが適用するスケルタルメッシュのLODバイアスで、0から4の範囲、-1でゲーム本来の値のままにします。 (?)
+d:PerfProbe.sky	太陽、月、星図などのスカイメッシュで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.sp	PerfProbeが適用するレンダースケールの割合を33から100の範囲で示し、DLSSが解像度を制御している間は無視されます。
+d:PerfProbe.spset	アップスケーラーを自分で選んだことを記録し、PerfProbeがエンジン本来のレンダースケールに従うのを止めます。 (?)
+d:PerfProbe.ssgi	スクリーンスペースグローバルイルミネーションで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.ssr	スクリーンスペースリフレクションで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.used	PerfProbeのグラフィック設定を少なくとも1つ変更したことを記録し、これによって起動時にMODが何かを適用できるようになります。 (?)
+d:PerfProbe.viewdist	PerfProbeが適用する視野距離スケールをパーセントで示し、10から200の範囲、-1でゲーム本来の値のままにします。 (?)
+d:PerfProbe.volfog	ボリューメトリックフォグで、1でオン、0でオフ、-1でゲーム本来の設定のままにします。 (?)
+d:PerfProbe.w	このファイルが属するフローティングパネルの保存された幅で、そのパネルが許容する範囲に収められます。 (?)
+d:PerfProbe.x	このファイルが属するフローティングパネルの保存された左端で、画面左上を基準とした画面単位です。 (?)
+d:PerfProbe.y	このファイルが属するフローティングパネルの保存された上端で、画面左上を基準とした画面単位です。 (?)
+d:Plasma Multicutter Damage.damage_per_hit	Plasma Multicutterの1ヒットが敵に与えるダメージ量です。 (?)
+d:Plasma Multicutter Damage.debug_logging	Plasma Multicutter Damageの追加の診断行をUE4SSログに出力します。 (?)
+d:Plasma Multicutter Damage.target_cooldown_seconds	Plasma Multicutterが同じ対象に再びダメージを与えるまでに、その対象が待たなければならない時間を秒単位で示します。 (?)
+d:ScanEffigiesBLP.base_suppress_radius	Mimogなど、拠点付近で抑制されるビームを隠すために使われる拠点キャンプの半径です。
+d:ScanEffigiesBLP.beam_color_param_name	MODがビームエフェクトの色を変更するために設定するカラーパラメータの名前です。 (?)
+d:ScanEffigiesBLP.beam_effect_path	MODがビームを描画するために出現させるパーティクルエフェクトのアセットパスです。 (?)
+d:ScanEffigiesBLP.beam_height_max	高さスケールを適用した後にビームの柱がなり得る最大の高さです。 (?)
+d:ScanEffigiesBLP.beam_height_min	高さスケールを適用した後にビームの柱がなり得る最小の高さです。 (?)
+d:ScanEffigiesBLP.debug_profiling	トラブルシューティング用にスキャンと更新のタイミングをUE4SSログに出力します。 (?)
+d:ScanEffigiesBLP.default_beam_height	個別の高さを設定していないタイプのビームの柱の高さです。 (?)
+d:ScanEffigiesBLP.default_detection_radius	個別の半径を設定していないタイプについて、ビームが表示される距離で、既定では約300メートルです。
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Note_C.beam_height_scale	notesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Note_C.detection_radius	noteがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Note_C.enabled	notesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Note_C.group	notesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_C.beam_height_scale	Lifmunk effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_C.detection_radius	Lifmunk effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_C.enabled	Lifmunk effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_C.group	Lifmunk effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_FlameBambi_C.beam_height_scale	Rooby effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_FlameBambi_C.detection_radius	Rooby effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_FlameBambi_C.enabled	Rooby effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_FlameBambi_C.group	Rooby effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_GuardianDog_C.beam_height_scale	Yakumo effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_GuardianDog_C.detection_radius	Yakumo effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_GuardianDog_C.enabled	Yakumo effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_GuardianDog_C.group	Yakumo effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_IceCrocodile_C.beam_height_scale	Munchill effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_IceCrocodile_C.detection_radius	Munchill effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_IceCrocodile_C.enabled	Munchill effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_IceCrocodile_C.group	Munchill effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LazyDragon_C.beam_height_scale	Relaxaurus effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LazyDragon_C.detection_radius	Relaxaurus effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LazyDragon_C.enabled	Relaxaurus effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LazyDragon_C.group	Relaxaurus effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LeafMomonga_C.beam_height_scale	Herbil effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LeafMomonga_C.detection_radius	Herbil effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LeafMomonga_C.enabled	Herbil effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LeafMomonga_C.group	Herbil effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Monkey_C.beam_height_scale	Tanzee effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Monkey_C.detection_radius	Tanzee effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Monkey_C.enabled	Tanzee effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Monkey_C.group	Tanzee effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Mutant_C.beam_height_scale	Lunaris effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Mutant_C.detection_radius	Lunaris effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Mutant_C.enabled	Lunaris effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Mutant_C.group	Lunaris effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_NegativeKoala_C.beam_height_scale	Depresso effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_NegativeKoala_C.detection_radius	Depresso effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_NegativeKoala_C.enabled	Depresso effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_NegativeKoala_C.group	Depresso effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Penguin_C.beam_height_scale	Pengullet effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Penguin_C.detection_radius	Pengullet effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Penguin_C.enabled	Pengullet effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Penguin_C.group	Pengullet effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_PinkCat_C.beam_height_scale	Cattiva effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_PinkCat_C.detection_radius	Cattiva effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_PinkCat_C.enabled	Cattiva effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_PinkCat_C.group	Cattiva effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_SheepBall_C.beam_height_scale	Lamball effigiesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_SheepBall_C.detection_radius	Lamball effigyがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_SheepBall_C.enabled	Lamball effigiesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_SheepBall_C.group	Lamball effigiesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_C.beam_height_scale	plain Pal Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_C.detection_radius	plain Pal Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_C.enabled	plain Pal Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_C.group	plain Pal Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dark_C.beam_height_scale	Dark Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dark_C.detection_radius	Dark Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dark_C.enabled	Dark Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dark_C.group	Dark Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dragon_C.beam_height_scale	Dragon Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dragon_C.detection_radius	Dragon Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dragon_C.enabled	Dragon Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dragon_C.group	Dragon Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Earth_C.beam_height_scale	Rocky Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Earth_C.detection_radius	Rocky Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Earth_C.enabled	Rocky Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Earth_C.group	Rocky Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Electricity_C.beam_height_scale	Electric Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Electricity_C.detection_radius	Electric Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Electricity_C.enabled	Electric Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Electricity_C.group	Electric Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Fire_C.beam_height_scale	Scorching Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Fire_C.detection_radius	Scorching Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Fire_C.enabled	Scorching Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Fire_C.group	Scorching Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Ice_C.beam_height_scale	Frozen Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Ice_C.detection_radius	Frozen Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Ice_C.enabled	Frozen Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Ice_C.group	Frozen Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Leaf_C.beam_height_scale	Verdant Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Leaf_C.detection_radius	Verdant Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Leaf_C.enabled	Verdant Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Leaf_C.group	Verdant Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_MutationPal_C.beam_height_scale	Mutated Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_MutationPal_C.detection_radius	Mutated Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_MutationPal_C.enabled	Mutated Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_MutationPal_C.group	Mutated Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Water_C.beam_height_scale	Damp Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Water_C.detection_radius	Damp Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Water_C.enabled	Damp Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Water_C.group	Damp Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_WorldTree_C.beam_height_scale	Ominous Eggsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_WorldTree_C.detection_radius	Ominous Eggがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_WorldTree_C.enabled	Ominous Eggsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_WorldTree_C.group	Ominous Eggsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_C.beam_height_scale	ordinary treasure chestsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_C.detection_radius	treasure chestがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_C.enabled	ordinary treasure chestsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_C.group	ordinary treasure chestsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_C.use_grade_colors	すべてのチェストを同じ色にする代わりに、チェストの等級に応じてビームの色を変えます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Electric_C.beam_height_scale	Electric elemental treasure chestsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Electric_C.detection_radius	Electric elemental chestがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Electric_C.enabled	Electric elemental treasure chestsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Electric_C.group	Electric elemental treasure chestsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Fire_C.beam_height_scale	Fire elemental treasure chestsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Fire_C.detection_radius	Fire elemental chestがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Fire_C.enabled	Fire elemental treasure chestsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Fire_C.group	Fire elemental treasure chestsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Water_C.beam_height_scale	Water elemental treasure chestsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Water_C.detection_radius	Water elemental chestがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Water_C.enabled	Water elemental treasure chestsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Water_C.group	Water elemental treasure chestsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCamp_C.beam_height_scale	treasure chests inside enemy campsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCamp_C.detection_radius	enemy camp chestがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCamp_C.enabled	treasure chests inside enemy campsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCamp_C.group	treasure chests inside enemy campsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCampGoal_C.beam_height_scale	reward chest of an enemy base campの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCampGoal_C.detection_radius	enemy base camp reward chestがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCampGoal_C.enabled	reward chest of an enemy base campの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCampGoal_C.group	reward chest of an enemy base campが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank1_C.beam_height_scale	rank 1 salvage fishing spotsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank1_C.detection_radius	rank 1 salvage fishing spotがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank1_C.enabled	rank 1 salvage fishing spotsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank1_C.group	rank 1 salvage fishing spotsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank2_C.beam_height_scale	rank 2 salvage fishing spotsの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank2_C.detection_radius	rank 2 salvage fishing spotがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank2_C.enabled	rank 2 salvage fishing spotsの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank2_C.group	rank 2 salvage fishing spotsが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_RequiredLongHold_Junk_C.beam_height_scale	junk pilesの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_RequiredLongHold_Junk_C.detection_radius	junk pileがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_RequiredLongHold_Junk_C.enabled	junk pilesの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_RequiredLongHold_Junk_C.group	junk pilesが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.beam_height_scale	Mimogの上に立つ光の柱の高さに掛け合わせる倍率で、既定のビームの高さを基準にします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.detection_radius	Mimogがビームを表示する検知半径で、既定の検知半径の代わりに使われます。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.enabled	Mimogの上に光の柱を表示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.group	Mimogが属するトグルグループを指定し、1つのホットキーでそのグループ全体を切り替えられるようにします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.is_mobile	Mimogを移動する対象として扱い、ビームを一度きりの配置ではなく再チェックします。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.list_refresh_ms	Mimog候補の一覧を再構築する頻度をミリ秒単位で示します。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.reveal_radius	Mimogのビームが表示されるまでに、どれだけ近づく必要があるかです。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.suppress_near_base	拠点内にいる間、拠点抑制半径を使ってMimogのビームを隠します。 (?)
+d:ScanEffigiesBLP.effigy_list_refresh_ms	追跡対象一覧を再構築する頻度をミリ秒単位で示し、値が高いほど負荷が下がりオブジェクトの検出が遅くなります。
+d:ScanEffigiesBLP.enable_beam_color	すべてのビームを同じ色にする代わりに、タイプごとに設定した色でビームを着色します。 (?)
+d:ScanEffigiesBLP.enable_beam_scale	すべてのビームを既定の高さにする代わりに、タイプごとのビーム高さスケールを適用します。 (?)
+d:ScanEffigiesBLP.hotkeys.info_dump	MODの現在の追跡情報をUE4SSログに出力するキーです。 (?)
+d:ScanEffigiesBLP.hotkeys.rescan	ビームが消えてしまったときなどに、オブジェクトの再スキャンを強制するキーです。
+d:ScanEffigiesBLP.hotkeys.toggle_all	すべてのビームのオンオフを切り替えるキーで、設定で有効になっているタイプにのみ影響します。
+d:ScanEffigiesBLP.max_spawns_per_frame	1フレームで生成できるビームの数で、新規オブジェクトが一度に大量発生したときの負荷を抑えます。 (?)
+d:ScanEffigiesBLP.mobile_check_interval_ms	Mimogのような移動対象を再チェックする頻度をミリ秒単位で示します。 (?)
+d:ScanEffigiesBLP.pc_check_interval	MODがプレイヤーキャラクターを再取得する頻度です。 (?)
+d:ScanEffigiesBLP.proximity_check_interval_ms	MODが自分の周囲を確認する頻度をミリ秒単位で示し、値が高いほどCPU負荷が下がり、戦利品の発見がわずかに遅くなります。
+d:ScanEffigiesBLP.prune_check_interval_ms	削除すべきビームをMODが探す頻度をミリ秒単位で示します。 (?)
+d:ScanEffigiesBLP.refresh_budget_per_tick	MODが1ティックごとに更新する追跡対象の数で、作者は5から10の間に保つことを推奨しています。
+d:ScanEffigiesBLP.spawn_drain_per_tick	1ティックごとにスポーンキューから生成されるビームの数です。 (?)
+d:ScanEffigiesBLP.startup_delay_ms	ゲーム開始後、スキャンを始めるまでにMODが待機する時間をミリ秒単位で示します。 (?)
+d:UMJItemFilter.CaptureGameInput	フィルターウィンドウが開いている間、ゲーム本来のキーボードショートカットをブロックし、ウィンドウ内で文字入力できるようにします。
+d:UMJItemFilter.ChestFilter	チェックを外した宝箱の報酬を、チェストを開いたプレイヤーの足元に戻します。
+d:UMJItemFilter.EnableMouse	マウスでフィルターウィンドウを操作できるようにします。 (?)
+d:UMJItemFilter.EnforceFilter	チェックを外したアイテムを自動回収の際も地面に残し、手動で拾うようにします。
+d:UMJItemFilter.LeftMargin	フィルターウィンドウの左端に確保する余白を設定します。 (?)
+d:UMJItemFilter.OpenKey	アイテムフィルターウィンドウを開閉するキーで、既定ではバックスラッシュです。
+d:UMJItemFilter.PanelScale	画面上でのフィルターウィンドウのサイズを拡大縮小します。 (?)
+d:UMJItemFilter.RecentItemLimit	フィルターウィンドウが状態を変更できるように一覧表示する、直近の固有アイテムの数で、既定では10です。
+d:UMJItemFilter.RememberSelection	最後に選択していたアイテムでフィルターウィンドウを再度開きます。 (?)
+d:UnsheathedKatanaMercy.ENABLE_LOGGING	トラブルシューティング用にMOD自身のログ行をUE4SSログに出力します。 (?)
+d:UnsheathedKatanaMercy.RESET_LIMIT	Unsheathed Katanaのクエストチェーンをリセットできる回数で、0にするとクエストリセットをオフにします。
+e:AccessoryToggler.CONFIG.Language	system, en, es, ja, zh-Hans, zh-Hant, fr, it, de, ko, pt-BR, ru, th, vi, id, tr, pl, es-MX
+e:AntiPhatPalResizing.ReloadKey	F8, F9, INS、またはその他のキーボードキー名
+e:ChickNomadPauseOnMenu.ExtraPauseWidgets	ウィジェットクラス名をカンマ区切りで指定します。追加の画面が不要な場合は空欄にします。
+e:NoPalDeposit.RowLabel	チェストセキュリティの行に表示したい任意のテキスト
+e:PalboxPageLock.Lang.AllUnlocked	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.ButtonAlreadyLocked	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.ButtonAlreadyUnlocked	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.ButtonList	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.ButtonLock	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.ButtonLockedFlash	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.ButtonUnlock	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.ButtonUnlockedFlash	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.Locked	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.LockedListPrefix	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.NoPagesLocked	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.TopBarLockedPrefix	ゲーム内に表示したい任意のテキスト
+e:PalboxPageLock.Lang.Unlocked	ゲーム内に表示したい任意のテキスト
+e:PalMiniMap.keys.corner	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.keys.down	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.keys.edit	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.keys.left	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.keys.megazoom	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.keys.menu	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.keys.right	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.keys.up	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.keys.visible	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.keys.zoomIn	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.keys.zoomOut	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW、またはその他のUE4SSキー名。CTRL+、ALT+、SHIFT+の接頭辞を付けることもできます。
+e:PalMiniMap.menuLanguage	(空欄), auto, de, en, es, es-MX, fr, id, it, ja, ko, pl, pt-BR, ru, th, tr, vi, zh-Hans, zh-Hant
+e:PalMiniMap.terrainTexture	(空欄)でゲーム本来のワールドマップテクスチャを使用します。他のマップテクスチャを使う場合はそのフルアセットパスを指定します。
+e:PalSchema.enabled	yes, no
+e:PalWorkPriority.chat_prefix	!pwp
+e:PerfProbe.A	カンマ区切りで最大4つのアクセサリーアイテムIDを指定します。例: Accessory_Nonkilling,Accessory_HP_3,,
+e:PerfProbe.active	A, B
+e:PerfProbe.B	カンマ区切りで最大4つのアクセサリーアイテムIDを指定します。例: Accessory_AT_3,Accessory_defense_3,Accessory_MaxWeightUp_03,
+e:PerfProbe.overlay	/Game/Pal/Blueprint/UI/UserInterface/MainMenu/Option/WBP_OptionSettingsOverLayWindow.WBP_OptionSettingsOverLayWindow_C
+e:PerfProbe.param	/Game/Pal/Blueprint/UI/UserInterface/MainMenu/Option/BP_HUDDispatchParameter_KeyConfig.BP_HUDDispatchParameter_KeyConfig_C, /Game/Pal/Blueprint/UI/HUD/BP_HUDDispatchParameter_KeyConfig.BP_HUDDispatchParameter_KeyConfig_C, /Game/Pal/Blueprint/UI/UserInterface/Option/BP_HUDDispatchParameter_KeyConfig.BP_HUDDispatchParameter_KeyConfig_C
+e:PerfProbe.primary	A から Z、0 から 9、F1 から F12、Num0 から Num9、NumAdd, NumSub, NumMul, NumDiv, NumDec, Minus, Quote, Space, Enter, Escape, Backspace、またはゲームパッドのボタン。Shift+ の接頭辞を付けることもできます。
+e:PerfProbe.state	Alive, Dead_WorldInactive
+d:AntiWasteDisassembleItems.DestroyRemainder	まとめて分解で分解しきれない端数のスタックを、スロットに残さず破棄します。素材は返還されません。
+d:PalEggInfo.EnableMod	MODを削除せずに、卵の情報表示をオフにします。 (?)
+world_load_notice	変更は次にワールドまたはサーバーに入ったときに反映されます。ゲームの再起動は不要です。
+upload_failed	アップロードに失敗しました: {error}
+request_support	サポートを依頼
+request_support_tip	このリストをAlkeariに送る方法を開きます。次のバージョンでこれらの設定が説明されます。
+request_note_one	1件の設定にまだ説明または入力候補がありません。
+request_note_many	{count}件の設定にまだ説明または入力候補がありません。
+request_compile	リストを作成
+request_compile_tip	このMODのrequestsフォルダーにテキストファイルとして書き出します。
+request_path_label	リストの場所
+request_path_tip	作成したリストの保存場所です。
+request_link_label	Catbox.moe のリンク
+request_link_tip	公開されたリストです。必要ならここで再コピーできます。
+forum_nexus	Nexusのリクエストスレッドを開く
+forum_steam	Steam Workshopのリクエストスレッドを開く
+forum_tip	ブラウザーでスレッドを開き、リンクを貼り付けられます。
+forum_label	スレッドのアドレス
+request_none	説明や入力候補が不足している設定はありません。
+request_compiled	リストを作成しました。
+request_link_copied	リンクをクリップボードにコピーしました。
+request_copy_unavailable	クリップボードを使えませんでした。下の行からコピーしてください。
+forum_open_failed	ブラウザーを開けませんでした。アドレスをコピーし、下に表示しています。
+back_mod	このMODに戻る
+request_include_all	すべてのMODを含める
+request_include_all_tip	オンで不足のある全MODを対象にします。選ぶにはオフに。
+request_include_mod_tip	オフにすると次回の作成でこのMODを除きます。
+request_mod_note_one	1件の設定
+request_mod_note_many	{count}件の設定
+request_manual	手動アップロード
+request_manual_tip	自分でリストを上げる手順と、リンクを貼る場所を表示します。
+request_automatic	自動アップロード
+request_automatic_tip	リストをアップロードし、リンクをクリップボードにコピーします。
+manual_step_1	1. リストのあるフォルダーを開くか、下の場所をコピーします。
+manual_step_2	2. catbox.moe を開き、ファイルをページにドラッグします。
+manual_step_3	3. catbox が返したリンクをコピーします。
+manual_step_4	4. 下のリクエストスレッドを開き、そのリンクを貼り付けます。
+manual_open_host	catbox.moe を開く
+manual_open_host_tip	アップロードページをブラウザーで開きます。
+request_none_selected	MODが選択されていないため、作成するものがありません。
+request_note_selected	{total}件中{count}件の設定がリストに入ります。
+request_uploading	アップロード中... 応答があるまでゲームは停止します。
+request_automatic_unavailable	自動アップロードには curl.exe が必要ですが、ありません。
+back_request	サポート依頼に戻る
+request_upload_warning_where	期限のない公開 catbox.moe リンクにリストを掲載します。
+request_upload_warning_what	MOD名と設定名は含まれますが、設定の値は含まれません。
+manual_open_folder	フォルダーを開く
+manual_open_folder_tip	リストのあるフォルダーをファイル管理ソフトで開きます。
+manual_folder_failed	フォルダーを開けませんでした。場所をコピーし、上に表示しています。
+request_link_same	リストが変わっていないため、同じリンクが返されました。
+pending_all	未保存の変更
+pending_save	保存
+pending_revert	元に戻す
+pending_save_all_tip	保留中の変更をすべて、各MOD自身の設定ファイルに書き込みます。
+pending_revert_all_tip	保留中の変更をすべて破棄し、現在のファイルの内容を表示します。
+pending_save_one_tip	このMODの保留中の変更を、そのMOD自身の設定ファイルに書き込みます。
+pending_revert_one_tip	このMODの保留中の変更を破棄し、現在のファイルの内容を表示します。
+kb_shift	大文字
+kb_space	スペース
+kb_delete	削除
+kb_clear	消去
+kb_save	保存
+kb_cancel	保存せずに戻る
+kb_empty	(空)
+kb_key_tip	この文字を値に追加します。
+kb_shift_tip	キーを大文字と小文字で切り替えます。
+kb_space_tip	スペースを追加します。
+kb_delete_tip	最後の文字を削除します。
+kb_clear_tip	値を空にします。
+kb_save_tip	入力した内容を残して設定に戻ります。
+kb_cancel_tip	設定を変えずに戻ります。
+d:PassivePals.liveReloadSeconds	このMODが変更を確認するためにファイルを読む間隔（秒）です。プレイ中に変更が反映されます。0 にすると次回起動まで確認を止めます。
+d:TidyBaseInfo.liveReloadSeconds	このMODが変更を反映するためにファイルを読み直す間隔（秒）です。プレイ中に変更が反映されます。0 にすると次回起動まで監視を止めます。

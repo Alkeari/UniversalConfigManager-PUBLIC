@@ -1,0 +1,1768 @@
+key	zh-Hant
+relaunch_notice	變更在你重新啟動遊戲後生效。
+advanced_mode	進階模式
+advanced_mode_tip	同時顯示模組設定檔未開放、但存在於程式碼中的選項。
+search	搜尋
+search_tip	輸入模組名稱的一部分以篩選清單。
+presets	預設組合
+presets_tip	儲存或載入一組具名的所有模組設定。
+no_mods_match	沒有符合的模組
+no_configs	找不到任何模組設定檔。
+settings_one	{count} 項設定
+settings_many	{count} 項設定
+back_all_mods	所有模組
+back_tip	返回模組清單。
+advanced_section	進階
+presets_folder	預設組合資料夾
+presets_folder_tip	把預設組合 .tsv 放進這裡即可匯入；複製一份出去即可分享。
+new_preset_name	新預設組合名稱
+preset_name_tip	僅限英文字母、數字、空格、- 和 _，最多 40 個字元。
+save_preset	以這個名稱儲存目前的設定
+save_preset_tip	以上方名稱寫入每一項設定目前在檔案中的值。
+no_presets_yet	尚無預設組合
+load_preset	載入 {name}
+load_preset_tip	暫存這個預設組合的值；按下套用才會寫入。
+delete_preset	刪除 {name}
+delete_preset_tip	移除這個預設組合檔案。
+preset_invalid_name	預設組合名稱：僅限英文字母、數字、空格、- 和 _，最多 40 個字元
+preset_saved	已儲存 {name}
+preset_save_failed	無法儲存 {name}：{error}
+preset_read_failed	無法讀取 {name}：{error}
+preset_deleted	已刪除 {name}
+preset_delete_failed	無法刪除 {name}：{error}
+preset_loaded	已載入 {name}：暫存 {staged} 項設定，略過 {skipped} 項
+preset_saving_unavailable	此版本無法儲存預設組合
+empty_value	（空白）
+category_label	模組設定
+esc_tip	開啟「模組設定」設定分頁。
+no_description	尚無說明。請通知 Alkeari！
+request_failed	無法寫入請求檔案：{error}
+d:AetherionMercyToggle.EFFECT_NON_KILLING	「手下留情」天賦的內部編號，與遊戲本身使用的編號相同。
+d:AetherionMercyToggle.PREFIX	訊息前綴，用來將這個模組的網路傳輸與其他 Aetherion 模組區隔開來。
+d:AetherionMercyToggle.TAG	用戶端要求伺服器切換「手下留情」時送出的內部標籤。 (?)
+d:AetherionMercyToggle.TAG_MERCY_TOGGLE	玩家要求切換「手下留情」時伺服器所監聽的內部標籤。 (?)
+d:AetherionSharedLib.PAL_HUD_CLASS	共用函式庫繪製到的遊戲內抬頭顯示介面的內部位址。 (?)
+d:AlkeariLogging.companion.crashHandler	攔截遊戲當機，並寫出一份列有最近引擎呼叫的傾印檔，僅在首次啟動時生效。
+d:AlkeariLogging.log.liveReloadSeconds	本模組多久重新讀取一次自己的設定檔以取得你的變更（秒），讓變更在遊戲中即時生效；設為 0 則在下次啟動前不再檢查。
+d:AlkeariLogging.companion.ringCapacity	保留在記憶體中、供當機傾印回報的最近引擎呼叫數量，僅在首次啟動時生效。
+d:AlkeariLogging.companion.streamEnabled	遊戲執行期間，將每一次符合條件的引擎呼叫寫入串流記錄檔，僅在首次啟動時生效。
+d:AlkeariLogging.DEPTHS.off	完全不記錄任何內容的擷取層級所對應的內部編號。
+d:AlkeariLogging.DEPTHS.summary	只記錄里程碑與最終狀態的擷取層級所對應的內部編號。
+d:AlkeariLogging.DEPTHS.trace	不做任何過濾、記錄每一個事件的擷取層級所對應的內部編號。
+d:AlkeariLogging.DEPTHS.verbose	記錄去重複並限流後事件串流的擷取層級所對應的內部編號。
+d:AlphaLuckyPalSurgery.base_gold_cost	一次身分手術收取的金幣，預設 10000，填 0 則手術免費。
+d:AlphaLuckyPalSurgery.BOSS_PREFIX	遊戲給予頭目型態的內部名稱前綴，模組以此比對。 (?)
+d:AlphaLuckyPalSurgery.charge_gold	在帕魯手術台完成身分手術時收取金幣。
+d:AlphaLuckyPalSurgery.hooks_installed	記錄網路掛鉤是否已就位的內部資料，編輯它不會有任何效果。 (?)
+d:AlphaLuckyPalSurgery.keep_lucky_aura	保留幸運帕魯身上閃爍的幸運光環與其音效。
+d:AlphaLuckyPalSurgery.LUCKY_AUDIO_OFF_ASSET_PATH	關閉幸運光環時，用來讓光環靜音的遊戲內部音效。 (?)
+d:AlphaLuckyPalSurgery.lucky_operation_gives_passive	進行幸運手術時給予原版幸運被動技能，並在普通或頭目手術時再次移除。
+d:AlphaLuckyPalSurgery.LUCKY_PASSIVE_ID	模組所給予或移除的原版幸運被動技能的內部名稱。 (?)
+d:AlphaLuckyPalSurgery.PARAMETER_CLASS	模組用來讀取帕魯已儲存身分的遊戲內部資料型別。 (?)
+d:AlphaLuckyPalSurgery.RARE_PAL_STATUS_ID	將帕魯標記為幸運的內部編號，更動它會使手術失效。 (?)
+d:AlphaLuckyPalSurgery.RARE_PAL_VISUAL_EFFECT_ID	模組所加上或移除的閃爍幸運特效的內部編號。 (?)
+d:AlphaLuckyPalSurgery.registered	記錄選項頁面是否已註冊的內部資料，編輯它不會有任何效果。 (?)
+d:AlphaLuckyPalSurgery.request_nonce	為送往主機的每個請求編號的內部計數器，編輯它不會有任何效果。 (?)
+d:AlphaLuckyPalSurgery.RESULT_PREFIX	主機回覆手術請求時所帶的內部標記，雙方以此比對。 (?)
+d:AlphaLuckyPalSurgery.RPC_PREFIX	送往主機的手術請求所帶的內部標記，雙方以此比對。 (?)
+d:AlphaLuckyPalSurgery.SETTINGS_RESULT_PREFIX	主機回覆其設定時所帶的內部標記，雙方以此比對。 (?)
+d:AlphaLuckyPalSurgery.SETTINGS_RPC_PREFIX	向主機索取其設定的請求所帶的內部標記，雙方以此比對。 (?)
+d:AlphaLuckyPalSurgery.VERSION	模組記錄在自身記錄檔中的版本，編輯它不會有任何效果。 (?)
+d:AntiPhatPalResizing.Base.BossScale	開啟頭目與幸運帕魯獨立縮放時，據點中頭目帕魯所使用的縮放比例。
+d:AntiPhatPalResizing.Base.CustomScales.G1	據點中自訂群組 1 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Base.CustomScales.G10	據點中自訂群組 10 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Base.CustomScales.G2	據點中自訂群組 2 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Base.CustomScales.G3	據點中自訂群組 3 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Base.CustomScales.G4	據點中自訂群組 4 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Base.CustomScales.G5	據點中自訂群組 5 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Base.CustomScales.G6	據點中自訂群組 6 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Base.CustomScales.G7	據點中自訂群組 7 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Base.CustomScales.G8	據點中自訂群組 8 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Base.CustomScales.G9	據點中自訂群組 9 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Base.Enabled	開啟在據點工作的帕魯的尺寸調整，並套用這個群組設定的縮放比例。
+d:AntiPhatPalResizing.Base.LuckyScale	開啟頭目與幸運帕魯獨立縮放時，據點中幸運帕魯所使用的縮放比例。
+d:AntiPhatPalResizing.Base.NPCScale	開啟人類獨立縮放時，據點中被捕捉 NPC 所使用的縮放比例。
+d:AntiPhatPalResizing.Base.Scales.L	套用到據點中大型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Base.Scales.M	套用到據點中中型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Base.Scales.S	套用到據點中小型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Base.Scales.XL	套用到據點中超大型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Base.Scales.XS	套用到據點中超小型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Base.SizeThreshold	據點中最小會被調整尺寸的體型分級，從 XS 到 XL，因此設為 M 時 XS 與 S 帕魯維持原狀。
+d:AntiPhatPalResizing.BossShinyForceNormalSize	移除頭目與幸運帕魯內建的放大效果，讓牠們先與同種的一般帕魯一樣大。
+d:AntiPhatPalResizing.BossShinyIndependentScaling	讓頭目與幸運帕魯使用專屬的頭目與幸運縮放比例，而非一般體型分級的比例。
+d:AntiPhatPalResizing.DebugLog	將這個模組額外的疑難排解訊息輸出到 UE4SS 記錄主控台。
+d:AntiPhatPalResizing.HumanIndependentScaling	讓被捕捉的 NPC 使用專屬的 NPC 縮放比例，而非一般體型分級的比例。
+d:AntiPhatPalResizing.Party.BossScale	開啟頭目與幸運帕魯獨立縮放時，隊伍中頭目帕魯所使用的縮放比例。
+d:AntiPhatPalResizing.Party.CustomScales.G1	隊伍中自訂群組 1 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Party.CustomScales.G10	隊伍中自訂群組 10 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Party.CustomScales.G2	隊伍中自訂群組 2 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Party.CustomScales.G3	隊伍中自訂群組 3 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Party.CustomScales.G4	隊伍中自訂群組 4 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Party.CustomScales.G5	隊伍中自訂群組 5 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Party.CustomScales.G6	隊伍中自訂群組 6 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Party.CustomScales.G7	隊伍中自訂群組 7 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Party.CustomScales.G8	隊伍中自訂群組 8 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Party.CustomScales.G9	隊伍中自訂群組 9 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Party.Enabled	開啟隊伍中跟隨你的帕魯的尺寸調整，並套用這個群組設定的縮放比例。
+d:AntiPhatPalResizing.Party.LuckyScale	開啟頭目與幸運帕魯獨立縮放時，隊伍中幸運帕魯所使用的縮放比例。
+d:AntiPhatPalResizing.Party.NPCScale	開啟人類獨立縮放時，隊伍中被捕捉 NPC 所使用的縮放比例。
+d:AntiPhatPalResizing.Party.Scales.L	套用到隊伍中大型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Party.Scales.M	套用到隊伍中中型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Party.Scales.S	套用到隊伍中小型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Party.Scales.XL	套用到隊伍中超大型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Party.Scales.XS	套用到隊伍中超小型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Party.SizeThreshold	隊伍中最小會被調整尺寸的體型分級，從 XS 到 XL，因此設為 M 時 XS 與 S 帕魯維持原狀。
+d:AntiPhatPalResizing.PersistentScale	在撫摸、餵食或表情動作重置尺寸後重新套用，主要在角色縮放模式下有影響。
+d:AntiPhatPalResizing.ReloadHotkey	開啟一個按鍵，可在遊戲中重新載入設定並重新檢查每隻帕魯的尺寸。
+d:AntiPhatPalResizing.ResizeBossAndShiny	讓頭目與幸運帕魯也套用下方的縮放比例，而不是維持原本的尺寸。
+d:AntiPhatPalResizing.ResizeHumanPals	連同帕魯一起縮小被捕捉的人類 NPC，例如犯罪集團成員與商人。
+d:AntiPhatPalResizing.ResizePals	尺寸調整的總開關，關閉時只保留頭目與幸運帕魯的尺寸正常化。
+d:AntiPhatPalResizing.SizeMode	選擇網格縮放（只縮小可見模型）或角色縮放（連碰撞範圍一起縮小）。
+d:AntiPhatPalResizing.Wild.BossScale	開啟頭目與幸運帕魯獨立縮放時，野外頭目帕魯所使用的縮放比例。
+d:AntiPhatPalResizing.Wild.CustomScales.G1	野外自訂群組 1 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Wild.CustomScales.G10	野外自訂群組 10 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Wild.CustomScales.G2	野外自訂群組 2 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Wild.CustomScales.G3	野外自訂群組 3 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Wild.CustomScales.G4	野外自訂群組 4 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Wild.CustomScales.G5	野外自訂群組 5 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Wild.CustomScales.G6	野外自訂群組 6 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Wild.CustomScales.G7	野外自訂群組 7 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Wild.CustomScales.G8	野外自訂群組 8 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Wild.CustomScales.G9	野外自訂群組 9 內帕魯種類所使用的縮放比例，此群組會忽略尺寸門檻。
+d:AntiPhatPalResizing.Wild.Enabled	開啟在世界中遊蕩的野生帕魯的尺寸調整，並套用這個群組設定的縮放比例。
+d:AntiPhatPalResizing.Wild.LuckyScale	開啟頭目與幸運帕魯獨立縮放時，野外幸運帕魯所使用的縮放比例。
+d:AntiPhatPalResizing.Wild.NPCScale	開啟人類獨立縮放時，野外被捕捉 NPC 所使用的縮放比例。
+d:AntiPhatPalResizing.Wild.Scales.L	套用到野外大型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Wild.Scales.M	套用到野外中型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Wild.Scales.S	套用到野外小型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Wild.Scales.XL	套用到野外超大型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Wild.Scales.XS	套用到野外超小型帕魯的縮放比例，1.0 為原本大小，0.5 為一半大小。
+d:AntiPhatPalResizing.Wild.SizeThreshold	野外最小會被調整尺寸的體型分級，從 XS 到 XL，因此設為 M 時 XS 與 S 帕魯維持原狀。
+d:AntiWasteDisassembleItems.COLLAPSED	介面用來表示某個部件已隱藏且不佔空間的編號，由遊戲固定。 (?)
+d:AntiWasteDisassembleItems.HIDDEN	介面用來表示某個部件不可見但仍佔住空間的編號。 (?)
+d:AntiWasteDisassembleItems.HIT_TEST_INVISIBLE	介面用來表示某個部件會顯示但不接受點擊的編號，由遊戲固定。 (?)
+d:AntiWasteDisassembleItems.Language	模組按鈕與訊息使用的語言，auto 會跟隨遊戲本身的語言設定。
+d:AntiWasteDisassembleItems.MaterialRecoveryRate	分解時返還的素材比例，設為 0 則依剩餘耐久度計算返還量。
+d:AntiWasteDisassembleItems.UseSubTypes	以細分的子類型清單而非概略的分類清單來決定可分解的物品。
+d:AntiWasteDisassembleItems.VERB_ITEM	模組加在單一物品分解按鈕上的簡短標記，之後藉此辨識點擊。 (?)
+d:AntiWasteDisassembleItems.VERB_STACK	模組加在整疊分解按鈕上的簡短標記，之後藉此辨識點擊。 (?)
+d:AntiWasteDisassembleItems.VISIBLE	介面用來表示某個部件會顯示的編號，由遊戲固定，並非設定項。 (?)
+d:BasePalSpawnImprovements.Batching.BatchDelayMs	據點載入時，每批據點帕魯之間等待的毫秒數。
+d:BasePalSpawnImprovements.Batching.BatchSize	據點載入時，每一批生成的據點帕魯數量。
+d:BasePalSpawnImprovements.General.Enabled	將據點帕魯的生成分批進行，關閉時恢復一次全部生成的原本行為。
+d:BaseRenamingUtility.BASE_ATTACH_PROBE	追蹤據點附加到地圖圖示過程的開發者診斷，用於抓錯而非遊玩。 (?)
+d:BaseRenamingUtility.BASE_COLOR_AUDIT	檢查你已儲存的據點顏色的開發者診斷，用於抓錯而非一般遊玩。 (?)
+d:BaseRenamingUtility.BASE_LOAD_PROBE	追蹤據點載入到地圖上的開發者診斷，用於抓錯而非遊玩。 (?)
+d:BaseRenamingUtility.COLOR_PALETTE_PROBE	傾印地圖色盤的開發者診斷，用於抓錯而非一般遊玩。 (?)
+d:BaseRenamingUtility.g_bound_from_live_map	重新命名按鍵綁定的內部記錄，編輯它不會有任何效果。 (?)
+d:BaseRenamingUtility.GUILD_MARKER_PROBE	追蹤公會標記的開發者診斷，用於抓錯而非一般遊玩。 (?)
+d:BaseRenamingUtility.h_bound_from_live_map	顏色按鍵綁定的內部記錄，編輯它不會有任何效果。 (?)
+d:BaseRenamingUtility.hover_context_ready	記錄游標所指位置是否已可操作的內部資料，編輯它不會有任何效果。 (?)
+d:BaseRenamingUtility.key_registered	記錄重新命名與顏色按鍵是否已綁定的內部資料，編輯它不會有任何效果。 (?)
+d:BaseRenamingUtility.MAP_PANEL	在地圖上顯示「已儲存地點」面板，列出你命名過的據點與標記。
+d:BaseRenamingUtility.MAP_PANEL_LIVE_SYNC	在你重新命名或新增地點時即時更新「已儲存地點」面板，而不是等到下次開啟地圖。 (?)
+d:BaseRenamingUtility.MAP_PARENT_PROBE	追蹤地圖畫面版面配置的開發者診斷，用於抓錯而非一般遊玩。 (?)
+d:BaseRenamingUtility.marker_hover_token	目前游標所指標記的內部計數器，編輯它不會有任何效果。 (?)
+d:BaseRenamingUtility.MARKER_LAYOUT_DIAGNOSTICS	記錄標記標籤如何配置的開發者診斷，用於抓錯而非遊玩。 (?)
+d:BaseRenamingUtility.MARKER_PROBE	追蹤地圖標記的開發者診斷，用於抓錯而非一般遊玩。 (?)
+d:BaseRenamingUtility.MARKER_VISUALS	將你儲存的名稱繪製到地圖標記上，而不是讓它們沒有標籤。 (?)
+d:BaseRenamingUtility.MOD_NAME	模組印在自身記錄行上的名稱，不影響其運作方式。 (?)
+d:BaseRenamingUtility.MODULES.MarkerImportExport	新增匯出與匯入按鈕，可在不同存檔之間搬移名稱、顏色與標記。
+d:BaseRenamingUtility.NAME_WIDGET_PROPERTY	模組寫入的地圖標籤的內部名稱，數值錯誤會導致名稱不顯示。 (?)
+d:BaseRenamingUtility.registered	記錄地圖掛鉤是否已設定的內部資料，編輯它不會有任何效果。 (?)
+d:BaseRenamingUtility.sequence	模組運作時遞增的內部計數器，編輯它不會有任何效果。 (?)
+d:BaseRenamingUtility.SET_CAMP_INFO	地圖繪製據點時模組所監聽的遊戲內部函式，建議維持原樣。 (?)
+d:BaseRenamingUtility.VERSION	模組印在自身記錄行上的版本，不影響其運作方式。 (?)
+d:BaseRenamingUtility.world_generation	追蹤世界重新載入次數的內部計數器，編輯它不會有任何效果。 (?)
+d:BaseTrimmer.BATCH_SIZE	每一輪修剪處理的建築數量，數值越低越能分散工作量並減輕卡頓。
+d:BaseTrimmer.BUILD_COMPLETE_FN	模組監聽的遊戲內部動作，用來在建築完成的當下立即清除植被。 (?)
+d:BaseTrimmer.BUILD_PATH_MATCH	模組用來比對的內部名稱片段，藉此區分玩家建造的結構與世界其他物件。 (?)
+d:BaseTrimmer.DEBUG	將主要的修剪事件與錯誤寫入記錄檔，方便回報問題。
+d:BaseTrimmer.DEBUG_SCAN_LANDSCAPE_RADIUS	F7 除錯掃描列出附近地景網格時所涵蓋的範圍，以遊戲單位計。
+d:BaseTrimmer.DISMANTLE_MODEL_FN	模組監聽的遊戲內部動作，用來在你拆除物件時讓隱藏的草恢復。 (?)
+d:BaseTrimmer.NOTIFY_CLASS	模組監看的內部型別，藉此察覺你附近的建築。 (?)
+d:BaseTrimmer.PERIODIC_SWEEP_MOVE_DIST	背景重新修剪執行前你必須移動的距離，以遊戲單位計，12800 約為 128 公尺。 (?)
+d:BaseTrimmer.PERIODIC_SWEEP_MS	你在據點四處走動時，背景檢查重新修剪植被的間隔毫秒數。 (?)
+d:BaseTrimmer.RT_BRUSH_PATH	蓋印到每棟建築下方草地遮罩中的筆刷形狀的內部位址。 (?)
+d:BaseTrimmer.RT_PATH	模組用來隱藏建築下方植被所塗繪的草地遮罩的內部位址。 (?)
+d:BaseTrimmer.RT_STAMP_ROT_SIGN	遮罩蓋印的旋轉方向，若建築下方隱藏的草地區塊歪斜就把它反過來。 (?)
+d:BaseTrimmer.TELEPORT_DELAY_MS	快速旅行後等待多少毫秒才在新地點修剪植被。 (?)
+d:BaseTrimmer.USE_OVERLAP_QUERY	移除位於每棟建築修剪半徑內的植被，是模組主要的清理程序。 (?)
+d:BondalotLoadingScreen.createDesktopShortcut	首次執行時在桌面建立載入畫面挑選程式的捷徑。
+d:BondalotLoadingScreen.customImage	你自己的載入畫面圖片的完整路徑，留空則使用內建圖像。
+d:BondalotLoadingScreen.showOnAnyServer	在你加入的每一台伺服器上都顯示自訂載入畫面，而不只是 BondAlot Island。
+d:CarryWeightIncrease.vuxCheckAcknowledge	模組在本次遊戲階段套用重量變更後所翻轉的內部旗標。 (?)
+d:CarryWeightIncrease.vuxGameVersion	模組建置時所對應的遊戲版本，啟動時印出，不影響遊玩。 (?)
+d:CarryWeightIncrease.vuxModVersion	模組的版本標籤，啟動時印出，編輯它不會有任何效果。 (?)
+d:CarryWeightIncrease.vuxWeightPerSP	每投入一點狀態點數到負重上限所增加的額外負重。
+d:DeadBodiesDisappearFasterInstant.palGameVersion	模組建置時所對應的遊戲版本，印在其啟動記錄行中。 (?)
+d:DeadBodiesDisappearFasterInstant.palModVersion	模組的版本號碼，印在其啟動記錄行中，不影響遊玩。 (?)
+d:DeadBodiesDisappearFasterInstant.palRedColorWrapperBack	結束模組啟動訊息在記錄檔中的紅色標色。
+d:DeadBodiesDisappearFasterInstant.palRedColorWrapperFront	開始模組啟動訊息在記錄檔中的紅色標色。
+d:GhostWildCaptureHp.debug	將額外的捕捉率診斷訊息寫入記錄檔以供疑難排解。 (?)
+d:GhostWildCaptureHp.exempt_min_capture_item_level	帕魯球達到這個捕捉力時視為古代球，對所有帕魯都略過生命值懲罰。
+d:GhostWildCaptureHp.level_advantage_exempt	高出帕魯多少等級即免除捕捉生命值懲罰，設為 -1 則關閉此項。
+d:GhostWildCaptureHp.player_level_cache_sec	模組在重新讀取之前記住你等級的秒數。
+d:GhostWildCaptureHp.sphere_unlock_exempt	當帕魯球的解鎖等級達到或高於目標帕魯的等級時，略過生命值懲罰。
+d:GhostWildCaptureHp.wild_only	將捕捉生命值懲罰限制在野生帕魯，關閉時頭目與塔頭目也適用。
+d:HUDLocator.ConfigLoadedOnce	標記本次遊戲階段已讀取過設定，編輯時不會有任何效果。 (?)
+d:HUDLocator.currentRegionName	追蹤器上次判定你所在的區域，每次掃描都會改寫，編輯無效。 (?)
+d:HUDLocator.globalSaveProgress.clearedBounties	已完成的懸賞數量，每次掃描都重新計算，編輯無效。 (?)
+d:HUDLocator.globalSaveProgress.collectedEffigies	已收集的皮皮雞雕像數量，每次掃描都重新計算，編輯無效。 (?)
+d:HUDLocator.globalSaveProgress.defeatedAlphas	已擊敗的頭目帕魯數量，每次掃描都重新計算，編輯無效。 (?)
+d:HUDLocator.globalSaveProgress.defeatedTowers	已擊敗的塔頭目數量，每次掃描都重新計算，編輯無效。 (?)
+d:HUDLocator.globalSaveProgress.overallPercent	追蹤器算出的整體完成百分比，每次掃描都重新計算。 (?)
+d:HUDLocator.globalSaveProgress.totalAlphas	追蹤器列入計算的頭目帕魯總數，也就是其百分比衡量的目標。 (?)
+d:HUDLocator.globalSaveProgress.totalBounties	追蹤器列入計算的懸賞總數，也就是其百分比衡量的目標。 (?)
+d:HUDLocator.globalSaveProgress.totalEffigies	追蹤器列入計算的皮皮雞雕像總數，也就是其百分比衡量的目標。 (?)
+d:HUDLocator.globalSaveProgress.totalFastTravels	追蹤器列入計算的快速旅行點總數，也就是其百分比衡量的目標。 (?)
+d:HUDLocator.globalSaveProgress.totalTowers	追蹤器列入計算的塔頭目總數，也就是其百分比衡量的目標。 (?)
+d:HUDLocator.globalSaveProgress.unlockedFastTravels	已找到的快速旅行點數量，每次掃描都重新計算，編輯無效。 (?)
+d:HUDLocator.isOpen	標記模組自己的選單目前是否開啟，編輯時不會有任何效果。 (?)
+d:InstantHaul.CatPriority.Accessory	飾品優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Ammo	彈藥優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Armor	防具優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Blueprint	藍圖優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.ComsumeUpgrade	能力提升道具優先送往何處：套用「其他所有物品」規則、公會箱、存有相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.ConsumeOther	其他消耗品優先送往何處：套用「其他所有物品」規則、公會箱、存有相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Essential	珍寶優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Glider	滑翔翼優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Ingot	金屬錠優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.MaterialOther	其他素材優先送往何處：套用「其他所有物品」規則、公會箱、存有相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Monster	帕魯素材優先送往何處：套用「其他所有物品」規則、公會箱、存有相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Ore	礦石優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Palegg	帕魯蛋優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.PalSphere	帕魯球優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Proccessing	加工素材優先送往何處：套用「其他所有物品」規則、公會箱、存有相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Stone	石頭優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.WazaMachine	技能果實優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Weapon	武器優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或分類的箱子，或最近的箱子。
+d:InstantHaul.CatPriority.Wood	木材優先送往何處：套用「其他所有物品」規則、公會箱、存有相同物品或相同分類的箱子，或最近的箱子。
+d:InstantHaul.DebugLogging	為每件物品寫下一行說明它被送往何處，回報問題時值得開啟。
+d:InstantHaul.DetailPriority	讓各分類的個別選擇覆寫「其他所有物品」規則所決定的存放位置。
+d:InstantHaul.Enabled	自動搬運的總開關，關閉後將停止所有撿取。
+d:InstantHaul.FacilityConvertPulls	在百分比模式下，一筆製作訂單會被拆成幾次搬運，設為三則每三分之一搬運一次。
+d:InstantHaul.FacilityFillPercent	在百分比模式下，採石場之類的無盡產出設施要裝到多滿才會被清空。
+d:InstantHaul.FacilityIntervalSec	收取離你較遠的生產設施完成品的間隔秒數。
+d:InstantHaul.FacilityMinCount	在數量模式下，生產設施要累積多少物品才會被搬走。
+d:InstantHaul.FacilityNearSec	收取你附近生產設施完成品的間隔秒數。
+d:InstantHaul.FacilityTriggerMode	何時搬走完成品：依計時器、依物品數量，或依裝填百分比。
+d:InstantHaul.FarIntervalSec	清掃近距離範圍以外據點掉落物的間隔秒數。
+d:InstantHaul.FoodRouting	依存放優先度設定分配食物，關閉後食物將與其他物品一視同仁。
+d:InstantHaul.GuildChest	也使用公會箱存放物品，由遊戲本身的箱子篩選條件決定什麼放得進去。
+d:InstantHaul.IntervalSec	清掃你附近掉落物的間隔秒數，從下一次清掃開始生效。
+d:InstantHaul.Language	模組自身設定選單的語言，選單文字會在下次開啟時更新。
+d:InstantHaul.MaxMovesPerTick	一次清掃最多搬運的物品數量，超出的部分留到下次清掃。
+d:InstantHaul.NearRadius	距離你多遠算是「近」，以遊戲單位計，15000 約為 150 公尺。
+d:InstantHaul.NetIntervalSec	完整清掃的間隔秒數，用來補抓即時通知漏掉的掉落物，數值越低負擔越重。
+d:InstantHaul.PriorityDish	料理優先送往何處：飼料箱、冰箱、一般箱子，或公會箱。
+d:InstantHaul.PriorityIngredient	生食與食材優先送往何處：飼料箱、冰箱、一般箱子，或公會箱。
+d:InstantHaul.PriorityOther	其他所有物品優先送往何處：公會箱、存有相同物品或分類的箱子，或最近的箱子。
+d:LabWorkPriority.debug_logging	將額外的診斷訊息寫入記錄檔以供疑難排解。 (?)
+d:LabWorkPriority.enabled	讓據點帕魯優先進行帕魯研究，之後才做其他一般工作。
+d:MapCollectablesNative.CompassDistance.Chests	世界中羅盤條上寶箱標記的顯示範圍，以公尺計。
+d:MapCollectablesNative.CompassDistance.Dungeons	世界中羅盤條上地下城標記的顯示範圍，以公尺計。
+d:MapCollectablesNative.CompassDistance.Effigy3DTrackerRange	3D 雕像追蹤器會挑選指向目標的範圍，以公尺計。
+d:MapCollectablesNative.CompassDistance.Eggs	世界中羅盤條上帕魯蛋標記的顯示範圍，以公尺計。
+d:MapCollectablesNative.CompassDistance.FruitTrees	世界中羅盤條上技能果實樹標記的顯示範圍，以公尺計。
+d:MapCollectablesNative.CompassDistance.Junk	世界中羅盤條上廢棄物標記的顯示範圍，以公尺計。
+d:MapCollectablesNative.CompassDistance.Notes	世界中羅盤條上筆記標記的顯示範圍，以公尺計。
+d:MapCollectablesNative.CompassDistance.Relics	世界中羅盤條上皮皮雞雕像標記的顯示範圍，以公尺計。
+d:MapCollectablesNative.CompassDistance.Ruins	世界中羅盤條上古代遺跡標記的顯示範圍，以公尺計。
+d:MapCollectablesNative.IconScale.Chests	地圖上寶箱圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Chromite	地圖上 Chromite 礦脈圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Coal	地圖上煤炭礦脈圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Copper	地圖上銅礦脈圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Dungeons	地圖上地下城圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Eggs	地圖上帕魯蛋圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.FruitTrees	地圖上技能果實樹圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Hexolite	地圖上 Hexolite 礦脈圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Junk	地圖上廢棄物圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Notes	地圖上筆記圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.NPCCampfires	地圖上 NPC 營火圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Oil	地圖上原油礦脈圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Outposts	地圖上前哨站圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Paloxite	地圖上 Paloxite 礦脈圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Quartz	地圖上石英礦脈圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Relics	地圖上皮皮雞雕像圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Ruins	地圖上古代遺跡圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Soralite	地圖上 Soralite 礦脈圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.IconScale.Sulfur	地圖上硫磺礦脈圖示的大小倍率，1 為一般圖示大小。
+d:MapCollectablesNative.Language	模組面板與圖示名稱使用的語言，設為 0 則跟隨你的遊戲語言。 (?)
+d:MapCollectablesNative.Toggle.BossRespawnTimers	在每個已擊敗頭目的地圖圖示上顯示其重生剩餘時間。
+d:MapCollectablesNative.Toggle.Chests	寶箱殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.ChestsEnabled	寶箱的總開關，一併開啟其地圖與羅盤標記。
+d:MapCollectablesNative.Toggle.ChestsOnCompass	在世界中的羅盤條上顯示寶箱，並標示距離。
+d:MapCollectablesNative.Toggle.ChestsOnMap	在世界地圖上以圖示顯示每一個寶箱地點。
+d:MapCollectablesNative.Toggle.Chromite	Chromite 礦脈殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.ChromiteOnMap	在世界地圖上以圖示顯示每一處 Chromite 礦脈地點。
+d:MapCollectablesNative.Toggle.Coal	煤炭礦脈殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.CoalOnMap	在世界地圖上以圖示顯示每一處煤炭礦脈地點。
+d:MapCollectablesNative.Toggle.Copper	銅礦脈殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.CopperOnMap	在世界地圖上以圖示顯示每一處銅礦脈地點。
+d:MapCollectablesNative.Toggle.Dungeons	地下城殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.DungeonsEnabled	地下城的總開關，一併開啟其地圖與羅盤標記。
+d:MapCollectablesNative.Toggle.DungeonsOnCompass	在世界中的羅盤條上顯示地下城，並標示距離。
+d:MapCollectablesNative.Toggle.DungeonsOnMap	在世界地圖上以圖示顯示每一個地下城地點。
+d:MapCollectablesNative.Toggle.DungeonTimers	在每個地下城的地圖圖示上顯示其剩餘時間，讓你看得出還能持續多久。
+d:MapCollectablesNative.Toggle.Effigy3DTracker	顯示一個固定在世界中的指標，指向最近尚未收集的皮皮雞雕像並顯示即時距離。
+d:MapCollectablesNative.Toggle.Eggs	帕魯蛋殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.EggsEnabled	帕魯蛋的總開關，一併開啟其地圖與羅盤標記。
+d:MapCollectablesNative.Toggle.EggsOnCompass	在世界中的羅盤條上顯示帕魯蛋，並標示距離。
+d:MapCollectablesNative.Toggle.EggsOnMap	在世界地圖上以圖示顯示每一個帕魯蛋地點。
+d:MapCollectablesNative.Toggle.FruitTrees	技能果實樹殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.FruitTreesEnabled	技能果實樹的總開關，一併開啟其地圖與羅盤標記。
+d:MapCollectablesNative.Toggle.FruitTreesOnCompass	在世界中的羅盤條上顯示技能果實樹，並標示距離。
+d:MapCollectablesNative.Toggle.FruitTreesOnMap	在世界地圖上以圖示顯示每一棵技能果實樹地點。
+d:MapCollectablesNative.Toggle.Hexolite	Hexolite 礦脈殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.HexoliteOnMap	在世界地圖上以圖示顯示每一處 Hexolite 礦脈地點。
+d:MapCollectablesNative.Toggle.IncludeObtainedNotes	把你已經收集的筆記保留在地圖上，而不是隱藏它們。
+d:MapCollectablesNative.Toggle.IncludeObtainedRelics	把你已經收集的皮皮雞雕像保留在地圖上，而不是隱藏它們。
+d:MapCollectablesNative.Toggle.IncludeObtainedRuins	把你已經解開的古代遺跡保留在地圖上，而不是隱藏它們。
+d:MapCollectablesNative.Toggle.Junk	廢棄物殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.JunkEnabled	廢棄物的總開關，一併開啟其地圖與羅盤標記。
+d:MapCollectablesNative.Toggle.JunkOnCompass	在世界中的羅盤條上顯示廢棄物，並標示距離。
+d:MapCollectablesNative.Toggle.JunkOnMap	在世界地圖上以圖示顯示每一個廢棄物地點。
+d:MapCollectablesNative.Toggle.Notes	筆記殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.NotesEnabled	筆記的總開關，一併開啟其地圖與羅盤標記。
+d:MapCollectablesNative.Toggle.NotesOnCompass	在世界中的羅盤條上顯示筆記，並標示距離。
+d:MapCollectablesNative.Toggle.NotesOnMap	在世界地圖上以圖示顯示每一個筆記地點。
+d:MapCollectablesNative.Toggle.NPCCampfires	NPC 營火殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.NPCCampfiresEnabled	NPC 營火的總開關，整組開啟或關閉其地圖標記。
+d:MapCollectablesNative.Toggle.NPCCampfiresOnMap	在世界地圖上以圖示顯示每一處 NPC 營火地點。
+d:MapCollectablesNative.Toggle.Oil	原油礦脈殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.OilOnMap	在世界地圖上以圖示顯示每一處原油礦脈地點。
+d:MapCollectablesNative.Toggle.Outposts	前哨站殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.OutpostsEnabled	前哨站的總開關，整組開啟或關閉其地圖標記。
+d:MapCollectablesNative.Toggle.OutpostsOnMap	在世界地圖上以圖示顯示每一個前哨站地點。
+d:MapCollectablesNative.Toggle.Paloxite	Paloxite 礦脈殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.PaloxiteOnMap	在世界地圖上以圖示顯示每一處 Paloxite 礦脈地點。
+d:MapCollectablesNative.Toggle.PanelExpanded	下次開啟世界地圖時，模組設定面板直接以展開狀態顯示。 (?)
+d:MapCollectablesNative.Toggle.Quartz	石英礦脈殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.QuartzOnMap	在世界地圖上以圖示顯示每一處石英礦脈地點。
+d:MapCollectablesNative.Toggle.Relics	皮皮雞雕像殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.RelicsEnabled	皮皮雞雕像的總開關，一併開啟其地圖與羅盤標記。
+d:MapCollectablesNative.Toggle.RelicsOnCompass	在世界中的羅盤條上顯示皮皮雞雕像，並標示距離。
+d:MapCollectablesNative.Toggle.RelicsOnMap	在世界地圖上以圖示顯示每一個皮皮雞雕像地點。
+d:MapCollectablesNative.Toggle.RelicTooltip	當你把游標移到皮皮雞雕像圖示上時，顯示遊戲本身的地圖資訊面板。
+d:MapCollectablesNative.Toggle.ResourcesEnabled	所有礦石圖示的總開關，一次開啟或關閉整個資源群組。
+d:MapCollectablesNative.Toggle.RespectFogOfWar	在未探索的戰爭迷霧下隱藏模組圖示，與遊戲本身的地圖圖示行為一致。
+d:MapCollectablesNative.Toggle.Ruins	古代遺跡殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.RuinsEnabled	古代遺跡的總開關，一併開啟其地圖與羅盤標記。
+d:MapCollectablesNative.Toggle.RuinsOnCompass	在世界中的羅盤條上顯示古代遺跡，並標示距離。
+d:MapCollectablesNative.Toggle.RuinsOnMap	在世界地圖上以圖示顯示每一處古代遺跡地點。
+d:MapCollectablesNative.Toggle.RuinTooltip	當你把游標移到地圖上的古代遺跡圖示時，顯示資訊提示。
+d:MapCollectablesNative.Toggle.ShouldHideClusteredIconsSetting	把密集的圖示合併成一個帶數量標記的圖示，放大時會再分開。
+d:MapCollectablesNative.Toggle.ShowFogOfWar	在未探索的地面上繪製地圖迷霧覆蓋，不會更動你已儲存的探索資料。
+d:MapCollectablesNative.Toggle.Soralite	Soralite 礦脈殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.SoraliteOnMap	在世界地圖上以圖示顯示每一處 Soralite 礦脈地點。
+d:MapCollectablesNative.Toggle.Sulfur	硫磺礦脈殘留的合併開關狀態，模組會自行改寫，因此編輯不會有持久效果。 (?)
+d:MapCollectablesNative.Toggle.SulfurOnMap	在世界地圖上以圖示顯示每一處硫磺礦脈地點。
+d:MapCollectablesNative.Toggle.ViewportCullSetting	只繪製你目前看得到的那部分地圖上的圖示，讓地圖保持流暢。 (?)
+d:MapCollectablesNative.Tuning.ClusterRadius	兩個地圖圖示要多接近才會合併成單一群集圖示。
+d:NativeModOptions.enabled	將模組選項框架的開發者訊息加入記錄檔。
+d:NativeModOptions.PREFIX	框架在不同模組之間傳遞設定時使用的內部名稱前綴。
+d:NoBuildingLimits100.baseLimits	放寬據點範圍限制，讓你能在據點邊界外建造，也能更靠近其他據點。
+d:NoBuildingLimits100.buildControls	啟用可將建造預覽推近、推遠、上移或下移的額外快捷鍵。
+d:NoBuildingLimits100.buildingLimits	移除建造高度上限與單一據點的建築數量上限。
+d:NoBuildingLimits100.collapseProtection	避免懸空結構在放置後立刻倒塌並退還材料。
+d:NoBuildingLimits100.debugLogging	將額外的建造細節寫入模組記錄檔以供回報問題。 (?)
+d:NoBuildingLimits100.dismantleRange	可將結構指定為拆除目標的距離，以遊戲單位計。
+d:NoBuildingLimits100.distanceCoarseStep	按住 Shift 時，每按一次建造預覽移動的遊戲單位。
+d:NoBuildingLimits100.distanceFineStep	未按住 Shift 時，每按一次建造預覽移動的遊戲單位。
+d:NoBuildingLimits100.distanceIncreaseHotkey	將建造預覽推遠的按鍵，按住 Shift 可加大幅度。
+d:NoBuildingLimits100.distanceMax	建造預覽最遠能被推離你多遠，以遊戲單位計。 (?)
+d:NoBuildingLimits100.distanceMin	建造預覽最近能被拉到多近，以遊戲單位計，100 與原版相同。
+d:NoBuildingLimits100.distanceOffsetMax	在自動與吸附建造時，預覽最多能向前微調多遠，以遊戲單位計。
+d:NoBuildingLimits100.errorRelaxation	忽略阻止建造的放置限制，但材料、鎖定與權限規則仍然適用。
+d:NoBuildingLimits100.foundation	放寬地基規則，讓地基可以堆疊、傾斜、懸空，並在水面上放得更低。
+d:NoBuildingLimits100.heightHotkey	抬升建造預覽的按鍵，按住 Shift 則改為降低。
+d:NoBuildingLimits100.heightMax	建造預覽最高能抬升到多高，以起始高度上方的遊戲單位計。 (?)
+d:NoBuildingLimits100.heightMin	建造預覽最低能下移到多低，以起始高度下方的遊戲單位計。 (?)
+d:NoBuildingLimits100.heightStep	每按一次建造預覽上下移動的遊戲單位。 (?)
+d:NoBuildingLimits100.perItemRules	取消各物件的個別放置規則，讓建材可以互相接觸與重疊。
+d:NoBuildingLimits100.previewControlsEnabledByDefault	每次遊戲開始時就啟用建造預覽控制，而不是原版的建造方式。
+d:NoBuildingLimits100.previewControlsToggleHotkey	開啟或關閉建造預覽距離與高度控制的按鍵。
+d:NoBuildingLimits100.resourceRespawnTestHotkey	執行礦石重生測試的按鍵,僅在 Resource Respawn Test Enabled 開啟時有效。 (?)
+d:NoBuildingLimits100.resourceRespawnTestRadius	礦石重生測試檢查的你周圍範圍,僅在 Resource Respawn Test Enabled 開啟時有效。 (?)
+d:NoBuildingLimits100.statusDuration	畫面上建造控制訊息停留的秒數，最少 0.5。 (?)
+d:NoBuildingLimits100.support	移除結構支撐需求，讓建材可以連接並懸掛在任何地方。
+d:NoDecayFeedBag.debugLog	將詳盡的模組活動寫入記錄檔，取代安靜的正式版記錄行。
+d:NoDecayFeedBag.debugLogIntervalSeconds	開啟除錯記錄時，寫入記錄檔的詳盡狀態行之間的秒數。 (?)
+d:NoDecayFeedBag.enabled	開啟或關閉整個模組，關閉時食物腐壞維持原狀。 (?)
+d:NoDecayFeedBag.freezeFeedBag	阻止你食物欄中的食物腐壞，這是模組的主要效果。
+d:NoDecayFeedBag.freezeIntervalSeconds	重新整理食物欄的處理間隔秒數，數值越低反應越快、負擔也越重。 (?)
+d:NoDecayFeedBag.freezeVerboseSeconds	開啟除錯記錄時，詳細食物欄記錄行之間的秒數。 (?)
+d:NoDecayFeedBag.inventoryRetrySeconds	模組等待你的道具欄可用時，每次重試之間的秒數。 (?)
+d:NoDecayFeedBag.InventoryType.Common	遊戲用來代表主道具欄的編號，由遊戲固定，並非可更動的設定。 (?)
+d:NoDecayFeedBag.InventoryType.DropSlot	遊戲用來代表丟棄欄位的編號，由遊戲固定，並非可更動的設定。 (?)
+d:NoDecayFeedBag.InventoryType.Essential	遊戲用來代表重要道具袋的編號，由遊戲固定，並非可更動的設定。 (?)
+d:NoDecayFeedBag.InventoryType.FoodEquip	遊戲用來代表食物欄的編號，也就是這個模組保鮮的容器。 (?)
+d:NoDecayFeedBag.InventoryType.PlayerEquipArmor	遊戲用來代表防具欄位的編號，由遊戲固定，並非可更動的設定。 (?)
+d:NoDecayFeedBag.InventoryType.WeaponLoadout	遊戲用來代表武器欄位的編號，由遊戲固定，並非可更動的設定。 (?)
+d:NoDecayFeedBag.logPrefix	加在模組寫入記錄檔每一行前方的文字標記。 (?)
+d:NoGrapplingGunCooldownTimer.CoolDownTime	發射抓鉤槍後的冷卻秒數，遊戲預設為 8。
+d:NoGrapplingGunCooldownTimer.palGameVersion	模組建置時所對應的遊戲版本，印在其啟動記錄行中。 (?)
+d:NoGrapplingGunCooldownTimer.palModName	印在模組啟動訊息前方的名稱。 (?)
+d:NoGrapplingGunCooldownTimer.palModVersion	模組的版本號碼，印在其啟動記錄行中，不影響遊玩。 (?)
+d:NoGrapplingGunCooldownTimer.palRedColorWrapperBack	結束模組啟動訊息在記錄檔中的紅色標色。 (?)
+d:NoGrapplingGunCooldownTimer.palRedColorWrapperFront	開始模組啟動訊息在記錄檔中的紅色標色。 (?)
+d:PalArmy.Collision.DebugLogging	將騎乘時的碰撞細節寫入模組記錄檔以供回報問題。 (?)
+d:PalArmy.Collision.MountedPartyNoCollision	騎乘時避免你與坐騎卡在隊伍中其他帕魯身上。
+d:PalArmy.Controller.Enabled	啟用召喚與收回額外隊伍帕魯的手把按鍵。 (?)
+d:PalArmy.Controller.ModifierKey	與召喚和收回按鍵一起按住的手把按鍵。 (?)
+d:PalArmy.Controller.RecallAllKey	收回整支隊伍的手把按鍵。 (?)
+d:PalArmy.Controller.SummonAllKey	召喚整支隊伍的手把按鍵。 (?)
+d:PalArmy.Controller.SummonSelectedKey	召喚所選額外帕魯的手把按鍵，再按一次則收回。 (?)
+d:PalArmy.destruct_path	用來察覺隊伍視窗關閉的遊戲內部路徑，不適合編輯。 (?)
+d:PalArmy.General.DebugLogging	將 Pal Army 的詳細活動寫入模組記錄檔，僅供疑難排解使用。
+d:PalArmy.General.Enabled	關閉 Pal Army 的所有功能，維持原版的隊伍行為。 (?)
+d:PalArmy.MassOperations.BatchDelayMilliseconds	每批召喚或收回之間的延遲毫秒數，範圍 0 到 10000。
+d:PalArmy.MassOperations.BatchSize	一次召喚或收回多少隻帕魯，範圍 1 到 100，大隊伍時設為 1 最安全。
+d:PalArmy.Notifications.Enabled	在畫面上顯示 Pal Army 訊息，例如已達召喚上限。 (?)
+d:PalArmy.Notifications.Priority	給予 Pal Army 畫面訊息的重要度，範圍 0 到 2。 (?)
+d:PalArmy.Party.PartySlots	你擁有的隊伍欄位數量，範圍 5 到 100，10 是不錯的起點。
+d:PalArmy.Party.SafeShrink	當即將移除的欄位仍有帕魯佔用時，禁止縮減隊伍。
+d:PalArmy.PartyWindow.NextPageKey	在太小而無法完整捲動清單的隊伍面板中往後翻頁的按鍵。
+d:PalArmy.PartyWindow.NextPageModifier	與下一頁按鍵一起按住的輔助鍵，或設為 NONE 表示不使用輔助鍵。 (?)
+d:PalArmy.PartyWindow.PreviousPageKey	在太小而無法完整捲動清單的隊伍面板中往前翻頁的按鍵。
+d:PalArmy.PartyWindow.PreviousPageModifier	與上一頁按鍵一起按住的輔助鍵，或設為 NONE 表示不使用輔助鍵。 (?)
+d:PalArmy.Summoning.Enabled	啟用召喚與收回主帕魯以外的額外隊伍帕魯。 (?)
+d:PalArmy.Summoning.RecallAllKey	分批收回整支隊伍的按鍵。
+d:PalArmy.Summoning.RecallAllModifier	與全體收回按鍵一起按住的輔助鍵，或設為 NONE 表示不使用輔助鍵。
+d:PalArmy.Summoning.SummonAllKey	分批召喚整支隊伍的按鍵。
+d:PalArmy.Summoning.SummonAllModifier	與全體召喚按鍵一起按住的輔助鍵，或設為 NONE 表示不使用輔助鍵。
+d:PalArmy.Summoning.SummonLimit	同時能在場的隊伍帕魯上限，範圍 1 到 100，設為 0 則無上限。 (?)
+d:PalArmy.Summoning.SummonSelectedKey	召喚所選額外帕魯的按鍵，再按一次則收回。
+d:PalArmy.Summoning.SummonSelectedModifier	與所選帕魯召喚按鍵一起按住的輔助鍵，或設為 NONE 表示不使用。
+d:PalArmy.Updates.CheckForUpdates	有新版 Pal Army 可用時在畫面上告知你。 (?)
+d:PalBoxQoL.alphaIndex	工具列目前所在的底板明暗清單位置，每次遊玩都會重置。 (?)
+d:PalBoxQoL.DEV_DEBUG_MODE_ENABLED	啟用作者的開發用按鍵綁定與探測工具，一般遊玩請保持關閉。
+d:PalBoxQoL.glyphIndex	清除按鈕圖示目前所在的符號清單位置，每次遊玩都會重置。 (?)
+d:PalBoxQoL.LOCAL_MARKER	模組用來比對的內部名稱，藉此找到本機帕魯方舟清單而非全域清單。
+d:PalBoxQoL.pacing.batchSize	批次執行時每批送出的最愛切換數量，數值越低對遊戲越溫和。
+d:PalBoxQoL.pacing.delayMs	每批最愛切換之間的毫秒數，批次執行時卡頓就調高它。
+d:PalBoxQoL.pacing.importBatch	每一步匯入的帕魯數量，必須維持 1，因為調高它正是匯入出問題的原因。
+d:PalBoxQoL.pacing.importDelayMs	匯入帕魯之間的毫秒數，若執行摘要回報有匯入遭拒就調高它。
+d:PalBoxQoL.pairIndex	被替換的搜尋與排序標題目前所在的圖示清單位置。 (?)
+d:PalboxSearchPlus.autocomplete_limit	你輸入時自動完成清單提供的被動技能名稱建議數量。 (?)
+d:PalboxSearchPlus.condenser_click_searches	在凝縮裝置點選隊伍中的帕魯，會把其餘同種帕魯集中到你面前。
+d:PalboxSearchPlus.container_swaps_per_tick	搜尋重新排列帕魯方舟時，每個遊戲刻送出的帕魯移動數量，若伺服器會把你踢掉就值得調低。
+d:PalboxSearchPlus.count	內附繁殖表所涵蓋的物種數量，屬於產生的資料而非設定。 (?)
+d:PalboxSearchPlus.diagnostic_logging	寫入詳細記錄以供回報問題，重現問題之前值得開啟。
+d:PalboxSearchPlus.enable_client_view_sort	在不移動帕魯的情況下重新排列帕魯方舟畫面，並在排序選單加入額外的能力值與潛力按鈕。 (?)
+d:PalboxSearchPlus.filter_debounce_ms	你的輸入必須停頓多少毫秒才會重新篩選，以免每次按鍵都重建清單。 (?)
+d:PalboxSearchPlus.focus_search_on_open	畫面開啟時立刻把鍵盤焦點交給搜尋列，這會暫停 Q 與 E 翻頁直到你確認輸入。
+d:PalboxSearchPlus.poll_interval_ms	檢查搜尋框的間隔毫秒數，預設 50，數值越高越省資源但反應越慢。 (?)
+d:PalboxSearchPlus.restore_order_after_search	當你清除搜尋或離開畫面時，把凝縮裝置與商人的箱子恢復原狀。
+d:PalboxSearchPlus.save_parameter_reads	讀取已儲存的帕魯資料，讓幸運、最愛、凝縮與潛力搜尋可用，預設關閉是因為它在部分環境會導致當機。
+d:PalboxSearchPlus.search_host_asset	模組自己的搜尋欄框架，它會攔下 Backspace 鍵，使其用於編輯而非關閉視窗。
+d:PalboxSearchPlus.search_host_class	模組搜尋欄框架的內部類別名稱，數值錯誤會使搜尋列不出現。 (?)
+d:PalboxSearchPlus.search_host_inner	模組搜尋框架內文字框的內部名稱，最好完全維持原樣。 (?)
+d:PalboxSearchPlus.show_focus_toggle	在搜尋列上方顯示自動聚焦按鈕。
+d:PalboxSearchPlus.show_status_line	在搜尋列上方顯示狀態列，繁殖與凝縮規劃工具會透過它回報。
+d:PalboxSearchPlus.sorted_slots_per_search	一次排序在凝縮裝置與商人處實際重排多少格，120 相當於四頁。
+d:PalboxSearchPlus.source	標示內附的繁殖配對資料來自 PalCalc，由其從遊戲檔案中擷取。
+d:PalboxSearchPlus.store_bar_nudge_x	從模組放置的位置將倉庫搜尋列左右移動，正值往右。
+d:PalboxSearchPlus.store_bar_nudge_y	從模組放置的位置將倉庫搜尋列上下移動，正值往下。
+d:PalboxSearchPlus.store_bar_x_offset	倉庫側搜尋列位於 Box 1 搜尋列右方多遠，以畫布單位計。
+d:PalboxSearchPlus.store_bar_y_offset	倉庫側搜尋列位於 Box 1 搜尋列下方多遠，以畫布單位計。
+d:PalboxSearchPlus.version	內附的繁殖表是從哪一個 PalCalc 版本產生的，屬於資料而非設定。
+d:PalboxStatCompare.DebugLogging	將額外的診斷訊息寫入記錄檔以供疑難排解。
+d:PalInsight.activationMode	以快捷鍵開啟檢視面板，或改為跟隨你目前的瞄準。
+d:PalInsight.activeAbilitiesThreshold	主動技能殘留的捕捉需求，固定為零，改由漸進揭露的數值決定。 (?)
+d:PalInsight.aimTriggerMode	選擇哪種瞄準會顯示面板：武器、投擲帕魯球，或兩者皆可。
+d:PalInsight.analyzeHumans	讓人類也能像帕魯一樣被檢視。 (?)
+d:PalInsight.badIVColor.a	低潛力值所用顏色的不透明度，0 為全透明、1 為不透明。 (?)
+d:PalInsight.badIVColor.b	低潛力值所用顏色中的藍色量，範圍 0 到 1。 (?)
+d:PalInsight.badIVColor.g	低潛力值所用顏色中的綠色量，範圍 0 到 1。 (?)
+d:PalInsight.badIVColor.r	低潛力值所用顏色中的紅色量，範圍 0 到 1。 (?)
+d:PalInsight.badIVThreshold	潛力值等於或低於這個數值時使用低值顏色，範圍 0 到 100。
+d:PalInsight.colorCodeIVs	依據潛力值的高低為其上色。
+d:PalInsight.countAlphasSeparate	在同物種帕魯方舟統計中，將頭目帕魯算作獨立物種。 (?)
+d:PalInsight.displayStyle	按住快捷鍵時顯示面板、按一下切換顯示，或永遠顯示。
+d:PalInsight.distance	最大檢視距離，以公分計，範圍 1000 到 500000，30000 為 300 公尺。
+d:PalInsight.followOffsetX	面板相對於所跟隨帕魯的水平像素偏移，正值往右。 (?)
+d:PalInsight.followOffsetY	面板相對於所跟隨帕魯的垂直像素偏移，負值往上。 (?)
+d:PalInsight.followPal	殘留的跟隨旗標，會被面板位置選項覆寫，因此編輯它不會有任何改變。
+d:PalInsight.goodIVColor.a	高潛力值所用顏色的不透明度，0 為全透明、1 為不透明。 (?)
+d:PalInsight.goodIVColor.b	高潛力值所用顏色中的藍色量，範圍 0 到 1。 (?)
+d:PalInsight.goodIVColor.g	高潛力值所用顏色中的綠色量，範圍 0 到 1。 (?)
+d:PalInsight.goodIVColor.r	高潛力值所用顏色中的紅色量，範圍 0 到 1。 (?)
+d:PalInsight.goodIVThreshold	潛力值等於或高於這個數值時使用高值顏色，範圍 0 到 100。
+d:PalInsight.highPotentialAttackThreshold	帕魯要出現綠色高潛力光柱所需的攻擊潛力，範圍 0 到 100。
+d:PalInsight.highPotentialDefenseThreshold	帕魯要出現綠色高潛力光柱所需的防禦潛力，範圍 0 到 100。
+d:PalInsight.highPotentialHpThreshold	帕魯要出現綠色高潛力光柱所需的 HP 潛力，範圍 0 到 100。
+d:PalInsight.inspectAlt	檢視準心下帕魯的按鍵需要同時按住 Alt。 (?)
+d:PalInsight.inspectCtrl	檢視準心下帕魯的按鍵需要同時按住 Ctrl。 (?)
+d:PalInsight.inspectGamepadKey	檢視準心下帕魯的手把按鍵，或設為 None 表示不綁定。
+d:PalInsight.inspectKey	檢視準心下帕魯的鍵盤或滑鼠按鍵。
+d:PalInsight.inspectShift	檢視準心下帕魯的按鍵需要同時按住 Shift。 (?)
+d:PalInsight.iVFontSizeDelta	相對於預設值調高或調低潛力值的字級。 (?)
+d:PalInsight.iVSeparator	檢視面板中用來分隔潛力值的字元。 (?)
+d:PalInsight.iVsThreshold	潛力殘留的捕捉需求，固定為零，改由漸進揭露的數值決定。 (?)
+d:PalInsight.iVTypeFace	檢視面板中潛力值所用的字重。 (?)
+d:PalInsight.nativePotentialPalbox	不必配戴帕魯訓練師護目鏡，也能在帕魯方舟中顯示潛力。
+d:PalInsight.nativePotentialVision	不必配戴帕魯訓練師護目鏡也能顯示潛力，套用於下方啟用的畫面。
+d:PalInsight.nativePotentialWorld	不必配戴帕魯訓練師護目鏡，也能在世界中的血量條上顯示潛力。
+d:PalInsight.neutralIVColor.a	中等潛力值所用顏色的不透明度，0 為全透明、1 為不透明。 (?)
+d:PalInsight.neutralIVColor.b	中等潛力值所用顏色中的藍色量，範圍 0 到 1。 (?)
+d:PalInsight.neutralIVColor.g	中等潛力值所用顏色中的綠色量，範圍 0 到 1。 (?)
+d:PalInsight.neutralIVColor.r	中等潛力值所用顏色中的紅色量，範圍 0 到 1。 (?)
+d:PalInsight.opacity	檢視面板的不透明度，從 0.4 的淡薄到 1.0 的完全不透明。
+d:PalInsight.palboxSearchAlt	在搜尋輸入與帕魯瀏覽之間切換的按鍵需要同時按住 Alt。 (?)
+d:PalInsight.palboxSearchCondenserEnabled	在帕魯精華凝縮裝置畫面加入搜尋列。
+d:PalInsight.palboxSearchCtrl	在搜尋輸入與帕魯瀏覽之間切換的按鍵需要同時按住 Ctrl。 (?)
+d:PalInsight.palboxSearchDisassemblyEnabled	在帕魯分解輸送帶畫面加入搜尋列。
+d:PalInsight.palboxSearchExpeditionEnabled	在帕魯遠征據點畫面加入搜尋列。
+d:PalInsight.palboxSearchShift	在搜尋輸入與帕魯瀏覽之間切換的按鍵需要同時按住 Shift。 (?)
+d:PalInsight.panelScale	檢視面板的大小百分比，範圍 40 到 100。
+d:PalInsight.passiveAbilitiesThreshold	被動技能殘留的捕捉需求，固定為零，改由漸進揭露的數值決定。 (?)
+d:PalInsight.potentialDisplayRule	透過模組的開關顯示潛力，或只在配戴帕魯訓練師護目鏡時顯示。
+d:PalInsight.potentialVisionAlt	不配戴護目鏡也顯示潛力的按鍵需要同時按住 Alt。 (?)
+d:PalInsight.potentialVisionCtrl	不配戴護目鏡也顯示潛力的按鍵需要同時按住 Ctrl。 (?)
+d:PalInsight.potentialVisionShift	不配戴護目鏡也顯示潛力的按鍵需要同時按住 Shift。 (?)
+d:PalInsight.progressiveActiveThreshold	揭露某物種主動技能前所需的捕捉次數，範圍 0 到 999。
+d:PalInsight.progressiveDropsThreshold	揭露某物種掉落物前所需的捕捉次數，範圍 0 到 999。
+d:PalInsight.progressiveMovementThreshold	揭露某物種移動速度前所需的捕捉次數，範圍 0 到 999。
+d:PalInsight.progressivePartnerThreshold	揭露某物種夥伴技能前所需的捕捉次數，範圍 0 到 999。
+d:PalInsight.progressivePassiveThreshold	揭露某物種被動技能前所需的捕捉次數，範圍 0 到 999。
+d:PalInsight.progressivePotentialThreshold	揭露某物種潛力前所需的捕捉次數，範圍 0 到 999。
+d:PalInsight.progressiveWorkThreshold	揭露某物種工作適性前所需的捕捉次數，範圍 0 到 999。
+d:PalInsight.rampagingPalBeaconEnabled	以紅色光柱標示附近的暴走帕魯。
+d:PalInsight.rarePalBeaconEnabled	以金色光柱標示附近的幸運帕魯。
+d:PalInsight.realtimeSpeedOffsetY	正值時把即時速度顯示往下移，安全範圍為 -300 到 20。
+d:PalInsight.settingsAlt	開啟 Pal Insight 視窗的設定按鍵需要同時按住 Alt。 (?)
+d:PalInsight.settingsCtrl	開啟 Pal Insight 視窗的設定按鍵需要同時按住 Ctrl。 (?)
+d:PalInsight.settingsGamepadKey1	開啟 Pal Insight 設定視窗的手把按鍵組合中的第一個按鍵。
+d:PalInsight.settingsGamepadKey2	開啟 Pal Insight 設定視窗的手把按鍵組合中的第二個按鍵。
+d:PalInsight.settingsSchemaVersion	已儲存設定格式的版本戳記，用來升級較舊的檔案，編輯它不會有任何效果。 (?)
+d:PalInsight.settingsShift	開啟 Pal Insight 視窗的設定按鍵需要同時按住 Shift。 (?)
+d:PalInsight.showActive	在檢視面板中顯示主動技能。
+d:PalInsight.showCaptureCount	遊戲本身的分析器需要保持開啟的內部開關，因此不適合更動。
+d:PalInsight.showDrops	在檢視面板中顯示帕魯的掉落物。
+d:PalInsight.showIVBonus	在檢視面板中顯示潛力為每項核心能力值帶來的加成。 (?)
+d:PalInsight.showMovementSpeed	在檢視面板中顯示坐騎的移動速度。
+d:PalInsight.showPalsInBox	瀏覽帕魯方舟時，顯示你已經擁有多少隻同物種帕魯。
+d:PalInsight.showPartnerSkill	在檢視面板中顯示夥伴技能。
+d:PalInsight.showPassive	在檢視面板中顯示被動技能。
+d:PalInsight.showPotential	在檢視面板中顯示三項潛力值。
+d:PalInsight.showRealtimeSpeed	在畫面左下角顯示你或坐騎的即時速度。
+d:PalInsight.showWork	在檢視面板中顯示工作適性。
+d:PalInsight.staticOffsetX	面板固定在畫面某處時的水平像素偏移。 (?)
+d:PalInsight.staticOffsetY	面板固定在畫面某處時的垂直像素偏移。 (?)
+d:PalInsight.statsThreshold	遊戲本身分析器中能力值殘留的捕捉需求，固定為零。 (?)
+d:PalInsight.timeToHold	面板出現前必須按住檢視快捷鍵的秒數。 (?)
+d:PalLevelScaling.configAutoReloadEnabled	在遊戲執行期間重新檢查設定，讓變更不必重新啟動就能套用到之後生成的帕魯。
+d:PalLevelScaling.configAutoReloadIntervalSeconds	重新檢查設定是否變更的間隔秒數，預設 300。
+d:PalLevelScaling.decisionLogRetentionCount	刪除較舊檔案時保留多少個生成決策記錄檔。
+d:PalLevelScaling.decisionLogRetentionEnabled	刪除較舊的生成決策記錄檔，只保留最新的幾個。
+d:PalLevelScaling.despawnDistanceLarge	大型生成點的帕魯可被移除之前，所有玩家必須超出的世界單位距離。
+d:PalLevelScaling.despawnDistanceMedium	中型生成點的帕魯可被移除之前，所有玩家必須超出的世界單位距離。
+d:PalLevelScaling.despawnDistanceNPC	人類 NPC 生成點的角色可被移除之前，所有玩家必須超出的世界單位距離。
+d:PalLevelScaling.despawnDistanceSmall	小型生成點的帕魯可被移除之前，所有玩家必須超出的世界單位距離。
+d:PalLevelScaling.levelsAboveSelectedPlayer	新生成的野生帕魯最多可比選定的附近玩家高出幾級。
+d:PalLevelScaling.levelsBelowSelectedPlayer	新生成的野生帕魯最多可比選定的附近玩家低幾級。
+d:PalLevelScaling.playerDetectionRangeBuffer	尋找作為縮放基準的附近玩家時，額外加到生成點半徑上的世界單位。
+d:PalLevelScaling.playerLevelSelectionMode	生成時以哪位附近玩家為基準：最近、最高、最低、平均、中位數或隨機。
+d:PalLevelScaling.scalingDirection	生成等級可往哪個方向調整：只往上提升較弱的生成、只往下降低較強的生成，或兩者皆可。
+d:PalLevelScaling.spawnRadiusLarge	大型野生帕魯生成點可被啟動的距離，以世界單位計，每公尺約 100 單位。
+d:PalLevelScaling.spawnRadiusMedium	中型野生帕魯生成點可被啟動的距離，以世界單位計，每公尺約 100 單位。
+d:PalLevelScaling.spawnRadiusNPC	人類 NPC 生成點可被啟動的距離，以世界單位計，每公尺約 100 單位。
+d:PalLevelScaling.spawnRadiusSmall	小型野生帕魯生成點可被啟動的距離，以世界單位計，每公尺約 100 單位。
+d:PalpediaEnhancer.ClearAllKey	把所有篩選、排序與搜尋目標還原為下方所設預設值的快捷鍵，填 None 則不綁定。
+d:PalpediaEnhancer.DefaultSearchTargets	開啟帕魯圖鑑時搜尋框會在哪些內容裡尋找，多個目標之間以逗號分隔。
+d:PalpediaEnhancer.DefaultSort	帕魯圖鑑清單開啟時的排序，也是清除全部快捷鍵會還原到的排序。
+d:PalpediaEnhancer.DefaultSortDescending	開啟帕魯圖鑑時把該排序反轉，讓最後一筆或數值最高的項目排在最前面。
+d:PalpediaEnhancer.DefaultUnreadOnly	開啟帕魯圖鑑時直接只顯示你尚未開啟過的項目。
+d:PalpediaEnhancer.MarkAllSeenKey	把所有未讀的帕魯圖鑑項目標記為已開啟的快捷鍵，效果與全部標為已看按鈕相同。
+d:PalpediaEnhancer.RememberState	在同一次遊戲階段中關閉再開啟帕魯圖鑑時，保留你的篩選、排序、搜尋目標與上次的搜尋字串。
+d:PalpediaEnhancer.ShowMarkAllSeenButton	在 Stats 分頁旁顯示全部標為已看按鈕；即使隱藏該按鈕，它的快捷鍵依然有效。
+d:PalpediaEnhancer.ToggleUnreadKey	只顯示你尚未開啟過的帕魯圖鑑項目的快捷鍵，不必捲動就能清掉新項目的圓點。
+d:PalpediaEnhancer.VerboseLogging	將額外的帕魯圖鑑診斷訊息寫入記錄檔，回報問題時很有用。
+d:PalSchema.enableAutoReload	當 PalSchema 內容模組的檔案有變更時，在遊戲執行期間重新套用它們。 (?)
+d:PalSchema.enableDebugLogging	將額外的細節寫入記錄檔，回報內容模組的問題時很有用。 (?)
+d:PalSchema.languageOverride	強制指定 PalSchema 內容模組文字所用的語言，而不跟隨遊戲。 (?)
+d:PalsLearnOverTime.__version	模組已儲存進度帳本的格式戳記，不適合手動編輯。 (?)
+d:PalsLearnOverTime.applyEnabled	讓累積的工作實際提升帕魯的適性，關閉時只追蹤進度而不改動存檔。
+d:PalsLearnOverTime.count	遊戲有多少種工作適性的內部記錄，編輯它不會有任何效果。 (?)
+d:PalsLearnOverTime.enabled	模組為自身診斷所設定的內部開關，編輯它不會有任何效果。 (?)
+d:PalsLearnOverTime.first	第一項工作適性編號的內部記錄，編輯它不會有任何效果。 (?)
+d:PalsLearnOverTime.firstId	模組走訪的第一項工作適性，屬於進階區塊，請勿更動。 (?)
+d:PalsLearnOverTime.last	最後一項工作適性編號的內部記錄，編輯它不會有任何效果。 (?)
+d:PalsLearnOverTime.lastId	模組走訪的最後一項工作適性，屬於進階區塊，請勿更動。 (?)
+d:PalsLearnOverTime.logging	將進度與升級記錄寫入模組自己的記錄檔。
+d:PalsLearnOverTime.numWorkTypes	模組追蹤多少種工作適性類型，屬於進階區塊，請勿更動。 (?)
+d:PalsLearnOverTime.probeSpawnQueues	世界載入期間每隔數秒記錄遊戲本身的生成佇列深度，以供疑難排解。
+d:PalsLearnOverTime.seq	為模組診斷行編號的內部計數器，編輯它不會有任何效果。 (?)
+d:PalsLearnOverTime.snapshotEvery	重寫進度狀態檔案的間隔毫秒數，預設 30000。
+d:PalsLearnOverTime.unlockTotalCost	為帕魯解鎖其缺少工作類型的花費，保留供參考，解鎖功能關閉時不會使用。
+d:PalsLearnOverTime.worldQuietSec	世界載入後必須靜止多少秒帕魯才開始累積，載入時當機就調高它。
+d:PassivePals.aggressivePalProfile	通常一看到你就窮追不捨的帕魯所使用的反應設定檔；填 default 則沿用上面的設定。
+d:PassivePals.alphaAndBossProfile	遊戲中的頭目帕魯與 Boss 所使用的反應設定檔；填 default 則沿用所有帕魯的設定。
+d:PassivePals.behaviorProfiles.custom.AttackedByEqual	當強弱相當的 NPC 打中牠時，custom 設定檔給出的反應。
+d:PassivePals.behaviorProfiles.custom.AttackedByPlayer	當你親自打中該角色時，custom 設定檔給出的反應。
+d:PassivePals.behaviorProfiles.custom.AttackedByStronger	當更強的 NPC 打中牠時，custom 設定檔給出的反應。
+d:PassivePals.behaviorProfiles.custom.AttackedByWeaker	當更弱的 NPC 打中牠時，custom 設定檔給出的反應。
+d:PassivePals.behaviorProfiles.custom.SeeEqual	當某個角色注意到強弱相當的 NPC 時，custom 設定檔給出的反應。
+d:PassivePals.behaviorProfiles.custom.SeePlayer	當某個角色注意到你、而在此之前什麼都還沒發生時，custom 設定檔給出的反應。
+d:PassivePals.behaviorProfiles.custom.SeeStronger	當某個角色注意到更強的 NPC 時，custom 設定檔給出的反應。
+d:PassivePals.behaviorProfiles.custom.SeeWeaker	當某個角色注意到更弱的 NPC 時，custom 設定檔給出的反應。
+d:PassivePals.defaultHumanProfile	每個人類 NPC 使用的反應設定檔，維持為 vanilla，讓敵對人類依然危險、村民照常行動。
+d:PassivePals.defaultPalProfile	你掌控之外的每隻帕魯所使用的反應設定檔，除非下方的 AI 預設或物種規則將其覆寫。
+d:PassivePals.friendlyPalProfile	包括 Lamball、Chikipi 與 Daedream 在內的六種友善帕魯所使用的反應設定檔。
+d:PassivePals.hostileHumanProfile	一看到你就發動攻擊的人類所使用的反應設定檔，例如獵人營地裡的劫掠者。
+d:PassivePals.logging	這個模組往 UE4SS 記錄檔裡寫多少內容；quiet 只保留載入行、警告與問題。
+d:PassivePals.nativePresetClassPath	反應預設組的內部型別位址，模組會為每個設定的物種各建立一個。
+d:PassivePals.neutralPalProfile	通常不理會你、直到真的挨打才反應的帕魯所使用的反應設定檔。
+d:PassivePals.pollLimit	模組在本次遊戲階段放棄、並讓所有帕魯的反應維持原樣之前的嘗試次數。
+d:PassivePals.pollSeconds	模組等待遊戲載入它要改寫的 AI 預設期間，兩次嘗試之間的間隔秒數。
+d:PassivePals.preservePettingBehavior	保留溫馴物種走上前來討摸的行為，而不是讓你所選的設定檔覆寫掉。
+d:PassivePals.response.Battle	遊戲本身的編號，代表只有在強度判定認為打得贏時才反擊。
+d:PassivePals.response.Battle_Anyway	遊戲本身的編號，代表一律反擊，完全不做強度判定。
+d:PassivePals.response.Escape	遊戲本身的編號，代表讓帕魯逃跑的反應。
+d:PassivePals.response.Ignore	遊戲本身的編號，代表什麼都不做的反應，不戰也不逃。
+d:PassivePals.response.Special	遊戲本身的編號，代表腳本化的反應，例如溫馴的帕魯走上前來討摸。
+d:PassivePals.sensorSensePath	各物種規則所掛接的、遊戲本身感知判定的內部位址。
+d:PassivePals.skittishPalProfile	你一靠近就拔腿就跑的帕魯所使用的反應設定檔，例如 Cattiva 與 Lifmunk。
+d:PassivePals.speciesRules.rule1Profile	第一條規則中指定的物種所使用的反應設定檔，它會覆寫上面的所有設定。
+d:PassivePals.speciesRules.rule1Species	第一條規則適用的物種，可寫英文名稱、內部 id 或 Blueprint 名稱。
+d:PassivePals.speciesRules.rule2Profile	第二條規則中指定的物種所使用的反應設定檔，它會覆寫上面的所有設定。
+d:PassivePals.speciesRules.rule2Species	第二條規則適用的物種，可寫英文名稱、內部 id 或 Blueprint 名稱。
+d:PassivePals.speciesRules.rule3Profile	第三條規則中指定的物種所使用的反應設定檔，它會覆寫上面的所有設定。
+d:PassivePals.speciesRules.rule3Species	第三條規則適用的物種，可寫英文名稱、內部 id 或 Blueprint 名稱。
+d:PassivePals.villagerProfile	村民、商人與警察所使用的反應設定檔；填 default 則沿用所有人類的設定。
+d:PerfectPlacement.bindings.move_back	依目前移動幅度將凍結的預覽往後移的按鍵。
+d:PerfectPlacement.bindings.move_down	依目前移動幅度將凍結的預覽下移的按鍵。
+d:PerfectPlacement.bindings.move_forward	依目前移動幅度將凍結的預覽往前移的按鍵。
+d:PerfectPlacement.bindings.move_left	依目前移動幅度將凍結的預覽左移的按鍵。
+d:PerfectPlacement.bindings.move_right	依目前移動幅度將凍結的預覽右移的按鍵。
+d:PerfectPlacement.bindings.move_up	依目前移動幅度將凍結的預覽上移的按鍵。
+d:PerfectPlacement.bindings.reset	把預覽回復到凍結當下的位置與旋轉角度的按鍵。
+d:PerfectPlacement.bindings.rotate_left	依目前旋轉幅度將凍結的預覽向左旋轉的按鍵。
+d:PerfectPlacement.bindings.rotate_right	依目前旋轉幅度將凍結的預覽向右旋轉的按鍵。
+d:PerfectPlacement.bindings.rotation_step_down	切換到下一段較小旋轉幅度的按鍵。
+d:PerfectPlacement.bindings.rotation_step_up	切換到下一段較大旋轉幅度的按鍵。
+d:PerfectPlacement.bindings.step_down	縮小移動幅度的按鍵，讓每按一次預覽移動得更少。
+d:PerfectPlacement.bindings.step_up	加大移動幅度的按鍵，讓每按一次預覽移動得更多。
+d:PerfectPlacement.bindings.toggle_freeze	將建造預覽凍結在原地或再次解除的按鍵。
+d:PerfectPlacement.diagnostics.ui_lifecycle_log_interval_ms	開啟那些診斷計數器時，建造介面計數行之間的毫秒數。 (?)
+d:PerfectPlacement.diagnostics.verbose	將額外的疑難排解訊息寫入 UE4SS 記錄檔，可能會產生非常多行。
+d:PerfectPlacement.gamepad.enabled	透過搭配的輸入橋接啟用手把支援，需要重新啟動遊戲。
+d:PerfectPlacement.gamepad.invert_forward_back	對調將凍結預覽前移與後移的手把按鍵。
+d:PerfectPlacement.gamepad.invert_height	對調將凍結預覽上移與下移的手把按鍵。
+d:PerfectPlacement.gamepad.swap_rotate_buttons	對調將凍結預覽向左與向右旋轉的手把按鍵。
+d:PerfectPlacement.hold_locked_transform	持續重新套用凍結位置，讓預覽不會彈回準心，代價是額外的效能負擔。
+d:PerfectPlacement.movement.coarse	殘留的一百公分粗略移動幅度，模組已不再讀取。 (?)
+d:PerfectPlacement.movement.fine	殘留的一公分精細移動幅度，模組已不會在任何地方讀取。 (?)
+d:PerfectPlacement.movement.maximum	加大幅度按鍵所能達到的最大移動幅度，以公分計，介於 0.1 與 1000 之間。
+d:PerfectPlacement.movement.maximum_above_initial_cm	凍結的預覽可高於凍結當下高度多少公分，預設 650。
+d:PerfectPlacement.movement.maximum_below_initial_cm	凍結的預覽可低於凍結當下高度多少公分，預設 25。
+d:PerfectPlacement.movement.minimum	縮小幅度按鍵所能達到的最小移動幅度，以公分計，介於 0.1 與 1000 之間。
+d:PerfectPlacement.movement.normal	凍結預覽起始的移動幅度，以公分計，介於 0.1 與 1000 之間。
+d:PerfectPlacement.movement.step_scale	每次按下加大或縮小幅度時套用到移動幅度的倍率，可為 2、5 或 10。
+d:PerfectPlacement.rotation.coarse	旋轉幅度階梯上的粗略旋轉幅度，以度計，預設 15 度。
+d:PerfectPlacement.rotation.fine	旋轉幅度階梯上的精細旋轉幅度，以度計，預設 1 度。
+d:PerfectPlacement.rotation.normal	旋轉幅度階梯上的中等旋轉幅度，以度計，預設 5 度。
+d:PerfectPlacement.rotation.precision	旋轉幅度階梯上的最小旋轉幅度，以度計，預設為十分之一度。 (?)
+d:PerfectPlacement.rotation.snap	旋轉幅度階梯上的最大旋轉幅度，以度計，預設 45 度。
+d:PerfectPlacement.transform_refresh_ms	開啟該保持功能時，重新套用凍結位置的間隔毫秒數。 (?)
+d:PerfectPlacement.ui.gamepad_enabled_property	帶有手把輸入是否開啟資訊的指引欄位內部名稱。 (?)
+d:PerfectPlacement.ui.hide_function	隱藏放置指引的搭配呼叫的內部名稱，編輯它不會有任何效果。 (?)
+d:PerfectPlacement.ui.hide_toast_function	清除凍結與解除訊息的搭配呼叫的內部名稱。 (?)
+d:PerfectPlacement.ui.host_class_name	放置指引所附加的搭配元件名稱，編輯它不會有任何效果。 (?)
+d:PerfectPlacement.ui.move_step_property	帶有目前移動幅度（以公分計）的指引欄位內部名稱。 (?)
+d:PerfectPlacement.ui.refresh_function	變更後重繪放置指引的搭配呼叫的內部名稱。 (?)
+d:PerfectPlacement.ui.show_frozen_guide_function	預覽凍結時顯示指引的搭配呼叫的內部名稱。 (?)
+d:PerfectPlacement.ui.show_frozen_toast_function	預覽凍結時顯示訊息的搭配呼叫的內部名稱。 (?)
+d:PerfectPlacement.ui.show_unfrozen_guide_function	預覽未凍結時顯示指引的搭配呼叫的內部名稱。 (?)
+d:PerfectPlacement.ui.show_unfrozen_toast_function	預覽解除時顯示訊息的搭配呼叫的內部名稱。 (?)
+d:PerfectPlacement.ui.use_palworld_keycaps	在建造指引中以 Palworld 風格的按鍵圖示繪製放置控制。 (?)
+d:PingMod.bypass_guild_marker_limit	即使已達公會標記上限也能標示位置，做法是暫時移除另一個標記。
+d:RecoverPalSpheres.debug	將詳細的帕魯球回收活動寫入記錄檔以供回報問題。
+d:RecoverPalSpheres.enabled	模組執行期間持有的除錯記錄開關副本，取自主要設定。 (?)
+d:RecoverPalSpheres.max_pickup_lifetime	回收的掉落物在世界中停留的秒數，-1 為永久保留，0 則不產生掉落物。
+d:RecoverPalSpheres.notify_inventory_return	對直接返還到你道具欄的帕魯球顯示一般的取得物品訊息。
+d:RecoverPalSpheres.return_sphere_min_distance_x	未命中的帕魯球會以掉落物形式留下的最大水平距離，以公尺計。
+d:RecoverPalSpheres.return_sphere_min_distance_y	未命中的帕魯球會以掉落物形式留下的最大垂直距離，以公尺計。
+d:RecoverPalSpheres.sphere_launcher_pickups	允許單人玩家與合作模式主機的發射器未命中球變成世界掉落物。
+d:RecoverPalSpheres.sphere_recovery_percentage	未命中的帕魯球被回收而非遺失的機率百分比，範圍 0 到 100。
+d:SharedXP.technology_points_per_level	玩家透過共享經驗追趕等級時，每跳過一級所獲得的科技點數。
+d:SharedXP.verbose_logging	將詳細的共享經驗訊息寫入記錄檔，測試多人遊戲時很有用。
+d:SmartPalFeeding.author	製作這個模組的人的名字，保留供參考，編輯時不會有任何效果。 (?)
+d:SmartPalFeeding.Feeding.AbsoluteStartEatingThreshold	使用絕對門檻時，據點帕魯前去進食的固定飽食度百分比。 (?)
+d:SmartPalFeeding.Feeding.EnableDebugLogging	將每一次餵食決策寫入記錄檔，只有在回報問題時才有用。 (?)
+d:SmartPalFeeding.Feeding.EnableMod	啟用更聰明的餵食行為，關閉時維持遊戲本身的飢餓門檻。 (?)
+d:SmartPalFeeding.Feeding.FallbackHungerDebuffThreshold	無法讀取遊戲本身的數值時，作為減益等級使用的飢餓百分比。 (?)
+d:SmartPalFeeding.Feeding.LogDecisionCooldownSeconds	重複餵食記錄行之間的秒數，範圍 0.1 到 3600，用來保持記錄檔可讀。 (?)
+d:SmartPalFeeding.Feeding.StartEatingThresholdOffsetAboveHungerDebuff	在遊戲本身的飢餓減益等級之上加上的百分點，用來決定據點帕魯何時前去進食。
+d:SmartPalFeeding.Feeding.StopEatingThreshold	據點帕魯回去工作前會吃到的飽食度百分比，預設 95。
+d:SmartPalFeeding.Feeding.UseAbsoluteStartEatingThreshold	使用固定的起始飢餓百分比，而非在遊戲飢餓減益等級之上的偏移量。 (?)
+d:SmartPalFeeding.name	模組為自己記錄的顯示名稱，保留供參考，編輯時不會有任何效果。 (?)
+d:SmartPalFeeding.package_name	模組安裝所在的資料夾名稱，保留供參考，編輯時不會有任何效果。 (?)
+d:SmartPalFeeding.tested_game_build_id	作者最後測試的遊戲組建，保留供參考，編輯時不會有任何效果。 (?)
+d:SmartPalFeeding.tested_game_release	作者最後測試的遊戲版本，保留供參考，編輯時不會有任何效果。 (?)
+d:SmartPalFeeding.version	模組為自己記錄的版本，保留供參考，編輯時不會有任何效果。 (?)
+d:SmoothBossBattles.AutoConfirm_BossTower	進入塔頭目戰時替你確認開戰提示。
+d:SmoothBossBattles.AutoConfirm_RaidBoss	在召喚祭壇開始突襲頭目戰時替你確認開戰提示。
+d:SmoothBossBattles.AutoConfirm_WorldTree	進入世界樹頭目戰時替你確認開戰提示。
+d:SmoothBossBattles.enabled	啟用作者的開發用記錄功能，發布時為關閉，一般遊玩也應保持關閉。
+d:SmoothBossBattles.SkipIntroCutscene_BossTower	略過進入塔頭目戰途中播放的過場動畫。
+d:SmoothBossBattles.SkipVictoryWait_BossTower	讓你在擊敗塔頭目後立即離開而不必等待，僅限單人。
+d:SmoothBossBattles.SkipVictoryWait_WorldTree	讓你在擊敗三隻中段世界樹頭目之一後立即離開，僅限單人。
+d:SmoothBossBattles.SkipVictoryWait_WorldTreeFinal	讓你在擊敗最終世界樹頭目後立即離開，這會中斷遊戲的結局。
+d:TidyBaseInfo.cursorGraceTicks	你移開面板後自由游標還能撐過多少次維護輪詢，好讓你移到選單的途中不會中斷。
+d:TidyBaseInfo.emptyPortraitScale	空工作欄位中所繪製佔位圓圈的大小倍率。
+d:TidyBaseInfo.fallback.menu_assign	指派這項動作的英文措辭，只有在讀不到模組的語言檔時才會用到。
+d:TidyBaseInfo.fallback.menu_palbox	送入帕魯方舟這項動作的英文措辭，只有在讀不到模組的語言檔時才會用到。
+d:TidyBaseInfo.fallback.menu_resummon	重新召喚這項動作的英文措辭，只有在讀不到模組的語言檔時才會用到。
+d:TidyBaseInfo.gridOffsetX	帕魯格線在據點工作者資訊面板中的水平位置，以畫面單位計。
+d:TidyBaseInfo.gridOffsetY	把帕魯格線往下移動，負值則往上，以像素計。
+d:TidyBaseInfo.gridWidth	帕魯格線的寬度，以畫面單位計，在預設圖示大小下每列剛好放得下四張頭像。
+d:TidyBaseInfo.hoverPanelOffsetX	位於帕魯格線下方的詳情面板的水平微調，以畫面單位計。
+d:TidyBaseInfo.hoverPanelOffsetY	帕魯格線底部與其下方懸停狀態列之間的間距，以像素計。
+d:TidyBaseInfo.iconPadding	格線中帕魯格子之間留下的間距，以畫面單位計，水平與垂直皆適用。
+d:TidyBaseInfo.iconSize	格線中單一帕魯格子的邊長，以畫面單位計，預設格線寬度剛好放得下四個。
+d:TidyBaseInfo.inspectHoldKey	按住就能快速查看的按鍵，在放開之前讓滑鼠游標在格線上自由移動。
+d:TidyBaseInfo.inspectKey	在面板上開啟自由滑鼠游標的按鍵，再按一次即關閉，留空則停用。
+d:TidyBaseInfo.keybindModifier	與捲動鍵和查看鍵一起按住的輔助鍵；填 NONE 則單獨使用這些按鍵。
+d:TidyBaseInfo.language	這個模組顯示自身標籤所用的語言；填 auto 則跟隨遊戲本身的語言設定。
+d:TidyBaseInfo.maintenanceMs	重新收合遊戲本身工作者列並追蹤游標所指之物的維護輪詢間隔，以毫秒計。
+d:TidyBaseInfo.maxGridHeight	帕魯格線可以增長到的最大高度，以像素計，超過後格線會在自身內部捲動，而不是遮住快捷欄。
+d:TidyBaseInfo.menuItemGap	右鍵動作選單各項目之間的間距，以像素計。
+d:TidyBaseInfo.menuItemPaddingX	右鍵動作選單中每個標籤左右兩側的留白，以像素計。
+d:TidyBaseInfo.menuItemPadding	右鍵動作選單中每個標籤上下兩側的留白，以像素計。
+d:TidyBaseInfo.menuItemPaddingY	右鍵動作選單中每個標籤上下兩側的留白，以像素計。
+d:TidyBaseInfo.menuOffsetX	帕魯格線與旁邊開啟的右鍵動作選單之間的間距，以像素計。
+d:TidyBaseInfo.menuOffsetY	右鍵動作選單相對於帕魯格線頂端的垂直微調，以畫面單位計。
+d:TidyBaseInfo.menuWidth	右鍵動作選單的寬度，以像素計，當翻譯後的標籤被截斷時調大。
+d:TidyBaseInfo.openDetailsOnClick	點擊帕魯時開啟遊戲完整的帕魯詳情畫面；關閉則改為把該帕魯的名字與狀態釘在格線下方。
+d:TidyBaseInfo.portraitOffsetX	在各自的格子內把每張帕魯頭像往右推移，負值則往左。
+d:TidyBaseInfo.portraitOffsetY	在各自的格子內把每張帕魯頭像往下推移，負值則往上。
+d:TidyBaseInfo.portraitScale	帕魯頭像在其格子中的大小倍率，1.0 為遊戲原本繪製的大小。
+d:TidyBaseInfo.resummonTimeoutMs	Resummon 等待帕魯抵達帕魯方舟的時間，逾時就放棄並安全地把牠留在原地。
+d:TidyBaseInfo.scrollDownKey	與 Alt 一起按下、用來把帕魯格線往下捲動一步的按鍵。
+d:TidyBaseInfo.scrollStepPx	用鍵盤捲動一步時帕魯格線移動的距離，以畫面單位計。
+d:TidyBaseInfo.scrollUpKey	與上方修飾鍵一起按下、把帕魯格線往上捲動一步的按鍵，留空則停用。
+d:TidyBaseInfo.showEmptySlots	把空的工作欄位顯示為佔位圓圈；關閉則格線中只有你自己的帕魯。
+d:TidyBaseInfo.suspendInputOverPanel	當游標位於面板上方時，暫停切換武器、瞄準、射擊與帕魯指令。
+d:TidyBaseInfo.tokens.deepGraphite	右鍵動作選單背後底板的十六進位顏色。
+d:TidyBaseInfo.tokens.forgedGold	滑鼠所指的動作選單項目外框的十六進位顏色。
+d:TidyBaseInfo.tokens.hairline	選單底板及其每個項目周圍細線的十六進位顏色。
+d:TidyBaseInfo.tokens.raised	填滿右鍵動作選單單一項目的十六進位顏色。
+d:TidyBaseInfo.tokens.raisedHover	填滿滑鼠所指的動作選單項目的十六進位顏色。
+d:UltraGraphics.State.ChangelogShownFor	模組上次顯示變更記錄所對應的版本，由模組而非你寫入。 (?)
+d:UltraGraphics.State.PerformanceMode	效能模式目前是否開啟，由模組而非你寫入。 (?)
+d:vuxRemoveFlyingStamina.vuxCheckAcknowledge	模組在本次遊戲階段套用飛行變更後所翻轉的內部旗標。 (?)
+d:vuxRemoveFlyingStamina.vuxFlyHorizon_Dash_SP	騎乘飛行坐騎向前衝刺時每秒消耗的耐力，0 表示不消耗。 (?)
+d:vuxRemoveFlyingStamina.vuxFlyHover_SP	騎乘飛行坐騎原地停懸時每秒消耗的耐力，0 表示不消耗。 (?)
+d:vuxRemoveFlyingStamina.vuxFlyMaxHeight	飛行坐騎可達到的最大高度，以世界單位計。 (?)
+d:vuxRemoveFlyingStamina.vuxFlyVertical_SP	垂直上升或下降飛行時每秒消耗的耐力，0 表示不消耗。 (?)
+d:vuxRemoveFlyingStamina.vuxGameVersion	模組建置時所對應的遊戲版本，啟動時印出，不影響遊玩。 (?)
+d:vuxRemoveFlyingStamina.vuxModVersion	模組的版本標籤，啟動時印出，編輯它不會有任何效果。 (?)
+hint_toggle_tip	顯示或隱藏此處可輸入的內容。
+preset_load_label	載入
+preset_overwrite_label	覆蓋
+preset_overwrite_tip	以每個設定的目前數值取代此預設檔案。
+preset_delete_label	刪除
+hint_keys_letters	字母 {first} 到 {last},數字 {firstDigit} 到 {lastDigit},功能鍵 {firstF} 到 {lastF}。
+hint_keys_navigation	{list}。
+hint_keys_numpad	數字鍵盤:{first} 到 {last},{operators}。
+hint_keys_gamepad	手把:{list},以及其他 Gamepad_ 名稱。
+hint_keys_combo	修飾鍵 {list}:組合鍵寫作 {example};像 {bare} 這樣的單一按鍵不需要。
+hint_keys_source	UE4SS 按鍵名稱;此模組可能只接受其中一部分。 (?)
+hint_entries_files	在此模組的檔案中出現:{list} (?)
+hint_entries_code	在此模組的程式碼中比較:{list} (?)
+hint_format_color	形如 #RRGGBB 的十六進位色碼,例如 #FFDA00。 (?)
+hint_format_url	網址,例如 https://example.com。 (?)
+hint_format_path	檔案路徑,例如 C:\Games\file.txt。 (?)
+hint_format_list	逗號分隔的值,例如 a, b, c。 (?)
+hint_format_number	以文字書寫的數字,例如 100。 (?)
+hint_floor	任意文字;未在此模組的檔案中找到可接受的值。 (?)
+hint_filter	輸入以篩選這些項目
+hint_filter_tip	只顯示包含你所輸入內容的項目。
+saved_presets	已儲存的預設
+preset_delete_confirm_label	確認刪除
+search_placeholder	模組名稱的一部分
+preset_name_placeholder	最多 40 個字元
+copy_label	複製
+show_label	顯示
+hide_label	隱藏
+copied_label	已複製
+copy_path_tip	將此路徑複製到剪貼簿。
+hint_toggle	可輸入的值
+inferred_tip	推測的行為,模組作者並未明確說明。
+file_header_tip	顯示或隱藏此檔案的設定。
+copy_file_tip	將此檔案的完整路徑複製到剪貼簿。
+d:BaseRadiusImproved.maxRadius	據點範圍在任何等級下都不會超出的上限，以遊戲單位計，20000 約為 200 公尺。
+d:BaseRadiusImproved.radiusByLevel.1	據點等級 1 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.10	據點等級 10 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.11	據點等級 11 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.12	據點等級 12 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.13	據點等級 13 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.14	據點等級 14 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.15	據點等級 15 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.16	據點等級 16 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.17	據點等級 17 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.18	據點等級 18 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.19	據點等級 19 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.2	據點等級 2 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.20	據點等級 20 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.21	據點等級 21 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.22	據點等級 22 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.23	據點等級 23 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.24	據點等級 24 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.25	據點等級 25 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.26	據點等級 26 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.27	據點等級 27 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.28	據點等級 28 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.29	據點等級 29 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.3	據點等級 3 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.30	據點等級 30 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.31	據點等級 31 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.32	據點等級 32 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.33	據點等級 33 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.34	據點等級 34 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.35	據點等級 35 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.4	據點等級 4 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.5	據點等級 5 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.6	據點等級 6 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.7	據點等級 7 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.8	據點等級 8 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:BaseRadiusImproved.radiusByLevel.9	據點等級 9 時的據點範圍，以遊戲單位計，3500 約為 35 公尺，也就是沒有這個模組時遊戲所採用的範圍。
+d:GoToBedTeleportEdition.Debug	將詳細的疑難排解訊息寫入 UE4SS.log，一般遊玩時建議保持關閉。
+d:PalBoxQoL.button.label.A	這個模組所加入按鈕上文字的不透明度，0 為全透明、1 為實心。 (?)
+d:PalBoxQoL.button.label.B	這個模組所加入按鈕上文字顏色中的藍色量，範圍 0 到 1。 (?)
+d:PalBoxQoL.button.label.G	這個模組所加入按鈕上文字顏色中的綠色量，範圍 0 到 1。 (?)
+d:PalBoxQoL.button.label.R	這個模組所加入按鈕上文字顏色中的紅色量，範圍 0 到 1。 (?)
+d:PalBoxQoL.button.layout.hAlign	新增按鈕在水平方向的對齊方式，作者要求設為 1（靠左），因為填滿會把按鈕撐滿整列，蓋掉遊戲原本的文字。
+d:PalBoxQoL.button.layout.padX	每個新增按鈕左右兩側的留白，以像素計算，上下留白維持在 0，讓按鈕能填滿整列。
+d:PalBoxQoL.button.layout.sizeRule	新增按鈕在列中決定自身尺寸的方式，設為 0 會填滿空間，並與遊戲原本的按鈕同高。
+d:PalBoxQoL.button.layout.vAlign	新增按鈕在垂直方向的對齊方式，0 會填滿並與遊戲原本的按鈕同高，2 則置中而使按鈕偏矮。
+d:PalBoxQoL.button.layout.weight	當尺寸規則設為填滿時，每個新增按鈕所佔用列中剩餘寬度的比重。 (?)
+d:PalBoxQoL.transfer.export.bForceExport	即使遊戲平常會拒絕，也依然匯出帕魯。
+d:PalBoxQoL.transfer.export.bRemoveOldData	匯出時取代已儲存的原有項目，而不是在旁邊另外新增一筆，這個含意連模組作者自己也只註記為推測而非確定。 (?)
+d:PalBoxQoL.transfer.import.bOverwriteData	匯入時覆寫遊戲中既有的項目，而不是保留原樣。
+d:PerfectPlacement.bindings.copy_piece.key	滴管按鍵，將你正瞄準的建築組件複製到目前的預覽中。
+d:PerfectPlacement.bindings.freeze_at_piece.key	將所選組件凍結在你正瞄準之錨點上的按鍵。
+d:PerfectPlacement.bindings.freeze_to_piece.key	將所瞄準組件的位置與旋轉角度複製到替換用預覽中，並就地凍結的按鍵。
+e:AlkeariLogging.dumps.cdoClassFilter	留空 (擷取層級自身的篩選器繼續生效), /Game/Pal/ (Palworld 的所有 Blueprint), /Game/Pal/Blueprint/Controller/ (僅控制器), /Game/Pal/Blueprint/UI/ (介面), 或類別的完整名稱中包含的任意文字
+e:AntiPhatPalResizing.Base.SizeThreshold	XS, S, M, L, XL
+e:AntiPhatPalResizing.DefaultSize	XS, S, M, L, XL (?)
+e:AntiPhatPalResizing.Party.SizeThreshold	XS, S, M, L, XL
+e:AntiPhatPalResizing.SizeMode	mesh, actor
+e:AntiPhatPalResizing.Wild.SizeThreshold	XS, S, M, L, XL
+e:AntiWasteDisassembleItems.Language	auto, de, en, es, es-MX, fr, id, it, ko, pl, pt, pt-BR, ru, th, tr, vi, zh, zh-Hans, zh-Hant, zh-CN, zh-SG, zh-TW, zh-HK, zh-MO
+e:BaseRenamingUtility.LOG_LEVEL	DEBUG, INFO, WARN, ERROR (?)
+e:BondalotLoadingScreen.customImage	留空 (模組內建的圖片), C:\Users\Me\Pictures\myscreen.png, C:\Users\Me\Pictures\myscreen.jpg
+e:InstantHaul.CatPriority.Accessory	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Ammo	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Armor	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Blueprint	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.ComsumeUpgrade	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.ConsumeOther	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Essential	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Glider	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Ingot	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.MaterialOther	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Monster	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Ore	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.PalSphere	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Palegg	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Proccessing	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Stone	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.WazaMachine	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Weapon	default, guild, stack, cat, near
+e:InstantHaul.CatPriority.Wood	default, guild, stack, cat, near
+e:InstantHaul.FacilityTriggerMode	time, count, percent
+e:InstantHaul.Language	en, ko, zh
+e:InstantHaul.PriorityDish	foodbox, fridge, normal, guild
+e:InstantHaul.PriorityIngredient	foodbox, fridge, normal, guild
+e:InstantHaul.PriorityOther	guild, stack, cat, near
+e:PalBoxQoL.glyph.clear	⊘, ■, □, ▣, ●, ○, ◉, ◎, ★, ▲, ▼, ◀, ▶ (?)
+e:PalBoxQoL.glyph.favAll	★, ⊘, ▲, ▼, ◀, ▶, ■, □, ▣, ●, ○, ◉, ◎ (?)
+e:PalBoxQoL.glyph.selectAll	▣, ■, □, ●, ○, ◉, ◎, ★, ▲, ▼, ◀, ▶, ⊘ (?)
+e:PalBoxQoL.glyph.toGame	▼, ▲, ◀, ▶, ■, □, ▣, ●, ○, ◉, ◎, ★, ⊘ (?)
+e:PalBoxQoL.glyph.toGlobal	▲, ▼, ◀, ▶, ■, □, ▣, ●, ○, ◉, ◎, ★, ⊘ (?)
+e:PalInsight.activationMode	Shortcut, Aim
+e:PalInsight.aimTriggerMode	Weapon, PalSphere, Both
+e:PalInsight.displayStyle	Hold, Toggle, Always On
+e:PalInsight.iVSeparator	-, /, |, :, ~, ·, • (?)
+e:PalInsight.iVTypeFace	Medium (?)
+e:PalInsight.inspectGamepadKey	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.inspectGamepadKey2	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.inspectKey	None, A 到 Z, F1 到 F12, Zero 到 Nine, NumPadZero 到 NumPadNine, Tab, Enter, SpaceBar, BackSpace, Escape, CapsLock, Insert, Delete, PageUp, PageDown, Up, Down, Left, Right, LeftShift, LeftControl, LeftAlt
+e:PalInsight.palboxSearchKey	None, A 到 Z, F1 到 F12, Zero 到 Nine, NumPadZero 到 NumPadNine, Tab, Enter, SpaceBar, BackSpace, Escape, CapsLock, Insert, Delete, PageUp, PageDown, Up, Down, Left, Right, LeftShift, LeftControl, LeftAlt
+e:PalInsight.potentialColorMode	Game, FourTier
+e:PalInsight.potentialDisplayRule	Mod, Glasses
+e:PalInsight.potentialVisionGamepadKey	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.potentialVisionGamepadKey2	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.potentialVisionKey	None, A 到 Z, F1 到 F12, Zero 到 Nine, NumPadZero 到 NumPadNine, Tab, Enter, SpaceBar, BackSpace, Escape, CapsLock, Insert, Delete, PageUp, PageDown, Up, Down, Left, Right, LeftShift, LeftControl, LeftAlt
+e:PalInsight.rarePalBeaconFollowPreset	Smooth, Balanced, LowOverhead
+e:PalInsight.realtimeSpeedUnit	Game, Mps, Kph, Mph
+e:PalInsight.settingsGamepadKey1	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.settingsGamepadKey2	None, Gamepad_DPad_Up, Gamepad_DPad_Down, Gamepad_DPad_Left, Gamepad_DPad_Right, Gamepad_FaceButton_Bottom, Gamepad_FaceButton_Right, Gamepad_FaceButton_Left, Gamepad_FaceButton_Top, Gamepad_LeftShoulder, Gamepad_RightShoulder, Gamepad_LeftTrigger, Gamepad_RightTrigger, Gamepad_LeftThumbstick, Gamepad_RightThumbstick, Gamepad_Special_Left, Gamepad_Special_Right
+e:PalInsight.settingsKey	None, A 到 Z, F1 到 F12, Zero 到 Nine, NumPadZero 到 NumPadNine, Tab, Enter, SpaceBar, BackSpace, Escape, CapsLock, Insert, Delete, PageUp, PageDown, Up, Down, Left, Right, LeftShift, LeftControl, LeftAlt
+e:PalSchema.languageOverride	留空 (跟隨遊戲), de, en, es, es-MX, fr, id, it, ja, ko, pl, pt-BR, ru, th, tr, vi, zh-Hans, zh-Hant (?)
+e:PalpediaEnhancer.ClearAllKey	None, Off, A 到 Z, 0 到 9, F1 到 F12, Ctrl+N, Shift+N, Alt+N, Ctrl+Shift+F7
+e:PalpediaEnhancer.DefaultSearchTargets	Name、Drops、Ranch（牧場產物）、Desc（項目內文），或用逗號串接的多項
+e:PalpediaEnhancer.DefaultSort	Default（遊戲本身的順序）、Name、Element、WorkType（工作適性）、Discovery、Ownership（你已捕捉的數量）、UnreadFirst（未開啟的項目排在前面）
+e:PalpediaEnhancer.MarkAllSeenKey	None、Off、A 到 Z、0 到 9、F1 到 F12、Ctrl+N、Shift+N、Alt+N、Ctrl+Shift+F7
+e:PalpediaEnhancer.ToggleUnreadKey	None, Off, A 到 Z, 0 到 9, F1 到 F12, Ctrl+N, Shift+N, Alt+N, Ctrl+Shift+F7
+e:PassivePals.aggressivePalProfile	default（同上）、vanilla、pacifist_avenger（一律反擊）、realist（打得贏才反擊）、true_pacifist（挨打就逃）、punching_bag（從不反應）、skittish_avenger（先逃再反擊）、coward（一律逃跑）、bloodthirsty（見誰打誰）、smart_defender（只在能贏時）、custom
+e:PassivePals.alphaAndBossProfile	default（同上）、vanilla、pacifist_avenger（一律反擊）、realist（打得贏才反擊）、true_pacifist（挨打就逃）、punching_bag（從不反應）、skittish_avenger（先逃再反擊）、coward（一律逃跑）、bloodthirsty（見誰打誰）、smart_defender（只在能贏時）、custom
+e:PassivePals.behaviorProfiles.custom.AttackedByEqual	vanilla（維持遊戲本身的反應）、ignore（什麼都不做）、flee（逃跑）、fight_if_winnable（打不過才逃，否則應戰）、fight_always（不做強度判定直接開打）、special（腳本化，例如走上前來討摸）
+e:PassivePals.behaviorProfiles.custom.AttackedByPlayer	vanilla（維持遊戲本身的反應）、ignore（什麼都不做）、flee（逃跑）、fight_if_winnable（打不過才逃，否則應戰）、fight_always（不做強度判定直接開打）、special（腳本化，例如走上前來討摸）
+e:PassivePals.behaviorProfiles.custom.AttackedByStronger	vanilla（維持遊戲本身的反應）、ignore（什麼都不做）、flee（逃跑）、fight_if_winnable（打不過才逃，否則應戰）、fight_always（不做強度判定直接開打）、special（腳本化，例如走上前來討摸）
+e:PassivePals.behaviorProfiles.custom.AttackedByWeaker	vanilla（維持遊戲本身的反應）、ignore（什麼都不做）、flee（逃跑）、fight_if_winnable（打不過才逃，否則應戰）、fight_always（不做強度判定直接開打）、special（腳本化，例如走上前來討摸）
+e:PassivePals.behaviorProfiles.custom.SeeEqual	vanilla（維持遊戲本身的反應）、ignore（什麼都不做）、flee（逃跑）、fight_if_winnable（打不過才逃，否則應戰）、fight_always（不做強度判定直接開打）、special（腳本化，例如走上前來討摸）
+e:PassivePals.behaviorProfiles.custom.SeePlayer	vanilla（維持遊戲本身的反應）、ignore（什麼都不做）、flee（逃跑）、fight_if_winnable（打不過才逃，否則應戰）、fight_always（不做強度判定直接開打）、special（腳本化，例如走上前來討摸）
+e:PassivePals.behaviorProfiles.custom.SeeStronger	vanilla（維持遊戲本身的反應）、ignore（什麼都不做）、flee（逃跑）、fight_if_winnable（打不過才逃，否則應戰）、fight_always（不做強度判定直接開打）、special（腳本化，例如走上前來討摸）
+e:PassivePals.behaviorProfiles.custom.SeeWeaker	vanilla（維持遊戲本身的反應）、ignore（什麼都不做）、flee（逃跑）、fight_if_winnable（打不過才逃，否則應戰）、fight_always（不做強度判定直接開打）、special（腳本化，例如走上前來討摸）
+e:PassivePals.defaultHumanProfile	vanilla, pacifist_avenger (總是反擊), realist (能贏就反擊), true_pacifist (被打就逃), punching_bag (從不反應), skittish_avenger (先逃再反擊), coward (總是逃跑), bloodthirsty (攻擊所有目標), smart_defender (僅在能贏時), custom
+e:PassivePals.defaultPalProfile	vanilla, pacifist_avenger (總是反擊), realist (能贏就反擊), true_pacifist (被打就逃), punching_bag (從不反應), skittish_avenger (先逃再反擊), coward (總是逃跑), bloodthirsty (攻擊所有目標), smart_defender (僅在能贏時), custom
+e:PassivePals.friendlyPalProfile	default（同上）、vanilla、pacifist_avenger（一律反擊）、realist（打得贏才反擊）、true_pacifist（挨打就逃）、punching_bag（從不反應）、skittish_avenger（先逃再反擊）、coward（一律逃跑）、bloodthirsty（見誰打誰）、smart_defender（只在能贏時）、custom
+e:PassivePals.hostileHumanProfile	default（同上）、vanilla、pacifist_avenger（一律反擊）、realist（打得贏才反擊）、true_pacifist（挨打就逃）、punching_bag（從不反應）、skittish_avenger（先逃再反擊）、coward（一律逃跑）、bloodthirsty（見誰打誰）、smart_defender（只在能贏時）、custom
+e:PassivePals.logging	quiet（只有載入行、警告與問題）、normal（外加編譯出的方案）、verbose（每一個物種與預設的判斷）
+e:PassivePals.neutralPalProfile	default（同上）、vanilla、pacifist_avenger（一律反擊）、realist（打得贏才反擊）、true_pacifist（挨打就逃）、punching_bag（從不反應）、skittish_avenger（先逃再反擊）、coward（一律逃跑）、bloodthirsty（見誰打誰）、smart_defender（只在能贏時）、custom
+e:PassivePals.skittishPalProfile	default（同上）、vanilla、pacifist_avenger（一律反擊）、realist（打得贏才反擊）、true_pacifist（挨打就逃）、punching_bag（從不反應）、skittish_avenger（先逃再反擊）、coward（一律逃跑）、bloodthirsty（見誰打誰）、smart_defender（只在能贏時）、custom
+e:PassivePals.speciesRules.rule1Profile	vanilla、pacifist_avenger（一律反擊）、realist（打得贏才反擊）、true_pacifist（挨打就逃）、punching_bag（從不反應）、skittish_avenger（先逃再反擊）、coward（一律逃跑）、bloodthirsty（見誰打誰）、smart_defender（只在能贏時）、custom
+e:PassivePals.speciesRules.rule1Species	Lamball（英文名稱）、SheepBall（同一隻帕魯的內部 id）、BOSS_SheepBall（它的變種）、留空（關閉這條規則）
+e:PassivePals.speciesRules.rule2Profile	vanilla、pacifist_avenger（一律反擊）、realist（打得贏才反擊）、true_pacifist（挨打就逃）、punching_bag（從不反應）、skittish_avenger（先逃再反擊）、coward（一律逃跑）、bloodthirsty（見誰打誰）、smart_defender（只在能贏時）、custom
+e:PassivePals.speciesRules.rule2Species	Lamball（英文名稱）、SheepBall（同一隻帕魯的內部 id）、BOSS_SheepBall（它的變種）、留空（關閉這條規則）
+e:PassivePals.speciesRules.rule3Profile	vanilla、pacifist_avenger（一律反擊）、realist（打得贏才反擊）、true_pacifist（挨打就逃）、punching_bag（從不反應）、skittish_avenger（先逃再反擊）、coward（一律逃跑）、bloodthirsty（見誰打誰）、smart_defender（只在能贏時）、custom
+e:PassivePals.speciesRules.rule3Species	Lamball（英文名稱）、SheepBall（同一隻帕魯的內部 id）、BOSS_SheepBall（它的變種）、留空（關閉這條規則）
+e:PassivePals.villagerProfile	default（同上）、vanilla、pacifist_avenger（一律反擊）、realist（打得贏才反擊）、true_pacifist（挨打就逃）、punching_bag（從不反應）、skittish_avenger（先逃再反擊）、coward（一律逃跑）、bloodthirsty（見誰打誰）、smart_defender（只在能贏時）、custom
+e:PerfectPlacement.bindings.copy_piece.key	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.freeze_at_piece.key	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.freeze_to_piece.key	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_back	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_down	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_forward	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_left	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_right	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.move_up	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.reset	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.rotate_left	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.rotate_right	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.rotation_step_down	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.rotation_step_up	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.step_down	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.step_up	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:PerfectPlacement.bindings.toggle_freeze	A 到 Z, 0 到 9, F1 到 F12, NUMPAD_0 到 NUMPAD_9, NUMPAD_ADD, NUMPAD_SUBTRACT, NUMPAD_MULTIPLY, NUMPAD_DIVIDE, NUMPAD_DECIMAL, SPACE, TAB, ENTER, ESCAPE, BACKSPACE, INSERT, DELETE, PAGE_UP, PAGE_DOWN, LEFT, RIGHT, UP, DOWN, LEFT_MOUSE, RIGHT_MOUSE, MIDDLE_MOUSE, MOUSE_BUTTON_4, MOUSE_BUTTON_5
+e:TidyBaseInfo.fallback.menu_assign	Assign（模組自帶措辭）、或你喜歡的任何措辭
+e:TidyBaseInfo.fallback.menu_palbox	Send to Palbox（模組自帶措辭）、或你喜歡的任何措辭
+e:TidyBaseInfo.fallback.menu_resummon	Resummon（模組自帶措辭）、或你喜歡的任何措辭
+e:TidyBaseInfo.inspectHoldKey	LeftAlt、RightAlt、LeftShift、RightShift、LeftControl、RightControl、SpaceBar、Tab、CapsLock、A 到 Z、F1 到 F12
+e:TidyBaseInfo.inspectKey	A 到 Z, ZERO 到 NINE, F1 到 F12, NUM_ZERO 到 NUM_NINE, SPACE, TAB, RETURN, BACKSPACE, INS, DEL, HOME, END, PAGE_UP, PAGE_DOWN, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW, OEM_COMMA, OEM_PERIOD, OEM_TWO, OEM_MINUS, OEM_PLUS
+e:TidyBaseInfo.keybindModifier	NONE（不用輔助鍵）、CTRL、SHIFT、ALT
+e:TidyBaseInfo.language	auto（跟隨遊戲）、en、de、es（西班牙）、es-MX（拉丁美洲）、fr、id、it、ja、ko、pl、pt-BR（巴西）、ru、th、tr、vi、zh-Hans（簡體）、zh-Hant（繁體）
+e:TidyBaseInfo.scrollDownKey	A 到 Z, ZERO 到 NINE, F1 到 F12, NUM_ZERO 到 NUM_NINE, SPACE, TAB, RETURN, BACKSPACE, INS, DEL, HOME, END, PAGE_UP, PAGE_DOWN, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW, OEM_COMMA, OEM_PERIOD, OEM_TWO, OEM_MINUS, OEM_PLUS
+e:TidyBaseInfo.scrollUpKey	A 到 Z, ZERO 到 NINE, F1 到 F12, NUM_ZERO 到 NUM_NINE, SPACE, TAB, RETURN, BACKSPACE, INS, DEL, HOME, END, PAGE_UP, PAGE_DOWN, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW, OEM_COMMA, OEM_PERIOD, OEM_TWO, OEM_MINUS, OEM_PLUS
+e:TidyBaseInfo.tokens.deepGraphite	1A1A1A（選單底板）、333333（它的外框）、2E2E2E（一個項目）、3D3D3D（滑鼠所指的項目）、FFDA00（金色外框）、六位十六進位數字，開頭不加井號
+e:TidyBaseInfo.tokens.forgedGold	FFDA00（自帶金色）、3D3D3D（滑鼠所指的項目）、2E2E2E（平常的項目）、333333（底板外框）、1A1A1A（底板）、六位十六進位數字，開頭不加井號
+e:TidyBaseInfo.tokens.hairline	333333（自帶外框）、1A1A1A（選單底板）、2E2E2E（一個項目）、3D3D3D（滑鼠所指的項目）、FFDA00（金色外框）、六位十六進位數字，開頭不加井號
+e:TidyBaseInfo.tokens.raised	2E2E2E（自帶填色）、1A1A1A（選單底板）、333333（它的外框）、3D3D3D（滑鼠所指的項目）、FFDA00（金色外框）、六位十六進位數字，開頭不加井號
+e:TidyBaseInfo.tokens.raisedHover	3D3D3D（自帶填色）、2E2E2E（平常的項目）、1A1A1A（選單底板）、333333（它的外框）、FFDA00（金色外框）、六位十六進位數字，開頭不加井號
+live_notice	變更會在幾秒內生效，無需重新啟動。
+mixed_notice	變更將在各模組下次載入時生效，除非該模組會自行重新讀取其設定。
+d:AccessoryToggler.CONFIG.BorderColor.A	設定 HUD 邊框線的不透明度。
+d:AccessoryToggler.CONFIG.BorderColor.B	設定 HUD 邊框線顏色中的藍色成分。
+d:AccessoryToggler.CONFIG.BorderColor.G	設定 HUD 邊框線顏色中的綠色成分。
+d:AccessoryToggler.CONFIG.BorderColor.R	設定 HUD 邊框線顏色中的紅色成分。
+d:AccessoryToggler.CONFIG.Debug	將模組的除錯診斷資訊輸出到 UE4SS 記錄主控台。
+d:AccessoryToggler.CONFIG.Enabled	開啟或關閉 Accessory Toggler。
+d:AccessoryToggler.CONFIG.HUDScale	設定飾品 HUD 的大小，範圍為 0.5 到 3。
+d:AccessoryToggler.CONFIG.KeyBinds.Modifier	設定編輯模式、重設與 HUD 顯示快捷鍵所需同時按住的修飾鍵。
+d:AccessoryToggler.CONFIG.KeyBinds.ResetCoords	編輯器開啟時，把 HUD 移回預設位置的按鍵。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleEditMode	開啟拖曳編輯器以移動 HUD 的按鍵，需與修飾鍵一起按住。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleSlot1	切換插槽 1 中飾品開關的按鍵。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleSlot2	切換插槽 2 中飾品開關的按鍵。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleSlot3	切換插槽 3 中飾品開關的按鍵。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleSlot4	切換插槽 4 中飾品開關的按鍵。
+d:AccessoryToggler.CONFIG.KeyBinds.ToggleUI	顯示或隱藏飾品 HUD 的按鍵，需與修飾鍵一起按住。
+d:AccessoryToggler.CONFIG.Language	設定模組標籤所用的語言，system 會跟隨遊戲語言。
+d:AccessoryToggler.CONFIG.ScanIntervalMs	設定模組多久檢查一次你裝備的飾品，單位為毫秒。
+d:AccessoryToggler.CONFIG.ShadowColor.A	設定 HUD 陰影的不透明度。
+d:AccessoryToggler.CONFIG.ShadowColor.B	設定 HUD 陰影顏色中的藍色成分。
+d:AccessoryToggler.CONFIG.ShadowColor.G	設定 HUD 陰影顏色中的綠色成分。
+d:AccessoryToggler.CONFIG.ShadowColor.R	設定 HUD 陰影顏色中的紅色成分。
+d:AccessoryToggler.CONFIG.SlotsToShow	設定 HUD 顯示的飾品插槽數量，範圍為 1 到 4。
+d:AccessoryToggler.ConfigLoadedOnce	模組載入過一次已儲存設定後所設的內部標記，不是要手動更改的設定。 (?)
+d:AutoHealWorkers.DiagnosticKey	把模組目前的動作寫入 UE4SS 記錄檔的按鍵。 (?)
+d:AutoHealWorkers.Enabled	開啟遊戲時自動啟用據點工作帕魯的自動治療。 (?)
+d:AutoHealWorkers.MaxPalsPerScan	模組每次掃描檢視的帕魯數量，可避免大型據點卡頓。 (?)
+d:AutoHealWorkers.ScanIntervalMs	模組多久檢查一次你的據點工作帕魯是否受傷，單位為毫秒。 (?)
+d:AutoHealWorkers.ToggleKey	遊玩時開關據點工作帕魯自動治療的按鍵。 (?)
+d:AutoSanityCare.DiagnosticKey	把模組目前的動作寫入 UE4SS 記錄檔的按鍵。 (?)
+d:AutoSanityCare.Enabled	開啟遊戲時自動啟用據點工作帕魯的自動理智照護。 (?)
+d:AutoSanityCare.MaxPalsPerScan	模組每次掃描檢視的帕魯數量，可避免大型據點卡頓。 (?)
+d:AutoSanityCare.SanityFloor	工作帕魯理智值低於此值後，模組才會介入。 (?)
+d:AutoSanityCare.ScanIntervalMs	模組多久檢查一次你的據點工作帕魯理智過低，單位為毫秒。 (?)
+d:AutoSanityCare.ToggleKey	遊玩時開關自動理智照護的按鍵。 (?)
+d:BaseCampEggBonus.AlphaEnabled	讓指派到據點的 Broncherry 把你在該處撿到的蛋轉為 Alpha 蛋。
+d:BaseCampEggBonus.Enabled	開關整個模組。 (?)
+d:BaseCampEggBonus.ExtraEggEnabled	讓指派到據點的 Grintale 在你於該處撿蛋時，額外多給一顆帕魯蛋。
+d:BaseCampEggBonus.Language	設定模組自身訊息所用的語言。
+d:BaseCampEggBonus.ToggleAlphaKey	切換 Alpha 蛋轉換效果開關的快捷鍵，預設為 Ctrl+L。
+d:BaseCampEggBonus.ToggleBothKey	同時切換額外蛋與 Alpha 轉換效果的快捷鍵。 (?)
+d:BaseCampEggBonus.ToggleExtraKey	切換額外蛋效果開關的快捷鍵，預設為 Ctrl+K。
+d:BaseCampEggBonus.Verbose	將模組額外的訊息寫入 UE4SS 記錄檔以供疑難排解。 (?)
+d:ChickNomadBiggerRecycler.DumpKey	選用按鍵，可將回收機目前的欄位數量輸出到記錄檔以供回報錯誤，預設關閉。
+d:ChickNomadNoPostCrashModWarning.MessageKeywords	對話訊息必須包含的額外文字，模組才會將其關閉。 (?)
+d:ChickNomadPauseOnMenu.DiagnosticIntervalMs	模組多久把診斷資訊寫入 UE4SS 記錄檔一次，單位為毫秒。 (?)
+d:CrossBaseInventoryCpp.build_mat_trace	將額外的建材資訊寫入 UE4SS 記錄檔以供疑難排解。 (?)
+d:CrossBaseInventoryCpp.craft_trace	將額外的製作資訊寫入 UE4SS 記錄檔以供疑難排解。 (?)
+d:CrossBaseInventoryCpp.display_mint	在製作與建造選單中顯示你其他公會據點的素材，這些顯示用堆疊不佔用背包重量。 (?)
+d:CrossBaseInventoryCpp.mat_audit	記錄公會共用素材的稽核資訊以供疑難排解。 (?)
+d:DynamicPassives8.debug_logging	將額外的 DynamicPassives8 診斷資訊寫入 UE4SS 記錄檔。 (?)
+d:DynamicPassives8.final_weight_5	帕魯達到 4 個特性後，最終獲得 5 個特性的相對機率，與其他最終權重相比。
+d:DynamicPassives8.final_weight_6	帕魯達到 4 個特性後，最終獲得 6 個特性的相對機率，與其他最終權重相比。
+d:DynamicPassives8.final_weight_7	帕魯達到 4 個特性後，最終獲得 7 個特性的相對機率，與其他最終權重相比。
+d:DynamicPassives8.final_weight_8	帕魯達到 4 個特性後，最終獲得 8 個特性的相對機率，與其他最終權重相比。
+d:DynamicPassives8.include_rare_only	讓遊戲標記為稀有的特性也能被抽選填入額外欄位。 (?)
+d:DynamicPassives8.include_special_assignable	讓可指定的特殊特性也能被抽選填入額外欄位。 (?)
+d:DynamicPassives8.include_unknown_metadata	讓模組無法讀取詮釋資料的特性也能被抽選填入額外欄位。 (?)
+d:DynamicPassives8.modify_native_weights	使用下方自訂的 0 到 4 生成權重，取代 Palworld 原生的特性數量機率。
+d:DynamicPassives8.native_weight_0	帕魯自然生成時沒有特性的相對機率，與其他生成權重相比。
+d:DynamicPassives8.native_weight_1	帕魯自然生成時擁有 1 個特性的相對機率，與其他生成權重相比。
+d:DynamicPassives8.native_weight_2	帕魯自然生成時擁有 2 個特性的相對機率，與其他生成權重相比。
+d:DynamicPassives8.native_weight_3	帕魯自然生成時擁有 3 個特性的相對機率，與其他生成權重相比。
+d:DynamicPassives8.native_weight_4	帕魯自然生成時擁有 4 個特性的相對機率，也是解鎖 5 到 8 個特性的門檻。
+d:DynamicPassives8.natural_lottery_only	把額外特性限制在遊戲原生特性抽選中會出現的範圍內。 (?)
+d:DynamicPassives8.special_assignable_weight	填入第 5 到第 8 個欄位時，抽中特殊特性的相對機率。 (?)
+d:DynamicPassives8.unknown_metadata_weight	填入第 5 到第 8 個欄位時，抽中詮釋資料無法讀取的特性的相對機率。 (?)
+d:Elevator.ControllerFloorSelectionModifierKey	互動時按住以選擇電梯行駛樓層數的手把按鍵，預設為十字鍵下。
+d:Elevator.ControllerInteractKey	呼叫電梯並使其上下移動的手把按鍵。
+d:Elevator.DefaultFloorCount	新放置的電梯預設可行駛的樓層數。 (?)
+d:Elevator.FloorHeightMeters	一層樓的高度（公尺），用來計算電梯要移動多遠。 (?)
+d:Elevator.InteractionHalfWidthMeters	電梯左右兩側各能站多遠仍可互動的距離（公尺）。 (?)
+d:Elevator.InteractionVerticalMarginMeters	電梯上下各能站多遠仍可互動的距離（公尺）。 (?)
+d:Elevator.KeyboardInteractKey	呼叫電梯並使其上下移動的鍵盤按鍵，預設為 F。
+d:Elevator.MaximumFloorCount	電梯可設定行駛的最大樓層數，預設為 16，因為更高的數字會有問題。
+d:Elevator.MaximumFloorSearchMeters	電梯被呼叫時尋找可停靠樓層的最大距離（公尺）。 (?)
+d:Elevator.MaximumSpeedMetersPerSecond	電梯平台可達到的最快速度（公尺／秒）。 (?)
+d:Elevator.MinimumFloorCount	電梯可設定行駛的最小樓層數。 (?)
+d:Elevator.MinimumTravelHeightMeters	電梯上下移動時，最短的移動距離（公尺）。 (?)
+d:Elevator.PlatformHorizontalScale	電梯平台的水平尺寸。 (?)
+d:Elevator.PlatformScale	電梯平台的整體尺寸。 (?)
+d:Elevator.TravelSeconds	電梯完成一趟行程所需的時間（秒）。 (?)
+d:ExpandedWorldOptions.global_max	除非某項擴充世界設定另有自己的覆寫值，否則每項擴充世界設定都能被調高到的最高值。
+d:ExpandedWorldOptions.mod.game_version	此版模組所針對的 Palworld 版本。 (?)
+d:ExpandedWorldOptions.mod.mod_version	模組自身的版本號碼。 (?)
+d:ExpandedWorldOptions.mod.name	模組在自己的記錄行中回報的名稱。 (?)
+d:ExpandedWorldOptions.overrides.PalEggDefaultHatchingTime.max	帕魯蛋孵化時間世界設定可設定的最高值。
+d:ExpandedWorldOptions.overrides.PalEggDefaultHatchingTime.min	帕魯蛋孵化時間世界設定可設定的最低值。
+d:ExpandedWorldOptions.overrides.SupplyDropSpan.max	空投補給間隔世界設定可設定的最高值。
+d:ExpandedWorldOptions.overrides.SupplyDropSpan.min	空投補給間隔世界設定可設定的最低值。
+d:FToDrop.DropAll.Enabled	開啟丟棄游標下整疊物品的快捷鍵。
+d:FToDrop.DropAll.Key	丟棄游標下整疊物品的按鍵，預設為 F。
+d:FToDrop.DropHalf.Enabled	開啟丟棄游標下該疊物品一半數量的快捷鍵。
+d:FToDrop.DropHalf.Key	丟棄該疊物品一半數量（無條件捨去）的快捷鍵，預設為 Shift+F。
+d:FToDrop.DropOne.Enabled	開啟從游標下該疊物品丟出單一物品的快捷鍵。
+d:FToDrop.DropOne.Key	從游標下該疊物品丟出單一物品的快捷鍵，預設為 Ctrl+F。
+d:NoDeleteConfirm.Diagnostic	記錄遊戲開啟的每一個對話框，這正是作者在錯誤回報中所需要的資訊。
+d:NoDeleteConfirm.VerboseLogging	將額外的 NoDeleteConfirm 訊息寫入 UE4SS 記錄檔以供疑難排解。
+d:NoPalDeposit.CMD_QUERY	用來向主機詢問箱子狀態的內部網路訊息名稱，請勿更改。 (?)
+d:NoPalDeposit.CMD_STATE	主機用來回覆箱子狀態的內部網路訊息名稱，請勿更改。 (?)
+d:NoPalDeposit.FlagsDir	模組儲存每個箱子封鎖旗標的資料夾，位於遊戲自己的存檔資料夾內。
+d:NoPalDeposit.RowLabel	帕魯儲物封鎖列所顯示的文字，可依你自己的用語更改。
+d:PalboxPageLock.InfoKeybind	開啟彈出視窗、顯示你完整鎖定頁面清單與目前快捷鍵設定的按鍵。
+d:PalboxPageLock.Lang.AllUnlocked	所有鎖定頁面都解鎖後顯示的文字。 (?)
+d:PalboxPageLock.Lang.ButtonAlreadyLocked	鎖定一個已經鎖定的頁面時顯示的文字。 (?)
+d:PalboxPageLock.Lang.ButtonAlreadyUnlocked	解鎖一個尚未鎖定的頁面時顯示的文字。 (?)
+d:PalboxPageLock.Lang.ButtonList	列出你鎖定頁面的按鈕文字。
+d:PalboxPageLock.Lang.ButtonLock	鎖定你正在檢視的帕魯箱頁面的按鈕文字。
+d:PalboxPageLock.Lang.ButtonLockedFlash	頁面剛被鎖定後，按鈕閃現的文字。 (?)
+d:PalboxPageLock.Lang.ButtonUnlock	解鎖你正在檢視的帕魯箱頁面的按鈕文字。
+d:PalboxPageLock.Lang.ButtonUnlockedFlash	頁面剛被解鎖後，按鈕閃現的文字。 (?)
+d:PalboxPageLock.Lang.LockedListPrefix	放在你鎖定頁面清單前面的文字。 (?)
+d:PalboxPageLock.Lang.NoPagesLocked	你的帕魯箱頁面都沒有被鎖定時顯示的文字。 (?)
+d:PalboxPageLock.Lang.Unlocked	模組用來表示頁面未鎖定的字詞。 (?)
+d:PalboxPageLock.ListKeybind	顯示並重新整理你的帕魯箱頁面鎖定狀態的按鍵。
+d:PalboxPageLock.Message	模組顯示的更新通知內部文字。 (?)
+d:PalboxPageLock.NoticeVersion	更新通知所屬模組版本的內部紀錄。 (?)
+d:PalboxPageLock.PruneAfterDays	設定玩家未上線多少天後，主機會捨棄其已儲存的鎖定頁面。
+d:PalboxPageLock.UnlockAllKeybind	一次解鎖你所有鎖定帕魯箱頁面的按鍵。
+d:PalInsightQuickStack.Alt	快速堆疊快捷鍵需要同時按住 Alt。 (?)
+d:PalInsightQuickStack.Ctrl	快速堆疊快捷鍵需要同時按住 Ctrl。 (?)
+d:PalInsightQuickStack.Shift	快速堆疊快捷鍵需要同時按住 Shift。 (?)
+d:PalInsightQuickStack.statuses.down	投下反對票時使用的狀態代碼。 (?)
+d:PalInsightQuickStack.statuses.noVote	尚未對模組投票時使用的狀態代碼。 (?)
+d:PalInsightQuickStack.statuses.querying	正在向 Workshop 查詢投票狀態時使用的狀態代碼。 (?)
+d:PalInsightQuickStack.statuses.settingUp	正在送出讚好票時使用的狀態代碼。 (?)
+d:PalInsightQuickStack.statuses.unavailable	無法讀取 Workshop 投票狀態時使用的狀態代碼。 (?)
+d:PalInsightQuickStack.statuses.up	投下讚好票時使用的狀態代碼。 (?)
+d:PalMiniMap.autohideInBase	在你身處據點內時隱藏小地圖。
+d:PalMiniMap.autozoom	依你的移動速度自動放大或縮小小地圖視野。
+d:PalMiniMap.autozoomFly	自動縮放開啟時，飛行狀態下套用的縮放倍率。 (?)
+d:PalMiniMap.autozoomRun	自動縮放開啟時，奔跑狀態下套用的縮放倍率。 (?)
+d:PalMiniMap.autozoomWalk	自動縮放開啟時，步行狀態下套用的縮放倍率。 (?)
+d:PalMiniMap.baseCampRadius	當遊戲自身的判定無法讀取時，用來判斷你是否身處據點內的備援半徑。 (?)
+d:PalMiniMap.captureHeight	即時渲染攝影機位於你上方的高度，範圍為 200 到 20000 世界單位。
+d:PalMiniMap.captureIntervalMs	即時地形重新渲染的間隔，單位為毫秒，範圍為 100 到 2000。
+d:PalMiniMap.captureStyle	優先嘗試的即時渲染來源：0 為有光照世界，1 為平面無光照色彩，可能會退回有光照渲染。
+d:PalMiniMap.circular	以圓形而非方形繪製小地圖。
+d:PalMiniMap.elevationIndicatorSize	標記上高度箭頭的大小，範圍為 5 到 18 像素。
+d:PalMiniMap.elevationThreshold	標記與你之間高度差多少（公分）才會顯示高度箭頭。
+d:PalMiniMap.enabled	顯示或隱藏小地圖。
+d:PalMiniMap.hideBehindGameUi	遊戲自身選單開啟時隱藏小地圖。
+d:PalMiniMap.hideCollected	隱藏你已經收集過的箱子、蛋、筆記與雕像。
+d:PalMiniMap.iconSize	小地圖上標記圖示的大小，範圍為 10 到 40 像素。
+d:PalMiniMap.keys.corner	把小地圖移到螢幕下一個角落的按鍵。
+d:PalMiniMap.keys.down	讓小地圖向下移動的按鍵，僅在編輯模式下有效。
+d:PalMiniMap.keys.edit	進入編輯模式的按鍵，此模式下方向鍵移動小地圖，縮放鍵調整大小。
+d:PalMiniMap.keys.left	讓小地圖向左移動的按鍵，僅在編輯模式下有效。
+d:PalMiniMap.keys.megazoom	切換大縮放（顯示整個區域的視野）的按鍵。
+d:PalMiniMap.keys.menu	開啟與關閉 PalMiniMap 設定選單的按鍵。
+d:PalMiniMap.keys.right	讓小地圖向右移動的按鍵，僅在編輯模式下有效。
+d:PalMiniMap.keys.up	讓小地圖向上移動的按鍵，僅在編輯模式下有效。
+d:PalMiniMap.keys.visible	顯示或隱藏小地圖的按鍵。
+d:PalMiniMap.keys.zoomIn	放大小地圖的按鍵，編輯模式下同時會放大顯示。
+d:PalMiniMap.keys.zoomOut	縮小小地圖的按鍵，編輯模式下同時會縮小顯示。
+d:PalMiniMap.liveTerrain	從上方即時渲染地形，取代繪製遊戲自身的世界地圖材質。
+d:PalMiniMap.liveZoomMax	超過此縮放值後，小地圖會從即時渲染改回繪製世界地圖材質。
+d:PalMiniMap.lockIconsNorth	小地圖旋轉時保持圖示直立。
+d:PalMiniMap.mapQuality	小地圖地形的清晰度，0 為最低，3 為最清晰。
+d:PalMiniMap.maxNpcIcons	小地圖同時最多顯示的 NPC 圖示數量，範圍為 0 到 64。
+d:PalMiniMap.maxPalIcons	小地圖同時最多顯示的帕魯圖示數量，範圍為 8 到 128。
+d:PalMiniMap.maxPlayerIcons	小地圖同時最多顯示的其他玩家圖示數量，範圍為 0 到 64。
+d:PalMiniMap.maxPoiIcons	小地圖同時最多顯示的興趣點圖示數量，範圍為 8 到 128。
+d:PalMiniMap.megazoom	大縮放視野顯示的世界範圍，以世界單位計，範圍為 60000 到 500000。
+d:PalMiniMap.megazoomActive	大縮放區域視野目前是否開啟。 (?)
+d:PalMiniMap.menuLanguage	設定選單所用的語言，留空則跟隨遊戲設定的語言。 (?)
+d:PalMiniMap.moveIntervalMs	圖示重新定位的間隔，單位為毫秒，數值越低越平滑，但耗費效能越多。
+d:PalMiniMap.onlyShinyPals	只在小地圖顯示閃光帕魯，隱藏一般帕魯。
+d:PalMiniMap.opacity	小地圖的不透明度，以 0 到 1 的比例表示。
+d:PalMiniMap.palsWhileMegazoom	大縮放區域視野開啟時，仍保留帕魯圖示顯示。
+d:PalMiniMap.playerIconSize	你自己玩家標記的大小，範圍為 10 到 48 像素。
+d:PalMiniMap.rotateWithCamera	讓小地圖隨攝影機旋轉，而非固定以北方朝上。
+d:PalMiniMap.scanIntervalMs	重新掃描世界尋找新物件的間隔，單位為毫秒，範圍為 1000 到 20000。
+d:PalMiniMap.showBaseCamps	在小地圖上顯示玩家據點。
+d:PalMiniMap.showChests	在小地圖上顯示寶箱。
+d:PalMiniMap.showDeaths	在小地圖上顯示你死亡的地點。
+d:PalMiniMap.showDungeons	在小地圖上顯示地下城。
+d:PalMiniMap.showEffigies	在小地圖上顯示皮皮雞雕像。
+d:PalMiniMap.showEggs	在小地圖上顯示帕魯蛋。
+d:PalMiniMap.showElevationIndicators	在明顯高於或低於你的標記上繪製箭頭。
+d:PalMiniMap.showEnemyCamps	在小地圖上顯示敵方營地。
+d:PalMiniMap.showFastTravel	在小地圖上顯示快速旅行點。
+d:PalMiniMap.showFishing	在小地圖上顯示釣魚點。
+d:PalMiniMap.showNotes	在小地圖上顯示筆記。
+d:PalMiniMap.showNPCs	在小地圖上顯示人類 NPC。
+d:PalMiniMap.showPals	在小地圖上顯示帕魯。
+d:PalMiniMap.showPlayers	在小地圖上顯示其他玩家。
+d:PalMiniMap.showResources	在小地圖上顯示礦石、蓮花與垃圾等採集點。
+d:PalMiniMap.showSkillFruit	在小地圖上顯示技能果實樹。
+d:PalMiniMap.showTowers	在小地圖上顯示高塔。
+d:PalMiniMap.showTreasureMaps	在小地圖上顯示藏寶圖對應的埋藏寶藏。
+d:PalMiniMap.showViewCone	在小地圖上繪製一個顯示攝影機朝向的錐形範圍。
+d:PalMiniMap.size	小地圖的像素大小，範圍為 120 到 480。
+d:PalMiniMap.terrainTexture	小地圖繪製的地圖材質，留空則使用遊戲自身的世界地圖。 (?)
+d:PalMiniMap.viewConeOpacity	攝影機視野錐形的不透明度，以 0 到 1 的比例表示。
+d:PalMiniMap.viewConeSize	攝影機視野錐形延伸的距離，以小地圖半徑的比例表示。
+d:PalMiniMap.x	小地圖在螢幕上的水平位置（像素），負值表示與右邊緣的距離。 (?)
+d:PalMiniMap.y	小地圖在螢幕上的垂直位置（像素），負值表示與下邊緣的距離。 (?)
+d:PalMiniMap.zoom	小地圖顯示的世界範圍，以世界單位計，範圍為 4000 到 120000。
+d:PalMiniMap.zoomFactor	每按一次縮放鍵所倍增的視野比例，讓每次縮放在任何倍率下感覺一致。 (?)
+d:PalMiniMap.zoomMax	小地圖可顯示的最大世界範圍，以世界單位計，也就是縮小的極限。 (?)
+d:PalMiniMap.zoomMin	小地圖可顯示的最小世界範圍，以世界單位計，也就是放大的極限。 (?)
+d:PalSizeSurgery.charge_gold	每次在帕魯手術台變更帕魯體型時收取金幣。
+d:PalSizeSurgery.default_size_permille	變更體型頁籤開啟時的預設體型，以正常體型的千分之幾表示。 (?)
+d:PalSizeSurgery.diagnostic_logging	將額外的 Pal Size Surgery 訊息寫入 UE4SS 記錄檔以供疑難排解。
+d:PalSizeSurgery.gold_cost	在帕魯手術台變更體型所收取的金幣數量。 (?)
+d:PalSizeSurgery.max_size_permille	可選擇的最大體型，以正常體型的千分之幾表示，因此 2000 代表 2.00 倍。 (?)
+d:PalSizeSurgery.maximum_size	變更體型頁籤允許設定的最大體型，預設為 2.00 倍。
+d:PalSizeSurgery.min_size_permille	可選擇的最小體型，以正常體型的千分之幾表示，因此 200 代表 0.20 倍。 (?)
+d:PalSizeSurgery.minimum_gold_cost	單次變更體型最少收取的金幣數量。 (?)
+d:PalSizeSurgery.minimum_size	變更體型頁籤允許設定的最小體型，預設為 0.20 倍。
+d:PalSizeSurgery.mounted_camera_distance	調整騎乘已變更體型帕魯時，攝影機與帕魯之間的距離。 (?)
+d:PalSizeSurgery.mounted_minimum_size	可騎乘帕魯仍能被騎乘的最小體型，預設為 0.80 倍。
+d:PalSizeSurgery.step_size_permille	體型選擇器每一格移動的幅度，以正常體型的千分之幾表示。 (?)
+d:PalWorkPriority._suitability_warned	記錄工作適性警告是否已顯示過的內部資訊，編輯它不會有任何效果。 (?)
+d:PalWorkPriority.assignment_mode	選擇帕魯是分散到多項工作，還是先填滿一項工作再換下一項。
+d:PalWorkPriority.CONTAINER_BASE_CLASS	模組讀取據點儲物容器所用的內部遊戲類別。 (?)
+d:PalWorkPriority.enum_offset	模組用來讓自身工作類型清單對齊遊戲原生清單的內部偏移量。 (?)
+d:PalWorkPriority.find_ms	模組圖示查找作業的內部計時（毫秒），編輯它不會有任何效果。 (?)
+d:PalWorkPriority.finds	模組執行過圖示查找的內部計數，編輯它不會有任何效果。 (?)
+d:PalWorkPriority.FRESH_SECONDS	設定一筆已儲存的讀數在重新取得之前，被視為最新的秒數。 (?)
+d:PalWorkPriority.game_ui_active	記錄遊戲自身選單是否開啟的內部資訊，編輯它不會有任何效果。 (?)
+d:PalWorkPriority.hooked	記錄模組的需求掛鉤是否已就緒的內部資訊，編輯它不會有任何效果。 (?)
+d:PalWorkPriority.interval_seconds	設定模組每次指派作業之間相隔的秒數。
+d:PalWorkPriority.learned_warned	記錄圖示警告是否已顯示過的內部資訊，編輯它不會有任何效果。 (?)
+d:PalWorkPriority.load_ms	模組載入圖示所耗費時間的內部計時（毫秒），編輯它不會有任何效果。 (?)
+d:PalWorkPriority.loads	模組載入圖示次數的內部計數，編輯它不會有任何效果。 (?)
+d:PalWorkPriority.MAX_CEILING	設定生產規則可保留的最高庫存上限。 (?)
+d:PalWorkPriority.MAX_ID_LEN	設定模組在生產規則中接受的最長物品 ID 長度。 (?)
+d:PalWorkPriority.MAX_RULES	設定模組同時保留的生產庫存上限規則數量。 (?)
+d:PalWorkPriority.pc_fallbacks	模組改用其他方式取得玩家控制器的內部次數統計，編輯它不會有任何效果。 (?)
+d:PalWorkPriority.perf	開啟模組的效能記錄功能。 (?)
+d:PalWorkPriority.STATION_SUIT.BlastFurnace_0	模組對應到高爐工作站的內部工作適性。 (?)
+d:PalWorkPriority.STATION_SUIT.CampFire_0	模組對應到營火工作站的內部工作適性。 (?)
+d:PalWorkPriority.storage_scope	選擇生產庫存上限是各據點分別計算，還是所有據點合併計算。
+d:PalWorkPriority.WORK_IGNORE.Idle	讓模組指派工作時排除「閒置」這項工作類型。 (?)
+d:PalWorkPriority.worst_find	模組執行過最慢一次圖示查找的內部紀錄，編輯它不會有任何效果。 (?)
+d:PalworldEasyCheats.building.buildingMaxZ	設定你可以建造的最高高度。
+d:PalworldEasyCheats.building.buildingObjectMaxNum	設定一個據點可容納的建築物件數量。
+d:PalworldEasyCheats.building.foundationFloatingAllowance	設定地基可以懸空多遠仍能放置。
+d:PalworldEasyCheats.building.leanAngleMax	設定建築物仍能放置的最大傾斜角度。
+d:PalworldEasyCheats.building.spawnableIfOverlapped	讓你可以放置與其他物件重疊的建築物。
+d:PalworldEasyCheats.capture.perfectCaptureRate	讓每一次捕捉帕魯都成功。
+d:PalworldEasyCheats.capture.perfectFishCapture	讓每一次釣魚嘗試都成功。
+d:PalworldEasyCheats.combat.godModeEnabled	讓你的角色不受到任何傷害。
+d:PalworldEasyCheats.combat.includePalsGodMode	把無敵模式延伸套用到你的帕魯身上。
+d:PalworldEasyCheats.extras.infiniteAmmo	射擊時不消耗彈藥。
+d:PalworldEasyCheats.extras.instantPalRevive	立即復活倒下的帕魯。
+d:PalworldEasyCheats.extras.instantPalSkillCooldown	移除你的帕魯技能的冷卻時間。
+d:PalworldEasyCheats.extras.noFallDamage	讓你摔落時不受到傷害。
+d:PalworldEasyCheats.fuel.infiniteFuel	燃料不會被消耗，讓你所有靠燃料運作的東西都不會耗盡。
+d:PalworldEasyCheats.GodModeFlagName	模組用來追蹤無敵模式狀態的內部旗標名稱。 (?)
+d:PalworldEasyCheats.hotkeys.fuel	開關無限燃料的按鍵（預設 Alt+F）。
+d:PalworldEasyCheats.hotkeys.god	開關無敵模式的按鍵（預設 Alt+G）。
+d:PalworldEasyCheats.hotkeys.hunger	開關飢餓阻擋的按鍵（預設 Alt+H）。
+d:PalworldEasyCheats.hotkeys.jump	開關高跳躍的按鍵（預設 Alt+J）。
+d:PalworldEasyCheats.hotkeys.speedDown	降低角色速度倍率的按鍵（預設 -）。
+d:PalworldEasyCheats.hotkeys.speedReset	重設角色速度倍率的按鍵（預設 Alt+0）。
+d:PalworldEasyCheats.hotkeys.speedUp	提高角色速度倍率的按鍵（預設 =）。
+d:PalworldEasyCheats.hotkeys.stamina	開關無限體力的按鍵（預設 Alt+S）。
+d:PalworldEasyCheats.hunger.disableHunger	讓你的角色不會感到飢餓。
+d:PalworldEasyCheats.hunger.includePalsHunger	把飢餓阻擋延伸套用到你的帕魯身上。
+d:PalworldEasyCheats.HungerFlagName	模組用來追蹤飢餓阻擋狀態的內部旗標名稱。 (?)
+d:PalworldEasyCheats.jump.highJumpEnabled	開啟高跳躍，讓你的角色跳得比平常更高。
+d:PalworldEasyCheats.jump.jumpHeightMultiplier	設定高跳躍開啟時，你的角色跳躍高度提升的幅度。
+d:PalworldEasyCheats.JumpFlagName	模組用來追蹤高跳躍作弊狀態的內部旗標名稱。 (?)
+d:PalworldEasyCheats.map.levelOnLoadEnabled	讓你的存檔讀取後，把角色設為指定等級。
+d:PalworldEasyCheats.map.levelOnLoadTarget	設定存檔讀取後要套用的角色等級。
+d:PalworldEasyCheats.map.revealMap	揭露整張世界地圖。
+d:PalworldEasyCheats.map.revealMapClearSize	設定揭露地圖時，從地圖迷霧中清除的區域大小。 (?)
+d:PalworldEasyCheats.map.unlockAllFastTravelPoints	解鎖地圖上每一個快速旅行點。
+d:PalworldEasyCheats.map.unlockAllNotes	解鎖地圖上每一則世界筆記。
+d:PalworldEasyCheats.map.unlockAllNotesNoXp	解鎖每一則世界筆記，但不給予平常會獲得的經驗值。
+d:PalworldEasyCheats.map.unlockAllPalEffigies	解鎖地圖上每一座帕魯雕像。
+d:PalworldEasyCheats.map.unlockAllPalEffigiesNoXp	解鎖每一座帕魯雕像，但不給予平常會獲得的經驗值。
+d:PalworldEasyCheats.movement.defaultSpeedMultiplier	設定重設速度快捷鍵會回到的速度倍率。 (?)
+d:PalworldEasyCheats.movement.matchSwimSpeed	把你的速度倍率同時套用到游泳與陸地移動。 (?)
+d:PalworldEasyCheats.movement.maxSpeedMultiplier	設定速度快捷鍵可達到的最高速度倍率。 (?)
+d:PalworldEasyCheats.movement.minSpeedMultiplier	設定速度快捷鍵可達到的最低速度倍率。 (?)
+d:PalworldEasyCheats.movement.speedMultiplier	設定你的角色移動速度比平常快多少。
+d:PalworldEasyCheats.movement.speedStep	設定每按一次速度快捷鍵，速度倍率變化的幅度。 (?)
+d:PalworldEasyCheats.multipliers.characterMaxLevel	設定你的角色可達到的最高等級。
+d:PalworldEasyCheats.multipliers.techPointMultiplier	倍增你獲得的科技點數。
+d:PalworldEasyCheats.SavedSpeedMultiplier	儲存你上次設定的速度倍率，下次啟動遊戲時套用。 (?)
+d:PalworldEasyCheats.SpeedFlagName	模組用來追蹤角色速度作弊狀態的內部旗標名稱。 (?)
+d:PalworldEasyCheats.stamina.infiniteStamina	讓你的體力不會消耗。
+d:PalworldEasyCheats.system.applyOnLoadDelayMs	設定存檔讀取後，模組等待多久（毫秒）才套用設定。
+d:PalworldEasyCheats.system.disablePermanentConfirmAlerts	停止套用永久性選項前顯示的確認提示。 (?)
+d:PalworldEasyCheats.system.maintainIntervalMs	設定模組多久（毫秒）重新套用一次你啟用中的作弊效果。 (?)
+d:PalworldEasyCheats.system.persistModifications	讓你選擇的作弊效果持續套用，而非每次遊玩都重設。 (?)
+d:PalworldEasyCheats.system.skipModDisclaimer	跳過遊戲啟動時顯示的「偵測到模組」免責聲明。
+d:PalworldEasyCheats.travel.fastTravelAnyMapIcon	讓你可以從地圖上任一圖示進行快速旅行。
+d:PalworldEasyCheats.work.fasterWorkSpeed	讓你的帕魯工作得更快。
+d:PalworldEasyCheats.work.noBuildingCosts	讓你放置建築物時不消耗材料。
+d:PalworldEasyCheats.work.noCraftingCosts	讓你製作物品時不消耗材料。
+d:PalworldEasyCheats.work.workSpeedMultiplier	設定加快工作速度開啟時，你的帕魯工作速度提升的倍率。
+d:PartySlotExtender.PartySlotCount	設定隨行隊伍中的帕魯數量，範圍為 6 到 10，預設為 8。
+d:PerfProbe.A	裝備組合 A 的四個飾品欄位，以逗號分隔的物品 ID 表示，空欄位留空。 (?)
+d:PerfProbe.Accessory_AirDash1	PerfProbe 在裝備欄選擇器中，為飾品 Air Dash Boots 顯示的名稱。 (?)
+d:PerfProbe.Accessory_AirDash2	PerfProbe 在裝備欄選擇器中，為飾品 Double Air Dash Boots 顯示的名稱。 (?)
+d:PerfProbe.Accessory_AirDash3	PerfProbe 在裝備欄選擇器中，為飾品 Triple Air Dash Boots 顯示的名稱。 (?)
+d:PerfProbe.Accessory_AirDash4	PerfProbe 在裝備欄選擇器中，為飾品 Quadruple Air Dash Boots 顯示的名稱。 (?)
+d:PerfProbe.Accessory_AquaResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Water Resistance 顯示的名稱。 (?)
+d:PerfProbe.Accessory_AquaResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Water Resistance +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_AquaResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Water Resistance +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_AT_1	PerfProbe 在裝備欄選擇器中，為飾品 Attack Pendant 顯示的名稱。 (?)
+d:PerfProbe.Accessory_AT_2	PerfProbe 在裝備欄選擇器中，為飾品 Attack Pendant +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_AT_3	PerfProbe 在裝備欄選擇器中，為飾品 Attack Pendant +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Avoid_1	PerfProbe 在裝備欄選擇器中，為飾品 Phantom Ring 顯示的名稱。 (?)
+d:PerfProbe.Accessory_ColdIce_1	PerfProbe 在裝備欄選擇器中，為飾品 Wumpo Charm 顯示的名稱。 (?)
+d:PerfProbe.Accessory_CoolResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Thermal Undershirt 顯示的名稱。 (?)
+d:PerfProbe.Accessory_CoolResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Thermal Undershirt +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_CoolResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Thermal Undershirt +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_DarkResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Dark Resistance 顯示的名稱。 (?)
+d:PerfProbe.Accessory_DarkResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Dark Resistance +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_DarkResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Dark Resistance +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_defense_1	PerfProbe 在裝備欄選擇器中，為飾品 Defense Pendant 顯示的名稱。 (?)
+d:PerfProbe.Accessory_defense_2	PerfProbe 在裝備欄選擇器中，為飾品 Defense Pendant +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_defense_3	PerfProbe 在裝備欄選擇器中，為飾品 Defense Pendant +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_DFHP_1	PerfProbe 在裝備欄選擇器中，為飾品 Warsect Terra's Belt 顯示的名稱。 (?)
+d:PerfProbe.Accessory_DragonResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Dragon Resistance 顯示的名稱。 (?)
+d:PerfProbe.Accessory_DragonResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Dragon Resistance +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_DragonResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Dragon Resistance +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_EarthResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Ground Resistance 顯示的名稱。 (?)
+d:PerfProbe.Accessory_EarthResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Ground Resistance +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_EarthResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Ground Resistance +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_ExplosionResist	PerfProbe 在裝備欄選擇器中，為飾品 Explosion-Resistant Undershirt 顯示的名稱。 (?)
+d:PerfProbe.Accessory_FireResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Fire Resistance 顯示的名稱。 (?)
+d:PerfProbe.Accessory_FireResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Fire Resistance +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_FireResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Fire Resistance +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HCHP_1	PerfProbe 在裝備欄選擇器中，為飾品 Vanguard Charm 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HCMW_1	PerfProbe 在裝備欄選擇器中，為飾品 Wandering Merchant Charm 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HeatColdResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Multiclimate Undershirt 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HeatColdResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Multiclimate Undershirt +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HeatColdResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Multiclimate Undershirt +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HeatFire_1	PerfProbe 在裝備欄選擇器中，為飾品 Reptyro Charm 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HeatResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Heat Resistant Undershirt 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HeatResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Heat Resistant Undershirt +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HeatResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Heat Resistant Undershirt +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HP_1	PerfProbe 在裝備欄選擇器中，為飾品 Life Pendant 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HP_2	PerfProbe 在裝備欄選擇器中，為飾品 Life Pendant +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_HP_3	PerfProbe 在裝備欄選擇器中，為飾品 Life Pendant +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_IceResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Ice Resistance 顯示的名稱。 (?)
+d:PerfProbe.Accessory_IceResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Ice Resistance +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_IceResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Ice Resistance +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_JumpAir_1	PerfProbe 在裝備欄選擇器中，為飾品 Air Walker Mk I 顯示的名稱。 (?)
+d:PerfProbe.Accessory_JumpAir_2	PerfProbe 在裝備欄選擇器中，為飾品 Air Walker Mk II 顯示的名稱。 (?)
+d:PerfProbe.Accessory_JumpCount_Increase1	PerfProbe 在裝備欄選擇器中，為飾品 Double Jump Boots 顯示的名稱。 (?)
+d:PerfProbe.Accessory_JumpCount_Increase2	PerfProbe 在裝備欄選擇器中，為飾品 Triple Jump Boots 顯示的名稱。 (?)
+d:PerfProbe.Accessory_JumpCount_Increase3	PerfProbe 在裝備欄選擇器中，為飾品 Quadruple Jump Boots 顯示的名稱。 (?)
+d:PerfProbe.Accessory_JumpPower_Increase	PerfProbe 在裝備欄選擇器中，為飾品 Anti-Gravity Belt 顯示的名稱。 (?)
+d:PerfProbe.Accessory_LeafResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Grass Resistance 顯示的名稱。 (?)
+d:PerfProbe.Accessory_LeafResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Grass Resistance +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_LeafResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Grass Resistance +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_MaxWeightUp_01	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Freight 顯示的名稱。 (?)
+d:PerfProbe.Accessory_MaxWeightUp_02	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Freight +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_MaxWeightUp_03	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Freight +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_NonkChecker_1	PerfProbe 在裝備欄選擇器中，為飾品 Pal Tamer's Glasses 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Nonkilling	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Mercy 顯示的名稱。 (?)
+d:PerfProbe.Accessory_NormalResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Neutral Resistance 顯示的名稱。 (?)
+d:PerfProbe.Accessory_NormalResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Neutral Resistance +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_NormalResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Neutral Resistance +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Otomo_Dargon_1	PerfProbe 在裝備欄選擇器中，為飾品 Elphidran Ring 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Otomo_Dark_1	PerfProbe 在裝備欄選擇器中，為飾品 Katress Ring 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Otomo_Earth_1	PerfProbe 在裝備欄選擇器中，為飾品 Menasting Terra Ring 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Otomo_Electricity_1	PerfProbe 在裝備欄選擇器中，為飾品 Fenglope Lux Ring 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Otomo_Fire_1	PerfProbe 在裝備欄選擇器中，為飾品 Blazehowl Ring 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Otomo_Fire_2	PerfProbe 在裝備欄選擇器中，為飾品 Faleris Ring 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Otomo_Ice_1	PerfProbe 在裝備欄選擇器中，為飾品 Cryolinx Ring 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Otomo_Leaf_1	PerfProbe 在裝備欄選擇器中，為飾品 Vaelet Ring 顯示的名稱。 (?)
+d:PerfProbe.Accessory_Otomo_Water_1	PerfProbe 在裝備欄選擇器中，為飾品 Faleris Aqua Ring 顯示的名稱。 (?)
+d:PerfProbe.Accessory_PPAT_1	PerfProbe 在裝備欄選擇器中，為飾品 Dogen Emblem 顯示的名稱。 (?)
+d:PerfProbe.Accessory_PPDF_1	PerfProbe 在裝備欄選擇器中，為飾品 Silvegis Emblem 顯示的名稱。 (?)
+d:PerfProbe.Accessory_SuperJumpAir_1	PerfProbe 在裝備欄選擇器中，為飾品 Air Walker Mk III 顯示的名稱。 (?)
+d:PerfProbe.Accessory_SuperJumpAir_2	PerfProbe 在裝備欄選擇器中，為飾品 Air Walker EX 顯示的名稱。 (?)
+d:PerfProbe.Accessory_TalentChecker	PerfProbe 在裝備欄選擇器中，為飾品 Ability Glasses 顯示的名稱。 (?)
+d:PerfProbe.Accessory_ThunderResist_1	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Electric Resistance 顯示的名稱。 (?)
+d:PerfProbe.Accessory_ThunderResist_2	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Electric Resistance +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_ThunderResist_3	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Electric Resistance +2 顯示的名稱。 (?)
+d:PerfProbe.Accessory_WKMC_1	PerfProbe 在裝備欄選擇器中，為飾品 Islander's Tool Belt 顯示的名稱。 (?)
+d:PerfProbe.Accessory_WorkSpeed_1	PerfProbe 在裝備欄選擇器中，為飾品 Pendant of Diligence 顯示的名稱。 (?)
+d:PerfProbe.Accessory_WorkSpeed_2	PerfProbe 在裝備欄選擇器中，為飾品 Pendant of Diligence +1 顯示的名稱。 (?)
+d:PerfProbe.Accessory_WorkSpeed_3	PerfProbe 在裝備欄選擇器中，為飾品 Pendant of Diligence +2 顯示的名稱。 (?)
+d:PerfProbe.active	目前使用的裝備組合是 A 還是 B。 (?)
+d:PerfProbe.anchor	儲存位置的量測角落，tl 為左上，tr 為右上。 (?)
+d:PerfProbe.aniso	PerfProbe 套用的非等向性紋理過濾等級，範圍為 0 到 16，-1 表示保留遊戲原本的數值。 (?)
+d:PerfProbe.atmo	天空大氣效果，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.B	裝備組合 B 的四個飾品欄位，以逗號分隔的物品 ID 表示，空欄位留空。 (?)
+d:PerfProbe.babies	把你派出的帕魯縮小到約正常體型的三分之一，並限制範圍以確保最小與最大種類仍可正常使用。 (?)
+d:PerfProbe.badgePos.enabled	在 HUD 上顯示綠色或紅色的慈悲指示徽章，PerfProbe 頁籤也可以隱藏它。
+d:PerfProbe.bloom	光暈效果，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.browserlayout.txt:anchor	帕魯箱索引位置的量測角落，tl 為左上，tr 為右上。 (?)
+d:PerfProbe.browserlayout.txt:collapsed	帕魯箱索引面板的已儲存收合狀態，0 為完整視窗，1 為僅標題列。 (?)
+d:PerfProbe.browserlayout.txt:h	帕魯箱索引面板已儲存的高度，會被限制在該面板允許的範圍內。 (?)
+d:PerfProbe.browserlayout.txt:w	帕魯箱索引面板已儲存的寬度，會被限制在該面板允許的範圍內。 (?)
+d:PerfProbe.browserlayout.txt:x	帕魯箱索引面板已儲存的左邊緣位置，以左上角為基準的螢幕單位表示。 (?)
+d:PerfProbe.browserlayout.txt:y	帕魯箱索引面板已儲存的上邊緣位置，以左上角為基準的螢幕單位表示。 (?)
+d:PerfProbe.capsule	膠囊陰影，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.cascades	PerfProbe 套用的最大陰影層級數量，範圍為 0 到 4，-1 表示保留遊戲原本的數值。 (?)
+d:PerfProbe.collapsed	浮動面板已儲存的收合狀態，0 為完整視窗，1 為僅標題列，2 為傷害計量表的精簡版面。 (?)
+d:PerfProbe.damagemeter	顯示浮動傷害計量表，追蹤你派出的帕魯與你自己造成的傷害。
+d:PerfProbe.damagemeterlayout.txt:anchor	傷害計量表位置的量測角落，tl 為左上，tr 為右上。 (?)
+d:PerfProbe.damagemeterlayout.txt:collapsed	傷害計量表已儲存的收合狀態，0 為完整視窗，2 為精簡版面。 (?)
+d:PerfProbe.damagemeterlayout.txt:h	傷害計量表已儲存的高度，會被限制在該面板允許的範圍內。 (?)
+d:PerfProbe.damagemeterlayout.txt:w	傷害計量表已儲存的寬度，會被限制在該面板允許的範圍內。 (?)
+d:PerfProbe.damagemeterlayout.txt:x	傷害計量表已儲存的左邊緣位置，以左上角為基準的螢幕單位表示。 (?)
+d:PerfProbe.damagemeterlayout.txt:y	傷害計量表已儲存的上邊緣位置，以左上角為基準的螢幕單位表示。 (?)
+d:PerfProbe.dfao	距離場環境光遮蔽，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.dlssq	PerfProbe 要求的 DLSS 品質模式，1 為自動、2 為 DLAA、3 為極致品質、4 為品質、5 為平衡、6 為效能、7 為極致效能。 (?)
+d:PerfProbe.dof	景深效果，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.flare	鏡頭光暈，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.fog	高度霧效，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.foliaged	PerfProbe 套用的植被密度百分比，範圍為 0 到 100，-1 表示保留遊戲原本的數值。 (?)
+d:PerfProbe.fringe	色差效果，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.gfxopen	記住 PerfProbe 頁籤上可收合的圖形設定群組是否被展開過。 (?)
+d:PerfProbe.grassd	PerfProbe 套用的草叢密度百分比，範圍為 0 到 100，-1 表示保留遊戲原本的數值。 (?)
+d:PerfProbe.h	這個檔案所屬浮動面板已儲存的高度，會被限制在該面板允許的範圍內。 (?)
+d:PerfProbe.hudDumpRequested	開發者旗標，要求 PerfProbe 在下一個影格輸出一次 HUD 元件樹狀結構。 (?)
+d:PerfProbe.key_cmd.txt:mode	裝備組合快捷鍵監聽器目前的狀態：監聽中、擷取新按鍵中，或閒置。 (?)
+d:PerfProbe.loadouts.txt:schema	裝備組合檔案的格式版本，讓日後的 PerfProbe 可以升級而非清空這個檔案。 (?)
+d:PerfProbe.lumengi	Lumen 全域光照，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.lumenrefl	Lumen 反射，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.mblur	動態模糊，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.mode	在 settings.txt 中是 PerfProbe 套用的升頻方式，在 key_cmd.txt 中則是裝備組合快捷鍵監聽器的狀態：監聽中、擷取中或閒置。 (?)
+d:PerfProbe.occl	天空遮蔽擷取，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.Otomo_ATDark_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Lord of the Underworld's Baton 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ATDragon_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Divine Dragon's Baton 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ATEarth_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Earth Emperor's Baton 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ATElectricity_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Lord of Lightning's Baton 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ATFire_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Flame Emperor's Baton 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ATIce_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Ice Emperor's Baton 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ATLeaf_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Spirit Emperor's Baton 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ATNormal_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Celestial Emperor's Baton 顯示的名稱。 (?)
+d:PerfProbe.Otomo_Attack_up1	PerfProbe 在裝備欄選擇器中，為飾品 Attack Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_Attack_up2	PerfProbe 在裝備欄選擇器中，為飾品 Attack Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_Attack_up3	PerfProbe 在裝備欄選擇器中，為飾品 Attack Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ATWater_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Lord of the Sea's Baton 顯示的名稱。 (?)
+d:PerfProbe.Otomo_Defense_up1	PerfProbe 在裝備欄選擇器中，為飾品 Defense Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_Defense_up2	PerfProbe 在裝備欄選擇器中，為飾品 Defense Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_Defense_up3	PerfProbe 在裝備欄選擇器中，為飾品 Defense Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_DFDark_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Lyleen Noct's Talisman 顯示的名稱。 (?)
+d:PerfProbe.Otomo_DFDragon_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Jetragon's Talisman 顯示的名稱。 (?)
+d:PerfProbe.Otomo_DFEarth_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Anubis's Talisman 顯示的名稱。 (?)
+d:PerfProbe.Otomo_DFElectricity_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Orserk's Talisman 顯示的名稱。 (?)
+d:PerfProbe.Otomo_DFFire_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Blazamut's Talisman 顯示的名稱。 (?)
+d:PerfProbe.Otomo_DFIce_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Frostallion's Talisman 顯示的名稱。 (?)
+d:PerfProbe.Otomo_DFLeaf_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Lyleen's Talisman 顯示的名稱。 (?)
+d:PerfProbe.Otomo_DFNormal_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Hartalis's Talisman 顯示的名稱。 (?)
+d:PerfProbe.Otomo_DFWater_ElementBoost_1	PerfProbe 在裝備欄選擇器中，為飾品 Neptilius's Talisman 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dark_1	PerfProbe 在裝備欄選擇器中，為飾品 Dark Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dark_2	PerfProbe 在裝備欄選擇器中，為飾品 Dark Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dark_3	PerfProbe 在裝備欄選擇器中，為飾品 Dark Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dragon_1	PerfProbe 在裝備欄選擇器中，為飾品 Dragon Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dragon_2	PerfProbe 在裝備欄選擇器中，為飾品 Dragon Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Dragon_3	PerfProbe 在裝備欄選擇器中，為飾品 Dragon Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Earth_1	PerfProbe 在裝備欄選擇器中，為飾品 Ground Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Earth_2	PerfProbe 在裝備欄選擇器中，為飾品 Ground Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Earth_3	PerfProbe 在裝備欄選擇器中，為飾品 Ground Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Electricity_1	PerfProbe 在裝備欄選擇器中，為飾品 Electric Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Electricity_2	PerfProbe 在裝備欄選擇器中，為飾品 Electric Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Electricity_3	PerfProbe 在裝備欄選擇器中，為飾品 Electric Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Fire_1	PerfProbe 在裝備欄選擇器中，為飾品 Fire Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Fire_2	PerfProbe 在裝備欄選擇器中，為飾品 Fire Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Fire_3	PerfProbe 在裝備欄選擇器中，為飾品 Fire Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Ice_1	PerfProbe 在裝備欄選擇器中，為飾品 Ice Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Ice_2	PerfProbe 在裝備欄選擇器中，為飾品 Ice Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Ice_3	PerfProbe 在裝備欄選擇器中，為飾品 Ice Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Leaf_1	PerfProbe 在裝備欄選擇器中，為飾品 Grass Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Leaf_2	PerfProbe 在裝備欄選擇器中，為飾品 Grass Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Leaf_3	PerfProbe 在裝備欄選擇器中，為飾品 Grass Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Normal_1	PerfProbe 在裝備欄選擇器中，為飾品 Neutral Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Normal_2	PerfProbe 在裝備欄選擇器中，為飾品 Neutral Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Normal_3	PerfProbe 在裝備欄選擇器中，為飾品 Neutral Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Water_1	PerfProbe 在裝備欄選擇器中，為飾品 Water Support Whistle 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Water_2	PerfProbe 在裝備欄選擇器中，為飾品 Water Support Whistle +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_ElementBoost_Water_3	PerfProbe 在裝備欄選擇器中，為飾品 Water Support Whistle +2 顯示的名稱。 (?)
+d:PerfProbe.Otomo_MoveSpeed_up_1	PerfProbe 為飾品 Otomo_MoveSpeed_up_1 顯示的名稱，在出廠資料表中留白。 (?)
+d:PerfProbe.Otomo_PalConfidence_Increase_1	PerfProbe 在裝備欄選擇器中，為飾品 Ring of Trust 顯示的名稱。 (?)
+d:PerfProbe.Otomo_PalExp_Increase_1	PerfProbe 在裝備欄選擇器中，為飾品 Growth Acceleration Bell 顯示的名稱。 (?)
+d:PerfProbe.Otomo_PalExp_Increase_2	PerfProbe 在裝備欄選擇器中，為飾品 Growth Acceleration Bell +1 顯示的名稱。 (?)
+d:PerfProbe.Otomo_PalExp_Increase_3	PerfProbe 在裝備欄選擇器中，為飾品 Growth Acceleration Bell +2 顯示的名稱。 (?)
+d:PerfProbe.overlay	PerfProbe 記住的遊戲按鍵指派視窗資產路徑，讓它下次啟動時不必重新尋找。 (?)
+d:PerfProbe.palboxbrowser	每當你開啟帕魯箱時，在原本的帕魯箱旁顯示浮動的帕魯箱索引。
+d:PerfProbe.param	PerfProbe 記住的按鍵指派視窗所用遊戲按鍵設定參數物件資產路徑。 (?)
+d:PerfProbe.primary	用來切換你飾品裝備組合的按鍵或按鈕，以 PerfProbe 自己的按鍵 ID 表示。 (?)
+d:PerfProbe.recon.BABY_HALF	寶寶模式縮小你的帕魯時所瞄準的體型倍率，套用上下限之前的數值。 (?)
+d:PerfProbe.recon.BABY_MAX_CM	寶寶模式縮小後的帕魯允許達到的最大身高（公分），會把巨型種類進一步壓低。 (?)
+d:PerfProbe.recon.BABY_MIN_CM	寶寶模式縮小後的帕魯允許達到的最小身高（公分）。 (?)
+d:PerfProbe.recon.dlssDumpRequested	開發者旗標，要求 PerfProbe 查詢一次 DLSS 函式庫並輸出硬體支援的內容。 (?)
+d:PerfProbe.recon.MESH_PROBE_CAP	開發者網格探測在停止前最多會走訪的網格數量，可避免掃描卡住遊戲。 (?)
+d:PerfProbe.recon.SMC_MAT_CAP	開發者靜態網格掃描在停止前最多會讀取的材質數量，可避免掃描卡住遊戲。 (?)
+d:PerfProbe.recon.SMC_SCAN_CAP	開發者掃描在停止前最多會走訪的靜態網格元件數量，可避免掃描卡住遊戲。 (?)
+d:PerfProbe.recon.statReadRequested	開發者旗標，要求 PerfProbe 讀取一次遊戲的效能統計結果並輸出到記錄檔。 (?)
+d:PerfProbe.rendercontrols	PerfProbe 圖形路徑的總開關，0 表示把每項渲染設定都交還給遊戲，但不會停用模組的其他功能。
+d:PerfProbe.schema	此檔案的格式版本，由 PerfProbe 寫入，讓日後版本可以升級舊檔案而非清空它。 (?)
+d:PerfProbe.settings.txt:mode	PerfProbe 套用的升頻方式，從你的硬體支援的選項中挑選。 (?)
+d:PerfProbe.settings.txt:schema	設定檔的格式版本，讓日後的 PerfProbe 可以升級而非清空這個檔案。 (?)
+d:PerfProbe.shadowdist	PerfProbe 套用的陰影距離百分比，範圍為 10 到 200，-1 表示保留遊戲原本的數值。 (?)
+d:PerfProbe.shafts	光束效果，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.sharp	PerfProbe 套用的 FSR2 銳化強度，僅在升頻模式為 FSR2 時使用。 (?)
+d:PerfProbe.skellod	PerfProbe 套用的骨架網格細節層級偏移，範圍為 0 到 4，-1 表示保留遊戲原本的數值。 (?)
+d:PerfProbe.sky	天空網格（如太陽、月亮與星圖），1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.sp	PerfProbe 套用的渲染縮放百分比，範圍為 33 到 100，DLSS 主導解析度時會忽略此設定。
+d:PerfProbe.spset	記錄你已自行選擇升頻方式，讓 PerfProbe 停止跟隨引擎自身的渲染縮放。 (?)
+d:PerfProbe.ssgi	螢幕空間全域光照，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.ssr	螢幕空間反射，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.used	記錄你至少變更過一項 PerfProbe 圖形設定，這正是讓模組能在啟動時套用任何設定的依據。 (?)
+d:PerfProbe.viewdist	PerfProbe 套用的視野距離百分比，範圍為 10 到 200，-1 表示保留遊戲原本的數值。 (?)
+d:PerfProbe.volfog	體積霧，1 為開啟，0 為關閉，-1 表示保留遊戲原本的設定。 (?)
+d:PerfProbe.w	這個檔案所屬浮動面板已儲存的寬度，會被限制在該面板允許的範圍內。 (?)
+d:PerfProbe.x	這個檔案所屬浮動面板已儲存的左邊緣位置，以左上角為基準的螢幕單位表示。 (?)
+d:PerfProbe.y	這個檔案所屬浮動面板已儲存的上邊緣位置，以左上角為基準的螢幕單位表示。 (?)
+d:Plasma Multicutter Damage.damage_per_hit	Plasma Multicutter 每次擊中敵人造成的傷害。 (?)
+d:Plasma Multicutter Damage.debug_logging	將額外的 Plasma Multicutter Damage 診斷資訊寫入 UE4SS 記錄檔。 (?)
+d:Plasma Multicutter Damage.target_cooldown_seconds	同一個目標在被 Plasma Multicutter 再次造成傷害前必須等待的秒數。 (?)
+d:ScanEffigiesBLP.base_suppress_radius	用來判斷你的據點範圍，藉此隱藏在據點附近被抑制的光柱（例如 Mimog 的光柱）。
+d:ScanEffigiesBLP.beam_color_param_name	模組用來為光柱效果上色的顏色參數名稱。 (?)
+d:ScanEffigiesBLP.beam_effect_path	模組用來繪製光柱所生成的粒子效果資產路徑。 (?)
+d:ScanEffigiesBLP.beam_height_max	光柱套用高度倍率後，可達到的最高高度。 (?)
+d:ScanEffigiesBLP.beam_height_min	光柱套用高度倍率後，可達到的最低高度。 (?)
+d:ScanEffigiesBLP.debug_profiling	將掃描與重新整理的耗時寫入 UE4SS 記錄檔以供疑難排解。 (?)
+d:ScanEffigiesBLP.default_beam_height	沒有自訂高度的類型所使用的光柱預設高度。 (?)
+d:ScanEffigiesBLP.default_detection_radius	沒有自訂半徑的類型所使用的光柱顯示距離，預設約 300 公尺。
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Note_C.beam_height_scale	筆記上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Note_C.detection_radius	筆記距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Note_C.enabled	在筆記上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Note_C.group	筆記所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_C.beam_height_scale	皮皮雞雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_C.detection_radius	皮皮雞雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_C.enabled	在皮皮雞雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_C.group	皮皮雞雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_FlameBambi_C.beam_height_scale	Rooby 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_FlameBambi_C.detection_radius	Rooby 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_FlameBambi_C.enabled	在 Rooby 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_FlameBambi_C.group	Rooby 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_GuardianDog_C.beam_height_scale	Yakumo 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_GuardianDog_C.detection_radius	Yakumo 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_GuardianDog_C.enabled	在 Yakumo 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_GuardianDog_C.group	Yakumo 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_IceCrocodile_C.beam_height_scale	Munchill 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_IceCrocodile_C.detection_radius	Munchill 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_IceCrocodile_C.enabled	在 Munchill 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_IceCrocodile_C.group	Munchill 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LazyDragon_C.beam_height_scale	Relaxaurus 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LazyDragon_C.detection_radius	Relaxaurus 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LazyDragon_C.enabled	在 Relaxaurus 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LazyDragon_C.group	Relaxaurus 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LeafMomonga_C.beam_height_scale	Herbil 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LeafMomonga_C.detection_radius	Herbil 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LeafMomonga_C.enabled	在 Herbil 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_LeafMomonga_C.group	Herbil 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Monkey_C.beam_height_scale	Tanzee 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Monkey_C.detection_radius	Tanzee 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Monkey_C.enabled	在 Tanzee 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Monkey_C.group	Tanzee 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Mutant_C.beam_height_scale	Lunaris 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Mutant_C.detection_radius	Lunaris 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Mutant_C.enabled	在 Lunaris 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Mutant_C.group	Lunaris 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_NegativeKoala_C.beam_height_scale	Depresso 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_NegativeKoala_C.detection_radius	Depresso 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_NegativeKoala_C.enabled	在 Depresso 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_NegativeKoala_C.group	Depresso 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Penguin_C.beam_height_scale	Pengullet 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Penguin_C.detection_radius	Pengullet 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Penguin_C.enabled	在 Pengullet 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_Penguin_C.group	Pengullet 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_PinkCat_C.beam_height_scale	Cattiva 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_PinkCat_C.detection_radius	Cattiva 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_PinkCat_C.enabled	在 Cattiva 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_PinkCat_C.group	Cattiva 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_SheepBall_C.beam_height_scale	Lamball 雕像上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_SheepBall_C.detection_radius	Lamball 雕像距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_SheepBall_C.enabled	在 Lamball 雕像上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_LevelObject_Relic_SheepBall_C.group	Lamball 雕像所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_C.beam_height_scale	一般帕魯蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_C.detection_radius	一般帕魯蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_C.enabled	在一般帕魯蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_C.group	一般帕魯蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dark_C.beam_height_scale	暗屬性蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dark_C.detection_radius	暗屬性蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dark_C.enabled	在暗屬性蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dark_C.group	暗屬性蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dragon_C.beam_height_scale	龍屬性蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dragon_C.detection_radius	龍屬性蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dragon_C.enabled	在龍屬性蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Dragon_C.group	龍屬性蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Earth_C.beam_height_scale	土屬性蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Earth_C.detection_radius	土屬性蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Earth_C.enabled	在土屬性蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Earth_C.group	土屬性蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Electricity_C.beam_height_scale	電屬性蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Electricity_C.detection_radius	電屬性蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Electricity_C.enabled	在電屬性蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Electricity_C.group	電屬性蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Fire_C.beam_height_scale	火屬性蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Fire_C.detection_radius	火屬性蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Fire_C.enabled	在火屬性蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Fire_C.group	火屬性蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Ice_C.beam_height_scale	冰屬性蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Ice_C.detection_radius	冰屬性蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Ice_C.enabled	在冰屬性蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Ice_C.group	冰屬性蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Leaf_C.beam_height_scale	草屬性蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Leaf_C.detection_radius	草屬性蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Leaf_C.enabled	在草屬性蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Leaf_C.group	草屬性蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_MutationPal_C.beam_height_scale	異變蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_MutationPal_C.detection_radius	異變蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_MutationPal_C.enabled	在異變蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_MutationPal_C.group	異變蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Water_C.beam_height_scale	水屬性蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Water_C.detection_radius	水屬性蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Water_C.enabled	在水屬性蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_Water_C.group	水屬性蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_WorldTree_C.beam_height_scale	不祥之蛋上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_WorldTree_C.detection_radius	不祥之蛋距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_WorldTree_C.enabled	在不祥之蛋上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_PickupItem_PalEgg_WorldTree_C.group	不祥之蛋所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_C.beam_height_scale	一般寶箱上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_C.detection_radius	一般寶箱距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_C.enabled	在一般寶箱上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_C.group	一般寶箱所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_C.use_grade_colors	依寶箱的品階為光柱上色，而非所有寶箱使用同一種顏色。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Electric_C.beam_height_scale	電屬性寶箱上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Electric_C.detection_radius	電屬性寶箱距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Electric_C.enabled	在電屬性寶箱上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Electric_C.group	電屬性寶箱所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Fire_C.beam_height_scale	火屬性寶箱上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Fire_C.detection_radius	火屬性寶箱距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Fire_C.enabled	在火屬性寶箱上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Fire_C.group	火屬性寶箱所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Water_C.beam_height_scale	水屬性寶箱上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Water_C.detection_radius	水屬性寶箱距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Water_C.enabled	在水屬性寶箱上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_ElementalLock_Water_C.group	水屬性寶箱所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCamp_C.beam_height_scale	敵方營地內寶箱上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCamp_C.detection_radius	敵方營地寶箱距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCamp_C.enabled	在敵方營地內寶箱上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCamp_C.group	敵方營地內寶箱所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCampGoal_C.beam_height_scale	敵方據點獎勵寶箱上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCampGoal_C.detection_radius	敵方據點獎勵寶箱距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCampGoal_C.enabled	在敵方據點獎勵寶箱上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_EnemyCampGoal_C.group	敵方據點獎勵寶箱所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank1_C.beam_height_scale	一級雜物釣魚點上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank1_C.detection_radius	一級雜物釣魚點距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank1_C.enabled	在一級雜物釣魚點上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank1_C.group	一級雜物釣魚點所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank2_C.beam_height_scale	二級雜物釣魚點上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank2_C.detection_radius	二級雜物釣魚點距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank2_C.enabled	在二級雜物釣魚點上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_FishingJunkSpot_Junk_Rank2_C.group	二級雜物釣魚點所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_RequiredLongHold_Junk_C.beam_height_scale	雜物堆上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_RequiredLongHold_Junk_C.detection_radius	雜物堆距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_RequiredLongHold_Junk_C.enabled	在雜物堆上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MapObject_TreasureBox_RequiredLongHold_Junk_C.group	雜物堆所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.beam_height_scale	Mimog 上方光柱的預設高度倍率。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.detection_radius	Mimog 距離你多遠會顯示光柱，取代預設偵測半徑。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.enabled	在 Mimog 上方繪製光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.group	Mimog 所屬的切換群組，讓單一快捷鍵就能切換整組。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.is_mobile	把 Mimog 視為會移動的目標，因此其光柱會持續重新檢查，而非只放置一次。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.list_refresh_ms	Mimog 候選清單重新建立的間隔，單位為毫秒。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.reveal_radius	Mimog 要多靠近才會顯示光柱。 (?)
+d:ScanEffigiesBLP.effigy_configs.BP_MimicDog_C.suppress_near_base	你身處據點內時隱藏 Mimog 的光柱，使用據點抑制半徑判定。 (?)
+d:ScanEffigiesBLP.effigy_list_refresh_ms	追蹤物件清單重新建立的間隔，單位為毫秒，數值越高效能耗費越少，但發現物件會較慢。
+d:ScanEffigiesBLP.enable_beam_color	依各類型設定的顏色為每道光柱上色，而非所有光柱使用同一種顏色。 (?)
+d:ScanEffigiesBLP.enable_beam_scale	套用各類型自己的光柱高度倍率，而非所有光柱使用預設高度。 (?)
+d:ScanEffigiesBLP.hotkeys.info_dump	把模組目前的追蹤資訊輸出到 UE4SS 記錄檔的按鍵。 (?)
+d:ScanEffigiesBLP.hotkeys.rescan	強制重新掃描物件的按鍵，適用於光柱消失時。
+d:ScanEffigiesBLP.hotkeys.toggle_all	開關所有光柱的按鍵，只影響設定中已啟用的類型。
+d:ScanEffigiesBLP.max_spawns_per_frame	單一影格內最多可建立的光柱數量，可限制大量新物件同時出現時的耗費。 (?)
+d:ScanEffigiesBLP.mobile_check_interval_ms	Mimog 等移動目標重新檢查的間隔，單位為毫秒。 (?)
+d:ScanEffigiesBLP.pc_check_interval	模組重新查詢玩家角色的間隔。 (?)
+d:ScanEffigiesBLP.proximity_check_interval_ms	模組檢查你附近物件的間隔，單位為毫秒，數值越高越省 CPU，但發現戰利品會稍晚一些。
+d:ScanEffigiesBLP.prune_check_interval_ms	模組尋找該移除的光柱的間隔，單位為毫秒。 (?)
+d:ScanEffigiesBLP.refresh_budget_per_tick	模組每個 tick 重新整理的追蹤物件數量，作者建議維持在 5 到 10 之間。
+d:ScanEffigiesBLP.spawn_drain_per_tick	每個 tick 從生成佇列中建立的光柱數量。 (?)
+d:ScanEffigiesBLP.startup_delay_ms	遊戲啟動後，模組開始掃描前等待的時間，單位為毫秒。 (?)
+d:UMJItemFilter.CaptureGameInput	篩選視窗開啟時封鎖遊戲自身的鍵盤快捷鍵，讓你可以在其中輸入文字。
+d:UMJItemFilter.ChestFilter	把未勾選的寶箱獎勵歸還到開啟寶箱的玩家腳下地面。
+d:UMJItemFilter.EnableMouse	讓你可以用滑鼠操作篩選視窗。 (?)
+d:UMJItemFilter.EnforceFilter	自動撿取時把未勾選的物品留在地上，讓你之後手動撿取。
+d:UMJItemFilter.LeftMargin	設定篩選視窗左邊緣保留的空間。 (?)
+d:UMJItemFilter.OpenKey	開啟與關閉物品篩選視窗的按鍵，預設為反斜線。
+d:UMJItemFilter.PanelScale	縮放篩選視窗在螢幕上的顯示大小。 (?)
+d:UMJItemFilter.RecentItemLimit	篩選視窗列出多少個最近撿到的獨立物品供你變更狀態，預設為十個。
+d:UMJItemFilter.RememberSelection	重新開啟篩選視窗時，回到上次選取的物品。 (?)
+d:UnsheathedKatanaMercy.ENABLE_LOGGING	把模組自己的訊息寫入 UE4SS 記錄檔以供疑難排解。 (?)
+d:UnsheathedKatanaMercy.RESET_LIMIT	武士刀出鞘任務鏈可以被重設的次數，設為 0 表示關閉任務重設。
+e:AccessoryToggler.CONFIG.Language	system, en, es, ja, zh-Hans, zh-Hant, fr, it, de, ko, pt-BR, ru, th, vi, id, tr, pl, es-MX
+e:AntiPhatPalResizing.ReloadKey	F8, F9, INS, 或其他鍵盤按鍵名稱
+e:ChickNomadPauseOnMenu.ExtraPauseWidgets	元件類別名稱，以逗號分隔，留空表示沒有額外畫面
+e:NoPalDeposit.RowLabel	任何你想在儲物安全列顯示的文字
+e:PalboxPageLock.Lang.AllUnlocked	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.ButtonAlreadyLocked	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.ButtonAlreadyUnlocked	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.ButtonList	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.ButtonLock	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.ButtonLockedFlash	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.ButtonUnlock	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.ButtonUnlockedFlash	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.Locked	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.LockedListPrefix	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.NoPagesLocked	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.TopBarLockedPrefix	任何你想在遊戲中顯示的文字
+e:PalboxPageLock.Lang.Unlocked	任何你想在遊戲中顯示的文字
+e:PalMiniMap.keys.corner	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.keys.down	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.keys.edit	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.keys.left	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.keys.megazoom	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.keys.menu	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.keys.right	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.keys.up	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.keys.visible	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.keys.zoomIn	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.keys.zoomOut	F1, F2, F3, F4, F5, TAB, ADD, SUBTRACT, OEM_PLUS, OEM_MINUS, LEFT_ARROW, RIGHT_ARROW, UP_ARROW, DOWN_ARROW, 或其他 UE4SS 按鍵名稱，可選擇加上 CTRL+、ALT+ 或 SHIFT+ 前綴
+e:PalMiniMap.menuLanguage	(empty), auto, de, en, es, es-MX, fr, id, it, ja, ko, pl, pt-BR, ru, th, tr, vi, zh-Hans, zh-Hant
+e:PalMiniMap.terrainTexture	(empty) 表示使用遊戲自身的世界地圖材質，或其他地圖材質的完整資產路徑
+e:PalSchema.enabled	yes, no
+e:PalWorkPriority.chat_prefix	!pwp
+e:PerfProbe.A	最多四個以逗號分隔的飾品物品 ID，例如 Accessory_Nonkilling,Accessory_HP_3,,
+e:PerfProbe.active	A, B
+e:PerfProbe.B	最多四個以逗號分隔的飾品物品 ID，例如 Accessory_AT_3,Accessory_defense_3,Accessory_MaxWeightUp_03,
+e:PerfProbe.overlay	/Game/Pal/Blueprint/UI/UserInterface/MainMenu/Option/WBP_OptionSettingsOverLayWindow.WBP_OptionSettingsOverLayWindow_C
+e:PerfProbe.param	/Game/Pal/Blueprint/UI/UserInterface/MainMenu/Option/BP_HUDDispatchParameter_KeyConfig.BP_HUDDispatchParameter_KeyConfig_C, /Game/Pal/Blueprint/UI/HUD/BP_HUDDispatchParameter_KeyConfig.BP_HUDDispatchParameter_KeyConfig_C, /Game/Pal/Blueprint/UI/UserInterface/Option/BP_HUDDispatchParameter_KeyConfig.BP_HUDDispatchParameter_KeyConfig_C
+e:PerfProbe.primary	A 到 Z, 0 到 9, F1 到 F12, Num0 到 Num9, NumAdd, NumSub, NumMul, NumDiv, NumDec, Minus, Quote, Space, Enter, Escape, Backspace, 或手把按鈕，可選擇加上 Shift+ 前綴
+e:PerfProbe.state	Alive, Dead_WorldInactive
+d:AntiWasteDisassembleItems.DestroyRemainder	銷毀整疊拆解無法拆分的零頭，而不是留在格子裡，且不返還材料。
+d:PalEggInfo.EnableMod	在不解除安裝模組的情況下關閉蛋的資訊顯示。 (?)
+world_load_notice	變更將在你下次進入世界或伺服器時生效，無需重新啟動遊戲。
+upload_failed	上傳失敗：{error}
+request_support	請求支援
+request_support_tip	開啟把此清單寄給 Alkeari 的方式，好讓下個版本補上這些設定的說明。
+request_note_one	仍有 1 項設定缺少說明或可填值。
+request_note_many	仍有 {count} 項設定缺少說明或可填值。
+request_compile	產生清單
+request_compile_tip	把清單寫入本模組 requests 資料夾中的文字檔。
+request_path_label	清單路徑
+request_path_tip	產生的清單在你電腦上的位置。
+request_link_label	Catbox.moe 連結
+request_link_tip	已發布的清單。需要時可在此再次複製。
+forum_nexus	開啟 Nexus 請求討論串
+forum_steam	開啟 Steam 創意工坊請求討論串
+forum_tip	在瀏覽器中開啟討論串，方便你把連結貼上去。
+forum_label	討論串位址
+request_none	沒有設定缺少說明或可填值。
+request_compiled	清單已產生。
+request_link_copied	連結已複製到剪貼簿。
+request_copy_unavailable	無法使用剪貼簿，請從下面一行複製。
+forum_open_failed	無法開啟瀏覽器。位址已複製並顯示在下方。
+back_mod	返回該模組
+request_include_all	包含所有模組
+request_include_all_tip	開啟時清單涵蓋所有有缺漏的模組。關閉可自行挑選。
+request_include_mod_tip	關閉後，下次產生清單時不包含該模組。
+request_mod_note_one	1 項設定
+request_mod_note_many	{count} 項設定
+request_manual	手動上傳
+request_manual_tip	告訴你如何自己上傳清單，以及把連結貼到哪裡。
+request_automatic	自動上傳
+request_automatic_tip	上傳清單並把連結複製到剪貼簿。
+manual_step_1	1. 開啟存放清單的資料夾，或複製下面的路徑。
+manual_step_2	2. 開啟 catbox.moe，把檔案拖到頁面上。
+manual_step_3	3. 複製 catbox 回傳給你的連結。
+manual_step_4	4. 開啟下面的請求討論串，把該連結貼上去。
+manual_open_host	開啟 catbox.moe
+manual_open_host_tip	在瀏覽器中開啟上傳頁面。
+request_none_selected	未選擇任何模組，因此沒有可產生的內容。
+request_note_selected	{total} 項設定中的 {count} 項將進入清單。
+request_uploading	上傳中... 遊戲會暫停直到主機回應。
+request_automatic_unavailable	自動上傳需要 curl.exe，此 Windows 沒有。
+back_request	返回請求支援
+request_upload_warning_where	把清單發布到不會過期的公開 catbox.moe 連結。
+request_upload_warning_what	其中列出你的模組及設定名稱，絕不包含設定的值。
+manual_open_folder	開啟資料夾
+manual_open_folder_tip	在你的檔案管理員中開啟存放清單的資料夾。
+manual_folder_failed	無法開啟資料夾。路徑已複製並顯示在上方。
+request_link_same	清單沒有變化，所以主機回傳了相同的連結。
+pending_all	未儲存的變更
+pending_save	儲存
+pending_revert	還原
+pending_save_all_tip	把每一項待定變更寫入對應模組自己的設定檔。
+pending_revert_all_tip	捨棄所有待定變更，並顯示檔案目前的內容。
+pending_save_one_tip	把此模組的待定變更寫入它自己的設定檔。
+pending_revert_one_tip	捨棄此模組的待定變更，並顯示它的檔案目前的內容。
+kb_shift	大寫
+kb_space	空格
+kb_delete	刪除
+kb_clear	清空
+kb_save	儲存
+kb_cancel	不儲存返回
+kb_empty	(空)
+kb_key_tip	把這個字元加到值裡。
+kb_shift_tip	在大寫和小寫之間切換按鍵。
+kb_space_tip	加一個空格。
+kb_delete_tip	刪掉最後一個字元。
+kb_clear_tip	清空這個值。
+kb_save_tip	保留你輸入的內容並返回設定。
+kb_cancel_tip	返回而不改動這個設定。
+d:PassivePals.liveReloadSeconds	這個模組每隔多少秒檢查一次自己的檔案，看你有沒有改動，這樣改動在遊戲中就會生效；設為 0 會停止檢查，直到下次啟動。
+d:TidyBaseInfo.liveReloadSeconds	這個模組每隔多少秒重新讀取一次自己的檔案，看你有沒有改動，這樣改動在遊戲中就會生效；設為 0 會停止監看，直到下次啟動。
